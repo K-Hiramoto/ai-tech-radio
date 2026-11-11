@@ -1,0 +1,310 @@
+{
+ "title": "Gemini 4 Carbon、開発者とUltra会員に開放",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十一日、水曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月11日、水曜日の朝です。"
+  },
+  {
+   "say": "今日はジェミニの新モデルから、アップルの追加課金まで、五本をお届けします。",
+   "show": "今日はGeminiの新モデルから、Appleの追加課金まで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Carbon 提供拡大",
+   "points": [
+    "有料APIとAI Ultra会員に開放",
+    "100万トークンあたり入力2ドル・出力10ドル",
+    "エージェントのチームを率いる /swarm をプレビュー"
+   ],
+   "url": "https://thenextweb.com/news/google-gemini-4-carbon-available-developers-ultra",
+   "lines": [
+    {
+     "say": "まずはグーグル。最上位モデルのジェミニ・フォー・カーボンが、有料の開発者と、エーアイ・ウルトラ会員に開放されました。",
+     "show": "まずはGoogle。最上位モデルのGemini 4 Carbonが、有料の開発者と、AI Ultra会員に開放されました。"
+    },
+    {
+     "say": "料金は百万トークンあたり、入力二ドル、出力十ドル。導入期間のあとは、倍になる予定です。",
+     "show": "料金は100万トークンあたり、入力2ドル、出力10ドル。導入期間のあとは、倍になる予定です。"
+    }
+   ],
+   "details": [
+    "2週間前に、サイバー防御の関係者へ限定公開されていたモデルです。Ultra会員はGeminiアプリ、検索のAI Mode、Antigravityで使えます。",
+    "導入期間のあとは入力4ドル、出力20ドルに上がるとされています。Argonより長く考えるので、同じ作業でも費用が増えることがあります。",
+    "コーディングツールのAntigravityで、Carbonが複数のAIエージェントのチームを率いる機能です。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/google-gemini-4-carbon-available-developers-ultra",
+    "title": "Google’s Gemini 4 Carbon is now open to paying developers and Ultra users",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/google-gemini-4-carbon-crystal-graphic.jpg"
+   }
+  },
+  {
+   "label": "AlphaProof Code、Signalを形式検証",
+   "points": [
+    "Signalプロトコルの実コードで中核の安全性を証明",
+    "4週間で600万行超のLeanの証明",
+    "人の確認が必要だったのは約1%"
+   ],
+   "url": "https://www.tun.com/home/google-deepminds-alphaproof-code-verifies-signals-encryption/",
+   "lines": [
+    {
+     "say": "続いて、グーグル・ディープマインド。アルファプルーフ・コードが、シグナルのプロトコルの実際のコードで、中核となる安全性を証明しました。",
+     "show": "続いて、Google DeepMind。AlphaProof Codeが、Signalのプロトコルの実際のコードで、中核となる安全性を証明しました。"
+    },
+    {
+     "say": "四週間で、六百万行を超える証明を生成。人の目での確認が必要だったのは、およそ一パーセントだけなんです。",
+     "show": "4週間で、600万行を超える証明を生成。人の目での確認が必要だったのは、およそ1%だけなんです。"
+    }
+   ],
+   "details": [
+    "人間の暗号の専門家が証明したい性質を決めて、Gemini Carbonを使うエージェント群がLeanで証明を書きます。Signalのアプリ全体が対象ではありません。",
+    "同じ規模の検証は、これまで専門家のチームで数年かかっていたとされています。",
+    "検証の成果物はオープンソースで公開され、技術論文も出ています。"
+   ],
+   "link": {
+    "url": "https://www.tun.com/home/google-deepminds-alphaproof-code-verifies-signals-encryption/",
+    "title": "Google DeepMind’s AlphaProof Code Verifies Signal’s Encryption - TUN",
+    "site": "TUN - The University Network"
+   }
+  },
+  {
+   "label": "OpenAI「Businesses in ChatGPT」",
+   "points": [
+    "企業が認証済みのプロフィールを持てる（ベータ）",
+    "ChatGPTでの言及数やクリック数を確認",
+    "Business Agentは米国のEC・オンラインサービスから"
+   ],
+   "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents",
+   "lines": [
+    {
+     "say": "三本目はオープンエーアイ。企業が、チャットジーピーティーの中に認証済みのプロフィールを持てる機能を、ベータ版で始めました。",
+     "show": "3本目はOpenAI。企業が、ChatGPTの中に認証済みのプロフィールを持てる機能を、ベータ版で始めました。"
+    },
+    {
+     "say": "自社がどれくらい話題に出たかも分かります。お客さんの質問に答える専用エージェントは、まずアメリカのイーシー事業者などが対象です。",
+     "show": "自社がどれくらい話題に出たかも分かります。お客さんの質問に答える専用エージェントは、まず米国のEC事業者などが対象です。"
+    }
+   ],
+   "details": [
+    "Business Hubで認証を受けると青いチェックが付き、企業の情報や価格、在庫を更新できます。",
+    "見られるのは集計したデータです。OpenAIは、ユーザーのチャットを企業と共有しないとしています。",
+    "エージェントとのやり取りは、ChatGPT自身の回答と分けて表示されます。購入は、いまのところ企業のサイトへ移って行います。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents",
+    "title": "OpenAI lets businesses claim ChatGPT profiles and launch their own agents",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/chatgpt-business-profile-colorful-clatter.jpg"
+   }
+  },
+  {
+   "label": "Claude Fable 5.2 / Mythos 5.2",
+   "points": [
+    "出力が最大30%高速に",
+    "Fable 5.2は全ユーザー、Mythos 5.2は審査済みの組織向け",
+    "100万トークンあたり入力8ドル・出力40ドル"
+   ],
+   "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
+   "lines": [
+    {
+     "say": "四本目はアンソロピック。クロード・フェイブル・ごーてんにと、ミュトス・ごーてんにを発表しました。",
+     "show": "4本目はAnthropic。Claude Fable 5.2と、Mythos 5.2を発表しました。"
+    },
+    {
+     "say": "出力は、前のバージョンより最大三十パーセント速くなりました。およそ千体のエージェントが、フェルマーの最終定理を三十時間で形式化したそうです。",
+     "show": "出力は、前のバージョンより最大30%速くなりました。およそ1,000体のエージェントが、フェルマーの最終定理を30時間で形式化したそうです。"
+    }
+   ],
+   "details": [
+    "Fable 5.1、Mythos 5.1と比べた数字で、Anthropicの発表によるものです。",
+    "2つは同じモデルです。Mythos 5.2は安全対策が少なく、サイバーセキュリティや生命科学の審査を通った組織に限って提供されます。",
+    "高速モードは入力16ドル、出力80ドルです。"
+   ],
+   "link": {
+    "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "site": "Anthropic",
+    "image": "https://assets.claude.com/21b3240f9264f8e4c8ab1390e2702cf1401b2367.jpg"
+   }
+  },
+  {
+   "label": "Apple、AIの追加利用パックを発売",
+   "points": [
+    "49.99ドルの買い切り",
+    "最初の対応アプリはLogic Pro",
+    "未使用分は購入から12か月で失効"
+   ],
+   "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+   "lines": [
+    {
+     "say": "最後はアップル。エーアイ機能を、月の上限を超えて使うための追加パックを、四十九ドル九十九セントで発売しました。",
+     "show": "最後はApple。AI機能を、月の上限を超えて使うための追加パックを、49.99ドルで発売しました。"
+    },
+    {
+     "say": "最初の対応アプリはロジック・プロ。使い残した分は翌月に繰り越せて、購入から十二か月で失効します。",
+     "show": "最初の対応アプリはLogic Pro。使い残した分は翌月に繰り越せて、購入から12か月で失効します。"
+    }
+   ],
+   "details": [
+    "「Intelligence usage packs」という名前の、1回限りの購入です。ファミリー共有には対応しません。",
+    "Final Cut Pro、Pixelmator Pro、iWorkにも、今月のアップデートに合わせて広がる見込みと報じられています。",
+    "追加分が使われるのは、月の上限に達したあとだけです。"
+   ],
+   "link": {
+    "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+    "title": "Apple launches $50 'intelligence usage packs' for select AI features - 9to5Mac",
+    "site": "9to5Mac",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/09/apple-intelligence.jpg?quality=82&strip=all&resize=1200,628"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ジェミニ・フォー・カーボン。使える人が一気に広がって、エージェントのチームを率いる機能も予告されました。",
+   "show": "今日の注目は、Gemini 4 Carbon。使える人が一気に広がって、エージェントのチームを率いる機能も予告されました。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-11",
+ "lang": "ja",
+ "seconds": 110.51,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.637,
+   "show": "おはようございます、AIテックラジオです。11月11日、水曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.887,
+   "end": 11.847,
+   "show": "今日はGeminiの新モデルから、Appleの追加課金まで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 12.897,
+   "end": 20.641,
+   "show": "まずはGoogle。最上位モデルのGemini 4 Carbonが、有料の開発者と、AI Ultra会員に開放されました。",
+   "part": 1
+  },
+  {
+   "start": 20.891,
+   "end": 28.049,
+   "show": "料金は100万トークンあたり、入力2ドル、出力10ドル。導入期間のあとは、倍になる予定です。",
+   "part": 1
+  },
+  {
+   "start": 29.099,
+   "end": 37.845,
+   "show": "続いて、Google DeepMind。AlphaProof Codeが、Signalのプロトコルの実際のコードで、中核となる安全性を証明しました。",
+   "part": 2
+  },
+  {
+   "start": 38.095,
+   "end": 46.149,
+   "show": "4週間で、600万行を超える証明を生成。人の目での確認が必要だったのは、およそ1%だけなんです。",
+   "part": 2
+  },
+  {
+   "start": 47.199,
+   "end": 55.22,
+   "show": "3本目はOpenAI。企業が、ChatGPTの中に認証済みのプロフィールを持てる機能を、ベータ版で始めました。",
+   "part": 3
+  },
+  {
+   "start": 55.47,
+   "end": 63.715,
+   "show": "自社がどれくらい話題に出たかも分かります。お客さんの質問に答える専用エージェントは、まず米国のEC事業者などが対象です。",
+   "part": 3
+  },
+  {
+   "start": 64.765,
+   "end": 70.6,
+   "show": "4本目はAnthropic。Claude Fable 5.2と、Mythos 5.2を発表しました。",
+   "part": 4
+  },
+  {
+   "start": 70.85,
+   "end": 80.535,
+   "show": "出力は、前のバージョンより最大30%速くなりました。およそ1,000体のエージェントが、フェルマーの最終定理を30時間で形式化したそうです。",
+   "part": 4
+  },
+  {
+   "start": 81.585,
+   "end": 90.044,
+   "show": "最後はApple。AI機能を、月の上限を超えて使うための追加パックを、49.99ドルで発売しました。",
+   "part": 5
+  },
+  {
+   "start": 90.294,
+   "end": 97.409,
+   "show": "最初の対応アプリはLogic Pro。使い残した分は翌月に繰り越せて、購入から12か月で失効します。",
+   "part": 5
+  },
+  {
+   "start": 98.459,
+   "end": 106.171,
+   "show": "今日の注目は、Gemini 4 Carbon。使える人が一気に広がって、エージェントのチームを率いる機能も予告されました。",
+   "part": 6
+  },
+  {
+   "start": 106.421,
+   "end": 108.458,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.897
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.897,
+   "end": 29.099
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 29.099,
+   "end": 47.199
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 47.199,
+   "end": 64.765
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 64.765,
+   "end": 81.585
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 81.585,
+   "end": 98.459
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.459,
+   "end": 110.508
+  }
+ ],
+ "made_at": "2026-11-11T15:03:33"
+}

@@ -1,0 +1,40 @@
+{
+ "format": "myradio/station-1",
+ "name": "AIテックラジオ",
+ "description": "AI・テクノロジーの、きのうの気になるニュースを、毎朝 2 分で。",
+ "tagline": "AI・テクノロジー 朝のニュース",
+ "logo": null,
+ "url": "https://k-hiramoto.github.io/ai-tech-radio/",
+ "repo": "https://github.com/K-Hiramoto/ai-tech-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "09:00",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです（myradio のお手本のキャラ）"
+ },
+ "credits": [
+  "声：VOICEVOX:四国めたん",
+  "台本：公開されている記事をもとに、AI（Claude）が作成しています"
+ ],
+ "caster": "声：VOICEVOX:四国めたん",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "voice": {
+  "engine": "voicevox_core",
+  "model": "0",
+  "style": 2,
+  "speed": 1.1
+ },
+ "weather": false
+}
