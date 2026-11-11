@@ -2,7 +2,7 @@
 # 声の道具（VOICEVOX コア一式）を用意する。局のリポジトリには入れず、VV_HOME（既定 ~/.cache/myradio-voice）に置く。
 # 何度実行してもよい（あるものは取り直さない）。すべて GitHub と PyPI から取る。
 #   VOICEVOX コア（Python ライブラリ）、VOICEVOX ONNX Runtime、Open JTalk の辞書、音声モデル（.vvm）
-# 音声モデルは station.json の voice.model（既定 "0" = 四国めたん・ずんだもん・春日部つむぎ・雨晴はう）。
+# 音声モデルは station.json の voice.model（.vvm の番号）。どの番号にどの声が入っているかは、下の利用規約のページの表にある
 # 声の利用規約：https://github.com/VOICEVOX/voicevox_vvm （クレジット「VOICEVOX:<キャラ名>」が必要）
 # usage: bash tools/setup_voice.sh
 set -euo pipefail

@@ -11,7 +11,7 @@
 ## この局のつくり
 
 - **台本**：公開されている記事をもとに、AI（Claude）が毎朝書いています。ニュースごとに出典のリンクを付けています。AI が書いているので、誤りが含まれることがあります。大事なことは、出典の記事で確かめてください
-- **声**：VOICEVOX:四国めたん（[VOICEVOX コア](https://github.com/VOICEVOX/voicevox_core)で合成）
+- **声**：VOICEVOX:東北きりたん（[VOICEVOX コア](https://github.com/VOICEVOX/voicevox_core)で合成）
 - **キャスター**：myradio のお手本のキャラクター（AI で生成されたもの）
 - **ニュースの画像**：記事のサイトが共有用に公開している画像（OGP）を、そのサイトから直接表示しています。保存や再配布はしていません
 
@@ -40,4 +40,4 @@ docs/formats.md       JSON の形（myradio のまま）
 - プログラム（`index.html`、`tools/`）：MIT License（`index.html`、`tools/publish.sh`、`tools/share.py` は myradio のもの）
 - 台本（`episodes/`、`episodes.json`）：CC0
 - キャラ（`character/`）：myradio のお手本のキャラクター。使い方の条件は [myradio の README](https://github.com/monoradio102/myradio#ライセンス) に従います
-- 声：VOICEVOX:四国めたん。[VOICEVOX 音声モデル 利用規約](https://github.com/VOICEVOX/voicevox_vvm)と、[四国めたんの音声ライブラリの利用規約](https://zunko.jp/con_ongen_kiyaku.html)に従います
+- 声：VOICEVOX:東北きりたん。[VOICEVOX 音声モデル 利用規約](https://github.com/VOICEVOX/voicevox_vvm)と、[東北きりたんの音声ライブラリの利用規約](https://zunko.jp/con_ongen_kiyaku.html)に従います

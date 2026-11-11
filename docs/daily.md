@@ -49,8 +49,8 @@ python3 tools/check.py episodes/<今日>-ja.json           # OK と出るまで�
 # (1) 台本を main に push する
 git add episodes episodes.json && git commit -m "<今日> <title>" && git push origin main
 
-# (2) 前日までの音声を、公開中の gh-pages から audio/ に取ってくる（今日の mp3 はそのまま残る）
-git fetch -q origin gh-pages && git archive FETCH_HEAD audio | tar -x
+# (2) 前日までの音声を、公開中の gh-pages から audio/ に取ってくる（手元にある mp3 は上書きしない）
+git fetch -q origin gh-pages && git archive FETCH_HEAD audio | tar -x --skip-old-files
 
 # (3) gh-pages を「main の中身＋直近 30 日の音声＋共有カード」で作り直して公開する
 SHARE_FONT=/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc tools/publish.sh

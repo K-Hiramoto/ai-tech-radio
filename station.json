@@ -22,18 +22,18 @@
   "note": "AIで生成したキャラクターです（myradio のお手本のキャラ）"
  },
  "credits": [
-  "声：VOICEVOX:四国めたん",
+  "声：VOICEVOX:東北きりたん",
   "台本：公開されている記事をもとに、AI（Claude）が作成しています"
  ],
- "caster": "声：VOICEVOX:四国めたん",
+ "caster": "声：VOICEVOX:東北きりたん",
  "audio": {
   "dir": "audio",
   "keep_days": 30
  },
  "voice": {
   "engine": "voicevox_core",
-  "model": "0",
-  "style": 2,
+  "model": "21",
+  "style": 108,
   "speed": 1.1
  },
  "weather": false
