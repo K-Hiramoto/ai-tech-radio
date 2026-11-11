@@ -60,7 +60,13 @@ SHARE_FONT=/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc tools/publish.sh
 - 音声は main にコミットしない（`.gitignore` 済み）
 - `SHARE_FONT` のフォントがなければ、Noto Sans JP を `https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf` から取って、その場所を渡す
 
-**公開の確認**：`gh api repos/K-Hiramoto/ai-tech-radio/pages/builds/latest --jq .status` が `built` になるまで待つ（1〜2 分）。
+**公開の確認**：GitHub Pages のビルドが終わるまで待つ（1〜2 分）。次のコマンドの結果が `completed success` で、SHA が今 push した gh-pages（`git rev-parse --short origin/gh-pages`）と同じになれば公開済み。
+
+```sh
+gh api "repos/K-Hiramoto/ai-tech-radio/actions/runs?per_page=1" --jq '.workflow_runs[0] | (.status + " " + (.conclusion // "-") + " " + .head_sha[0:7])'
+```
+
+この環境からは公開先（`k-hiramoto.github.io`）を直接開けないので、ビルドの結果で確かめる。
 
 公開される場所：
 
