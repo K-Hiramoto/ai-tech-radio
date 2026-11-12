@@ -1,6 +1,6 @@
 # AGENTS.md — myradio の局を開く・運用する AI へ
 
-> **この局（AIテックラジオ）の毎朝の手順は [docs/daily.md](docs/daily.md)。** 声は `tools/setup_voice.sh` と `tools/voice.py`（VOICEVOX コア）で作り、`tools/check.py` で確かめてから公開します。以下は、myradio の局に共通の決まりです。
+> **この局（AIテックラジオ）の毎日の手順（朝の回・夕方の回）は [docs/daily.md](docs/daily.md)。** 回は 1 日 2 回で、夕方の回は名前に `-pm` が付きます（`episodes/<日付>-pm-ja.json`、台本に `"edition": "pm"`）。これまでの回で読んだニュースは、どの回でも繰り返しません（`tools/recent.py` で確かめる）。声は `tools/setup_voice.sh` と `tools/voice.py`（VOICEVOX コア）で作り、`tools/check.py` で確かめてから公開します。以下は、myradio の局に共通の決まりです。
 
 このリポジトリは「局」です。`index.html`（プレーヤー）が、局の中身（`station.json`、`episodes/`、`character/`、音声）を読んで、HTML の番組として再生します。ビルドの仕組みはありません。置いてあるものを読むだけです。
 

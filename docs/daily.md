@@ -1,8 +1,21 @@
-# 毎朝の手順（AIテックラジオ）
+# 毎日の手順（AIテックラジオ：朝の回・夕方の回）
 
-この局の 1 回分を作って公開するまでの手順です。毎朝これを上から順に行います。JSON の形は [formats.md](formats.md)、局全体の決まりは [../AGENTS.md](../AGENTS.md)。
+この局の 1 回分を作って公開するまでの手順です。1 日に 2 回、朝の回と夕方の回を出します。どちらの回も、これを上から順に行います。JSON の形は [formats.md](formats.md)、局全体の決まりは [../AGENTS.md](../AGENTS.md)。
 
-放送の日付は、日本時間の「今日」。扱うのは、きのうから今朝までに出た AI・テクノロジーのニュースです。
+## どの回を作るか
+
+| | 朝の回 | 夕方の回 |
+|---|---|---|
+| 回の名前（以下 `<回>`） | `<今日>`（例：`2026-11-13`） | `<今日>-pm`（例：`2026-11-13-pm`） |
+| 台本 | `episodes/<今日>-ja.json` | `episodes/<今日>-pm-ja.json`（`"edition": "pm"` を書く） |
+| 声 | `audio/<今日>-ja.mp3` | `audio/<今日>-pm-ja.mp3` |
+| 聞く人に届く時刻 | 9:00 | 17:00 |
+| 扱うニュース | きのうから今朝までに出たもの | 今朝の回のあと、夕方までに出たもの |
+| あいさつ | 「おはようございます」「◯曜日の朝です」「いってらっしゃい」 | 「おつかれさまです」「◯曜日の夕方です」「おつかれさまでした」 |
+
+- `<今日>` は、日本時間の今日（`TZ=Asia/Tokyo date +%F`）
+- どちらを作るかは、頼まれた回に従う。言われていなければ、日本時間の正午より前は朝の回、正午からは夕方の回
+- **どの回も、これまでの回で読んだニュースと重複させない**（2 の「重複させない」）
 
 ## 1. 準備
 
@@ -10,25 +23,41 @@
 bash tools/setup_voice.sh     # 声の道具（VOICEVOX コア一式）。GitHub と PyPI から取る。数十秒
 ```
 
-`episodes/<今日>-ja.json` がすでにあって、`episodes.json` にも載っていれば、今日の回は公開済みです。作り直さずに、5 の「公開の確認」へ進みます。
+`episodes/<回>-ja.json` がすでにあって、`episodes.json` にも載っていれば、その回は公開済みです。作り直さずに、5 の「公開の確認」へ進みます。
 
 ## 2. ニュースを選ぶ
 
-- Web 検索で、きのうから今朝までの AI・テクノロジーのニュースを集める。英語と日本語の両方で探す（日次のまとめ記事が手がかりになる）
+まず、これまでの回で何を読んだかを確かめる：
+
+```sh
+python3 tools/recent.py       # 直近 7 日の回の、見出し・要点・出典の URL（朝の回も夕方の回も）
+```
+
+- Web 検索で、その回が扱う時間（上の表）に出た AI・テクノロジーのニュースを集める。英語と日本語の両方で探す（日次のまとめ記事が手がかりになる）
 - **5 本**選ぶ。モデルや製品の公開、研究の成果、大きな提供開始や価格の変更を優先する。噂や未確認の報道、資金調達だけの話、政治の論評は後回し
-- 直近 3 日の回（`episodes/`）で読んだ話は、新しい進展がなければ選ばない
+- **重複させない**：
+  - `tools/recent.py` に出てきた話（同じ発表、同じ出来事）は選ばない。出典の記事が別でも、同じ話なら選ばない
+  - 夕方の回では、その日の朝の回で読んだ話は、続報があっても選ばない
+  - それより前の回で読んだ話の続報は、新しい事実（提供の開始、数字の公表など）が出たときだけ選び、その新しい事実を中心に書く。前に伝えた内容を繰り返さない
+  - 同じ出典の URL は二度使わない（4 の `tools/check.py` が止める）
+- 夕方の回で、今朝の回のあとに出たニュースが 5 本に足りないとき：きのう以降に出たニュースのうち、まだどの回でも読んでいないものを足す
 - 選んだニュースは、**出典のページを実際に開いて**事実を確かめる。公式の発表を開けるときは公式を、開けないときは内容を確かめられた報道記事を出典にする
 - 台本に書くのは、開いたページに書いてあることだけ。数字・日付・固有名詞は出典のとおりに。会社の発表による数字は「〜と発表」「〜だそうです」と伝聞で書く
 - 出典のページから、リンクカード用に `og:title`、`og:image`（URL）、サイト名を控える。画像は保存しない（URL を書くだけ）。`og:image` がなければ `image` の欄を省く
 
 ## 3. 台本を書く
 
-`episodes/<今日>-ja.json` を作る（前日の回を手本にする。`seconds`、`lines_timed`、`segments`、`made_at` は書かない。4 で入る）。
+`episodes/<回>-ja.json` を作る（前の回を手本にする。`seconds`、`lines_timed`、`segments`、`made_at` は書かない。4 で入る）。
 
+- `date`：`<今日>`。**夕方の回には、`date` の次に `"edition": "pm"` を書く**（朝の回には `edition` を書かない）
 - `title`：いちばんのニュースを 25 字くらいまでで
-- `opening`：2 文。「おはようございます、エーアイ・テックラジオです。◯月◯日、◯曜日の朝です。」と、今日の内容の予告
+- `opening`：2 文。あいさつと、その回の内容の予告
+  - 朝の回：「おはようございます、エーアイ・テックラジオです。◯月◯日、◯曜日の朝です。」
+  - 夕方の回：「おつかれさまです、エーアイ・テックラジオです。◯月◯日、◯曜日の夕方です。」
 - `news`：5 本。それぞれ `label`（見出し）、`points`（要点 3 つ）、`details`（要点ごとの補足 3 つ）、`lines`（話す文 2 つ）、`url`（出典）、`link`（`url`、`title`、`site`、`image`）
-- `closing`：2 文。今日の注目（`highlight` にその番号）と、「それでは今日も、いってらっしゃい。」
+- `closing`：2 文。その回の注目（`highlight` にその番号）と、しめのあいさつ
+  - 朝の回：「それでは今日も、いってらっしゃい。」
+  - 夕方の回：「それでは、今日も一日おつかれさまでした。」
 - 話す文は `{"say": 読み上げ用, "show": 字幕用}`。全体で 650〜750 字（say）、2 分弱が目安
 - `say` の書き方は `tools/voice.py` の冒頭にある：英字の名前はカタカナ、数字は読みどおり、名前の中の語は「・」で区切る
 - 口調は、ていねいで親しみのある話し言葉（「〜です」「〜なんです」「〜だそうです」）。意見や予想は足さない
@@ -36,10 +65,12 @@ bash tools/setup_voice.sh     # 声の道具（VOICEVOX コア一式）。GitHub
 ## 4. 声を作って確かめる
 
 ```sh
-python3 tools/voice.py episodes/<今日>-ja.json --check   # 読み（カナ）を見る。読み間違いがあれば say を直す
-python3 tools/voice.py episodes/<今日>-ja.json           # audio/<今日>-ja.mp3 を作り、台本と episodes.json を更新
-python3 tools/check.py episodes/<今日>-ja.json           # OK と出るまで直す
+python3 tools/voice.py episodes/<回>-ja.json --check   # 読み（カナ）を見る。読み間違いがあれば say を直す
+python3 tools/voice.py episodes/<回>-ja.json           # audio/<回>-ja.mp3 を作り、台本と episodes.json を更新
+python3 tools/check.py episodes/<回>-ja.json           # OK と出るまで直す
 ```
+
+`check.py` が「出典は、◯◯ で読んだ記事」と止めたら、そのニュースは前の回と重複している。別のニュースに差し替えて、声を作り直す。
 
 ## 5. 公開する
 
@@ -47,16 +78,16 @@ python3 tools/check.py episodes/<今日>-ja.json           # OK と出るまで�
 
 ```sh
 # (1) 台本を main に push する
-git add episodes episodes.json && git commit -m "<今日> <title>" && git push origin main
+git add episodes episodes.json && git commit -m "<回> <title>" && git push origin main
 
-# (2) 前日までの音声を、公開中の gh-pages から audio/ に取ってくる（手元にある mp3 は上書きしない）
+# (2) これまでの音声を、公開中の gh-pages から audio/ に取ってくる（手元にある mp3 は上書きしない）
 git fetch -q origin gh-pages && git archive FETCH_HEAD audio | tar -x --skip-old-files
 
 # (3) gh-pages を「main の中身＋直近 30 日の音声＋共有カード」で作り直して公開する
 SHARE_FONT=/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc tools/publish.sh
 ```
 
-- (2) を飛ばさない。作業する環境は毎回まっさらで、`publish.sh` は gh-pages を手元の `audio/` で作り直すので、飛ばすと過去の回の音声が消える
+- (2) を飛ばさない。作業する環境は毎回まっさらで、`publish.sh` は gh-pages を手元の `audio/` で作り直すので、飛ばすと過去の回（その日の朝の回も）の音声が消える
 - 音声は main にコミットしない（`.gitignore` 済み）
 - `SHARE_FONT` のフォントがなければ、Noto Sans JP を `https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf` から取って、その場所を渡す
 
@@ -70,11 +101,14 @@ gh api "repos/K-Hiramoto/ai-tech-radio/actions/runs?per_page=1" --jq '.workflow_
 
 公開される場所：
 
-- 放送：`https://k-hiramoto.github.io/ai-tech-radio/#<今日>/ja`
-- 共有用（SNS やチャットに貼るとカードが出る）：`https://k-hiramoto.github.io/ai-tech-radio/share/<今日>-ja.html`
+- 放送：`https://k-hiramoto.github.io/ai-tech-radio/#<回>/ja`
+- 共有用（SNS やチャットに貼るとカードが出る）：`https://k-hiramoto.github.io/ai-tech-radio/share/<回>-ja.html`
+
+（例：11 月 13 日の夕方の回なら、`#2026-11-13-pm/ja` と `share/2026-11-13-pm-ja.html`）
 
 ## うまくいかないとき
 
 - 出典を開けないニュースは使わない。5 本そろわなければ、確かめられた本数（3 本以上）で作る
+- 重複しないニュースが 3 本に届かないときは、その回は作らない（同じ話をもう一度読むより、休む）。何が足りなかったかを報告する
 - 声が作れない、push できないなど、公開まで行けなかったときは、台本だけでも main に push しておき、何ができなかったかを報告する
 - 秘密の情報（キー、メールアドレス、通知先の ID など）を、このリポジトリのどのファイルにも書かない

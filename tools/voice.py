@@ -1,6 +1,7 @@
-"""台本（episodes/<日付>-<言語>.json）を VOICEVOX コアで読み上げて、音声とタイミングを作る。
+"""台本（episodes/<回>-<言語>.json）を VOICEVOX コアで読み上げて、音声とタイミングを作る。
 
-  audio/<日付>-<言語>.mp3 を書き、台本に seconds / lines_timed / segments / made_at を書き込み、
+  <回> は、朝の回なら <日付>、夕方の回なら <日付>-pm（台本に "edition": "pm"）。
+  audio/<回>-<言語>.mp3 を書き、台本に seconds / lines_timed / segments / made_at を書き込み、
   episodes.json（回の一覧）にこの回を足す。
   文ごとに合成して無音でつなぐので、lines_timed は合成結果そのものの秒になる（声とずれない）。
 
@@ -92,7 +93,7 @@ def main():
         segments.append({"kind": kind, "index": index, "start": round(seg_start, 3), "end": round(now(), 3)})
 
     total = now()
-    name = os.path.splitext(os.path.basename(path))[0]            # <日付>-<言語>
+    name = os.path.splitext(os.path.basename(path))[0]            # <回>-<言語>
     os.makedirs(os.path.join(STATION, "audio"), exist_ok=True)
     mp3 = os.path.join(STATION, "audio", name + ".mp3")
     buf = io.BytesIO()
@@ -109,11 +110,15 @@ def main():
     # 回の一覧（新しい順）
     lst = os.path.join(STATION, "episodes.json")
     eps = json.load(open(lst, encoding="utf-8")) if os.path.exists(lst) else []
-    entry = next((e for e in eps if e["date"] == ep["date"]), None)
+    # 同じ日に朝の回と夕方の回があるので、日付と edition の組で探す（edition なしが朝の回）
+    key = lambda e: (e["date"], e.get("edition") or "")
+    entry = next((e for e in eps if key(e) == key(ep)), None)
     if entry is None:
-        entry = {"date": ep["date"]}; eps.append(entry)
+        entry = {"date": ep["date"]}
+        if ep.get("edition"): entry["edition"] = ep["edition"]
+        eps.append(entry)
     entry[ep["lang"]] = {"title": ep["title"], "seconds": ep["seconds"]}
-    eps.sort(key=lambda e: e["date"], reverse=True)
+    eps.sort(key=key, reverse=True)                               # 新しい順（同じ日は、夕方が先）
     open(lst, "w", encoding="utf-8").write(json.dumps(eps, ensure_ascii=False) + "\n")
     print(f"{mp3}: {total:.2f}s, {len(timed)} lines, {os.path.getsize(mp3) / 1e6:.2f} MB")
 

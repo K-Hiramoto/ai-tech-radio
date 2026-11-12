@@ -1,8 +1,8 @@
 {
  "format": "myradio/station-1",
  "name": "AIテックラジオ",
- "description": "AI・テクノロジーの、きのうの気になるニュースを、毎朝 2 分で。",
- "tagline": "AI・テクノロジー 朝のニュース",
+ "description": "AI・テクノロジーの気になるニュースを、朝と夕方に 2 分ずつ。",
+ "tagline": "AI・テクノロジー 朝と夕方のニュース",
  "logo": null,
  "url": "https://k-hiramoto.github.io/ai-tech-radio/",
  "repo": "https://github.com/K-Hiramoto/ai-tech-radio",
@@ -13,7 +13,15 @@
  "schedule": {
   "every": "day",
   "time": "09:00",
+  "times": [
+   "09:00",
+   "17:00"
+  ],
   "timezone": "Asia/Tokyo"
+ },
+ "editions": {
+  "": "朝",
+  "pm": "夕方"
  },
  "episodes": "episodes.json",
  "character": {

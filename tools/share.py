@@ -5,6 +5,8 @@ SNS read a page's meta tags without running its JavaScript, and ignore the part 
   share/<date>-<lang>.jpg   a 1200x630 card: the station, the date, the episode title, its topics, the character
   share/<date>-<lang>.html  a small page whose Open Graph / Twitter tags show that card, title and topics; a person
                             who opens it goes straight on to that episode in the player
+A day's second broadcast (episodes.json {"date", "edition": "pm", ...}) is <date>-pm-<lang> in all of these, and its card
+shows the edition's name (station.json "editions": {"": "朝", "pm": "夕方"}) after the date.
 The player's share button hands out the share/....html link.
 
 usage: python3 tools/share.py [STATION_DIR] [--url BASE_URL] [--font FONT] [--all]
@@ -99,7 +101,8 @@ def card(station, st, ep, lang, char, logo, fpath):
     d.rectangle([x0, 102, x0 + 110, 106], fill=YELLOW)
     y = 124
     if st("tagline"): d.text((x0, y), st("tagline"), font=font(fpath, 24, 700), fill=TEAL); y += 36
-    d.text((x0, y), date_text(ep["date"], lang), font=font(fpath, 24, 600), fill=MUTED); y += 54
+    edition = (st("editions") or {}).get(ep.get("edition") or "", "")   # "朝" / "夕方", when the station names its editions
+    d.text((x0, y), date_text(ep["date"], lang) + (" " + edition if edition else ""), font=font(fpath, 24, 600), fill=MUTED); y += 54
 
     # the episode title, then its topics
     ft = font(fpath, 48, 800)
@@ -204,8 +207,8 @@ def main():
     os.makedirs(os.path.join(root, "share"), exist_ok=True)
     made, newest = 0, None
     for entry in json.load(open(os.path.join(root, station.get("episodes", "episodes.json")))):   # newest first
-        date = entry["date"]
-        langs = [k for k in entry if k != "date" and isinstance(entry[k], dict)] or [None]
+        date = entry["date"] + ("-" + entry["edition"] if entry.get("edition") else "")   # the episode's id: <date> or <date>-<edition>
+        langs = [k for k in entry if k not in ("date", "edition") and isinstance(entry[k], dict)] or [None]
         for lang in langs:
             stem = f"{date}-{lang}" if lang else date
             if not ("--all" in sys.argv) and os.path.exists(os.path.join(root, "share", f"{stem}.html")): continue
