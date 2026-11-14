@@ -1,0 +1,263 @@
+{
+ "title": "Gemini 4 Hydrogen、無料でも使える高速モデル",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十三日、金曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月13日、金曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、グーグルの新しい高速モデルから、日本語で使えるようになったオープンルーターまで、四本をお届けします。",
+   "show": "この時間は、Googleの新しい高速モデルから、日本語で使えるようになったOpenRouterまで、4本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini 4 Hydrogen",
+   "points": [
+    "標準設定でタスクを2.5倍高速に完了",
+    "Geminiアプリの無料ユーザーとGoogle検索にも提供",
+    "AntigravityにモデルをAIが使い分けるOrchestrator"
+   ],
+   "url": "https://gigazine.net/news/20261113-gemini-4-hydrogen/",
+   "lines": [
+    {
+     "say": "まずはグーグル。高速モデルの、ジェミニ・フォー・ハイドロジェンを十二日に発表しました。従来の高速モデルと比べて、標準の設定でタスクをにーてんごばいの速さで終え、事実と違う内容を出す頻度は五分の一以下に減ったとしています。",
+     "show": "まずはGoogle。高速モデルの、Gemini 4 Hydrogenを12日に発表しました。従来の高速モデルと比べて、標準の設定でタスクを2.5倍の速さで終え、事実と違う内容を出す頻度は5分の1以下に減ったとしています。"
+    },
+    {
+     "say": "開発者向けのエーピーアイのほか、ジェミニ・アプリの無料ユーザーや、グーグル検索でも使われます。",
+     "show": "開発者向けのAPIのほか、Geminiアプリの無料ユーザーや、Google検索でも使われます。"
+    }
+   ],
+   "details": [
+    "Gemini 4 Carbonをもとに作られたモデルで、コードの作成や不具合の修正、資料の分析など、エージェントの用途を想定しています。Terminal-Bench 4.1は18.2%から57.0%に上がったとのことです。",
+    "Google AI StudioとGemini APIで使えます。Geminiアプリでは、質問の内容に応じて自動で選ばれます。入力は最大100万トークンです。",
+    "Orchestratorは、作業の内容に応じてGemini 4 CarbonとHydrogenなどを自動で切り替えます。Googleのテストでは、利用枠の消費が平均24%減り、作業時間が19%短くなったそうです。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261113-gemini-4-hydrogen/",
+    "title": "Googleが無料で使える高性能AI「Gemini 4 Hydrogen」を発表、従来モデルの2.5倍の速度で動作し競合AIを上回る性能も発揮",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/13/gemini-4-hydrogen/00.jpg"
+   }
+  },
+  {
+   "label": "NVIDIA、フアンCEOが辞任",
+   "points": [
+    "ジェンスン・フアン氏が社長・CEO・取締役を即日辞任",
+    "暫定CEOはCFOのコレット・クレス氏",
+    "第3四半期の決算は11月17日"
+   ],
+   "url": "https://ppc.land/jensen-huang-quits-nvidia-as-google-gives-every-searcher-gemini-4-hydrogen/",
+   "lines": [
+    {
+     "say": "続いて、エヌビディア。創業者のジェンセン・フアン氏が、十二日、社長とシーイーオー、取締役を、即日で辞任したと報じられています。三十三年にわたって会社を率いてきました。",
+     "show": "続いて、NVIDIA。創業者のジェンスン・フアン氏が、12日、社長とCEO、取締役を、即日で辞任したと報じられています。33年にわたって会社を率いてきました。"
+    },
+    {
+     "say": "暫定のシーイーオーには、最高財務責任者のコレット・クレス氏が就きました。第三四半期の決算発表は、十一月十七日の予定です。",
+     "show": "暫定のCEOには、最高財務責任者のコレット・クレス氏が就きました。第3四半期の決算発表は、11月17日の予定です。"
+    }
+   ],
+   "details": [
+    "NVIDIAが12日に発表したと伝えられています。辞任は即日で効力を持ちます。",
+    "取締役会の議長には、1993年から取締役を務めるハーベイ・C・ジョーンズ氏が就きます。",
+    "NVIDIAの株価は、10月6日に終値で239.24ドルの最高値を付けていました。"
+   ],
+   "link": {
+    "url": "https://ppc.land/jensen-huang-quits-nvidia-as-google-gives-every-searcher-gemini-4-hydrogen/",
+    "title": "Jensen Huang quits Nvidia as Google gives every searcher Gemini 4 Hydrogen",
+    "site": "PPC Land"
+   }
+  },
+  {
+   "label": "Microsoft 365で障害",
+   "points": [
+    "Exchange Onlineの問題で19のサービスに影響",
+    "Teams、SharePoint、Copilotなど",
+    "原因は特定されておらず、復旧の見通しも未定"
+   ],
+   "url": "https://ppc.land/microsoft-365-email-outage-hits-19-services-from-outlook-to-copilot/",
+   "lines": [
+    {
+     "say": "三本目は、マイクロソフト。マイクロソフト・サンロクゴで障害が起きています。メールのエクスチェンジ・オンラインの問題で、チームズやシェアポイント、コパイロットなど、十九のサービスに影響が出ました。",
+     "show": "3本目は、Microsoft。Microsoft 365で障害が起きています。メールのExchange Onlineの問題で、TeamsやSharePoint、Copilotなど、19のサービスに影響が出ました。"
+    },
+    {
+     "say": "マイクロソフトは原因をまだ特定できておらず、悪意のある活動は確認していないとしています。日本時間の今日、午後二時四十六分の時点で、復旧の見通しは示されていません。",
+     "show": "Microsoftは原因をまだ特定できておらず、悪意のある活動は確認していないとしています。日本時間の今日、午後2時46分の時点で、復旧の見通しは示されていません。"
+    }
+   ],
+   "details": [
+    "障害は、米国東部時間の12日午後1時25分ごろに始まったと伝えられています。Exchange Onlineに頼るサービスに影響が広がりました。",
+    "ほかに、Planner、To Do、Defender for Office 365、Purview、Microsoft Graph、Intune、Windows 365が挙げられています。",
+    "Microsoftは、通信が急に増えた原因を複数の方向から調べているとしています。復旧後に報告書を出すとのことです。"
+   ],
+   "link": {
+    "url": "https://ppc.land/microsoft-365-email-outage-hits-19-services-from-outlook-to-copilot/",
+    "title": "Microsoft 365 email outage hits 19 services, from Outlook to Copilot",
+    "site": "PPC Land",
+    "image": "https://ppc.land/content/images/2026/11/mp-og-046e9207-cff7-4564-985b-70fff3e46719.png"
+   }
+  },
+  {
+   "label": "OpenRouterに日本語版",
+   "points": [
+    "日本語など7言語のベータ版を公開",
+    "GPT-6.1 Solで翻訳し、別のモデルと人が検証",
+    "サイト全体を7言語にして約460ドル"
+   ],
+   "url": "https://gigazine.net/news/20261113-openrouter-self-correcting-localization/",
+   "lines": [
+    {
+     "say": "最後は、オープンルーター。たくさんのエーアイ・モデルを一つのエーピーアイで使えるサービスで、日本語を含む七つの言語のベータ版を公開しました。",
+     "show": "最後は、OpenRouter。たくさんのAIモデルを1つのAPIで使えるサービスで、日本語を含む7つの言語のベータ版を公開しました。"
+    },
+    {
+     "say": "およそ一万七千の文字列を、ジーピーティー・ろくてんいち・ソルで翻訳し、別のモデルと人の目で確かめる仕組みです。サイト全体を七つの言語にする費用は、およそ四百六十ドルだったそうです。",
+     "show": "およそ1万7000の文字列を、GPT-6.1 Solで翻訳し、別のモデルと人の目で確かめる仕組みです。サイト全体を7つの言語にする費用は、およそ460ドルだったそうです。"
+    }
+   ],
+   "details": [
+    "日本語、韓国語、中国語（簡体字）、スペイン語、ポルトガル語（ブラジル）、ドイツ語、フランス語の7言語です。アカウントの言語設定か、openrouter.ai/ja のようなURLで表示できます。",
+    "文字列は1万6918個。検証にはClaude Opus 5.5、Gemini 4 Argon、DeepSeek V4 Proを使い、変更された文字列を見つけて翻訳し直す流れを毎日動かせます。",
+    "翻訳会社の見積もりは、AI翻訳で5万7300ドル、人の翻訳で19万1000ドルだったと紹介されています。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261113-openrouter-self-correcting-localization/",
+    "title": "OpenRouterの日本語版が登場、GPT-6.1 Solを用いた自己修正型翻訳システムで高品質な多言語対応を実現",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/13/openrouter-self-correcting-localization/00.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、ジェミニ・フォー・ハイドロジェン。無料のユーザーにも、検索にも届く高速モデルです。",
+   "show": "この時間の注目は、Gemini 4 Hydrogen。無料のユーザーにも、検索にも届く高速モデルです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-13",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 123.73,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.915,
+   "show": "おつかれさまです、AIテックラジオです。11月13日、金曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.165,
+   "end": 15.058,
+   "show": "この時間は、Googleの新しい高速モデルから、日本語で使えるようになったOpenRouterまで、4本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 16.108,
+   "end": 31.052,
+   "show": "まずはGoogle。高速モデルの、Gemini 4 Hydrogenを12日に発表しました。従来の高速モデルと比べて、標準の設定でタスクを2.5倍の速さで終え、事実と違う内容を出す頻度は5分の1以下に減ったとしています。",
+   "part": 1
+  },
+  {
+   "start": 31.302,
+   "end": 37.425,
+   "show": "開発者向けのAPIのほか、Geminiアプリの無料ユーザーや、Google検索でも使われます。",
+   "part": 1
+  },
+  {
+   "start": 38.475,
+   "end": 51.264,
+   "show": "続いて、NVIDIA。創業者のジェンスン・フアン氏が、12日、社長とCEO、取締役を、即日で辞任したと報じられています。33年にわたって会社を率いてきました。",
+   "part": 2
+  },
+  {
+   "start": 51.514,
+   "end": 61.018,
+   "show": "暫定のCEOには、最高財務責任者のコレット・クレス氏が就きました。第3四半期の決算発表は、11月17日の予定です。",
+   "part": 2
+  },
+  {
+   "start": 62.068,
+   "end": 75.049,
+   "show": "3本目は、Microsoft。Microsoft 365で障害が起きています。メールのExchange Onlineの問題で、TeamsやSharePoint、Copilotなど、19のサービスに影響が出ました。",
+   "part": 3
+  },
+  {
+   "start": 75.299,
+   "end": 87.15,
+   "show": "Microsoftは原因をまだ特定できておらず、悪意のある活動は確認していないとしています。日本時間の今日、午後2時46分の時点で、復旧の見通しは示されていません。",
+   "part": 3
+  },
+  {
+   "start": 88.2,
+   "end": 97.299,
+   "show": "最後は、OpenRouter。たくさんのAIモデルを1つのAPIで使えるサービスで、日本語を含む7つの言語のベータ版を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 97.549,
+   "end": 110.626,
+   "show": "およそ1万7000の文字列を、GPT-6.1 Solで翻訳し、別のモデルと人の目で確かめる仕組みです。サイト全体を7つの言語にする費用は、およそ460ドルだったそうです。",
+   "part": 4
+  },
+  {
+   "start": 111.676,
+   "end": 118.545,
+   "show": "この時間の注目は、Gemini 4 Hydrogen。無料のユーザーにも、検索にも届く高速モデルです。",
+   "part": 5
+  },
+  {
+   "start": 118.795,
+   "end": 121.675,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 16.108
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 16.108,
+   "end": 38.475
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 38.475,
+   "end": 62.068
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 62.068,
+   "end": 88.2
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 88.2,
+   "end": 111.676
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 111.676,
+   "end": 123.725
+  }
+ ],
+ "made_at": "2026-11-13T16:25:52"
+}

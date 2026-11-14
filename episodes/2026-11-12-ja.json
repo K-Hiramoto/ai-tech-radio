@@ -1,0 +1,310 @@
+{
+ "title": "Claudeに会議・表計算・ホワイトボード",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十二日、木曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月12日、木曜日の朝です。"
+  },
+  {
+   "say": "今日はクロードの新しい仕事道具から、エーアイに仕込まれる裏口の研究まで、五本をお届けします。",
+   "show": "今日はClaudeの新しい仕事道具から、AIに仕込まれる裏口の研究まで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Claude Meetings / Sheets / Whiteboards",
+   "points": [
+    "Claudeがビデオ会議に参加者として加わる",
+    "Team・Enterprise向けベータ、まずGoogle Meet",
+    "Sheets・Whiteboardsも有料プランでベータ"
+   ],
+   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+   "lines": [
+    {
+     "say": "まずはアンソロピック。クロードがビデオ会議に参加する、クロード・ミーティングスを発表しました。",
+     "show": "まずはAnthropic。Claudeがビデオ会議に参加する、Claude Meetingsを発表しました。"
+    },
+    {
+     "say": "会議を聞きながら、計画の下書きや、質問への回答をこなします。まずはグーグル・ミートで、チームとエンタープライズ向けのベータ版です。",
+     "show": "会議を聞きながら、計画の下書きや、質問への回答をこなします。まずはGoogle Meetで、TeamとEnterprise向けのベータ版です。"
+    }
+   ],
+   "details": [
+    "参加者であることを名乗り、会議のチャットに通知を出します。会議のあと、メモやアクションアイテムはclaude.aiで見られます。",
+    "社外のゲストがいる通話には、管理者が認めないかぎり参加せず、社外のゲストが入ると自動で退出します。",
+    "Sheetsは複数のタブや数式に対応した表計算、Whiteboardsは共同で計画を立てるボードです。Claude Data（旧Claude Dashboards）は一般提供になりました。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+    "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks | TechCrunch",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675"
+   }
+  },
+  {
+   "label": "Gemini Robotics 2.5",
+   "points": [
+    "器用さ・信頼性・安全性を強化",
+    "部品の箱詰めで成功率96%（Mercedes-Benzでの実証）",
+    "Apptronik、Boston Dynamicsなどパートナーに提供開始"
+   ],
+   "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+   "lines": [
+    {
+     "say": "続いて、グーグル・ディープマインド。ロボット向けの新モデル、ジェミニ・ロボティクス・にーてんごを発表しました。",
+     "show": "続いて、Google DeepMind。ロボット向けの新モデル、Gemini Robotics 2.5を発表しました。"
+    },
+    {
+     "say": "メルセデス・ベンツでの実証では、自動車部品の箱詰めを、九十六パーセントの成功率でこなしたそうです。パートナー企業への提供が始まっています。",
+     "show": "Mercedes-Benzでの実証では、自動車部品の箱詰めを、96%の成功率でこなしたそうです。パートナー企業への提供が始まっています。"
+    }
+   ],
+   "details": [
+    "200を超えるタスクで試験されました。身近な道具を使って、柔らかく繊細な物を扱う作業もできるとされています。",
+    "前のバージョンと比べて、作業の完了は20〜30%速いとされています。",
+    "提供先にはAgile Robotsも含まれます。同じ日に、DNAの配列や変異の影響を予測するAlphaGenome 2も発表されました。"
+   ],
+   "link": {
+    "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+    "title": "Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model - SiliconANGLE",
+    "site": "SiliconANGLE",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2025/10/An-AI-agent-doing-scientific-research-in-a-lab-setting-abstract-art-muted-colors-with-splashes-of-h.jpeg"
+   }
+  },
+  {
+   "label": "Adobe、外部エージェントにアプリを開放",
+   "points": [
+    "外部エージェントがPhotoshopなどを操作（プレビュー）",
+    "常時動くエージェントもプレビュー",
+    "Firefly Builderはプライベートベータ"
+   ],
+   "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+   "lines": [
+    {
+     "say": "三本目はアドビ。外部のエーアイ・エージェントが、フォトショップやプレミアを操作できる仕組みをプレビューしました。",
+     "show": "3本目はAdobe。外部のAIエージェントが、PhotoshopやPremiereを操作できる仕組みをプレビューしました。"
+    },
+    {
+     "say": "レイヤーなどは、編集できる形のまま残ります。言葉から試作品を作るファイアフライ・ビルダーも、限定ベータで登場です。",
+     "show": "レイヤーなどは、編集できる形のまま残ります。言葉から試作品を作るFirefly Builderも、限定ベータで登場です。"
+    }
+   ],
+   "details": [
+    "ローカルのMCP連携で、Photoshop、Illustrator、Premiere、After Effectsのプロジェクトファイルを、外部のエージェントに編集させられます。",
+    "素材の整理や品質の確認など、繰り返しの作業をバックグラウンドで続けます。",
+    "ウェブサイトやプレゼン、アプリなどの動く試作品を、コードなしで作る機能です。Adobe MAXは11月10日から12日まで、マイアミビーチで開かれています。"
+   ],
+   "link": {
+    "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+    "title": "Adobe Powers a New Era of Creativity, Bringing Agents and Tools to Creatives Wherever and However They Create",
+    "site": "Adobe News",
+    "image": "https://news.adobe.com/news/2026/11/media_194f62215cc674a3099d1a6f6b08199d16183a1ba.jpg?width=1200&format=pjpg&optimize=medium"
+   }
+  },
+  {
+   "label": "ElevenLabs Scribe v3",
+   "points": [
+    "録音向けのScribe v3、リアルタイム向けのv3 Live",
+    "単語の誤りがScribe v2より27%減（社内テスト）",
+    "v3 Liveが話者の区別に初対応"
+   ],
+   "url": "https://superpowerdaily.com/posts/elevenlabs-adds-live-speaker-labels-with-its-scribe-v3-transcription-release",
+   "lines": [
+    {
+     "say": "四本目はイレブンラボ。文字起こしの新モデル、スクライブ・ブイスリーと、リアルタイム版のスクライブ・ブイスリー・ライブを公開しました。",
+     "show": "4本目はElevenLabs。文字起こしの新モデル、Scribe v3と、リアルタイム版のScribe v3 Liveを公開しました。"
+    },
+    {
+     "say": "ブイスリーは、前のモデルより、単語の誤りが二十七パーセント少ないそうです。ライブ版は、誰が話したかを区別できるようになりました。",
+     "show": "v3は、前のモデルより、単語の誤りが27%少ないそうです。Live版は、誰が話したかを区別できるようになりました。"
+    }
+   ],
+   "details": [
+    "どちらもElevenLabsのAPIで使えます。公開は11月10日です。",
+    "102の言語を対象にした社内テストの数字です。v3 Liveは、意味に関わる単語の誤りが前のモデルより43%少ないとしています。",
+    "v3 Liveは会話の文脈から、相手が話し終えたかどうかも判断します。"
+   ],
+   "link": {
+    "url": "https://superpowerdaily.com/posts/elevenlabs-adds-live-speaker-labels-with-its-scribe-v3-transcription-release",
+    "title": "ElevenLabs adds live speaker labels with its Scribe v3 transcription release",
+    "site": "Superpower Daily"
+   }
+  },
+  {
+   "label": "Microsoft、ニューロン書き換えでAIに裏口",
+   "points": [
+    "10個未満のニューロンの書き換えでバックドア",
+    "再学習は不要、モデルのファイルへの書き込みだけ",
+    "配備前に元のモデルとの差分を調べるよう推奨"
+   ],
+   "url": "https://gbhackers.com/ai-agents-backdoor/",
+   "lines": [
+    {
+     "say": "最後はマイクロソフトの研究です。エーアイモデルの、ふだん使われていないニューロンを、十個足らず書き換えるだけで、裏口を仕込めることを示しました。",
+     "show": "最後はMicrosoftの研究です。AIモデルの、ふだん使われていないニューロンを、10個足らず書き換えるだけで、裏口を仕込めることを示しました。"
+    },
+    {
+     "say": "再学習は要りません。ふだんは普通に動いて、合図があったときだけ、攻撃者の命令を出力するんです。",
+     "show": "再学習は要りません。ふだんは普通に動いて、合図があったときだけ、攻撃者の命令を出力するんです。"
+    }
+   ],
+   "details": [
+    "手法の名前は「Lazarus」。ふだんの推論でほとんど働かないニューロンを、合図を見分ける検出器に作り変えます。",
+    "学習用の設備は要らず、モデルを動かせるメモリのあるマシンがあれば足りるとされています。Microsoftは、実際の悪用は確認していないそうです。",
+    "通常の微調整は変更が広く散らばるのに対し、この仕込みは少数の箇所に大きな変更が集中するためです。"
+   ],
+   "link": {
+    "url": "https://gbhackers.com/ai-agents-backdoor/",
+    "title": "Microsoft Researchers Turn AI Agents Into Hidden Backdoors by Modifying Fewer Than 10 Neurons",
+    "site": "GBHackers Security",
+    "image": "https://gbhackers.com/wp-content/uploads/2026/11/59a16af0-8b49-4daf-b00f-aed8ac76058e.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、クロード・ミーティングス。エーアイが会議の参加者になって、話し合いのその場で作業を進めます。",
+   "show": "今日の注目は、Claude Meetings。AIが会議の参加者になって、話し合いのその場で作業を進めます。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-12",
+ "lang": "ja",
+ "seconds": 112.75,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.659,
+   "show": "おはようございます、AIテックラジオです。11月12日、木曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.909,
+   "end": 13.373,
+   "show": "今日はClaudeの新しい仕事道具から、AIに仕込まれる裏口の研究まで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.423,
+   "end": 20.311,
+   "show": "まずはAnthropic。Claudeがビデオ会議に参加する、Claude Meetingsを発表しました。",
+   "part": 1
+  },
+  {
+   "start": 20.561,
+   "end": 29.723,
+   "show": "会議を聞きながら、計画の下書きや、質問への回答をこなします。まずはGoogle Meetで、TeamとEnterprise向けのベータ版です。",
+   "part": 1
+  },
+  {
+   "start": 30.773,
+   "end": 37.472,
+   "show": "続いて、Google DeepMind。ロボット向けの新モデル、Gemini Robotics 2.5を発表しました。",
+   "part": 2
+  },
+  {
+   "start": 37.722,
+   "end": 47.365,
+   "show": "Mercedes-Benzでの実証では、自動車部品の箱詰めを、96%の成功率でこなしたそうです。パートナー企業への提供が始まっています。",
+   "part": 2
+  },
+  {
+   "start": 48.415,
+   "end": 54.975,
+   "show": "3本目はAdobe。外部のAIエージェントが、PhotoshopやPremiereを操作できる仕組みをプレビューしました。",
+   "part": 3
+  },
+  {
+   "start": 55.225,
+   "end": 63.235,
+   "show": "レイヤーなどは、編集できる形のまま残ります。言葉から試作品を作るFirefly Builderも、限定ベータで登場です。",
+   "part": 3
+  },
+  {
+   "start": 64.285,
+   "end": 72.36,
+   "show": "4本目はElevenLabs。文字起こしの新モデル、Scribe v3と、リアルタイム版のScribe v3 Liveを公開しました。",
+   "part": 4
+  },
+  {
+   "start": 72.61,
+   "end": 81.89,
+   "show": "v3は、前のモデルより、単語の誤りが27%少ないそうです。Live版は、誰が話したかを区別できるようになりました。",
+   "part": 4
+  },
+  {
+   "start": 82.94,
+   "end": 92.583,
+   "show": "最後はMicrosoftの研究です。AIモデルの、ふだん使われていないニューロンを、10個足らず書き換えるだけで、裏口を仕込めることを示しました。",
+   "part": 5
+  },
+  {
+   "start": 92.833,
+   "end": 100.054,
+   "show": "再学習は要りません。ふだんは普通に動いて、合図があったときだけ、攻撃者の命令を出力するんです。",
+   "part": 5
+  },
+  {
+   "start": 101.104,
+   "end": 108.315,
+   "show": "今日の注目は、Claude Meetings。AIが会議の参加者になって、話し合いのその場で作業を進めます。",
+   "part": 6
+  },
+  {
+   "start": 108.565,
+   "end": 110.698,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.423
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.423,
+   "end": 30.773
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 30.773,
+   "end": 48.415
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 48.415,
+   "end": 64.285
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 64.285,
+   "end": 82.94
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 82.94,
+   "end": 101.104
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 101.104,
+   "end": 112.748
+  }
+ ],
+ "made_at": "2026-11-12T08:26:28"
+}
