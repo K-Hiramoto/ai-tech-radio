@@ -1,0 +1,311 @@
+{
+ "title": "Cloudflare、Kitesurfをオープンソースに",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十五日、日曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月15日、日曜日の朝です。"
+  },
+  {
+   "say": "今日は、クラウドフレアがオープンソースにした、エージェント向けのブラウザなど、五本です。",
+   "show": "今日は、Cloudflareがオープンソースにしたエージェント向けのブラウザなど、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Kitesurf がオープンソースに",
+   "points": [
+    "AIエージェント向けのブラウザエンジンを公開",
+    "Cloudflare Workers の上だけで動く",
+    "ライセンスは Apache 2.0"
+   ],
+   "url": "https://blog.cloudflare.com/kitesurf-open-source",
+   "lines": [
+    {
+     "say": "まずはクラウドフレア。エーアイエージェント向けのブラウザエンジン、カイトサーフを、オープンソースにしました。",
+     "show": "まずはCloudflare。AIエージェント向けのブラウザエンジン「Kitesurf」を、オープンソースにしました。"
+    },
+    {
+     "say": "ブラウザ用のコンテナを使わず、クラウドフレア・ワーカーズの上だけで動きます。ライセンスはアパッチ・にーてんゼロです。",
+     "show": "ブラウザ用のコンテナを使わず、Cloudflare Workersの上だけで動きます。ライセンスはApache 2.0です。"
+    }
+   ],
+   "details": [
+    "Kitesurfは8月に発表されたブラウザエンジンです。HTMLの解析、CSSの適用、ページのJavaScriptの実行、スクリーンショットの描画を行います。",
+    "Chrome DevTools Protocolに対応していて、Puppeteerなどから接続できます。中身は、Blitz、Stylo、BoaといったRustのオープンソースをWebAssemblyにしたものです。",
+    "コードはGitHubのcloudflare/kitesurfにあります。手元で動かすことも、自分のアカウントに配備することもできます（配備にはWorkersの有料プランが必要）。"
+   ],
+   "link": {
+    "url": "https://blog.cloudflare.com/kitesurf-open-source",
+    "title": "Kitesurf is now open source",
+    "site": "Cloudflare Blog",
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B8M86AWYDHNF9C7R2V0CXH.png"
+   }
+  },
+  {
+   "label": "Cursor、セキュリティ事故の調査結果",
+   "points": [
+    "Fireworksに発行したアクセスキーが発端",
+    "エージェントの記録の一部がコピーされた",
+    "改ざんされた拡張機能が約11時間配布"
+   ],
+   "url": "https://cursor.com/blog/security-incident-update",
+   "lines": [
+    {
+     "say": "続いてカーソル。十月のセキュリティ事故の調査結果を公表しました。発端は、委託先のファイアワークスに発行していた、アクセスキーの流出だそうです。",
+     "show": "続いてCursor。10月のセキュリティ事故の調査結果を公表しました。発端は、委託先のFireworksに発行していたアクセスキーの流出だそうです。"
+    },
+    {
+     "say": "エージェントの記録の一部がコピーされ、改ざんされたクロード・コードの拡張機能が、カーソルのマーケットプレイスに、およそ十一時間置かれました。",
+     "show": "エージェントの記録の一部がコピーされ、改ざんされたClaude Codeの拡張機能が、Cursorのマーケットプレイスに約11時間置かれました。"
+    }
+   ],
+   "details": [
+    "コピーされたのは、Fireworksとのデータ共有に使っていた読み取り専用の保管場所にあった記録です。主に2025年のもので、Privacy Modeのセッションは含まれません。",
+    "記録の一部には認証情報が含まれていました。Cursorによると、API の認証情報が漏れた顧客は0.01%未満で、該当する利用者には直接連絡したそうです。",
+    "改ざんされたのは Anthropic.claude-code の 2.1.312 と 2.1.313 で、受け取った可能性があるのは最大5,000人。Anthropicが公開したものではありません。Cursorは推論をすべてFireworksから移しました。"
+   ],
+   "link": {
+    "url": "https://cursor.com/blog/security-incident-update",
+    "title": "An update on our recent security incident",
+    "site": "Cursor",
+    "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
+   }
+  },
+  {
+   "label": "A2UI 1.0",
+   "points": [
+    "エージェントが操作できる画面で答える規格",
+    "最初の安定版",
+    "React、Flutter、SwiftUI などのレンダラー"
+   ],
+   "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+   "lines": [
+    {
+     "say": "三本目はグーグル。エージェントが、フォームやグラフなどの操作できる画面で答えるための規格、エーツーユーアイの、最初の安定版を公開しました。",
+     "show": "3本目はGoogle。エージェントが、フォームやグラフなどの操作できる画面で答えるための規格「A2UI」の、最初の安定版1.0を公開しました。"
+    },
+    {
+     "say": "エージェントは何を見せるかだけを伝え、画面は、アプリ側が自分の部品で描きます。",
+     "show": "エージェントは何を見せるかだけを伝え、画面は、アプリ側が自分の部品で描きます。"
+    }
+   ],
+   "details": [
+    "A2UIは、生成UIのためのオープンなプロトコルです。エージェントが置けるのは、開発者が登録した部品だけです。",
+    "1.0では、双方向の関数呼び出し、アクセシビリティへの対応、拡張の仕組みが加わりました。TypeScript、Dart、Python のエージェント用SDKも新しく出ています。",
+    "レンダラーは React、Angular、Lit、Flutter、SwiftUI、Jetpack Compose（現在は v0.9.1）。採用例として Atlassian、Alation などが紹介されています。"
+   ],
+   "link": {
+    "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+    "title": "A2UI 1.0: Build delightful, fast, reliable, agentic experiences",
+    "site": "Google Developers Blog",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r.2e16d0ba.fill-1200x600.jpg"
+   }
+  },
+  {
+   "label": "AI Edge Gallery に端末内の音声認識と読み上げ",
+   "points": [
+    "音声認識と読み上げを端末の中で実行",
+    "音声認識は100以上の言語に対応",
+    "読み上げは約100ミリ秒で話し始める"
+   ],
+   "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+   "lines": [
+    {
+     "say": "四本目もグーグルです。端末の中でエーアイを動かすアプリ、エーアイ・エッジ・ギャラリーに、音声認識と読み上げが加わりました。",
+     "show": "4本目もGoogleです。端末の中でAIを動かすアプリ「AI Edge Gallery」に、音声認識と読み上げが加わりました。"
+    },
+    {
+     "say": "音声認識は百を超える言語に対応し、読み上げは、およそ百ミリ秒で話し始めるそうです。",
+     "show": "音声認識は100を超える言語に対応し、読み上げは約100ミリ秒で話し始めるそうです。"
+    }
+   ],
+   "details": [
+    "Androidでは、ML Kit GenAI の Speech Recognition API と Text-to-Speech API として提供。モデルはAICoreが管理するので、アプリのサイズは増えないとしています。",
+    "音声認識は実時間の約10倍の速さ（3秒の音声を約300ミリ秒）で処理するとのこと。途中経過と確定した文字起こしを順に返します。",
+    "読み上げは8種類の声、21のロケールに対応。iOS、macOS、Windows、Linux、Web 向けには、MediaPipe Tasks のAPIが用意されています。"
+   ],
+   "link": {
+    "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+    "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
+    "site": "Google Developers Blog",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9g.2e16d0ba.fill-1200x600.jpg"
+   }
+  },
+  {
+   "label": "Microsoft と IBM「Imagine Enterprise」",
+   "points": [
+    "企業向けのAIエージェント基盤を共同で発表",
+    "IBMが6,000を超える構築済みエージェント",
+    "まず金融・保険・小売から"
+   ],
+   "url": "https://www.ciodive.com/news/microsoft-ibm-team-up-ai-agent-platform/874152/",
+   "lines": [
+    {
+     "say": "最後はマイクロソフトとアイビーエム。企業向けのエージェント基盤、イマジン・エンタープライズを、共同で発表しました。",
+     "show": "最後はMicrosoftとIBM。企業向けのエージェント基盤「Imagine Enterprise」を、共同で発表しました。"
+    },
+    {
+     "say": "アイビーエムが、六千を超える構築済みのエージェントを持ち寄ります。まずは、金融、保険、小売が対象です。",
+     "show": "IBMが、6,000を超える構築済みのエージェントを持ち寄ります。まずは、金融、保険、小売が対象です。"
+    }
+   ],
+   "details": [
+    "Imagine Enterpriseは、データや日々の業務にまたがってエージェントを作り、管理するための基盤だと説明されています。",
+    "構築済みのエージェントと業務変革の知見はIBM Consultingが提供。導入する企業は、両社のエンジニア（forward deployed engineers）が支援します。",
+    "業界別の枠組みは、まず金融サービス、保険、小売向け。提供の時期や価格は、記事では示されていません。"
+   ],
+   "link": {
+    "url": "https://www.ciodive.com/news/microsoft-ibm-team-up-ai-agent-platform/874152/",
+    "title": "Microsoft, IBM team up on AI agent platform",
+    "site": "CIO Dive",
+    "image": "https://imgproxy.divecdn.com/kCzUkSuBIMiy9v83XSNde4jVK-JG9b48Rlj0jXGsHA4/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjcyNDA3ODM2LmpwZw==.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、カイトサーフ。手元で動かすことも、自分で配備することもできるそうです。",
+   "show": "今日の注目は、Kitesurf。手元で動かすことも、自分で配備することもできるそうです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-15",
+ "lang": "ja",
+ "seconds": 108.05,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.712,
+   "show": "おはようございます、AIテックラジオです。11月15日、日曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.962,
+   "end": 12.423,
+   "show": "今日は、Cloudflareがオープンソースにしたエージェント向けのブラウザなど、5本です。",
+   "part": 0
+  },
+  {
+   "start": 13.473,
+   "end": 19.884,
+   "show": "まずはCloudflare。AIエージェント向けのブラウザエンジン「Kitesurf」を、オープンソースにしました。",
+   "part": 1
+  },
+  {
+   "start": 20.134,
+   "end": 27.003,
+   "show": "ブラウザ用のコンテナを使わず、Cloudflare Workersの上だけで動きます。ライセンスはApache 2.0です。",
+   "part": 1
+  },
+  {
+   "start": 28.053,
+   "end": 38.293,
+   "show": "続いてCursor。10月のセキュリティ事故の調査結果を公表しました。発端は、委託先のFireworksに発行していたアクセスキーの流出だそうです。",
+   "part": 2
+  },
+  {
+   "start": 38.543,
+   "end": 47.599,
+   "show": "エージェントの記録の一部がコピーされ、改ざんされたClaude Codeの拡張機能が、Cursorのマーケットプレイスに約11時間置かれました。",
+   "part": 2
+  },
+  {
+   "start": 48.649,
+   "end": 58.1,
+   "show": "3本目はGoogle。エージェントが、フォームやグラフなどの操作できる画面で答えるための規格「A2UI」の、最初の安定版1.0を公開しました。",
+   "part": 3
+  },
+  {
+   "start": 58.35,
+   "end": 63.865,
+   "show": "エージェントは何を見せるかだけを伝え、画面は、アプリ側が自分の部品で描きます。",
+   "part": 3
+  },
+  {
+   "start": 64.915,
+   "end": 73.117,
+   "show": "4本目もGoogleです。端末の中でAIを動かすアプリ「AI Edge Gallery」に、音声認識と読み上げが加わりました。",
+   "part": 4
+  },
+  {
+   "start": 73.367,
+   "end": 79.725,
+   "show": "音声認識は100を超える言語に対応し、読み上げは約100ミリ秒で話し始めるそうです。",
+   "part": 4
+  },
+  {
+   "start": 80.775,
+   "end": 88.124,
+   "show": "最後はMicrosoftとIBM。企業向けのエージェント基盤「Imagine Enterprise」を、共同で発表しました。",
+   "part": 5
+  },
+  {
+   "start": 88.374,
+   "end": 96.406,
+   "show": "IBMが、6,000を超える構築済みのエージェントを持ち寄ります。まずは、金融、保険、小売が対象です。",
+   "part": 5
+  },
+  {
+   "start": 97.456,
+   "end": 103.621,
+   "show": "今日の注目は、Kitesurf。手元で動かすことも、自分で配備することもできるそうです。",
+   "part": 6
+  },
+  {
+   "start": 103.871,
+   "end": 106.005,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.473
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.473,
+   "end": 28.053
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 28.053,
+   "end": 48.649
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 48.649,
+   "end": 64.915
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 64.915,
+   "end": 80.775
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 80.775,
+   "end": 97.456
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 97.456,
+   "end": 108.055
+  }
+ ],
+ "made_at": "2026-11-15T08:27:18"
+}
