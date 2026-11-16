@@ -1,0 +1,263 @@
+{
+ "title": "Alibaba、Qwen4-Maxを正式リリース",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十七日、火曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月17日、火曜日の朝です。"
+  },
+  {
+   "say": "今日は、アリババの新しいモデルの正式リリースや、ノートパソコンで動く大型モデルなど、四本お届けします。",
+   "show": "今日は、Alibabaの新しいモデルの正式リリースや、ノートパソコンで動く大型モデルなど、4本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Qwen4-Max を正式リリース",
+   "points": [
+    "Alibabaが11月16日に正式リリース",
+    "100万トークンあたり入力1.5ドル・出力4.5ドル",
+    "Qwen4シリーズのオープンウェイト版も公開予定"
+   ],
+   "url": "https://gigazine.net/news/20261116-qwen4-max/",
+   "lines": [
+    {
+     "say": "まずはアリババ。プレビュー版が出ていたクウェン・フォー・マックスを、十一月十六日に正式リリースしました。",
+     "show": "まずはAlibaba。プレビュー版が出ていた「Qwen4-Max」を、11月16日に正式リリースしました。"
+    },
+    {
+     "say": "エーピーアイの料金は、百万トークンあたり、入力が一ドル五十セント、出力が四ドル五十セント。重みを公開する版も、あとから出す予定だそうです。",
+     "show": "APIの料金は、100万トークンあたり、入力が1.5ドル、出力が4.5ドル。重みを公開する版も、あとから出す予定だそうです。"
+    }
+   ],
+   "details": [
+    "GIGAZINEによると、パラメータは約2.4兆。テキスト・画像・動画を入力でき、出力はテキストです。Qwenの投稿では、Qwen3.8-Maxを上回りつつ、使うトークンが最大で約50%少ないとしています。",
+    "APIはQwenCloudで提供。キャッシュされた入力は100万トークンあたり0.075ドルです。Artificial Analysis Intelligence Index v5.0.1のスコアは43、Code ArenaのWebDevでは6位と伝えられています。",
+    "開発チームは、Qwen4シリーズのオープンウェイト版を公開すると表明しています。時期やモデルの大きさは、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261116-qwen4-max/",
+    "title": "「Qwen4-Max」が登場、一部テストでClaude Opus 5.5に勝利し小型オープンモデルも後日公開予定",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/16/qwen4-max/00.png"
+   }
+  },
+  {
+   "label": "ノートPCで動く Edge0-145B",
+   "points": [
+    "1,450億パラメータのモデルをオープンソースで公開",
+    "1回の計算で働くのは約100億パラメータ",
+    "ノートPCで毎秒80トークン以上、メモリは最大29GBと発表"
+   ],
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "lines": [
+    {
+     "say": "続いて、手元のパソコンで動かすモデルです。エッジゼロという会社が、千四百五十億パラメータのモデル、エッジゼロ、ひゃくよんじゅうごビーを、オープンソースで公開しました。",
+     "show": "続いて、手元のパソコンで動かすモデルです。Edge0が、1,450億パラメータの「Edge0-145B」を、オープンソースで公開しました。"
+    },
+    {
+     "say": "ノートパソコンで、毎秒八十トークン以上の速さで文章を生成し、メモリの使用は最大で二十九ギガバイトだと、同社は発表しています。",
+     "show": "ノートパソコンで、毎秒80トークン以上の速さで文章を生成し、メモリの使用は最大29GBだと、同社は発表しています。"
+    }
+   ],
+   "details": [
+    "発表は11月12日。Edge0-120Bと、推論のフレームワーク、導入用のツールも同時に公開されました。重みはHugging Face、フレームワークはGitHubにあります。",
+    "64個のエキスパートが2つの大きな行列を共有する作りです。よく使うエキスパートはGPUのメモリに、約40GBのエキスパートはメインメモリに、約48GBの語彙のデータはSSDに置いて、必要なときに読みます。",
+    "数字は同社の社内での測定です。macOS、Windows、Linuxに対応し、例として48GBのノートPCを挙げています。ライセンスの名前は、発表には書かれていません。"
+   ],
+   "link": {
+    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "title": "Edge0-145B: Open-Source On-Device AI with 145B Parameters",
+    "site": "edge0",
+    "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png"
+   }
+  },
+  {
+   "label": "Uber、AIエージェントを守る枠組み",
+   "points": [
+    "配備前・実行中・配備後の3段階でエージェントを管理",
+    "エージェントはUber AI Registryに登録が必要",
+    "行動が文脈に合うかを実行中に判定"
+   ],
+   "url": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/",
+   "lines": [
+    {
+     "say": "三本目はウーバー。社内のエーアイ・エージェントを、配備の前から、動いているあいだ、そのあとまで管理する、セキュリティの枠組みを紹介しました。",
+     "show": "3本目はUber。社内のAIエージェントを、配備の前から、動いているあいだ、そのあとまで管理する、セキュリティの枠組みを紹介しました。"
+    },
+    {
+     "say": "権限があるかどうかだけでなく、エージェントがしようとしている行動が、その場の文脈に合っているかを、実行の途中で確かめるのが特徴です。",
+     "show": "権限があるかどうかだけでなく、エージェントがしようとしている行動が、その場の文脈に合っているかを、実行の途中で確かめるのが特徴です。"
+    }
+   ],
+   "details": [
+    "InfoQが11月15日に伝えました。エージェントはUber AI Registryに登録し、持ち主、役割、許される目的、制約、リスクの分類などを記録します。Argusという仕組みが、コードやプロンプト、ツールの呼び出し経路を自動で調べます。",
+    "実行中は、AI Guardsが、やりとりや行動を登録された方針に照らして評価し、Agent Guardのフックがその判定を適用します。Uberはこれを「行動の認可」と呼んでいます。",
+    "配備後は、行動・ツールの呼び出し・判定をつないだ記録を残し、方針を変えたときに過去のやりとりを再生して試せます。課題には、誤検知とのバランスや、実行時の遅れを小さくすることを挙げています。"
+   ],
+   "link": {
+    "url": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/",
+    "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
+    "site": "InfoQ",
+    "image": "https://res.infoq.com/news/2026/11/uber-secure-ai-framework/en/headerimage/uber-open-search-semantic-1794769460527.jpeg"
+   }
+  },
+  {
+   "label": "ニューヨーク州、AIを独立に検証する研究拠点",
+   "points": [
+    "SUNYビンガムトン大学に研究センター NYCAIRR",
+    "州内の80人を超える研究者が参加",
+    "大規模な開発企業の登録は2027年1月1日まで"
+   ],
+   "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+   "lines": [
+    {
+     "say": "最後はアメリカのニューヨーク州。最先端のエーアイを、開発企業から独立して検証する研究センターを、ニューヨーク州立大学ビンガムトン校に立ち上げました。",
+     "show": "最後はアメリカのニューヨーク州。最先端のAIを、開発企業から独立して検証する研究センターを、ニューヨーク州立大学ビンガムトン校に立ち上げました。"
+    },
+    {
+     "say": "州内の大学などから、八十人を超える研究者が参加します。あわせて、大規模なエーアイ開発企業が州に登録する窓口も開きました。",
+     "show": "州内の大学などから、80人を超える研究者が参加します。あわせて、大規模なAI開発企業が州に登録する窓口も開きました。"
+    }
+   ],
+   "details": [
+    "発表は11月10日。名前はNew York Center for AI Responsibility and Research（NYCAIRR）。暫定の共同ディレクターは、Cornell Techのグレッグ・モリセット氏と、コロンビア大学のジャネット・ウィング氏です。",
+    "先端のAIの独立した検証、基礎的な研究、安全の専門家の育成が柱です。計算資源は、州の官民共同の取り組みEmpire AIが提供します。",
+    "州のRAISE法にもとづき、大規模な開発企業は2027年1月1日までに登録が必要です。2027年1月からは、安全の枠組みの公開や、重大な安全上の事故の報告などが求められます。"
+   ],
+   "link": {
+    "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+    "title": "Governor Hochul Declares NY Will Lead the Nation in AI Science and Safety; Launches New Research Institute",
+    "site": "Governor Kathy Hochul",
+    "image": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/2026-11/aisafety.jpg?h=f64511b9&itok=ODZfsICT"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、クウェン・フォー・マックスの正式リリース。料金は、百万トークンあたり、入力が一ドル五十セントです。",
+   "show": "今日の注目は、Qwen4-Maxの正式リリース。料金は、100万トークンあたり、入力が1.5ドルです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-17",
+ "lang": "ja",
+ "seconds": 110.15,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.68,
+   "show": "おはようございます、AIテックラジオです。11月17日、火曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.93,
+   "end": 14.29,
+   "show": "今日は、Alibabaの新しいモデルの正式リリースや、ノートパソコンで動く大型モデルなど、4本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 15.34,
+   "end": 21.943,
+   "show": "まずはAlibaba。プレビュー版が出ていた「Qwen4-Max」を、11月16日に正式リリースしました。",
+   "part": 1
+  },
+  {
+   "start": 22.193,
+   "end": 33.041,
+   "show": "APIの料金は、100万トークンあたり、入力が1.5ドル、出力が4.5ドル。重みを公開する版も、あとから出す予定だそうです。",
+   "part": 1
+  },
+  {
+   "start": 34.091,
+   "end": 45.867,
+   "show": "続いて、手元のパソコンで動かすモデルです。Edge0が、1,450億パラメータの「Edge0-145B」を、オープンソースで公開しました。",
+   "part": 2
+  },
+  {
+   "start": 46.117,
+   "end": 55.557,
+   "show": "ノートパソコンで、毎秒80トークン以上の速さで文章を生成し、メモリの使用は最大29GBだと、同社は発表しています。",
+   "part": 2
+  },
+  {
+   "start": 56.607,
+   "end": 65.919,
+   "show": "3本目はUber。社内のAIエージェントを、配備の前から、動いているあいだ、そのあとまで管理する、セキュリティの枠組みを紹介しました。",
+   "part": 3
+  },
+  {
+   "start": 66.169,
+   "end": 75.097,
+   "show": "権限があるかどうかだけでなく、エージェントがしようとしている行動が、その場の文脈に合っているかを、実行の途中で確かめるのが特徴です。",
+   "part": 3
+  },
+  {
+   "start": 76.147,
+   "end": 86.621,
+   "show": "最後はアメリカのニューヨーク州。最先端のAIを、開発企業から独立して検証する研究センターを、ニューヨーク州立大学ビンガムトン校に立ち上げました。",
+   "part": 4
+  },
+  {
+   "start": 86.871,
+   "end": 96.429,
+   "show": "州内の大学などから、80人を超える研究者が参加します。あわせて、大規模なAI開発企業が州に登録する窓口も開きました。",
+   "part": 4
+  },
+  {
+   "start": 97.479,
+   "end": 105.713,
+   "show": "今日の注目は、Qwen4-Maxの正式リリース。料金は、100万トークンあたり、入力が1.5ドルです。",
+   "part": 5
+  },
+  {
+   "start": 105.963,
+   "end": 108.097,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.34
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.34,
+   "end": 34.091
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 34.091,
+   "end": 56.607
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 56.607,
+   "end": 76.147
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 76.147,
+   "end": 97.479
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 97.479,
+   "end": 110.147
+  }
+ ],
+ "made_at": "2026-11-17T08:25:38"
+}
