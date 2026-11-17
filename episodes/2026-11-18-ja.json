@@ -1,0 +1,311 @@
+{
+ "title": "OpenAI、GPT-6.2 AstraとSolを公開",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十八日、水曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月18日、水曜日の朝です。"
+  },
+  {
+   "say": "今日は、オープンエーアイの新しいモデルや、にほんでも無料になったジェミニの機能など、五本お届けします。",
+   "show": "今日は、OpenAIの新しいモデルや、日本でも無料になったGeminiの機能など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "GPT-6.2 Astra と Sol",
+   "points": [
+    "OpenAIが GPT-6.2 Astra と GPT-6.2 Sol を公開",
+    "ChatGPTの有料プラン、Codex、APIで利用可能",
+    "Astraは入力・出力のトークン料金が20%安く"
+   ],
+   "url": "https://www.thurrott.com/a-i/344003/openai-launches-gpt-6-2-astra-and-sol-models-in-chatgpt-work-and-codex",
+   "lines": [
+    {
+     "say": "まずはオープンエーアイ。新しいモデル、ジーピーティー・ろくてんに・アストラと、ジーピーティー・ろくてんに・ソルを公開しました。",
+     "show": "まずはOpenAI。新しいモデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開しました。"
+    },
+    {
+     "say": "チャットジーピーティーの有料プランと、コーデックス、エーピーアイで使えます。アストラは、入力と出力の料金が、二十パーセント安くなったそうです。",
+     "show": "ChatGPTの有料プランと、Codex、APIで使えます。Astraは、入力と出力の料金が、20%安くなったそうです。"
+    }
+   ],
+   "details": [
+    "Thurrott.comによると、Astraは専門的な仕事や科学の仕事に向けた最上位のモデル、Solは幅広い仕事に向けた、より手ごろなモデルです。",
+    "ChatGPT WorkとCodexでは、Plus、Pro、Enterprise、Eduのユーザーが11月17日から使えます。開発者はOpenAIのAPIから両方のモデルを使えます。",
+    "Astraは入力・出力のトークンが20%、キャッシュされた入力が60%の値下げ。SolはGPT-6.1 Solのトークン料金を引き継ぐと伝えられています。"
+   ],
+   "link": {
+    "url": "https://www.thurrott.com/a-i/344003/openai-launches-gpt-6-2-astra-and-sol-models-in-chatgpt-work-and-codex",
+    "title": "OpenAI Launches GPT‑6.2 Astra and Sol Models in ChatGPT Work and Codex",
+    "site": "Thurrott.com",
+    "image": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/11/OpenAI-GPT-6.2-Astra-Sol.jpg"
+   }
+  },
+  {
+   "label": "Microsoft AI の MAI Code 2",
+   "points": [
+    "企業のコーディング向けに MAI Code 2 と MAI Code 2 Flash",
+    "GPT-6.1 Solの98%の性能を40%の費用で、とMicrosoftは発表",
+    "どちらも GitHub Copilot で利用可能"
+   ],
+   "url": "https://www.unite.ai/microsoft-ai-releases-mai-code-2-and-mai-code-2-flash-for-enterprises/",
+   "lines": [
+    {
+     "say": "続いてマイクロソフト・エーアイ。企業のコーディング向けに、エムエーアイ・コード・ツーと、軽量版のフラッシュを発表しました。",
+     "show": "続いてMicrosoft AI。企業のコーディング向けに、「MAI Code 2」と、軽量版の「MAI Code 2 Flash」を発表しました。"
+    },
+    {
+     "say": "ジーピーティー・ろくてんいち・ソルの九十八パーセントの性能を、四十パーセントの費用で出せるとしています。ギットハブ・コパイロットで使えます。",
+     "show": "GPT-6.1 Solの98%の性能を、40%の費用で出せるとしています。GitHub Copilotで使えます。"
+    }
+   ],
+   "details": [
+    "MAI Code 2は本番コードの変更や複数ファイルにまたがる実装、Flashはコードの説明や小さな修正など、数の多い作業に向けたモデルです。",
+    "Unite.AIによると、4つのベンチマークの平均は、MAI Code 2が63.2%で1タスクあたり0.309ドル、GPT-6.1 Solが64.1%で0.761ドル。費用は50%引きのプロモーション価格での計算です。",
+    "MAI Code 2 Flashは、Microsoft Foundryでも限定プレビュー。OpenRouterやVercelなどでの提供も予定されていますが、時期は書かれていません。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/microsoft-ai-releases-mai-code-2-and-mai-code-2-flash-for-enterprises/",
+    "title": "Microsoft AI Releases MAI Code 2 and MAI Code 2 Flash for Enterprises",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/microsoft-ai-releases-mai-code-2-and-mai-code-2-flash-for-enterprises.jpg"
+   }
+  },
+  {
+   "label": "Gemini の Tasks、日本でも無料に",
+   "points": [
+    "Geminiアプリの「Tasks」が6か国で無料に",
+    "米国、日本、韓国、カナダ、オーストラリア、インド",
+    "電話の代行と支払いは米国のみ"
+   ],
+   "url": "https://hashout.jp/ai/14518/",
+   "lines": [
+    {
+     "say": "三本目はグーグル。ジェミニアプリのタスクという機能が、にほんを含む六か国で無料になりました。",
+     "show": "3本目はGoogle。Geminiアプリの「Tasks」という機能が、日本を含む6か国で無料になりました。"
+    },
+    {
+     "say": "時間のかかる作業を、裏で進めてくれる機能で、これまでは有料プラン向けでした。電話の代行と支払いは、アメリカだけだそうです。",
+     "show": "時間のかかる作業を、裏で進めてくれる機能で、これまでは有料プラン向けでした。電話の代行と支払いは、米国だけだそうです。"
+    }
+   ],
+   "details": [
+    "shiritomoによると、TasksはGeminiアプリで「Chat」と並ぶモードです。電気料金の請求書の分析や、商品の比較などが例に挙げられています。",
+    "対象は18歳以上の個人のGoogleアカウント。Workspaceや学校のアカウントは対象外で、6か国以外では引き続きAI ProかUltraが必要と伝えられています。",
+    "購入に関わる操作の前には確認を求め、あいまいな指示には質問を返すとのこと。お店への電話の代行と、Google Payでの支払いは米国のみです。"
+   ],
+   "link": {
+    "url": "https://hashout.jp/ai/14518/",
+    "title": "Geminiの有料機能「Tasks」が無料に、日本など6カ国に拡大――電話代行や決済は米国限定のまま",
+    "site": "shiritomo",
+    "image": "https://hashout.jp/wp-content/uploads/2026/11/2122781094260908372-img-1200x675.png"
+   }
+  },
+  {
+   "label": "Office in Copilot が一般提供に",
+   "points": [
+    "CopilotアプリでWord・Excel・PowerPointを作成・編集",
+    "Microsoft Igniteで一般提供を発表",
+    "新機能「Today」はプライベートプレビュー"
+   ],
+   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+   "lines": [
+    {
+     "say": "四本目はマイクロソフト。コパイロットのアプリの中でオフィスを使う、オフィス・イン・コパイロットが、一般提供になりました。",
+     "show": "4本目はMicrosoft。Copilotのアプリの中でOfficeを使う「Office in Copilot」が、一般提供になりました。"
+    },
+    {
+     "say": "ワード、エクセル、パワーポイントの文書を、コパイロットの中で作って編集できます。メールや予定をまとめて見るトゥデイは、プライベートプレビューです。",
+     "show": "Word、Excel、PowerPointの文書を、Copilotの中で作って編集できます。メールや予定をまとめて見る「Today」は、プライベートプレビューです。"
+    }
+   ],
+   "details": [
+    "Microsoftのブログによると、ChatとCoworkをまとめた「Home」と、Office in Copilotが一般提供になりました。Copilotのライセンスに含まれるとしています。",
+    "ファイルには、Microsoft 365の権限、秘密度ラベル、コンプライアンスの設定が引き継がれます。",
+    "Todayは、メール、予定、Teams、会議、タスクをまとめて見る画面で、CopilotアプリとOutlookでプライベートプレビュー中です。"
+   ],
+   "link": {
+    "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+    "title": "Copilot at Microsoft Ignite: Expanding what's possible with intelligence built for work",
+    "site": "Microsoft Copilot Blog",
+    "image": "https://www.microsoft.com/en-us/copilot/blog/wp-content/uploads/sites/2/2026/11/Copilot-Blog-Header_Hero-Blog_Ignite-FY27_social-resize.png"
+   }
+  },
+  {
+   "label": "NVIDIA、第3四半期の決算",
+   "points": [
+    "売上高は1,158億ドル、前年同期から103%増",
+    "データセンター部門は1,076億ドル",
+    "次の四半期は1,300億ドル（±3%）の見通し"
+   ],
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+   "lines": [
+    {
+     "say": "最後はエヌビディアの決算です。十月二十五日までの三か月の売上高は、千百五十八億ドル。一年前から百三パーセント増えました。",
+     "show": "最後はNVIDIAの決算です。10月25日までの3か月の売上高は、1,158億ドル。1年前から103%増えました。"
+    },
+    {
+     "say": "次の四半期は、千三百億ドル前後の見通しです。暫定シーイーオーのコレット・クレス氏は、勢いは本物だとコメントしています。",
+     "show": "次の四半期は、1,300億ドル前後の見通しです。暫定CEOのコレット・クレス氏は、「勢いは本物だ」とコメントしています。"
+    }
+   ],
+   "details": [
+    "2027会計年度の第3四半期（2026年10月25日まで）の売上高は1,158億ドル。前の四半期の962億ドルから20%、前年同期の570億ドルから103%の増加です。",
+    "データセンター部門の売上高は1,076億ドルで、前の四半期から21%、前年同期から110%増えました。",
+    "第4四半期の売上高の見通しは1,300億ドル（±3%）。中国向けのデータセンター用の計算製品の売上は見込んでいないとしています。"
+   ],
+   "link": {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+    "site": "NVIDIA Newsroom",
+    "image": "https://iprsoftwaremedia.com/219/files/20224/628c2a47b3aed32797213f6c_voyager-exterior-sign-2/voyager-exterior-sign-2_1829ac3c-85ac-4929-8c67-5994c15c70c9-prv.jpg?v=1829ac3c-85ac-4929-8c67-5994c15c70c9"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ジーピーティー・ろくてんに・アストラとソル。チャットジーピーティーの有料プランで、もう使えます。",
+   "show": "今日の注目は、GPT-6.2 AstraとSol。ChatGPTの有料プランで、もう使えます。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "ja",
+ "seconds": 118.08,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.797,
+   "show": "おはようございます、AIテックラジオです。11月18日、水曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.047,
+   "end": 13.874,
+   "show": "今日は、OpenAIの新しいモデルや、日本でも無料になったGeminiの機能など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.924,
+   "end": 22.38,
+   "show": "まずはOpenAI。新しいモデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開しました。",
+   "part": 1
+  },
+  {
+   "start": 22.63,
+   "end": 32.87,
+   "show": "ChatGPTの有料プランと、Codex、APIで使えます。Astraは、入力と出力の料金が、20%安くなったそうです。",
+   "part": 1
+  },
+  {
+   "start": 33.92,
+   "end": 41.472,
+   "show": "続いてMicrosoft AI。企業のコーディング向けに、「MAI Code 2」と、軽量版の「MAI Code 2 Flash」を発表しました。",
+   "part": 2
+  },
+  {
+   "start": 41.722,
+   "end": 51.119,
+   "show": "GPT-6.1 Solの98%の性能を、40%の費用で出せるとしています。GitHub Copilotで使えます。",
+   "part": 2
+  },
+  {
+   "start": 52.169,
+   "end": 58.292,
+   "show": "3本目はGoogle。Geminiアプリの「Tasks」という機能が、日本を含む6か国で無料になりました。",
+   "part": 3
+  },
+  {
+   "start": 58.542,
+   "end": 67.363,
+   "show": "時間のかかる作業を、裏で進めてくれる機能で、これまでは有料プラン向けでした。電話の代行と支払いは、米国だけだそうです。",
+   "part": 3
+  },
+  {
+   "start": 68.413,
+   "end": 75.976,
+   "show": "4本目はMicrosoft。Copilotのアプリの中でOfficeを使う「Office in Copilot」が、一般提供になりました。",
+   "part": 4
+  },
+  {
+   "start": 76.226,
+   "end": 86.029,
+   "show": "Word、Excel、PowerPointの文書を、Copilotの中で作って編集できます。メールや予定をまとめて見る「Today」は、プライベートプレビューです。",
+   "part": 4
+  },
+  {
+   "start": 87.079,
+   "end": 96.807,
+   "show": "最後はNVIDIAの決算です。10月25日までの3か月の売上高は、1,158億ドル。1年前から103%増えました。",
+   "part": 5
+  },
+  {
+   "start": 97.057,
+   "end": 105.643,
+   "show": "次の四半期は、1,300億ドル前後の見通しです。暫定CEOのコレット・クレス氏は、「勢いは本物だ」とコメントしています。",
+   "part": 5
+  },
+  {
+   "start": 106.693,
+   "end": 113.648,
+   "show": "今日の注目は、GPT-6.2 AstraとSol。ChatGPTの有料プランで、もう使えます。",
+   "part": 6
+  },
+  {
+   "start": 113.898,
+   "end": 116.031,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.924
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.924,
+   "end": 33.92
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 33.92,
+   "end": 52.169
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 52.169,
+   "end": 68.413
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 68.413,
+   "end": 87.079
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 87.079,
+   "end": 106.693
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 106.693,
+   "end": 118.081
+  }
+ ],
+ "made_at": "2026-11-18T08:25:25"
+}
