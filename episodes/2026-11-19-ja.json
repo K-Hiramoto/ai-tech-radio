@@ -1,0 +1,310 @@
+{
+ "title": "Suno、曲から映像を作るVisualsを公開",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十九日、木曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月19日、木曜日の朝です。"
+  },
+  {
+   "say": "今日は、曲から映像を作るスーノの新機能や、ジャバで見つかった脆弱性など、五本お届けします。",
+   "show": "今日は、曲から映像を作るSunoの新機能や、Javaで見つかった脆弱性など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Suno、曲から映像を作る Visuals",
+   "points": [
+    "Sunoが11月17日に新機能「Visuals」を公開",
+    "歌詞の動画、アルバムのアート、最大15秒のクリップ",
+    "Web・iOS・Androidで提供、クレジットは曲とは別"
+   ],
+   "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
+   "lines": [
+    {
+     "say": "まずは音楽生成のスーノ。曲から画像や動画を作る新機能、ビジュアルズを公開しました。",
+     "show": "まずは音楽生成のSuno。曲から画像や動画を作る新機能「Visuals」を公開しました。"
+    },
+    {
+     "say": "歌詞の動画やアルバムのアート、最大十五秒のクリップを作れます。ウェブと、アイオーエス、アンドロイドで使えます。",
+     "show": "歌詞の動画やアルバムのアート、最大15秒のクリップを作れます。Webと、iOS、Androidで使えます。"
+    }
+   ],
+   "details": [
+    "Unite.AIによると、Sunoは11月17日にVisualsを公開しました。自分のライブラリにある曲をもとに、画像や動画を作れます。10月に出た音声向けの「Speech」ベータに続く機能です。",
+    "Sunoは、モデルが曲の構成に沿い、歌詞に反応し、口の動きも合わせるとしています。Sunoのキャラクターや、自分で用意した画像・写真から始めることもできます。",
+    "Visualsのクレジットは、曲のクレジットとは別に買う形です。特定のアーティストや著名人、著作物を描く指示やアップロードを拒むフィルターも加えたとしています。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
+    "title": "Suno Launches Visuals for AI-Generated Lyric Videos and Album Art",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art.jpg"
+   }
+  },
+  {
+   "label": "Palo Alto Networks、Applied Compute を買収へ",
+   "points": [
+    "オープンウェイトのAIモデルの追加学習と推論の基盤を手がける企業",
+    "すべて株式による取引で、45億ドル",
+    "完了は2027会計年度の第3四半期の見込み"
+   ],
+   "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+   "lines": [
+    {
+     "say": "続いて、セキュリティ大手のパロアルト・ネットワークス。オープンウェイトのエーアイモデルを扱う、アプライド・コンピュートを買収すると発表しました。",
+     "show": "続いて、セキュリティ大手のPalo Alto Networks。オープンウェイトのAIモデルを扱う、Applied Computeを買収すると発表しました。"
+    },
+    {
+     "say": "すべて株式による取引で、金額は四十五億ドル。完了は、二千二十七会計年度の第三四半期の見込みです。",
+     "show": "すべて株式による取引で、金額は45億ドル。完了は、2027会計年度の第3四半期の見込みです。"
+    }
+   ],
+   "details": [
+    "11月18日の発表によると、Applied Computeは、オープンウェイトのAIモデルの追加学習（ポストトレーニング）と推論のためのプラットフォームです。金額は調整が入ることがあるとしています。",
+    "ねらいは、企業がオープンウェイトのモデルを、セキュリティを組み込んだ形で学習・調整・配備できるようにすること。パブリッククラウドでも、ソブリン環境でも使えるようにするとしています。",
+    "完了には規制当局の承認などが必要です。Applied Computeのチームは Palo Alto Networks に加わり、共同創業者でCEOのYash Patil氏は、完了後に共同の最高AI責任者に就く予定です。"
+   ],
+   "link": {
+    "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+    "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise",
+    "site": "Palo Alto Networks"
+   }
+  },
+  {
+   "label": "Gemini、履歴とAI学習の設定を分離",
+   "points": [
+    "チャットの履歴と、AIの学習への利用を別々に設定",
+    "履歴を残したまま、学習への利用だけを断れる",
+    "履歴オフ時の保存は72時間から約2か月に"
+   ],
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517",
+   "lines": [
+    {
+     "say": "グーグルのジェミニでは、チャットの履歴を残すかどうかと、エーアイの学習に使うかどうかを、別々に設定できるようになりました。",
+     "show": "GoogleのGeminiでは、チャットの履歴を残すかどうかと、AIの学習に使うかどうかを、別々に設定できるようになりました。"
+    },
+    {
+     "say": "一方で、履歴をオフにしたときの保存期間は、これまでの七十二時間から、およそ二か月に延びたと、ザ・レジスターが伝えています。",
+     "show": "一方で、履歴をオフにしたときの保存期間は、これまでの72時間から、およそ2か月に延びたと、The Registerが伝えています。"
+    }
+   ],
+   "details": [
+    "The Registerによると、Googleは11月16日に変更を発表しました。これまでは履歴の保存と学習への利用がひとつの設定にまとまっていましたが、履歴を残したまま、学習への利用を断れるようになりました。",
+    "新しい「履歴」の設定をオフにすると、その後のチャットは約2か月保存されます。Googleは、応答、フィードバックの処理、Googleや利用者、社会の保護のために使うとしています。",
+    "応答にフィードバックを送ると、その会話は3年間保存され、人による確認の対象になります。この点は変更の前後で同じだと、The Registerは伝えています。"
+   ],
+   "link": {
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517",
+    "title": "Opting out of Gemini tracking? Google will still hold your data 20x longer",
+    "site": "The Register",
+    "image": "https://image.theregister.com/248218.jpg?imageId=248218&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+   }
+  },
+  {
+   "label": "Vals、模擬の戦闘場面でAIモデルをテスト",
+   "points": [
+    "AI評価のValsが、主要モデルを模擬の標的選びでテスト",
+    "民間人や投降した兵士まで標的に挙げる例が多かった",
+    "断っても「ゲームだ」と伝えると応じることが多い"
+   ],
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "lines": [
+    {
+     "say": "エーアイの評価を手がけるバルズが、主要なモデルを、模擬の戦闘の場面でテストした報告書を公開しました。",
+     "show": "AIの評価を手がけるValsが、主要なモデルを、模擬の戦闘の場面でテストした報告書を公開しました。"
+    },
+    {
+     "say": "ドローンや衛星の画像から、民間人まで標的として挙げる例が多く、断ったモデルも、ゲームだと伝えると応じることが多かったと、テッククランチが伝えています。",
+     "show": "ドローンや衛星の画像から、民間人まで標的として挙げる例が多く、断ったモデルも、「ゲームだ」と伝えると応じることが多かったと、TechCrunchが伝えています。"
+    }
+   ],
+   "details": [
+    "TechCrunchによると、対象はOpenAI、Anthropic、Google、DeepSeekなどのモデルです。模擬のシナリオと、生成した画像や実際の画像を使って調べました。",
+    "研究者の依頼が安全用の分類器に止められたことは一度もなかったとしています。模擬の場面でいちばん成績が悪かったのはAnthropicのモデルで、Anthropicは、明確に規約違反であり、追加の安全策を開発中だとコメントしています。",
+    "報告書では、モデルに攻撃の判断そのものは求めていません。懸念として挙げているのは、戦場の映像に大量に注釈を付け、自律的な標的選びのシステムの学習に使われることです。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+    "title": "AI models can be tricked into identifying civilians as military targets by telling them it's a game | TechCrunch",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675"
+   }
+  },
+  {
+   "label": "Java の脆弱性「Java4Shell」",
+   "points": [
+    "OpenJDKのBase64デコーダーにバッファオーバーフロー（CVE-2026-114938）",
+    "認証なしで、外からコードを実行されるおそれ",
+    "Oracleが11月17日に修正版、対象は17・21・25・27"
+   ],
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17/",
+   "lines": [
+    {
+     "say": "最後はセキュリティです。ジャバに、ジャバ・フォー・シェルと呼ばれる脆弱性が見つかり、オラクルが十一月十七日に修正版を出しました。",
+     "show": "最後はセキュリティです。Javaに、「Java4Shell」と呼ばれる脆弱性が見つかり、Oracleが11月17日に修正版を出しました。"
+    },
+    {
+     "say": "認証なしで、外からコードを実行されるおそれがあります。対象はオープン・ジェーディーケーの十七、二十一、二十五、二十七で、ラピッド・セブンは早めの更新を勧めています。",
+     "show": "認証なしで、外からコードを実行されるおそれがあります。対象はOpenJDKの17、21、25、27で、Rapid7は早めの更新を勧めています。"
+    }
+   ],
+   "details": [
+    "Rapid7によると、原因は、OpenJDKのハードウェアで高速化されたBase64デコーダーにある、ヒープのバッファオーバーフローです。Oracle Java SEやGraalVMなど、OpenJDKをもとにした製品にも影響します。見つけたCalifが「Java4Shell」と名付けました。",
+    "影響を受けるのは、AVX-512 VBMIに対応したx86-64で、Base64の高速化が有効な場合です（影響のあるビルドでは既定で有効）。認証の前にBasic認証の情報をデコードする処理など、信頼できないデータがデコーダーに届くと、アプリを止められたり、コードを実行されたりするおそれがあります。",
+    "修正版は、Oracle Java SE の 17.0.21.1、21.0.13.1、25.0.5.1、27.0.1.1 など。すぐに更新できない場合の一時的な対策として、JVMを -XX:-UseBASE64Intrinsics を付けて再起動する方法が挙げられています。"
+   ],
+   "link": {
+    "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17/",
+    "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
+    "site": "Rapid7",
+    "image": "https://www.rapid7.com/cdn/images/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、スーノのビジュアルズ。手元の曲から、歌詞の動画や短いクリップを作れます。",
+   "show": "今日の注目は、SunoのVisuals。手元の曲から、歌詞の動画や短いクリップを作れます。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-19",
+ "lang": "ja",
+ "seconds": 117.7,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.669,
+   "show": "おはようございます、AIテックラジオです。11月19日、木曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.919,
+   "end": 13.725,
+   "show": "今日は、曲から映像を作るSunoの新機能や、Javaで見つかった脆弱性など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.775,
+   "end": 20.876,
+   "show": "まずは音楽生成のSuno。曲から画像や動画を作る新機能「Visuals」を公開しました。",
+   "part": 1
+  },
+  {
+   "start": 21.126,
+   "end": 28.817,
+   "show": "歌詞の動画やアルバムのアート、最大15秒のクリップを作れます。Webと、iOS、Androidで使えます。",
+   "part": 1
+  },
+  {
+   "start": 29.867,
+   "end": 38.517,
+   "show": "続いて、セキュリティ大手のPalo Alto Networks。オープンウェイトのAIモデルを扱う、Applied Computeを買収すると発表しました。",
+   "part": 2
+  },
+  {
+   "start": 38.767,
+   "end": 47.034,
+   "show": "すべて株式による取引で、金額は45億ドル。完了は、2027会計年度の第3四半期の見込みです。",
+   "part": 2
+  },
+  {
+   "start": 48.084,
+   "end": 56.223,
+   "show": "GoogleのGeminiでは、チャットの履歴を残すかどうかと、AIの学習に使うかどうかを、別々に設定できるようになりました。",
+   "part": 3
+  },
+  {
+   "start": 56.473,
+   "end": 65.166,
+   "show": "一方で、履歴をオフにしたときの保存期間は、これまでの72時間から、およそ2か月に延びたと、The Registerが伝えています。",
+   "part": 3
+  },
+  {
+   "start": 66.216,
+   "end": 73.064,
+   "show": "AIの評価を手がけるValsが、主要なモデルを、模擬の戦闘の場面でテストした報告書を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 73.314,
+   "end": 83.703,
+   "show": "ドローンや衛星の画像から、民間人まで標的として挙げる例が多く、断ったモデルも、「ゲームだ」と伝えると応じることが多かったと、TechCrunchが伝えています。",
+   "part": 4
+  },
+  {
+   "start": 84.753,
+   "end": 93.201,
+   "show": "最後はセキュリティです。Javaに、「Java4Shell」と呼ばれる脆弱性が見つかり、Oracleが11月17日に修正版を出しました。",
+   "part": 5
+  },
+  {
+   "start": 93.451,
+   "end": 105.782,
+   "show": "認証なしで、外からコードを実行されるおそれがあります。対象はOpenJDKの17、21、25、27で、Rapid7は早めの更新を勧めています。",
+   "part": 5
+  },
+  {
+   "start": 106.832,
+   "end": 113.264,
+   "show": "今日の注目は、SunoのVisuals。手元の曲から、歌詞の動画や短いクリップを作れます。",
+   "part": 6
+  },
+  {
+   "start": 113.514,
+   "end": 115.647,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.775
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.775,
+   "end": 29.867
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 29.867,
+   "end": 48.084
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 48.084,
+   "end": 66.216
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 66.216,
+   "end": 84.753
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 84.753,
+   "end": 106.832
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 106.832,
+   "end": 117.697
+  }
+ ],
+ "made_at": "2026-11-19T08:27:30"
+}
