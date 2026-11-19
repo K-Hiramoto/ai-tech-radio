@@ -1,0 +1,310 @@
+{
+ "title": "OpenAI、自社AIでチップ設計を改善",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十日、金曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月20日、金曜日の朝です。"
+  },
+  {
+   "say": "今日は、オープンエーアイがエーアイでチップの設計を改善した話など、五本お届けします。",
+   "show": "今日は、OpenAIがAIでチップの設計を改善した話など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenAI、自社AIでチップ設計を改善",
+   "points": [
+    "独自の推論チップ「Jalapeño」とAMDの製品の設計にAIを活用",
+    "AMDとの取り組みでPPAが最大14%改善とOpenAIは発表",
+    "Synopsysの設計ツールを操作するAIモデルも開発中"
+   ],
+   "url": "https://gigazine.net/news/20261119-openai-jalapeno-amd-advancing-chip/",
+   "lines": [
+    {
+     "say": "まずはオープンエーアイ。自社のエーアイを使って、独自の推論チップ、ハラペーニョと、エーエムディーの製品の設計を改善したと発表しました。",
+     "show": "まずはOpenAI。自社のAIを使って、独自の推論チップ「Jalapeño」と、AMDの製品の設計を改善したと発表しました。"
+    },
+    {
+     "say": "ギガジンによると、エーエムディーとの取り組みでは、電力、性能、面積の指標が最大十四パーセント改善。通常一年ほどかかる作業が、五か月で済んだそうです。",
+     "show": "GIGAZINEによると、AMDとの取り組みでは、電力・性能・面積（PPA）の指標が最大14%改善。通常1年ほどかかる作業が、5か月で済んだそうです。"
+    }
+   ],
+   "details": [
+    "GIGAZINEによると、JalapeñoはOpenAIがBroadcomと共同で開発した推論チップです。設計にはo3-miniが使われ、ベクトルユニットのセル面積を約13%、行列ユニットのセル面積を10%減らしたとOpenAIは説明しています。",
+    "AMDとの取り組みでは、高度に最適化された基準に対して、PPAが最大14%改善したとのこと。AMDはこの変更を製品の設計に取り入れていて、次世代のフラッグシップCPUの主要なブロックでも、PPAが1桁台のパーセントで改善したとしています。",
+    "RISC-VのコアPicoRV32を改善させる実験では、比べたモデルの中でGPT-6.2 Astraが、最も低い費用で最も大きな改善を出したそうです。Synopsysの設計ツールを操作するモデル「GPT-Synopsys」も開発しています。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261119-openai-jalapeno-amd-advancing-chip/",
+    "title": "OpenAIがAIを用いてAMD製GPUや独自開発AIチップの改善に成功、半導体設計の専用AIモデルも開発",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/19/openai-jalapeno-amd-advancing-chip/00.jpg"
+   }
+  },
+  {
+   "label": "Microsoft-Decision-1.1 が一般提供に",
+   "points": [
+    "判定に特化したモデル Microsoft-Decision-1.1 が一般提供に",
+    "Microsoft Foundry のほか、OpenRouter と Vercel からも",
+    "料金はトークン単位で、出力トークンは無料"
+   ],
+   "url": "https://scalevise.com/resources/microsoft-decision-1-1-general-availability/",
+   "lines": [
+    {
+     "say": "続いてマイクロソフト。判定に特化したモデル、マイクロソフト・ディシジョン・いってんいちが、一般提供になりました。",
+     "show": "続いてMicrosoft。判定に特化したモデル「Microsoft-Decision-1.1」が、一般提供になりました。"
+    },
+    {
+     "say": "振り分けや分類などを素早く判定するモデルで、マイクロソフト・ファウンドリーのほか、オープンルーターとヴァーセルからも使えます。",
+     "show": "振り分けや分類などを素早く判定するモデルで、Microsoft Foundryのほか、OpenRouterとVercelからも使えます。"
+    }
+   ],
+   "details": [
+    "Scaleviseによると、Microsoft-Decision-1.1は、アプリや自動化されたワークフローの中で、振り分け、分類、優先順位づけ、検証、ワークフローの制御といった判定を、速く、確からしさを調整した形で返すためのモデルです。画像を含むマルチモーダルの入力に対応するとMicrosoftは説明しています。",
+    "料金はトークン単位で、出力トークンは無料です。パブリックプレビューの間に、数千の顧客が採用したとMicrosoftは述べています。",
+    "Microsoftは、102のベンチマーク、38万5,000問でテストしたとしています。Artificial Analysis の Decision Index（バージョン2.1）のスコアは68で、Google の Gemini Decision 1 などを上回ると発表しています。"
+   ],
+   "link": {
+    "url": "https://scalevise.com/resources/microsoft-decision-1-1-general-availability/",
+    "title": "Microsoft Decision 1.1 Is Now Generally Available",
+    "site": "Scalevise Resources",
+    "image": "https://scalevise.com/resources/content/images/2026/11/microsoft-decision-1-1-general-availability.webp"
+   }
+  },
+  {
+   "label": "層を繰り返し使う SenseNova-Loop-9B",
+   "points": [
+    "SenseNova-Loop-9B を Apache 2.0 で公開",
+    "約90億パラメータ、層の一部を2回通して約146億相当の計算",
+    "文脈は512Kトークン、テキストと画像を入力"
+   ],
+   "url": "https://aiweekly.co/alerts/sensenova-open-sources-loop-9b-a-9b-looped-decoder-multimodal-model-with-512k",
+   "lines": [
+    {
+     "say": "三本目は、中国のセンスノヴァ。層を繰り返し使うモデル、センスノヴァ・ループ・ナインビーを、アパッチ・にーてんぜろのライセンスで公開しました。",
+     "show": "3本目は、中国のSenseNova。層を繰り返し使うモデル「SenseNova-Loop-9B」を、Apache 2.0のライセンスで公開しました。"
+    },
+    {
+     "say": "パラメータは約九十億。真ん中の層を二回通すことで、およそ百四十六億パラメータ相当の計算をします。",
+     "show": "パラメータは約90億。真ん中の層を2回通すことで、およそ146億パラメータ相当の計算をします。"
+    }
+   ],
+   "details": [
+    "AI Weeklyによると、公開は11月17日。層は32あり、最初の4層のあと、24層のブロックを同じ重みで2回実行し、最後に4層を通します。1回の計算で、デコーダーの層を56回通ることになります。",
+    "入力はテキストと画像、出力はテキストです。公式の4ビット量子化版は、文脈64Kで約10GiB、256Kで約15GiBのメモリが必要だとされています。",
+    "Qwen3.8-27B との比較では、AutomationBench が同じ36.67、AIDABench が65.31対65.01、NL2Repo は41.36対44.60。vLLM と SGLang への対応はプルリクエストの段階で、取り込み済みとはされていません。"
+   ],
+   "link": {
+    "url": "https://aiweekly.co/alerts/sensenova-open-sources-loop-9b-a-9b-looped-decoder-multimodal-model-with-512k",
+    "title": "SenseNova Open-Sources Loop-9B Model With 512K Context | AI Weekly",
+    "site": "AI Weekly"
+   }
+  },
+  {
+   "label": "Gemini アプリ、Android (Go edition) に対応",
+   "points": [
+    "メモリの少ない端末向けの Android (Go edition) に Gemini アプリ",
+    "音声で会話する Gemini Live は45以上の言語に対応",
+    "Transsion などの今後の端末にプリインストール予定"
+   ],
+   "url": "https://tech-noisy.com/2026/11/19/gemini-app-android-go-edition/",
+   "lines": [
+    {
+     "say": "四本目はグーグル。ジェミニのアプリが、メモリの少ない端末向けの、アンドロイド・ゴー・エディションに対応します。",
+     "show": "4本目はGoogle。Geminiのアプリが、メモリの少ない端末向けの、Android (Go edition) に対応します。"
+    },
+    {
+     "say": "テックノイジーによると、音声で会話するジェミニ・ライブや、画像の生成も使えます。対象の機種の一覧は、まだ確認できていないそうです。",
+     "show": "TECH NOISYによると、音声で会話するGemini Liveや、画像の生成も使えます。対象の機種の一覧は、まだ確認できていないそうです。"
+    }
+   ],
+   "details": [
+    "TECH NOISYによると、Googleは11月18日に、Geminiアプリを、対象となる Android (Go edition) の端末に提供すると発表しました。Go edition は、メモリの少ないスマートフォン向けの軽量版のAndroidです。",
+    "Gemini Live は、2026年11月の時点で45を超える言語に対応しているとのこと。その中に日本語が含まれるか、日本でも同じ機能が始まるかは、記事の時点では確認できていないとしています。",
+    "Transsion などのパートナーが今後出す端末には、あらかじめインストールされる予定です。その端末がいつ出るかは、確認できていないとしています。"
+   ],
+   "link": {
+    "url": "https://tech-noisy.com/2026/11/19/gemini-app-android-go-edition/",
+    "title": "Gemini アプリ - 低メモリ端末対応とは?Android (Go edition) の対象と変更点",
+    "site": "TECH NOISY",
+    "image": "https://tech-noisy.com/wp-content/uploads/2026/11/ai-codex-paste-12595.webp"
+   }
+  },
+  {
+   "label": "nginx、HTTP/2 の脆弱性を修正",
+   "points": [
+    "HTTP/2 の脆弱性2件（CVE-2026-123007、CVE-2026-123633）",
+    "認証なしでワーカープロセスを止められ、条件次第でコード実行も",
+    "修正版は nginx 1.31.9 と 1.30.7"
+   ],
+   "url": "https://tech-noisy.com/2026/11/19/nginx-http2-cve-2026-123007-2026/",
+   "lines": [
+    {
+     "say": "最後はセキュリティです。ウェブサーバーのエンジンエックスで、エイチティーティーピー・ツーの脆弱性が二件、修正されました。",
+     "show": "最後はセキュリティです。Webサーバーのnginxで、HTTP/2の脆弱性が2件、修正されました。"
+    },
+    {
+     "say": "認証なしでワーカープロセスを止められ、条件によってはコードを実行されるおそれがあります。修正版が公開されています。",
+     "show": "認証なしでワーカープロセスを止められ、条件によってはコードを実行されるおそれがあります。修正版が公開されています。"
+    }
+   ],
+   "details": [
+    "TECH NOISYによると、F5とnginx.orgは、nginx 1.31.9（mainline）と1.30.7（stable）を公開し、合わせて10件の脆弱性を修正しました。HTTP/2の2件は、F5のCVEの記録で、どちらもCVSS v4.0が9.2（Critical）です。",
+    "CVE-2026-123007 は nginx 1.9.5 から 1.31.8 に、CVE-2026-123633 は 1.19.7 から 1.31.8 に影響します。コードの実行は、ASLRが無効か、回避できる場合に起こりうるとされています。11月18日の時点で、CISAは悪用を確認していません。",
+    "すぐに更新できない場合の一時的な対策として、Wizは、nginx 1.25.1 以降でサーバーブロックに「http2 off;」を設定する方法を挙げています。更新したあとで、HTTP/2を有効に戻します。"
+   ],
+   "link": {
+    "url": "https://tech-noisy.com/2026/11/19/nginx-http2-cve-2026-123007-2026/",
+    "title": "nginxのHTTP/2に遠隔からコードを実行される脆弱性2件｜CVE-2026-123007ほか・CVSS 9.2 | TECH NOISY",
+    "site": "TECH NOISY",
+    "image": "https://tech-noisy.com/wp-content/uploads/2026/11/nginx-http2-cve-2026-123007-2026.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、オープンエーアイのチップ設計。エーアイが、チップの設計の改善に使われたという発表でした。",
+   "show": "今日の注目は、OpenAIのチップ設計。AIが、チップの設計の改善に使われたという発表でした。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-20",
+ "lang": "ja",
+ "seconds": 116.11,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.445,
+   "show": "おはようございます、AIテックラジオです。11月20日、金曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.695,
+   "end": 12.477,
+   "show": "今日は、OpenAIがAIでチップの設計を改善した話など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 13.527,
+   "end": 22.871,
+   "show": "まずはOpenAI。自社のAIを使って、独自の推論チップ「Jalapeño」と、AMDの製品の設計を改善したと発表しました。",
+   "part": 1
+  },
+  {
+   "start": 23.121,
+   "end": 34.598,
+   "show": "GIGAZINEによると、AMDとの取り組みでは、電力・性能・面積（PPA）の指標が最大14%改善。通常1年ほどかかる作業が、5か月で済んだそうです。",
+   "part": 1
+  },
+  {
+   "start": 35.648,
+   "end": 42.933,
+   "show": "続いてMicrosoft。判定に特化したモデル「Microsoft-Decision-1.1」が、一般提供になりました。",
+   "part": 2
+  },
+  {
+   "start": 43.183,
+   "end": 50.831,
+   "show": "振り分けや分類などを素早く判定するモデルで、Microsoft Foundryのほか、OpenRouterとVercelからも使えます。",
+   "part": 2
+  },
+  {
+   "start": 51.881,
+   "end": 60.884,
+   "show": "3本目は、中国のSenseNova。層を繰り返し使うモデル「SenseNova-Loop-9B」を、Apache 2.0のライセンスで公開しました。",
+   "part": 3
+  },
+  {
+   "start": 61.134,
+   "end": 68.643,
+   "show": "パラメータは約90億。真ん中の層を2回通すことで、およそ146億パラメータ相当の計算をします。",
+   "part": 3
+  },
+  {
+   "start": 69.693,
+   "end": 76.691,
+   "show": "4本目はGoogle。Geminiのアプリが、メモリの少ない端末向けの、Android (Go edition) に対応します。",
+   "part": 4
+  },
+  {
+   "start": 76.941,
+   "end": 86.221,
+   "show": "TECH NOISYによると、音声で会話するGemini Liveや、画像の生成も使えます。対象の機種の一覧は、まだ確認できていないそうです。",
+   "part": 4
+  },
+  {
+   "start": 87.271,
+   "end": 95.025,
+   "show": "最後はセキュリティです。Webサーバーのnginxで、HTTP/2の脆弱性が2件、修正されました。",
+   "part": 5
+  },
+  {
+   "start": 95.275,
+   "end": 103.147,
+   "show": "認証なしでワーカープロセスを止められ、条件によってはコードを実行されるおそれがあります。修正版が公開されています。",
+   "part": 5
+  },
+  {
+   "start": 104.197,
+   "end": 111.675,
+   "show": "今日の注目は、OpenAIのチップ設計。AIが、チップの設計の改善に使われたという発表でした。",
+   "part": 6
+  },
+  {
+   "start": 111.925,
+   "end": 114.058,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.527
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.527,
+   "end": 35.648
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 35.648,
+   "end": 51.881
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.881,
+   "end": 69.693
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 69.693,
+   "end": 87.271
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 87.271,
+   "end": 104.197
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 104.197,
+   "end": 116.108
+  }
+ ],
+ "made_at": "2026-11-20T08:27:11"
+}
