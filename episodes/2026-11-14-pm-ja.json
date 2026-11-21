@@ -1,0 +1,309 @@
+{
+ "title": "llama.cpp がバージョン1.0に",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十四日、土曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月14日、土曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、バージョン・ワン・ポイント・ゼロになったラマ・シーピーピーから、ゲーデルのノートを調べたクロードまで、五本をお届けします。",
+   "show": "この時間は、バージョン1.0になったllama.cppから、ゲーデルのノートを調べたClaudeまで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "llama.cpp 1.0",
+   "points": [
+    "llama.cpp v1.0.0 と ggml 1.0.0 を同時に発表",
+    "互換性のない変更はメジャーバージョンを上げる",
+    "150種類を超えるモデル構造に対応"
+   ],
+   "url": "https://superpowerdaily.com/posts/hugging-face-releases-llama-cpp-1-0-with-clearer-rules-for-breaking-changes",
+   "lines": [
+    {
+     "say": "まずは、ラマ・シーピーピー。手元のマシンでエーアイ・モデルを動かすためのソフトで、十三日、バージョン・ワン・ポイント・ゼロが発表されました。",
+     "show": "まずは、llama.cpp。手元のマシンでAIモデルを動かすためのソフトで、13日、バージョン1.0が発表されました。"
+    },
+    {
+     "say": "これからは、互換性のない変更をするときに、メジャー・バージョンを上げる決まりになります。対応するモデルの構造は、百五十種類を超えるそうです。",
+     "show": "これからは、互換性のない変更をするときに、メジャーバージョンを上げる決まりになります。対応するモデルの構造は、150種類を超えるそうです。"
+    }
+   ],
+   "details": [
+    "llama.cpp v1.0.0 と、その土台のライブラリ ggml 1.0.0 が、11月13日にそろって発表されました。Hugging Faceのブログで「ローカルAIのエコシステムのための、より強い土台」と紹介されています。",
+    "公開しているC APIやABIに互換性のない変更があるときはメジャーバージョン、新機能やモデル対応など互換性を保った追加はマイナー、APIを変えない修正はパッチで出します。変更を止めるという意味ではなく、使う側への合図だと説明されています。",
+    "複数のハードウェア向けのバックエンドがあり、ggmlのバックエンドは動的ライブラリとして作って、実行時に読み込めます。主要なハードウェアごとのテスト用マシンも増やしているそうです。"
+   ],
+   "link": {
+    "url": "https://superpowerdaily.com/posts/hugging-face-releases-llama-cpp-1-0-with-clearer-rules-for-breaking-changes",
+    "title": "Hugging Face releases llama.cpp 1.0 with clearer rules for breaking changes",
+    "site": "Superpower Daily"
+   }
+  },
+  {
+   "label": "Inkling 2 Small の重みを公開",
+   "points": [
+    "Thinking MachinesがHugging Faceで重みを公開",
+    "ライセンスはApache 2.0",
+    "全体で5940億、1トークンあたり170億のパラメータが働く"
+   ],
+   "url": "https://alphasignal.ai/news/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers",
+   "lines": [
+    {
+     "say": "続いて、シンキング・マシーンズ。モデルの、インクリング・ツー・スモールの重みを、ハギング・フェイスで公開しました。ライセンスは、アパッチ・にーてんぜろです。",
+     "show": "続いて、Thinking Machines。モデルの、Inkling 2 Smallの重みを、Hugging Faceで公開しました。ライセンスは、Apache 2.0です。"
+    },
+    {
+     "say": "パラメータは全体で五千九百四十億、そのうち一度に働くのは百七十億です。テキストと画像を入力でき、文脈は最大百万トークンです。",
+     "show": "パラメータは全体で5940億、そのうち一度に働くのは170億です。テキストと画像を入力でき、文脈は最大100万トークンです。"
+    }
+   ],
+   "details": [
+    "これまでは同社のサービスTinkerでだけ使えました。重みの公開は、外部による安全性のテストとレッドチーミングのあとに行うと、モデルの発表のときに約束されていたものです。",
+    "Apache 2.0には、特許の利用許諾も明記されています。Tinkerでの料金は、100万トークンあたり入力0.30ドル、出力1.00ドルです。",
+    "48層のモデルで、384個のエキスパートのうち8個が1トークンごとに働く仕組みです。Artificial AnalysisのIntelligence Indexは31で、前のInkling Smallは13でした。"
+   ],
+   "link": {
+    "url": "https://alphasignal.ai/news/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers",
+    "title": "Thinking Machines Opens Inkling 2 Small's 594B Weights to Developers",
+    "site": "AlphaSignal",
+    "image": "https://api.alphasignal.ai/api/news/preview/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers/v2/card.jpg"
+   }
+  },
+  {
+   "label": "Claude Managed Agents にセルフホスト版",
+   "points": [
+    "セルフホスト版がプライベートベータに",
+    "実行の仕組みも履歴も、自社のクラウドやオンプレミスに",
+    "Claudeへのリクエストの送り先を選べる"
+   ],
+   "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+   "lines": [
+    {
+     "say": "三本目は、アンソロピック。クロード・マネージド・エージェンツを自社の環境で動かせるセルフホスト版が、プライベート・ベータになりました。",
+     "show": "3本目は、Anthropic。Claude Managed Agentsを自社の環境で動かせるセルフホスト版が、プライベートベータになりました。"
+    },
+    {
+     "say": "エージェントを動かす仕組みやサンドボックス、認証情報、セッションの履歴まで、自社のクラウドやオンプレミスに置けます。",
+     "show": "エージェントを動かす仕組みやサンドボックス、認証情報、セッションの履歴まで、自社のクラウドやオンプレミスに置けます。"
+    }
+   ],
+   "details": [
+    "11月12日付の発表です。使いたい組織は、Anthropicの担当チームに連絡して申し込みます。",
+    "Managed Agentsのサーバー、そのデータベース、エージェントがシェルやファイルの道具を動かすワーカーを、利用する側が運用します。セッションの履歴は自社のデータベースに保存されます。",
+    "送り先は、Anthropicに直接、クラウド事業者（Amazon Bedrock、GoogleのAgent Platform、Microsoft Foundry）、自社のゲートウェイから選べます。"
+   ],
+   "link": {
+    "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+    "title": "Operate Claude Managed Agents inside your security perimeter",
+    "site": "Claude",
+    "image": "https://claude.com/resources/articles/self-hosted-claude-managed-agents/opengraph-image/og"
+   }
+  },
+  {
+   "label": "OpenAI、Daybreakに2つの製品",
+   "points": [
+    "Daybreak Red Team：Webアプリの弱点を探して確かめる",
+    "Daybreak Defense Factory：弱点を見つけて修正を提案",
+    "修正は、エンジニアが承認してから本番へ"
+   ],
+   "url": "https://cybersecuritynews.com/openai-two-ai-cybersecurity-tools/",
+   "lines": [
+    {
+     "say": "四本目は、オープンエーアイ。セキュリティー向けのデイブレイクに、二つの製品を加えました。デイブレイク・レッド・チームは、ウェブ・アプリの弱点を探し、実際に悪用できるかを確かめます。",
+     "show": "4本目は、OpenAI。セキュリティー向けのDaybreakに、2つの製品を加えました。Daybreak Red Teamは、Webアプリの弱点を探し、実際に悪用できるかを確かめます。"
+    },
+    {
+     "say": "デイブレイク・ディフェンス・ファクトリーは、コードの弱点を見つけて、修正を提案します。本番に入れる前に、エンジニアが承認する仕組みです。",
+     "show": "Daybreak Defense Factoryは、コードの弱点を見つけて、修正を提案します。本番に入れる前に、エンジニアが承認する仕組みです。"
+    }
+   ],
+   "details": [
+    "11月12日、OpenAIのイベント「Cyber at the Frontier」で発表されました。Red Teamは早期アクセスとして提供されています。コードスキャナーやバグ報奨金制度、報告書からの指摘を受け取って確かめたり、修正案を試したりもできます。",
+    "Defense Factoryは、コードベース全体で弱点を見つけ、検証し、直します。エージェントはOpenAIのサイバー向けモデル（GPT-6 Cyber）を使います。",
+    "エンジニアには、修正とテストの入った、そのままマージできるプルリクエストが届きます。"
+   ],
+   "link": {
+    "url": "https://cybersecuritynews.com/openai-two-ai-cybersecurity-tools/",
+    "title": "OpenAI Launches Two AI Cybersecurity Tools to Automate Penetration Testing and Vulnerability Remediation",
+    "site": "Cyber Security News"
+   }
+  },
+  {
+   "label": "ゲーデルのノートをClaudeで調べる",
+   "points": [
+    "論理学者ヤン・フォン・プラトー氏の取り組み",
+    "16冊、1,009ページのノートが対象",
+    "663個の定理や証明のアイデアを挙げた"
+   ],
+   "url": "https://superpowerdaily.com/posts/claude-surfaced-663-theorems-and-proof-ideas-in-g-del-s-notebooks-researcher-says",
+   "lines": [
+    {
+     "say": "最後は、数学の話題です。論理学者のヤン・フォン・プラトー氏が、数学者ゲーデルが速記で残した、千九ページのノートを、クロードで調べました。",
+     "show": "最後は、数学の話題です。論理学者のヤン・フォン・プラトー氏が、数学者ゲーデルが速記で残した、1,009ページのノートを、Claudeで調べました。"
+    },
+    {
+     "say": "クロードが挙げた定理や証明のアイデアは、六百六十三個。フォン・プラトー氏によると、およそ四百個はそのまま成り立ち、およそ五十個は誤りだったそうです。",
+     "show": "Claudeが挙げた定理や証明のアイデアは、663個。フォン・プラトー氏によると、およそ400個はそのまま成り立ち、およそ50個は誤りだったそうです。"
+    }
+   ],
+   "details": [
+    "ヘルシンキ大学のチームが、ノートの書き起こしをClaudeに渡しました。Claudeは速記の画像ではなく、用意された書き起こしをもとに作業しています。",
+    "ノートは、ガーベルスベルガー式という、今は使われていないドイツ語の速記で書かれています。Claudeは650ページの解説をまとめました。",
+    "およそ200個は手直しが必要でした。確認には証明支援系のCoqが使われています。選択公理の独立性については、ゲーデルが近いところまで来ていたとされ、Claudeが組み立て直した証明の位置づけには、数学者から慎重な見方も出ています。"
+   ],
+   "link": {
+    "url": "https://superpowerdaily.com/posts/claude-surfaced-663-theorems-and-proof-ideas-in-g-del-s-notebooks-researcher-says",
+    "title": "Claude surfaced 663 theorems and proof ideas in Gödel's notebooks, researcher says",
+    "site": "Superpower Daily"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、ラマ・シーピーピーのバージョン・ワン・ポイント・ゼロ。互換性についての決まりが、はっきりしました。",
+   "show": "この時間の注目は、llama.cppのバージョン1.0。互換性についての決まりが、はっきりしました。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-14",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 131.56,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.627,
+   "show": "おつかれさまです、AIテックラジオです。11月14日、土曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 6.877,
+   "end": 14.738,
+   "show": "この時間は、バージョン1.0になったllama.cppから、ゲーデルのノートを調べたClaudeまで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 15.788,
+   "end": 24.705,
+   "show": "まずは、llama.cpp。手元のマシンでAIモデルを動かすためのソフトで、13日、バージョン1.0が発表されました。",
+   "part": 1
+  },
+  {
+   "start": 24.955,
+   "end": 34.342,
+   "show": "これからは、互換性のない変更をするときに、メジャーバージョンを上げる決まりになります。対応するモデルの構造は、150種類を超えるそうです。",
+   "part": 1
+  },
+  {
+   "start": 35.392,
+   "end": 45.419,
+   "show": "続いて、Thinking Machines。モデルの、Inkling 2 Smallの重みを、Hugging Faceで公開しました。ライセンスは、Apache 2.0です。",
+   "part": 2
+  },
+  {
+   "start": 45.669,
+   "end": 55.845,
+   "show": "パラメータは全体で5940億、そのうち一度に働くのは170億です。テキストと画像を入力でき、文脈は最大100万トークンです。",
+   "part": 2
+  },
+  {
+   "start": 56.895,
+   "end": 66.089,
+   "show": "3本目は、Anthropic。Claude Managed Agentsを自社の環境で動かせるセルフホスト版が、プライベートベータになりました。",
+   "part": 3
+  },
+  {
+   "start": 66.339,
+   "end": 73.945,
+   "show": "エージェントを動かす仕組みやサンドボックス、認証情報、セッションの履歴まで、自社のクラウドやオンプレミスに置けます。",
+   "part": 3
+  },
+  {
+   "start": 74.995,
+   "end": 87.272,
+   "show": "4本目は、OpenAI。セキュリティー向けのDaybreakに、2つの製品を加えました。Daybreak Red Teamは、Webアプリの弱点を探し、実際に悪用できるかを確かめます。",
+   "part": 4
+  },
+  {
+   "start": 87.522,
+   "end": 96.621,
+   "show": "Daybreak Defense Factoryは、コードの弱点を見つけて、修正を提案します。本番に入れる前に、エンジニアが承認する仕組みです。",
+   "part": 4
+  },
+  {
+   "start": 97.671,
+   "end": 107.697,
+   "show": "最後は、数学の話題です。論理学者のヤン・フォン・プラトー氏が、数学者ゲーデルが速記で残した、1,009ページのノートを、Claudeで調べました。",
+   "part": 5
+  },
+  {
+   "start": 107.947,
+   "end": 118.113,
+   "show": "Claudeが挙げた定理や証明のアイデアは、663個。フォン・プラトー氏によると、およそ400個はそのまま成り立ち、およそ50個は誤りだったそうです。",
+   "part": 5
+  },
+  {
+   "start": 119.163,
+   "end": 126.384,
+   "show": "この時間の注目は、llama.cppのバージョン1.0。互換性についての決まりが、はっきりしました。",
+   "part": 6
+  },
+  {
+   "start": 126.634,
+   "end": 129.514,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.788
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.788,
+   "end": 35.392
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 35.392,
+   "end": 56.895
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 56.895,
+   "end": 74.995
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 74.995,
+   "end": 97.671
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 97.671,
+   "end": 119.163
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 119.163,
+   "end": 131.564
+  }
+ ],
+ "made_at": "2026-11-14T16:25:36"
+}

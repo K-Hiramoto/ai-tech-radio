@@ -1,0 +1,312 @@
+{
+ "title": "AIエージェントのチームがヴェイユ予想を形式化",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十五日、日曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月15日、日曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、数学の証明を形式化したグーグルのエージェント・チームから、推論ソフトのコンソーシアムまで、五本をお届けします。",
+   "show": "この時間は、数学の証明を形式化したGoogleのエージェントチームから、推論ソフトのコンソーシアムまで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Antigravity /teamwork の研究成果",
+   "points": [
+    "ヴェイユ予想をLeanで形式化、約180万行",
+    "Gemini 4 のモデルとエージェントのチームで実施",
+    "学術研究者1万人に6か月の無料利用枠"
+   ],
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "lines": [
+    {
+     "say": "まずは、グーグル・リサーチ。十三日、アンチグラビティのチームワーク機能で、エーアイ・エージェントのチームが出した研究成果を発表しました。",
+     "show": "まずは、Google Research。13日、Antigravityの /teamwork 機能で、AIエージェントのチームが出した研究成果を発表しました。"
+    },
+    {
+     "say": "ヴェイユ予想の証明を、リーンという言語で、およそ百八十万行の形式的な証明にしたそうです。学術研究者一万人には、六か月の無料利用枠を用意します。",
+     "show": "ヴェイユ予想の証明を、Leanという言語で、およそ180万行の形式的な証明にしたそうです。学術研究者1万人には、6か月の無料利用枠を用意します。"
+    }
+   ],
+   "details": [
+    "/teamwork-LEAP が、ヴェイユ予想の証明を最初から最後まで、機械で検証できるLeanの形式化として自律的に作ったと説明しています。約180万行で、サブエージェントの呼び出しは28,800回だったそうです。",
+    "使ったのは Gemini 4 Argon、Carbon、Hydrogen と、/teamwork などのマルチエージェントの仕組みです。NMRのデータから分子の構造を当てる課題では、30のエージェントで、第1候補の正解率が95%だったと報告しています。",
+    "Gemini 4 と /teamwork などは、外部の科学者と開発者がAntigravityで使えるようになりました。申し込みを受け付け、学術研究者1万人に、最も上の利用枠を6か月無料で提供するとしています。"
+   ],
+   "link": {
+    "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+    "title": "Advancing science & engineering with Antigravity’s /teamwork",
+    "site": "Google Research",
+    "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+   }
+  },
+  {
+   "label": "MathArena、Gemini 4 Carbon が首位",
+   "points": [
+    "Gemini 4 Carbon が85.4%で1位",
+    "2位 Claude Fable 5.2、3位 GPT-6.1 Sol",
+    "1回の実行費用は、CarbonがSolの約15倍"
+   ],
+   "url": "https://tbreak.com/gemini-4-carbon-matharena-maths-benchmark/",
+   "lines": [
+    {
+     "say": "続いて、数学のベンチマーク、マス・アリーナ。ジェミニ・フォー・カーボンが、八十五点四パーセントで首位に立ちました。",
+     "show": "続いて、数学のベンチマーク、MathArena。Gemini 4 Carbonが、85.4%で首位に立ちました。"
+    },
+    {
+     "say": "二位はクロード・フェイブル・ごーてんに、三位はジーピーティー・ろくてんいち・ソルです。ただ、一回の実行の費用は、カーボンがソルのおよそ十五倍だそうです。",
+     "show": "2位はClaude Fable 5.2、3位はGPT-6.1 Solです。ただ、1回の実行の費用は、CarbonがSolのおよそ15倍だそうです。"
+    }
+   ],
+   "details": [
+    "スコアは Gemini 4 Carbon が85.4%（±3.0%）、Claude Fable 5.2 が82.8%（±5.3%）、GPT-6.1 Sol が80.6%（±2.7%）。誤差の範囲が重なっていて、差はわずかだと記事は伝えています。MathArenaがCarbonとFable 5.2を加えたのは11月13日です。",
+    "OpenAI以外のモデルがMathArenaの首位に立つのは久しぶりだと伝えられています。オープンなモデルでは、Moonshot AIの Kimi K3.1 Pro が54.3%で最上位です。",
+    "ベンチマーク1回あたりの費用の見込みは、Carbonが15.70ドル、Fable 5.2が40.20ドル、GPT-6.1 Solが1.07ドル。テストで使った推論の設定での数字で、Fable 5.2はSolの約38倍です。"
+   ],
+   "link": {
+    "url": "https://tbreak.com/gemini-4-carbon-matharena-maths-benchmark/",
+    "title": "Gemini 4 Carbon tops MathArena maths benchmark",
+    "site": "Tbreak Media UAE",
+    "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/gemini-4-carbon-matharena-maths-benchmark.jpg?fit=1200%2C686&ssl=1"
+   }
+  },
+  {
+   "label": "Salesforce SOV-Transcribe-1",
+   "points": [
+    "音声認識モデルの重みを公開",
+    "ライセンスは Apache 2.0",
+    "単語の誤り率2.28%、重み公開モデルで1位と発表"
+   ],
+   "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+   "lines": [
+    {
+     "say": "三本目は、セールスフォース。音声認識モデル、エスオーブイ・トランスクライブ・ワンの重みを、アパッチ・にーてんゼロ・ライセンスで公開しました。",
+     "show": "3本目は、Salesforce。音声認識モデル、SOV-Transcribe-1の重みを、Apache 2.0ライセンスで公開しました。"
+    },
+    {
+     "say": "単語の誤り率は二点二八パーセントで、重みを公開しているモデルの中で一位だと発表しています。",
+     "show": "単語の誤り率は2.28%で、重みを公開しているモデルの中で1位だと発表しています。"
+    }
+   ],
+   "details": [
+    "SOV-Transcribe-1 は、Salesforceにとって最初の、重みを公開した音声対応の言語モデルです。録音をまとめて文字にする用途（ストリーミングではない音声認識）向けで、パラメータは全体で260億、そのうち働くのは40億と説明されています。発表は11月12日です。",
+    "重みはHugging Faceで公開されています。英語の文字起こしが中心で、複数の言語にも対応するとしています。技術レポートは、これから公開するそうです。",
+    "Artificial Analysisの、ストリーミングではない音声認識の順位で、重みを公開しているモデルの1位、全体では7位（11月12日時点）。コールセンターの会話（英語の14種類のアクセント）では、平均の誤り率が8.21%だったとしています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+    "title": "Introducing Salesforce SOV-Transcribe-1: #1 Open-Weight Model Built for Real-World Speech",
+    "site": "Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6962d3267513fcf314118d5f/e3kJpSjgR9Y4EX_hcR6iZ.png"
+   }
+  },
+  {
+   "label": "Replit Agent が買い物と広告を代行",
+   "points": [
+    "Agentが事業用の買い物を準備、承認してから請求",
+    "買い物は米国のCore・Pro向け、1回かぎりの購入",
+    "Google広告の作成と運用は、Pro向けに全世界で"
+   ],
+   "url": "https://replit.com/blog/replit-agent-ads-commerce",
+   "lines": [
+    {
+     "say": "四本目は、レプリット。エージェントが、事業に必要なものの購入と、グーグル広告の運用を手伝えるようになりました。",
+     "show": "4本目は、Replit。Agentが、事業に必要なものの購入と、Google広告の運用を手伝えるようになりました。"
+    },
+    {
+     "say": "購入は、合計金額を利用者が承認するまで、請求されません。まずはアメリカの、コアとプロの利用者向けです。",
+     "show": "購入は、合計金額を利用者が承認するまで、請求されません。まずはアメリカの、CoreとProの利用者向けです。"
+    }
+   ],
+   "details": [
+    "「Agentic Commerce」は、StripeのLinkとVisaの仕組みを使います。ブラウザを操作するサブエージェントが店のサイトで購入の準備をし、Agentは精算の手前で止まって、利用者の承認を待ちます。発表は11月12日です。",
+    "ブラウザのセッションは切り離されていて、支払いの間はシェルの利用と一般のブラウジングが止められます。承認の確認は、モデルまかせにせず、コードで強制していると説明しています。",
+    "Google広告では、Agentがサイトやアプリの内容を調べて、広告文と画像を作り、1日の予算を提案します。利用者が確かめて承認し、配信を始めます。コンバージョンの計測も追加できます。"
+   ],
+   "link": {
+    "url": "https://replit.com/blog/replit-agent-ads-commerce",
+    "title": "Replit Agent can now buy for your business and | Replit",
+    "site": "Replit Blog",
+    "image": "https://cdn.sanity.io/images/bj34pdbp/migration/50996be87e9d05f6c53a9bbf12578cf1b165d771-2400x1260.png?w=1200&h=630&fit=max&fm=jpg"
+   }
+  },
+  {
+   "label": "SGLang コンソーシアム",
+   "points": [
+    "LMSYS Org が11月12日に立ち上げ",
+    "創設メンバーは NVIDIA、AMD、Intel、Google、Meta など8社",
+    "年2回、ロードマップの会議"
+   ],
+   "url": "https://xenospectrum.com/en/sglang-consortium-inference-development/",
+   "lines": [
+    {
+     "say": "最後は、エーアイの推論ソフト、エスジーラング。支援する非営利団体のエルエムシス・オーグが、十二日、コンソーシアムを立ち上げました。",
+     "show": "最後は、AIの推論ソフト、SGLang。支援する非営利団体のLMSYS Orgが、12日、コンソーシアムを立ち上げました。"
+    },
+    {
+     "say": "創設メンバーは、エヌビディア、エーエムディー、インテル、グーグル、メタなど八社。年に二回、ロードマップの会議を開くそうです。",
+     "show": "創設メンバーは、NVIDIA、AMD、Intel、Google、Metaなど8社。年に2回、ロードマップの会議を開くそうです。"
+    }
+   ],
+   "details": [
+    "サンフランシスコで開かれた最初のSGLang Summitの基調講演で発表されました。LMSYSによると、SGLangは数十万台のGPUで動いているそうです。",
+    "創設メンバーは NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal、RadixArk。各社が技術の代表者を出し、テスト用の資源の提供や、機能の共同開発に取り組みます。",
+    "技術的な判断と、どのコードを取り入れるかは、これまでどおりメンテナーが決めます。重点は、最新のモデルへの対応、推論モデル、マルチモーダル、分散推論、ハードウェアごとの最適化だと伝えられています。"
+   ],
+   "link": {
+    "url": "https://xenospectrum.com/en/sglang-consortium-inference-development/",
+    "title": "SGLang Consortium Launches With NVIDIA, AMD, Intel, Google and Four Other Members",
+    "site": "XenoSpectrum",
+    "image": "https://media.xenospectrum.com/sglang_consortium_ai_inference_9d8d26d50f.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、アンチグラビティのチームワーク。エージェントのチームが、およそ百八十万行の証明を書き上げました。",
+   "show": "この時間の注目は、Antigravityの /teamwork。エージェントのチームが、およそ180万行の証明を書き上げました。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-15",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 124.3,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.861,
+   "show": "おつかれさまです、AIテックラジオです。11月15日、日曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.111,
+   "end": 15.527,
+   "show": "この時間は、数学の証明を形式化したGoogleのエージェントチームから、推論ソフトのコンソーシアムまで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 16.577,
+   "end": 25.751,
+   "show": "まずは、Google Research。13日、Antigravityの /teamwork 機能で、AIエージェントのチームが出した研究成果を発表しました。",
+   "part": 1
+  },
+  {
+   "start": 26.001,
+   "end": 37.361,
+   "show": "ヴェイユ予想の証明を、Leanという言語で、およそ180万行の形式的な証明にしたそうです。学術研究者1万人には、6か月の無料利用枠を用意します。",
+   "part": 1
+  },
+  {
+   "start": 38.411,
+   "end": 46.08,
+   "show": "続いて、数学のベンチマーク、MathArena。Gemini 4 Carbonが、85.4%で首位に立ちました。",
+   "part": 2
+  },
+  {
+   "start": 46.33,
+   "end": 55.717,
+   "show": "2位はClaude Fable 5.2、3位はGPT-6.1 Solです。ただ、1回の実行の費用は、CarbonがSolのおよそ15倍だそうです。",
+   "part": 2
+  },
+  {
+   "start": 56.767,
+   "end": 65.609,
+   "show": "3本目は、Salesforce。音声認識モデル、SOV-Transcribe-1の重みを、Apache 2.0ライセンスで公開しました。",
+   "part": 3
+  },
+  {
+   "start": 65.859,
+   "end": 72.473,
+   "show": "単語の誤り率は2.28%で、重みを公開しているモデルの中で1位だと発表しています。",
+   "part": 3
+  },
+  {
+   "start": 73.523,
+   "end": 81.736,
+   "show": "4本目は、Replit。Agentが、事業に必要なものの購入と、Google広告の運用を手伝えるようになりました。",
+   "part": 4
+  },
+  {
+   "start": 81.986,
+   "end": 90.039,
+   "show": "購入は、合計金額を利用者が承認するまで、請求されません。まずはアメリカの、CoreとProの利用者向けです。",
+   "part": 4
+  },
+  {
+   "start": 91.089,
+   "end": 100.391,
+   "show": "最後は、AIの推論ソフト、SGLang。支援する非営利団体のLMSYS Orgが、12日、コンソーシアムを立ち上げました。",
+   "part": 5
+  },
+  {
+   "start": 100.641,
+   "end": 110.081,
+   "show": "創設メンバーは、NVIDIA、AMD、Intel、Google、Metaなど8社。年に2回、ロードマップの会議を開くそうです。",
+   "part": 5
+  },
+  {
+   "start": 111.131,
+   "end": 119.12,
+   "show": "この時間の注目は、Antigravityの /teamwork。エージェントのチームが、およそ180万行の証明を書き上げました。",
+   "part": 6
+  },
+  {
+   "start": 119.37,
+   "end": 122.25,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 16.577
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 16.577,
+   "end": 38.411
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 38.411,
+   "end": 56.767
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 56.767,
+   "end": 73.523
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 73.523,
+   "end": 91.089
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 91.089,
+   "end": 111.131
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 111.131,
+   "end": 124.3
+  }
+ ],
+ "made_at": "2026-11-15T16:27:33"
+}

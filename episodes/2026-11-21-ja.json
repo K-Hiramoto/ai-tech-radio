@@ -1,0 +1,310 @@
+{
+ "title": "Gemini、Macを代わりに操作する機能",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十一日、土曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月21日、土曜日の朝です。"
+  },
+  {
+   "say": "今日は、グーグルのジェミニがマックを代わりに操作する話など、五本お届けします。",
+   "show": "今日は、GoogleのGeminiがMacを代わりに操作する話など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini、Macを代わりに操作する機能",
+   "points": [
+    "Mac版のGeminiアプリに「computer use」",
+    "アプリやWebを裏側で操作、画面とカーソルは空いたまま",
+    "まず英語・米国、Google AI Plus・Pro・Ultra の会員向け"
+   ],
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "lines": [
+    {
+     "say": "まずはグーグル。マック版のジェミニのアプリに、エーアイがパソコンを代わりに操作する、コンピューター・ユースの機能が加わります。",
+     "show": "まずはGoogle。Mac版のGeminiのアプリに、AIがパソコンを代わりに操作する「computer use」の機能が加わります。"
+    },
+    {
+     "say": "テッククランチによると、フォームの入力やファイルの整理を、裏側で進めてくれます。まずは英語で、アメリカの有料プランの会員向けです。",
+     "show": "TechCrunchによると、フォームの入力やファイルの整理を、裏側で進めてくれます。まずは英語で、米国の有料プランの会員向けです。"
+    }
+   ],
+   "details": [
+    "TechCrunchによると、Googleは11月19日に、macOSのGeminiデスクトップアプリに「computer use」を加えると発表しました。AIがMacのアプリを操作し、Webサイトを裏側で見て、利用者の代わりに作業を進めます。",
+    "頼んだ作業は、チャットの中のライブプレビューで進みます。その間、利用者は自分の画面とカーソルを別の作業に使えます。Geminiの操作は、一時停止、中止、実行前の承認ができます。使い道としてGoogleは、フォームの入力、複数のファイルへの同じ作業の繰り返し、条件に合わせたフォルダ分け、スライドの作成などを挙げています。",
+    "最初は英語、米国のみで、Mac版のGeminiアプリと、Google AI Plus・Pro・Ultra のいずれかの契約が必要です。ほかの国やプラットフォームに広げる時期を、Googleは明らかにしていません。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "title": "Google gives Gemini the ability to use your Mac for you | TechCrunch",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675"
+   }
+  },
+  {
+   "label": "OpenAI、速度低下を調べる「Performance Factory」",
+   "points": [
+    "ChatGPTの性能の低下を、Codexのエージェントが調査",
+    "3か月あまりで1,700件超を調査、600件超で原因を特定",
+    "修正の提案はエンジニアが確認してから取り込む"
+   ],
+   "url": "https://venturebeat.com/orchestration/exclusive-openai-reveals-performance-factory-a-codex-powered-software-optimization-system-that-keeps-chatgpt-fast",
+   "lines": [
+    {
+     "say": "続いてオープンエーアイ。チャットジーピーティーの速度の低下を、コーデックスのエージェントが調べる社内の仕組み、パフォーマンス・ファクトリーを明らかにしました。",
+     "show": "続いてOpenAI。ChatGPTの速度の低下を、Codexのエージェントが調べる社内の仕組み「Performance Factory」を明らかにしました。"
+    },
+    {
+     "say": "ベンチャービートによると、三か月あまりで千七百件を超える調査を行い、六百件以上で原因を突き止めたそうです。",
+     "show": "VentureBeatによると、3か月あまりで1,700件を超える調査を行い、600件以上で原因を突き止めたそうです。"
+    }
+   ],
+   "details": [
+    "VentureBeatによると、Performance Factoryは、性能の低下の調査と対処を自動化する、Codexを使った社内システムです。設定したアラートが出ると調査が始まり、エージェントがコードの変更、ログ、トレースから原因を探します。",
+    "OpenAIの報告では、3か月あまりで1,700件を超える調査を追跡し、1日あたりの平均は17件。原因にたどり着いた600件超のうち、約400件が修正の提案まで進みました。実際に出荷された修正のうち、エージェントの提案が影響した、または一致したものは約50件、Codexが書いたプルリクエストそのものだったのは約15件だそうです。",
+    "エージェントが最初のもっともらしい説明で止まることがあったため、別のCodexのセッションが診断に反論する「adversarial review」の段階を加え、いまは診断の約25%が差し戻されているとのこと。修正を取り込むかどうかはエンジニアが決めます。複雑な変更はまだ難しいと、チームは述べています。"
+   ],
+   "link": {
+    "url": "https://venturebeat.com/orchestration/exclusive-openai-reveals-performance-factory-a-codex-powered-software-optimization-system-that-keeps-chatgpt-fast",
+    "title": "Exclusive: OpenAI reveals Performance Factory, a Codex-powered software optimization system that keeps ChatGPT fast",
+    "site": "VentureBeat",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/V935Hrn60S01KWdL5SP8t/5c370a00bfcd097fb37e8b43d96301a0/AI_Code_Debugging_Factory.png?w=800&q=75"
+   }
+  },
+  {
+   "label": "Tencent、Hy4 Flash の重みを公開",
+   "points": [
+    "APIだけで提供していた Hy4 Flash の重みを公開",
+    "全体で約2,200億、1トークンあたり約120億のパラメータが働く",
+    "文脈は100万トークン、テキストと画像を入力"
+   ],
+   "url": "https://alphasignal.ai/news/tencent-opens-hy4-flash-weights-with-1m-token-context-at-20x-lower-cost",
+   "lines": [
+    {
+     "say": "三本目はテンセント。これまでエーピーアイだけで提供していたモデル、エイチワイ・フォー・フラッシュの重みを公開しました。",
+     "show": "3本目はTencent。これまでAPIだけで提供していたモデル「Hy4 Flash」の重みを公開しました。"
+    },
+    {
+     "say": "アルファシグナルによると、パラメータは全体で約二千二百億。文脈は百万トークンで、テキストと画像を入力できます。",
+     "show": "AlphaSignalによると、パラメータは全体で約2,200億。文脈は100万トークンで、テキストと画像を入力できます。"
+    }
+   ],
+   "details": [
+    "AlphaSignalによると、公開されたのは instruct、FP8、base の各版で、Hugging Face、ModelScope、GitCode から入手できます。ライセンスは Apache 2.0 にTencentの条項を加えたもので、追加学習や商用利用ができます。汎用のモデル提供サービスの事業者は、世界の売上が年5,000万ドルを超えるなどの場合、別のライセンスが必要です。",
+    "パラメータは全体で約2,200億、1トークンあたりに働くのは約120億です。Tencentは、最上位の Hy4 の重みも続けて公開するとしています。",
+    "Tencentの社内ベンチマーク WorkIndex では、Flash が42.1、最上位の Hy4 が51.4。1件あたりの費用は Hy4 が Flash の約20倍だとTencentは説明しています。独立した Vals Index では、Flash は39モデル中33位（50.78%）でした。"
+   ],
+   "link": {
+    "url": "https://alphasignal.ai/news/tencent-opens-hy4-flash-weights-with-1m-token-context-at-20x-lower-cost",
+    "title": "Tencent Opens Hy4 Flash Weights With 1M-Token Context at 20x Lower Cost | AlphaSignal",
+    "site": "AlphaSignal",
+    "image": "https://alphasignal.ai/api/news/preview/tencent-opens-hy4-flash-weights-with-1m-token-context-at-20x-lower-cost/v2/card.jpg"
+   }
+  },
+  {
+   "label": "ChatGPT、話しながら文字になる Live Dictation",
+   "points": [
+    "話した言葉が、話している途中で文字になる",
+    "10分までだった録音の制限がなくなる",
+    "iOS・Android・Web・デスクトップ、すべてのプランに順次"
+   ],
+   "url": "https://www.ithinkdiff.com/chatgpt-live-dictation-no-10-minute-limit/",
+   "lines": [
+    {
+     "say": "四本目はチャットジーピーティー。話した言葉がその場で文字になる、ライブ・ディクテーションの提供が始まりました。",
+     "show": "4本目はChatGPT。話した言葉がその場で文字になる「Live Dictation」の提供が始まりました。"
+    },
+    {
+     "say": "アイシンクディファレントによると、じゅっぷんまでだった録音の制限がなくなり、すべてのプランに順次提供されます。",
+     "show": "iThinkDifferentによると、10分までだった録音の制限がなくなり、すべてのプランに順次提供されます。"
+    }
+   ],
+   "details": [
+    "iThinkDifferentによると、OpenAIは11月18日のChatGPTのリリースノートで、Live Dictationを公表しました。話し終わってからではなく、話している間に文字が画面に出るので、正しく聞き取られているかを話しながら確かめられます。",
+    "波形をタップまたはクリックすると、話している間の文字の表示を切り替えられます。10分までだった録音の制限はなくなりました。文字起こしが終わるのを待つ時間が短くなると、OpenAIは説明しています。",
+    "iOS、Android、Web、デスクトップアプリで、世界で順次提供され、ChatGPTのすべてのプランに含まれます。提供には時間がかかることがあり、すぐには表示されない場合があるとのことです。"
+   ],
+   "link": {
+    "url": "https://www.ithinkdiff.com/chatgpt-live-dictation-no-10-minute-limit/",
+    "title": "ChatGPT Live Dictation Removes the 10-Minute Limit",
+    "site": "iThinkDifferent",
+    "image": "https://cdn.ithinkdiff.com/wp-content/uploads/2026/11/Live-Dictation-in-ChatGPT.jpeg"
+   }
+  },
+  {
+   "label": "Canva、生成AIの機能をオフにできる設定",
+   "points": [
+    "設定の「Enable generative AI features」をオフに",
+    "Magic Write、Magic Design、Dream Lab などが止まる",
+    "Background Remover と Magic Grab は残る"
+   ],
+   "url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/",
+   "lines": [
+    {
+     "say": "最後はキャンバ。生成エーアイの機能を、設定でまとめてオフにできるようになりました。",
+     "show": "最後はCanva。生成AIの機能を、設定でまとめてオフにできるようになりました。"
+    },
+    {
+     "say": "ペタピクセルによると、マジック・ライトなどが止まり、背景の削除などは残ります。無料でも有料でも使えます。",
+     "show": "PetaPixelによると、Magic Writeなどが止まり、背景の削除などは残ります。無料でも有料でも使えます。"
+    }
+   ],
+   "details": [
+    "PetaPixelによると、プロフィールの Settings の Permissions で「Enable generative AI features」をオフにします。止まるのは、Magic Expand、Magic Write、Magic Design、Magic Layers、Magic Edit、Dream Lab、Canva Code、AI Shapes で、CanvaのAIチャットボットでの画像生成も止まります。",
+    "Background Remover と Magic Grab は残ります。新しいものを生成せずに、日々の作業を速くする機能だから、とCanvaは説明しています。",
+    "あわせて、素材の検索でAI生成のコンテンツを減らす設定も加わりました。オンにすると、人が作ったテンプレートや素材が優先されますが、AI生成の素材が完全に除かれるわけではありません。The Vergeの報道として、どちらの設定も無料・有料の利用者が使えると伝えています。"
+   ],
+   "link": {
+    "url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/",
+    "title": "Canva Now Lets Users Turn Off Generative AI Features",
+    "site": "PetaPixel"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ジェミニのマック操作。エーアイがパソコンを代わりに動かす機能が、グーグルのアプリにも加わります。",
+   "show": "今日の注目は、GeminiのMac操作。AIがパソコンを代わりに動かす機能が、Googleのアプリにも加わります。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-21",
+ "lang": "ja",
+ "seconds": 107.46,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.712,
+   "show": "おはようございます、AIテックラジオです。11月21日、土曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.962,
+   "end": 12.285,
+   "show": "今日は、GoogleのGeminiがMacを代わりに操作する話など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 13.335,
+   "end": 21.164,
+   "show": "まずはGoogle。Mac版のGeminiのアプリに、AIがパソコンを代わりに操作する「computer use」の機能が加わります。",
+   "part": 1
+  },
+  {
+   "start": 21.414,
+   "end": 30.459,
+   "show": "TechCrunchによると、フォームの入力やファイルの整理を、裏側で進めてくれます。まずは英語で、米国の有料プランの会員向けです。",
+   "part": 1
+  },
+  {
+   "start": 31.509,
+   "end": 40.693,
+   "show": "続いてOpenAI。ChatGPTの速度の低下を、Codexのエージェントが調べる社内の仕組み「Performance Factory」を明らかにしました。",
+   "part": 2
+  },
+  {
+   "start": 40.943,
+   "end": 48.517,
+   "show": "VentureBeatによると、3か月あまりで1,700件を超える調査を行い、600件以上で原因を突き止めたそうです。",
+   "part": 2
+  },
+  {
+   "start": 49.567,
+   "end": 56.735,
+   "show": "3本目はTencent。これまでAPIだけで提供していたモデル「Hy4 Flash」の重みを公開しました。",
+   "part": 3
+  },
+  {
+   "start": 56.985,
+   "end": 65.294,
+   "show": "AlphaSignalによると、パラメータは全体で約2,200億。文脈は100万トークンで、テキストと画像を入力できます。",
+   "part": 3
+  },
+  {
+   "start": 66.344,
+   "end": 73.171,
+   "show": "4本目はChatGPT。話した言葉がその場で文字になる「Live Dictation」の提供が始まりました。",
+   "part": 4
+  },
+  {
+   "start": 73.421,
+   "end": 80.322,
+   "show": "iThinkDifferentによると、10分までだった録音の制限がなくなり、すべてのプランに順次提供されます。",
+   "part": 4
+  },
+  {
+   "start": 81.372,
+   "end": 86.833,
+   "show": "最後はCanva。生成AIの機能を、設定でまとめてオフにできるようになりました。",
+   "part": 5
+  },
+  {
+   "start": 87.083,
+   "end": 94.529,
+   "show": "PetaPixelによると、Magic Writeなどが止まり、背景の削除などは残ります。無料でも有料でも使えます。",
+   "part": 5
+  },
+  {
+   "start": 95.579,
+   "end": 103.024,
+   "show": "今日の注目は、GeminiのMac操作。AIがパソコンを代わりに動かす機能が、Googleのアプリにも加わります。",
+   "part": 6
+  },
+  {
+   "start": 103.274,
+   "end": 105.407,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.335
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.335,
+   "end": 31.509
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 31.509,
+   "end": 49.567
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 49.567,
+   "end": 66.344
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 66.344,
+   "end": 81.372
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 81.372,
+   "end": 95.579
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 95.579,
+   "end": 107.457
+  }
+ ],
+ "made_at": "2026-11-21T08:25:56"
+}

@@ -1,0 +1,311 @@
+{
+ "title": "ChatGPT Wallet、エージェントが支払いまで",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十四日、土曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月14日、土曜日の朝です。"
+  },
+  {
+   "say": "今日は、エージェントが支払いまでするチャットジーピーティーの新機能など、五本をお届けします。",
+   "show": "今日は、エージェントが支払いまでするChatGPTの新機能など、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "ChatGPT Wallet",
+   "points": [
+    "エージェント「dots」が購入の手続きまで代行",
+    "カード情報はエージェントにも店にも渡さない",
+    "まず米国のChatGPT Pro会員の一部から"
+   ],
+   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "lines": [
+    {
+     "say": "まずはオープンエーアイ。エージェントが買い物の支払いまで代わりに行う、チャットジーピーティー・ウォレットを公開しました。",
+     "show": "まずはOpenAI。エージェントが買い物の支払いまで代わりに行う、ChatGPT Walletを公開しました。"
+    },
+    {
+     "say": "支払いにはカード番号の代わりのトークンを使い、購入のたびに顔や指紋の認証で本人が承認します。まずはアメリカのプロ会員の一部が対象です。",
+     "show": "支払いにはカード番号の代わりのトークンを使い、購入のたびに顔や指紋の認証で本人が承認します。まずは米国のPro会員の一部が対象です。"
+    }
+   ],
+   "details": [
+    "OpenAIのエージェントは「dots」と呼ばれます。配送先や連絡先など、注文に必要な情報はdotが店に渡します。",
+    "決済にはカード情報の代わりになるトークンを使います。カードのポイントや、取引に異議を申し立てる保護はそのまま受けられます。",
+    "対象は18歳以上で、米国で発行されたVisa、Mastercard、American Expressのカード。今後、利用額の上限などの設定を加える計画です。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729"
+   }
+  },
+  {
+   "label": "Google、Gemini搭載メガネの予約開始",
+   "points": [
+    "米国と韓国で予約開始、発売は12月10日",
+    "価格は395ドルから",
+    "画面はなく、カメラと声でGeminiを使う"
+   ],
+   "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003166/",
+   "lines": [
+    {
+     "say": "続いて、グーグル。ジェミニ搭載のメガネ型デバイスの予約を、アメリカと韓国で始めました。発売は十二月十日、価格は三百九十五ドルからです。",
+     "show": "続いて、Google。Gemini搭載のメガネ型デバイスの予約を、米国と韓国で始めました。発売は12月10日、価格は395ドルからです。"
+    },
+    {
+     "say": "ディスプレイはなく、フレームのカメラと声でジェミニを使います。七十以上の言語のリアルタイム翻訳にも対応します。",
+     "show": "ディスプレイはなく、フレームのカメラと声でGeminiを使います。70以上の言語のリアルタイム翻訳にも対応します。"
+    }
+   ],
+   "details": [
+    "Samsung Electronicsとの共同開発。予約の開始は米国時間の11月12日で、フレームのデザインはWarby ParkerとGentle Monster、合わせて30種類あります。",
+    "Warby Parkerのモデルが395ドルから、Gentle Monsterのモデルが449ドルから。記事では、日本での販売には触れていません。",
+    "カメラは1200万画素、重さは約41g。撮影中は外向きのLEDが点灯し、LEDをふさぐと撮影できない設計です。"
+   ],
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003166/",
+    "title": "Google、Gemini搭載のメガネを米韓で予約開始 395ドルからで12月10日発売へ",
+    "site": "ITmedia NEWS",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003166/10012062/2048"
+   }
+  },
+  {
+   "label": "GeminiアプリがGoogle Walletと連携",
+   "points": [
+    "支出の分析や予算の提案をGeminiに頼める",
+    "米国のGeminiアプリの全ユーザーに順次提供",
+    "読み取り専用で、お金は動かせない"
+   ],
+   "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
+   "lines": [
+    {
+     "say": "グーグルからもう一つ。ジェミニのアプリが、グーグル・ウォレットとつながり、支出の分析や予算の提案を頼めるようになりました。",
+     "show": "Googleからもう一つ。GeminiのアプリがGoogle Walletとつながり、支出の分析や予算の提案を頼めるようになりました。"
+    },
+    {
+     "say": "読み取り専用で、アメリカのすべてのユーザーに順次提供されます。",
+     "show": "読み取り専用で、米国のすべてのユーザーに順次提供されます。"
+    }
+   ],
+   "details": [
+    "チャットで「@Google Wallet」と指定して使います。本人が有効にしたときだけ働き、Plaidを通じて銀行口座やクレジットカードをつなぐこともできます。",
+    "Gmail、Photos、YouTube、Searchに続いて、Personal IntelligenceでGeminiがつながるアプリに加わりました。",
+    "Geminiはお金の移動や運用はできません。Geminiのアクティビティをオンにしていると、取引の要約がAIの学習に使われることがあるとされています。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
+    "title": "Google’s Gemini can now read your Google Wallet to help you budget",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/google-gemini-personal-intelligence-wallet-graphic.jpg"
+   }
+  },
+  {
+   "label": "Sierra「Poppy 1.0」",
+   "points": [
+    "個人のAIエージェントと企業のやりとりの規格",
+    "Shopifyがすべてのストアで有効に",
+    "設計パートナーは100社を超える"
+   ],
+   "url": "https://thenextweb.com/news/sierra-poppy-1-0-shopify-meta-muse-personal-agents",
+   "lines": [
+    {
+     "say": "次は、シエラ。個人のエーアイ・エージェントが企業とやりとりするための規格、ポピーのバージョン、いちてんゼロを公開しました。",
+     "show": "次は、Sierra。個人のAIエージェントが企業とやりとりするための規格、Poppyのバージョン1.0を公開しました。"
+    },
+    {
+     "say": "ショッピファイは、すべてのストアでポピーを有効にしました。メタのエージェント、ミューズも、まずポピーを探すようになったそうです。",
+     "show": "Shopifyは、すべてのストアでPoppyを有効にしました。MetaのエージェントMuseも、まずPoppyを探すようになったそうです。"
+    }
+   ],
+   "details": [
+    "正式な名前はPersonal Agent Protocol。企業は、訪れたエージェントに、相手が誰で、何をしてよいか（注文の確認、航空券の予約など）を伝えられます。",
+    "Shopifyのストアの運営者は、何もする必要がありません。カートと決済は、Shopifyの既存のプロトコルが受け持ちます。",
+    "Sierraによると、新たに60社が加わりました。Delta Air Lines、Intuit、Salesforce、Zoomなどが参加。仕様はまだドラフトの扱いです。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/sierra-poppy-1-0-shopify-meta-muse-personal-agents",
+    "title": "Sierra releases Poppy 1.0 as Shopify and Meta’s Muse sign on",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/sierra-personal-agent-protocol-design-partners.jpg"
+   }
+  },
+  {
+   "label": "病院内のサーバーで動くカルテ読み取りAI",
+   "points": [
+    "Dyania HealthのSynapsis AI",
+    "7,800人を超える心臓の患者の記録を読み取り",
+    "すべてCleveland Clinicのサーバー上で実行"
+   ],
+   "url": "https://thenextweb.com/news/dyania-health-synapsis-ai-cleveland-clinic-nvidia-hospital",
+   "lines": [
+    {
+     "say": "最後は医療です。エヌビディアは、ダイアニア・ヘルスのシナプシス・エーアイが、クリーブランド・クリニックの、七千八百人を超える心臓の患者の記録を読み取ったと発表しました。",
+     "show": "最後は医療です。NVIDIAは、Dyania HealthのSynapsis AIが、Cleveland Clinicの7,800人を超える心臓の患者の記録を読み取ったと発表しました。"
+    },
+    {
+     "say": "処理はすべて、病院のサーバーの上で行われたそうです。",
+     "show": "処理はすべて、病院のサーバーの上で行われたそうです。"
+    }
+   ],
+   "details": [
+    "Synapsis AIは、医師のメモや検査の報告書を読んで臨床の質問に答え、答えごとに元の記録を示します。読み取った記録は最長16年分です。",
+    "対象は、2005年から2021年に大動脈弁を置き換えた患者。1人につき88の質問に答えました。",
+    "答えは、置き換えた弁の不具合のリスクを、手術の3年後、5年後、10年後について予測するモデル作りに使われました。判断はすべて医師が行い、外部での検証はこれからだとしています。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/dyania-health-synapsis-ai-cleveland-clinic-nvidia-hospital",
+    "title": "Nvidia and Dyania bring AI chart review onto hospital servers",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/dyania-synapsis-ai-patient-record-timeline.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、チャットジーピーティー・ウォレット。今後は、利用額の上限などの設定も加える計画だそうです。",
+   "show": "今日の注目は、ChatGPT Wallet。今後は、利用額の上限などの設定も加える計画だそうです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-14",
+ "lang": "ja",
+ "seconds": 109.97,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.488,
+   "show": "おはようございます、AIテックラジオです。11月14日、土曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.738,
+   "end": 12.477,
+   "show": "今日は、エージェントが支払いまでするChatGPTの新機能など、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 13.527,
+   "end": 20.588,
+   "show": "まずはOpenAI。エージェントが買い物の支払いまで代わりに行う、ChatGPT Walletを公開しました。",
+   "part": 1
+  },
+  {
+   "start": 20.838,
+   "end": 30.619,
+   "show": "支払いにはカード番号の代わりのトークンを使い、購入のたびに顔や指紋の認証で本人が承認します。まずは米国のPro会員の一部が対象です。",
+   "part": 1
+  },
+  {
+   "start": 31.669,
+   "end": 42.4,
+   "show": "続いて、Google。Gemini搭載のメガネ型デバイスの予約を、米国と韓国で始めました。発売は12月10日、価格は395ドルからです。",
+   "part": 2
+  },
+  {
+   "start": 42.65,
+   "end": 49.989,
+   "show": "ディスプレイはなく、フレームのカメラと声でGeminiを使います。70以上の言語のリアルタイム翻訳にも対応します。",
+   "part": 2
+  },
+  {
+   "start": 51.039,
+   "end": 58.985,
+   "show": "Googleからもう一つ。GeminiのアプリがGoogle Walletとつながり、支出の分析や予算の提案を頼めるようになりました。",
+   "part": 3
+  },
+  {
+   "start": 59.235,
+   "end": 63.513,
+   "show": "読み取り専用で、米国のすべてのユーザーに順次提供されます。",
+   "part": 3
+  },
+  {
+   "start": 64.563,
+   "end": 72.541,
+   "show": "次は、Sierra。個人のAIエージェントが企業とやりとりするための規格、Poppyのバージョン1.0を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 72.791,
+   "end": 81.047,
+   "show": "Shopifyは、すべてのストアでPoppyを有効にしました。MetaのエージェントMuseも、まずPoppyを探すようになったそうです。",
+   "part": 4
+  },
+  {
+   "start": 82.097,
+   "end": 93.223,
+   "show": "最後は医療です。NVIDIAは、Dyania HealthのSynapsis AIが、Cleveland Clinicの7,800人を超える心臓の患者の記録を読み取ったと発表しました。",
+   "part": 5
+  },
+  {
+   "start": 93.473,
+   "end": 97.131,
+   "show": "処理はすべて、病院のサーバーの上で行われたそうです。",
+   "part": 5
+  },
+  {
+   "start": 98.181,
+   "end": 105.541,
+   "show": "今日の注目は、ChatGPT Wallet。今後は、利用額の上限などの設定も加える計画だそうです。",
+   "part": 6
+  },
+  {
+   "start": 105.791,
+   "end": 107.925,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.527
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.527,
+   "end": 31.669
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 31.669,
+   "end": 51.039
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.039,
+   "end": 64.563
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 64.563,
+   "end": 82.097
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 82.097,
+   "end": 98.181
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.181,
+   "end": 109.975
+  }
+ ],
+ "made_at": "2026-11-14T08:25:06"
+}

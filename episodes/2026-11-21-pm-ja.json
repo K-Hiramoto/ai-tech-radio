@@ -1,0 +1,322 @@
+{
+ "title": "Signal、AIアシスタントの画面読み取りを遮断",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十一日、土曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月21日、土曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、トークの画面を守るシグナルの対策から、データセンターの電源になるジェットエンジンまで、五本です。",
+   "show": "この時間は、トークの画面を守るSignalの対策から、データセンターの電源になるジェットエンジンまで、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Signal、AIアシスタントの画面読み取りを遮断",
+   "points": [
+    "iOS 27 では、アプリ内のスクリーンショットを既定でブロック",
+    "Android では、AIアシスタントを検知すると「Screen security」を自動でオン",
+    "OS各社に、AIのデータ利用からアプリを外す仕組みを要請"
+   ],
+   "url": "https://cyberinsider.com/signal-blocks-screenshots-ios-27-android-ai-assistants/",
+   "lines": [
+    {
+     "say": "まずは、メッセージアプリのシグナル。スマホのエーアイ・アシスタントに、トークの画面を読み取らせないための対策を、二十日に発表しました。",
+     "show": "まずは、メッセージアプリのSignal。スマホのAIアシスタントに、トークの画面を読み取らせないための対策を、20日に発表しました。"
+    },
+    {
+     "say": "アイオーエス・二十七では、アプリの中のスクリーンショットを、はじめからブロックします。",
+     "show": "iOS 27 では、アプリの中のスクリーンショットを、はじめからブロックします。"
+    },
+    {
+     "say": "アンドロイドでは、アシスタントが画面を見ようとするのを検知すると、保護の設定が自動でオンになるそうです。",
+     "show": "Android では、アシスタントが画面を見ようとするのを検知すると、保護の設定が自動でオンになるそうです。"
+    }
+   ],
+   "details": [
+    "iOS 27 の設定の名前は「Block Siri AI」です。Signalのプレジデント、Meredith Whittaker 氏がブログで発表し、Appleの Siri Onscreen Awareness と、Googleの Gemini Intelligence を例に挙げました。メッセージは通信の途中では暗号で守られますが、画面に出たあとは、画面を見られるアシスタントが読めてしまう、という理由です。スクリーンショットが必要な人は、設定でオフにできます。",
+    "Android で検知できるのは、一部のバージョンに限られるとのことです。Windows では、去年から Microsoft の Recall に対して同じような保護を入れています。macOS には画面の取得を確実に止める方法がなく、macOS 27 では、Siri の設定の「Excluded Apps」に Signal を加えることを勧めています。",
+    "Signalは、Apple、Google、Microsoft に対して、画面の取得、ファイル、通知、システムのAPIを通じたAIのデータ利用から、アプリを外せる仕組みを、文書にして用意するよう求めています。Whittaker 氏によると、Apple と Google は Signal と話し合いをしているそうです。"
+   ],
+   "link": {
+    "url": "https://cyberinsider.com/signal-blocks-screenshots-ios-27-android-ai-assistants/",
+    "title": "Signal blocks screenshots to keep Siri and Gemini out of private chats",
+    "site": "CyberInsider",
+    "image": "https://cyberinsider.com/wp-content/uploads/2026/11/Signal-blocks-screenshots-to-keep-Siri-and-Gemini-out-of-private-chats-e1795184361408.png"
+   }
+  },
+  {
+   "label": "Genie 4、Gemini API で開発者に提供",
+   "points": [
+    "世界モデル Genie 4 が、Gemini API と Google AI Studio に",
+    "720p・毎秒24フレームの世界を、音つきで連続して生成",
+    "キーボードと文章の指示で、その場で操作・変更"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+   "lines": [
+    {
+     "say": "続いて、グーグル。動き回れる世界を作るモデル、ジーニー・フォーを、ジェミニ・エーピーアイで、開発者に提供しはじめました。",
+     "show": "続いて、Google。動き回れる世界を作るモデル、Genie 4 を、Gemini API で、開発者に提供しはじめました。"
+    },
+    {
+     "say": "文章や画像をもとに、ななひゃくにじゅうピー、毎秒二十四フレームの世界を、音といっしょに作りつづけます。",
+     "show": "文章や画像をもとに、720p、毎秒24フレームの世界を、音といっしょに作りつづけます。"
+    }
+   ],
+   "details": [
+    "Googleが11月19日に発表しました。Gemini API では Interactions API を通じて使い、モデルの名前は「genie-4」です。Google AI Studio には、操作できるキャンバスと、手本になるアプリが用意されています。料金は、Gemini API のドキュメントで案内されています。",
+    "文章、参考の画像、またはその両方から世界を作ります。音は映像に合わせて生成され、環境音、効果音、登場人物の会話が含まれます。",
+    "キーボードで動き回りながら、文章の指示で、天気、明かり、物、出来事をその場で変えられます。出力にはすべて、目に見えない透かしの SynthID が入ります。使いみちとして、体験の試作、空間デザインの可視化、ロボットやAIエージェントの学習が挙げられています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+    "title": "Genie 4 is now available on the Gemini API.",
+    "site": "Google",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png"
+   }
+  },
+  {
+   "label": "PostgreSQL 19 がリリース",
+   "points": [
+    "11月19日にリリース",
+    "読み書きを止めずに表を整理する REPACK (CONCURRENTLY)",
+    "外部キーの確認の改善で、まとめての挿入が2倍近く速く"
+   ],
+   "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+   "lines": [
+    {
+     "say": "三本目は、データベースのポストグレス・キューエル。新しいバージョンの十九が、十九日にリリースされました。",
+     "show": "3本目は、データベースの PostgreSQL。新しいバージョンの 19 が、19日にリリースされました。"
+    },
+    {
+     "say": "読み書きを止めずに、表のむだな領域を片づけられる、リパックというコマンドが加わりました。",
+     "show": "読み書きを止めずに、表のむだな領域を片づけられる、REPACK というコマンドが加わりました。"
+    }
+   ],
+   "details": [
+    "PostgreSQL Global Development Group が発表しました。ほかに、ロジカルレプリケーションを再起動なしで有効にできるようになり、シーケンスの値も複製できます。スタンバイで、指定した位置までの反映を待つ WAIT FOR LSN も加わりました。",
+    "REPACK は、表を索引の順に並べ直すこともできます。これまでの VACUUM FULL と CLUSTER に代わるコマンドで、2つは互換性のために残ります。実行計画を安定させる拡張 pg_plan_advice も入りました。",
+    "速くなったのは、外部キーの確認の改善によるものです。開発者向けには、INSERT ... ON CONFLICT DO SELECT や、COPY の JSON 出力が加わりました。JIT コンパイルは、既定でオフになりました。"
+   ],
+   "link": {
+    "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+    "title": "PostgreSQL 19 Released!",
+    "site": "PostgreSQL News",
+    "image": "https://www.postgresql.org/media/img/about/press/elephant.png"
+   }
+  },
+  {
+   "label": "Orange、ウォロフ語のAIモデルを公開",
+   "points": [
+    "西アフリカのウォロフ語を理解して書ける、5つのモデル",
+    "Alibabaの Qwen3 がもと、6億〜140億パラメータ",
+    "Hugging Face で、非商用なら無料"
+   ],
+   "url": "https://thenextweb.com/news/orange-wolof-ai-models-qwen3-hugging-face",
+   "lines": [
+    {
+     "say": "四本目は、フランスの通信会社、オレンジ。西アフリカで、およそ千六百万人が話すウォロフ語のエーアイ・モデルを、五つ公開しました。",
+     "show": "4本目は、フランスの通信会社、Orange。西アフリカで、およそ1,600万人が話すウォロフ語のAIモデルを、5つ公開しました。"
+    },
+    {
+     "say": "アリババのクウェン・スリーをもとにしていて、ハギング・フェイスから、非商用なら無料で使えます。",
+     "show": "Alibabaの Qwen3 をもとにしていて、Hugging Face から、非商用なら無料で使えます。"
+    }
+   ],
+   "details": [
+    "パリで開いたイベント OpenTech で発表されました。学習には、公開されているデータセットをウォロフ語に自動で翻訳したものを使い、Orangeの社内のデータは使っていないとのことです。ウォロフ語を話す人が、学習データとモデルの答えを確かめました。",
+    "モデルの大きさは、6億から140億パラメータです。2024年11月の計画では、Metaの Llama をもとにする予定でした。Orangeの広報は、Qwen が言語のモデルとしていちばん性能がよかったと説明しています。",
+    "Hugging Face では「Orange/wolof-lm」にまとめられています。商用の利用は、Orangeとの別の契約でできる場合があるとのことです。Orangeは、ゲイツ財団が2026年9月に始めた、AIと言語のパートナーシップにも加わります。"
+   ],
+   "link": {
+    "url": "https://thenextweb.com/news/orange-wolof-ai-models-qwen3-hugging-face",
+    "title": "Orange releases Wolof AI models built on Alibaba's Qwen3, not Llama",
+    "site": "TNW",
+    "image": "https://media.thenextweb.com/2026/11/orange-logo-cube-glass-office-building-blue-sky.jpg"
+   }
+  },
+  {
+   "label": "退役したジェットエンジンが、AIデータセンターの電源に",
+   "points": [
+    "旅客機の退役したエンジンを、発電用のガスタービンに",
+    "FTAI Aviation は、2027〜2028年に100基以上を納める契約",
+    "2028年までに129GWが必要、ガスタービンの供給は約87GWの見通し"
+   ],
+   "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
+   "lines": [
+    {
+     "say": "最後は、データセンターの電源の話です。旅客機の退役したジェットエンジンが、発電用に買い集められていると、ギガジンが伝えています。",
+     "show": "最後は、データセンターの電源の話です。旅客機の退役したジェットエンジンが、発電用に買い集められていると、GIGAZINEが伝えています。"
+    },
+    {
+     "say": "アメリカのエフ・ティー・エー・アイ・アビエーションは、エンジンをもとにしたガスタービンを、百基以上納める契約を結んだそうです。",
+     "show": "アメリカの FTAI Aviation は、エンジンをもとにしたガスタービンを、100基以上納める契約を結んだそうです。"
+    }
+   ],
+   "details": [
+    "電力会社から受けられる電気にかぎりがあるため、データセンターの事業者やAIの開発企業が、自前の発電設備を持とうとしていることが背景です。エンジンを持つリース会社は、エンジンとしてもう一度使うか、発電用に回すかを決めます。",
+    "FTAI Aviation の契約は、2027年と2028年に、アメリカとカナダの顧客に納めるものです。2026年7月には、名前を明かしていないクラウド企業が、関連会社を通じて14億6,500万ドルの注文をしたとされています。",
+    "記事によると、ガスタービンの納入には、アメリカだけでも平均で6年かかるとされています。転用した中古のエンジンは、整備の記録がはっきりせず、残りの寿命もかぎられるため、動かしつづけられるかを疑う見方も紹介されています。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
+    "title": "退役したジェットエンジンがAIデータセンターの動力源として使われている",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/21/jet-engine-ai-power/00.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、シグナル。エーアイのアシスタントが画面を読むようになって、アプリのがわが、トークを守る対策に動きました。",
+   "show": "この時間の注目は、Signal。AIのアシスタントが画面を読むようになって、アプリの側が、トークを守る対策に動きました。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-21",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 118.21,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.851,
+   "show": "おつかれさまです、AIテックラジオです。11月21日、土曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.101,
+   "end": 14.386,
+   "show": "この時間は、トークの画面を守るSignalの対策から、データセンターの電源になるジェットエンジンまで、5本です。",
+   "part": 0
+  },
+  {
+   "start": 15.436,
+   "end": 24.161,
+   "show": "まずは、メッセージアプリのSignal。スマホのAIアシスタントに、トークの画面を読み取らせないための対策を、20日に発表しました。",
+   "part": 1
+  },
+  {
+   "start": 24.411,
+   "end": 29.713,
+   "show": "iOS 27 では、アプリの中のスクリーンショットを、はじめからブロックします。",
+   "part": 1
+  },
+  {
+   "start": 29.963,
+   "end": 36.491,
+   "show": "Android では、アシスタントが画面を見ようとするのを検知すると、保護の設定が自動でオンになるそうです。",
+   "part": 1
+  },
+  {
+   "start": 37.541,
+   "end": 46.266,
+   "show": "続いて、Google。動き回れる世界を作るモデル、Genie 4 を、Gemini API で、開発者に提供しはじめました。",
+   "part": 2
+  },
+  {
+   "start": 46.516,
+   "end": 53.78,
+   "show": "文章や画像をもとに、720p、毎秒24フレームの世界を、音といっしょに作りつづけます。",
+   "part": 2
+  },
+  {
+   "start": 54.83,
+   "end": 61.913,
+   "show": "3本目は、データベースの PostgreSQL。新しいバージョンの 19 が、19日にリリースされました。",
+   "part": 3
+  },
+  {
+   "start": 62.163,
+   "end": 68.157,
+   "show": "読み書きを止めずに、表のむだな領域を片づけられる、REPACK というコマンドが加わりました。",
+   "part": 3
+  },
+  {
+   "start": 69.207,
+   "end": 78.797,
+   "show": "4本目は、フランスの通信会社、Orange。西アフリカで、およそ1,600万人が話すウォロフ語のAIモデルを、5つ公開しました。",
+   "part": 4
+  },
+  {
+   "start": 79.047,
+   "end": 84.647,
+   "show": "Alibabaの Qwen3 をもとにしていて、Hugging Face から、非商用なら無料で使えます。",
+   "part": 4
+  },
+  {
+   "start": 85.697,
+   "end": 95.083,
+   "show": "最後は、データセンターの電源の話です。旅客機の退役したジェットエンジンが、発電用に買い集められていると、GIGAZINEが伝えています。",
+   "part": 5
+  },
+  {
+   "start": 95.333,
+   "end": 103.333,
+   "show": "アメリカの FTAI Aviation は、エンジンをもとにしたガスタービンを、100基以上納める契約を結んだそうです。",
+   "part": 5
+  },
+  {
+   "start": 104.383,
+   "end": 113.034,
+   "show": "この時間の注目は、Signal。AIのアシスタントが画面を読むようになって、アプリの側が、トークを守る対策に動きました。",
+   "part": 6
+  },
+  {
+   "start": 113.284,
+   "end": 116.164,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.436
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.436,
+   "end": 37.541
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 37.541,
+   "end": 54.83
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 54.83,
+   "end": 69.207
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 69.207,
+   "end": 85.697
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 85.697,
+   "end": 104.383
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 104.383,
+   "end": 118.214
+  }
+ ],
+ "made_at": "2026-11-21T16:27:25"
+}

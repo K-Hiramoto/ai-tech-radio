@@ -1,0 +1,48 @@
+{
+ "format": "myradio/station-1",
+ "name": "AIテックラジオ",
+ "description": "AI・テクノロジーの気になるニュースを、朝と夕方に 2 分ずつ。",
+ "tagline": "AI・テクノロジー 朝と夕方のニュース",
+ "logo": null,
+ "url": "https://k-hiramoto.github.io/ai-tech-radio/",
+ "repo": "https://github.com/K-Hiramoto/ai-tech-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "09:00",
+  "times": [
+   "09:00",
+   "17:00"
+  ],
+  "timezone": "Asia/Tokyo"
+ },
+ "editions": {
+  "": "朝",
+  "pm": "夕方"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです（myradio のお手本のキャラ）"
+ },
+ "credits": [
+  "声：VOICEVOX:東北きりたん",
+  "台本：公開されている記事をもとに、AI（Claude）が作成しています"
+ ],
+ "caster": "声：VOICEVOX:東北きりたん",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "voice": {
+  "engine": "voicevox_core",
+  "model": "21",
+  "style": 108,
+  "speed": 1.1
+ },
+ "weather": true
+}

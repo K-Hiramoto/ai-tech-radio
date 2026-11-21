@@ -1,0 +1,310 @@
+{
+ "title": "Apple、健康AIの使われ方を最大20万人で研究",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十六日、月曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月16日、月曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、アップルが始めた健康エーアイの研究から、ファーウェイのデータセンターの分析まで、五本をお届けします。",
+   "show": "この時間は、Appleが始めた健康AIの研究から、Huaweiのデータセンターの分析まで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Apple Health AI Usage Study",
+   "points": [
+    "健康の相談にAIがどう使われるかを調べる研究",
+    "米国で最大20万人、OpenEvidenceと協力",
+    "研究のデータはAIの学習に使わない"
+   ],
+   "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+   "lines": [
+    {
+     "say": "まずは、アップル。十五日、健康の相談にエーアイがどう使われるかを調べる研究を、アメリカで始めました。",
+     "show": "まずは、Apple。15日、健康の相談にAIがどう使われるかを調べる研究を、アメリカで始めました。"
+    },
+    {
+     "say": "参加者は、専用のアプリで健康について質問し、答えの質を評価します。医療向けエーアイのオープン・エビデンスと協力し、最大二十万人が参加できます。",
+     "show": "参加者は、専用のアプリで健康について質問し、答えの質を評価します。医療向けAIのOpenEvidenceと協力し、最大20万人が参加できます。"
+    }
+   ],
+   "details": [
+    "研究の名前は Apple Health AI Usage Study。会話型の健康AIについて、利用者の信頼、答えの質、理解のしやすさ、日々の行動への影響を調べ、責任ある設計に役立てるとしています。答えには、査読済みの臨床文献への引用が付きます。",
+    "対象は、米国に住む21歳以上で、Apple Intelligence に対応した iPhone（iPhone 15 Pro 以降）と iOS 26 以降を使う人です。OpenEvidence は、医療の専門家が使う臨床AIのプラットフォームだと説明されています。",
+    "安静時の心拍数や睡眠などの HealthKit のデータを共有するかどうかは、参加者が選べます。Appleは、研究のデータをAIモデルの学習に使わないとしています。アプリは、診断や治療、医師の助言の代わりを目的としたものではありません。"
+   ],
+   "link": {
+    "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+    "title": "Apple launches research study to explore the use of AI for health",
+    "site": "Apple Newsroom",
+    "image": "https://www.apple.com/newsroom/images/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/tile/Apple-Health-AI-Usage-Study-hero-lp.jpg.og.jpg?202611160118"
+   }
+  },
+  {
+   "label": "Bland の音声モデル Tofu-1",
+   "points": [
+    "聞きながら同時に話せる音声モデル",
+    "銀行、医療、保険、行政などの電話向け",
+    "一部の企業向けの研究プレビュー"
+   ],
+   "url": "https://www.bland.ai/speech-to-speech",
+   "lines": [
+    {
+     "say": "続いて、音声エーアイのブランド。電話向けの音声モデル、トーフ・ワンを発表しました。",
+     "show": "続いて、音声AIのBland。電話向けの音声モデル、Tofu-1を発表しました。"
+    },
+    {
+     "say": "聞きながら同時に話せるので、相手が途中で言い直しても応じられるそうです。一部の企業向けの、研究プレビューです。",
+     "show": "聞きながら同時に話せるので、相手が途中で言い直しても応じられるそうです。一部の企業向けの、研究プレビューです。"
+    }
+   ],
+   "details": [
+    "Tofu-1 は、音声を文字に直してから言語モデルに渡す方式ではなく、音声そのものを聞いて、音声で答えるモデルだと説明されています。Blandの音声対音声モデルのシリーズで、最初の公開です。",
+    "話している人を聞き分け、声と背景の音を分けられるとしています。車の中や病室からの電話、電波が弱いとき、何人もが同時に話す場面を例に挙げています。",
+    "利用は、フォームから申し込む形です。応答の速さ、学習データ、対応する言語、価格は、ページに書かれていません。"
+   ],
+   "link": {
+    "url": "https://www.bland.ai/speech-to-speech",
+    "title": "Tofu-1: speech-to-speech, built for high-stakes calls | Bland",
+    "site": "Bland",
+    "image": "https://www.bland.ai/images/og/bland-wordmark-og.png"
+   }
+  },
+  {
+   "label": "Stanford などの記憶モジュール MEMORILLA",
+   "points": [
+    "文書の集まりを16個の記憶トークンにまとめる",
+    "言語モデル本体は学習し直さない",
+    "文書512件で、応答までの時間が27分の1"
+   ],
+   "url": "https://memory.stanford.edu/",
+   "lines": [
+    {
+     "say": "三本目は、スタンフォード大学などの研究、メモリラ。大量の文書を、十六個の記憶トークンにまとめて、言語モデルに渡す仕組みです。",
+     "show": "3本目は、スタンフォード大学などの研究、MEMORILLA。大量の文書を、16個の記憶トークンにまとめて、言語モデルに渡す仕組みです。"
+    },
+    {
+     "say": "文書を五百十二件使う場合、全文を渡す方法とくらべて、応答までの時間が、にじゅうななぶんのいちになったと報告しています。",
+     "show": "文書を512件使う場合、全文を渡す方法とくらべて、応答までの時間が27分の1になったと報告しています。"
+    }
+   ],
+   "details": [
+    "質問ごとに、学習した記憶モジュールが文書の集まり全体を読み、少数の記憶トークンを作って言語モデルに渡します。学習するのは記憶モジュールだけで、主な実験では Qwen3-8B を、重みを変えずに使っています。",
+    "8つのベンチマークの平均で、全文を渡す方法より文書のトークンが394分の1。FactKG の正解率は84.33%（全文を渡す方法は80.43%）でした。一方、PubMedQA では59.00%で、全文を渡す方法の67.00%を下回っています。",
+    "応答までの時間は0.74秒と19.9秒（H100 1台での計測）。正確な名前のような細かい情報を落とすことがある、言語モデルごとに記憶モジュールの学習が要る、といった限界も挙げています。コードはGitHubで公開されています。"
+   ],
+   "link": {
+    "url": "https://memory.stanford.edu/",
+    "title": "MEMORILLA: Latent Semantic Memory for LLMs",
+    "site": "MEMORILLA"
+   }
+  },
+  {
+   "label": "Lovable 製アプリで個人情報が露出",
+   "points": [
+    "ドイツのCrissy Fieldが159,041件を調査",
+    "24,664件でデータベースを認証なしで読めた",
+    "パスポートの記録や20万件超のチャットも"
+   ],
+   "url": "https://cybernews.com/security/lovable-ai-apps-expose-personal-information/",
+   "lines": [
+    {
+     "say": "四本目は、エーアイでアプリを作るサービス、ラバブル。ドイツのセキュリティ会社が、およそ十五万きゅうせんけんのプロジェクトを調べました。",
+     "show": "4本目は、AIでアプリを作るサービス、Lovable。ドイツのセキュリティ会社が、およそ15万9千件のプロジェクトを調べました。"
+    },
+    {
+     "say": "二万四千六百六十四件で、データベースの中身を、認証なしで読めたそうです。パスポートの記録や、二十万件を超えるチャットも含まれていました。",
+     "show": "24,664件で、データベースの中身を、認証なしで読めたそうです。パスポートの記録や、20万件を超えるチャットも含まれていました。"
+    }
+   ],
+   "details": [
+    "調べたのはドイツのセキュリティ会社 Crissy Field で、結果はドイツの経済紙 Handelsblatt に掲載されました。Common Crawl から集めた159,041件のうち、Supabaseを使う34,545件について、ログインしていない訪問者に何が返るかを、読み取りだけで確かめています。",
+    "メールアドレスは7,403のサイトで読めました。あるサービス事業者では1,000件を超えるパスポートの記録が、あるフォーラムでは20万件を超えるチャットと8万件のユーザープロフィールが見える状態だったそうです。",
+    "原因は、データベースの行単位のアクセス制御（Row Level Security）が設定されていないことで、Lovableの基盤への侵入ではないと伝えられています。Lovableは、Supabaseに関わる、業界全体で知られた設定の問題だと説明しています。"
+   ],
+   "link": {
+    "url": "https://cybernews.com/security/lovable-ai-apps-expose-personal-information/",
+    "title": "Apps built on Lovable AI expose passport details and 200,000 chat messages",
+    "site": "Cybernews"
+   }
+  },
+  {
+   "label": "Epoch AI、Huaweiのデータセンターを分析",
+   "points": [
+    "内モンゴル・ホリンゴルの拠点を衛星画像などで推定",
+    "計算能力はH100換算で約8万1,000基",
+    "SpaceXのColossus 2の約7%"
+   ],
+   "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+   "lines": [
+    {
+     "say": "最後は、研究機関エポック・エーアイの分析です。中国、内モンゴルにあるファーウェイのデータセンターの計算能力を、衛星画像などから推定しました。",
+     "show": "最後は、研究機関Epoch AIの分析です。中国、内モンゴルにあるHuaweiのデータセンターの計算能力を、衛星画像などから推定しました。"
+    },
+    {
+     "say": "スペースエックスのデータセンター、コロッサス・ツーの、およそ七パーセントにあたるそうです。",
+     "show": "SpaceXのデータセンター、Colossus 2の、およそ7%にあたるそうです。"
+    }
+   ],
+   "details": [
+    "対象は、内モンゴルのホリンゴル（Horinger）新区にある、HuaweiのAIデータセンターです。衛星画像と冷却設備のモデルから、4棟でIT向けの電力を286メガワットと見積もっています。",
+    "稼働中のチップは Ascend 910C が約10万5,000個、910B が約8,000個で、NVIDIA H100 に換算して約8万1,000基（90%信頼区間は3万6,000〜14万1,000）という推定です。Colossus 2 は約110万基相当としています。",
+    "建設中の1棟は2028年2月に稼働する見込みで、2028年の初めには、H100換算で約14万1,000基になると予測しています。中国で最大級のデータセンターのひとつだろうとしています。"
+   ],
+   "link": {
+    "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+    "title": "What Huawei's Horinger data center reveals about China's compute gap",
+    "site": "Epoch AI",
+    "image": "https://epoch.ai/assets/images/posts/2026/huawei-horinger-china-compute-gap/t-horinger-vs-colossus-2.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、アップルの研究。エーアイへの健康相談を、最大二十万人の規模で調べます。",
+   "show": "この時間の注目は、Appleの研究。AIへの健康相談を、最大20万人の規模で調べます。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-16",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 119.47,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.979,
+   "show": "おつかれさまです、AIテックラジオです。11月16日、月曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.229,
+   "end": 14.866,
+   "show": "この時間は、Appleが始めた健康AIの研究から、Huaweiのデータセンターの分析まで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 15.916,
+   "end": 23.713,
+   "show": "まずは、Apple。15日、健康の相談にAIがどう使われるかを調べる研究を、アメリカで始めました。",
+   "part": 1
+  },
+  {
+   "start": 23.963,
+   "end": 34.651,
+   "show": "参加者は、専用のアプリで健康について質問し、答えの質を評価します。医療向けAIのOpenEvidenceと協力し、最大20万人が参加できます。",
+   "part": 1
+  },
+  {
+   "start": 35.701,
+   "end": 41.611,
+   "show": "続いて、音声AIのBland。電話向けの音声モデル、Tofu-1を発表しました。",
+   "part": 2
+  },
+  {
+   "start": 41.861,
+   "end": 49.669,
+   "show": "聞きながら同時に話せるので、相手が途中で言い直しても応じられるそうです。一部の企業向けの、研究プレビューです。",
+   "part": 2
+  },
+  {
+   "start": 50.719,
+   "end": 60.521,
+   "show": "3本目は、スタンフォード大学などの研究、MEMORILLA。大量の文書を、16個の記憶トークンにまとめて、言語モデルに渡す仕組みです。",
+   "part": 3
+  },
+  {
+   "start": 60.771,
+   "end": 69.326,
+   "show": "文書を512件使う場合、全文を渡す方法とくらべて、応答までの時間が27分の1になったと報告しています。",
+   "part": 3
+  },
+  {
+   "start": 70.376,
+   "end": 78.941,
+   "show": "4本目は、AIでアプリを作るサービス、Lovable。ドイツのセキュリティ会社が、およそ15万9千件のプロジェクトを調べました。",
+   "part": 4
+  },
+  {
+   "start": 79.191,
+   "end": 89.378,
+   "show": "24,664件で、データベースの中身を、認証なしで読めたそうです。パスポートの記録や、20万件を超えるチャットも含まれていました。",
+   "part": 4
+  },
+  {
+   "start": 90.428,
+   "end": 100.508,
+   "show": "最後は、研究機関Epoch AIの分析です。中国、内モンゴルにあるHuaweiのデータセンターの計算能力を、衛星画像などから推定しました。",
+   "part": 5
+  },
+  {
+   "start": 100.758,
+   "end": 106.059,
+   "show": "SpaceXのデータセンター、Colossus 2の、およそ7%にあたるそうです。",
+   "part": 5
+  },
+  {
+   "start": 107.109,
+   "end": 114.288,
+   "show": "この時間の注目は、Appleの研究。AIへの健康相談を、最大20万人の規模で調べます。",
+   "part": 6
+  },
+  {
+   "start": 114.538,
+   "end": 117.418,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.916
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.916,
+   "end": 35.701
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 35.701,
+   "end": 50.719
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 50.719,
+   "end": 70.376
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 70.376,
+   "end": 90.428
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 90.428,
+   "end": 107.109
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 107.109,
+   "end": 119.468
+  }
+ ],
+ "made_at": "2026-11-16T16:33:27"
+}

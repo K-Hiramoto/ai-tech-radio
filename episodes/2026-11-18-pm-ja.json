@@ -1,0 +1,310 @@
+{
+ "title": "快手、Kling Image 4.0を公開",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十八日、水曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月18日、水曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、中国・クアイショウの新しい画像生成モデルから、医療の現場で働くエーアイ・エージェントまで、五本をお届けします。",
+   "show": "この時間は、中国・快手の新しい画像生成モデルから、医療の現場で働くAIエージェントまで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "快手、Kling Image 4.0 を公開",
+   "points": [
+    "快手の可灵AIが、画像生成モデル Kling Image 4.0 を公開",
+    "初めて、ネイティブ8Kの画像生成に対応",
+    "1枚の画像の中に、最大2,000文字"
+   ],
+   "url": "https://www.ithome.com/1/028/563.htm",
+   "lines": [
+    {
+     "say": "まずは、中国のクアイショウ。画像を作るエーアイ、クリング・イメージ・よんてんゼロを公開しました。",
+     "show": "まずは、中国の快手（Kuaishou）。画像を作るAI、Kling Image 4.0を公開しました。"
+    },
+    {
+     "say": "初めて、ハチケーの画像をそのまま生成できるようになり、一枚の画像の中に、最大二千文字を書き込めるそうです。",
+     "show": "初めて、8Kの画像をそのまま生成できるようになり、1枚の画像の中に、最大2,000文字を書き込めるそうです。"
+    }
+   ],
+   "details": [
+    "快手の可灵AI（Kling AI）が、11月17日の深夜に、Kling Image 4.0 の提供開始を発表しました。企業や開発者に向けて、APIも開放したそうです。画像の理解と生成を1つのモデルにまとめた構造だと説明されています。",
+    "ネイティブ8Kの画像生成に対応するのは初めてだとしています。光の当たり方や、肌や素材の質感が、カメラで撮ったままに近い仕上がりになるそうです。110種類を超える色調のスタイルも用意されています。",
+    "70種類を超える商用フォントを内蔵し、簡体字・繁体字の中国語、英語、日本語、韓国語、スペイン語、ポルトガル語に対応します。1つの説明から、内容のそろった画像を最大10枚まで作れるそうです。料金は、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://www.ithome.com/1/028/563.htm",
+    "title": "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字",
+    "site": "IT之家"
+   }
+  },
+  {
+   "label": "現代カードとJPMorgan、AIエージェントどうしの金融取引を実証",
+   "points": [
+    "現代カードが、JPMorganのKinexysと実証を完了",
+    "別々の組織のAIエージェントが、両替と送金を実行",
+    "認められた範囲の外は、担当者の承認が必要"
+   ],
+   "url": "https://en.sedaily.com/finance/2026/11/18/hyundai-card-jpmorgan-test-ai-agents-for-cross-border",
+   "lines": [
+    {
+     "say": "続いて、韓国のヒョンデ・カード。ジェーピー・モルガンと、エーアイ・エージェントどうしが金融取引を行う実証を終えたと、発表しました。",
+     "show": "続いて、韓国の現代カード。JPMorganと、AIエージェントどうしが金融取引を行う実証を終えたと、発表しました。"
+    },
+    {
+     "say": "模擬の取引で、残高が足りなくなると、エージェントが為替の見積もりを比べ、あらかじめ認められた範囲で、両替と送金を自動で進めます。",
+     "show": "模擬の取引で、残高が足りなくなると、エージェントが為替の見積もりを比べ、あらかじめ認められた範囲で、両替と送金を自動で進めます。"
+    }
+   ],
+   "details": [
+    "現代カード（Hyundai Card）が11月18日に発表しました。相手は、JPMorganのブロックチェーン部門、Kinexys です。別々の組織のAIエージェントが、人が直接関わらずに情報をやりとりし、資金の管理と為替の取引を行えるかを確かめた、初めての例だと記事は伝えています。",
+    "実証は、仮の海外拠点2つのあいだで資金を動かす、模擬の取引です。一方の残高が決めた水準を下回ると、現代カードのエージェントが両方の残高を確かめ、銀行ごとの為替の見積もりを比べて、送る額を計算します。Kinexys のエージェントは、依頼した相手と取引の権限を確かめてから実行します。",
+    "あらかじめ与えた権限の範囲の中では自動で実行し、範囲の外は、担当者の承認が必要になるか、拒否されます。来年の上半期には、複数のエージェントが関わる、より複雑な実証を計画しているそうです。現代自動車グループのほかの会社に広げることも、検討しています。"
+   ],
+   "link": {
+    "url": "https://en.sedaily.com/finance/2026/11/18/hyundai-card-jpmorgan-test-ai-agents-for-cross-border",
+    "title": "Hyundai Card, JPMorgan Test AI Agents for Cross-Border Transfers",
+    "site": "Seoul Economic Daily",
+    "image": "https://wimg.sedaily.com/news/cms/2026/11/18/news-p.v1.20261118.6fe47172a513404c94bf360eee9e64cf_P1.jpg"
+   }
+  },
+  {
+   "label": "人型ロボット Atlas、半導体工場で試験へ",
+   "points": [
+    "GlobalFoundries が、2027年の初めから Atlas を試験",
+    "半導体メーカーが早期導入プログラムに入るのは初めて",
+    "担当する作業や台数は未公表"
+   ],
+   "url": "https://interestingengineering.com/ai-robotics/atlas-humanoid-semiconductor-manufacturing",
+   "lines": [
+    {
+     "say": "三本目は、ボストン・ダイナミクスの人型ロボット、アトラス。半導体メーカーのグローバル・ファウンドリーズが、二千二十七年の初めから、自社の施設で試験を始めます。",
+     "show": "3本目は、Boston Dynamicsの人型ロボット、Atlas。半導体メーカーのGlobalFoundriesが、2027年の初めから、自社の施設で試験を始めます。"
+    },
+    {
+     "say": "半導体メーカーが、アトラスの早期導入プログラムに加わるのは初めて。どんな作業を任せるかは、まだ公表されていません。",
+     "show": "半導体メーカーが、Atlasの早期導入プログラムに加わるのは初めて。どんな作業を任せるかは、まだ公表されていません。"
+    }
+   ],
+   "details": [
+    "GlobalFoundries と Boston Dynamics が、協力を広げます。まずは、人型ロボットをどこに使えるか、導入に何が要るかを調べ、施設の準備を進めるそうです。記事は、日常の作業への導入が決まったわけではなく、初期の評価の段階だと伝えています。",
+    "これまで Atlas の試験は、自動車の分野が中心でした。GlobalFoundries は、早期導入プログラムに加わる最初の半導体メーカーになります。特定の作業に向けた、初期の試験と訓練も予定されています。",
+    "GlobalFoundries では、四足歩行のロボット Spot が、すでに米国、ドイツ、シンガポールの拠点で点検にあたっています。シンガポールの2台は、9万回を超える点検をこなし、任務の成功率は99%だと報告されています。"
+   ],
+   "link": {
+    "url": "https://interestingengineering.com/ai-robotics/atlas-humanoid-semiconductor-manufacturing",
+    "title": "Atlas moves beyond automotive industry with chipmaking trials",
+    "site": "Interesting Engineering",
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/atlas-boston-dynamics.jpg"
+   }
+  },
+  {
+   "label": "Gemini Notebook、資料から操作できるサイトを作成",
+   "points": [
+    "資料をもとに、操作できるサイトを作る新機能",
+    "チャットで「make me a site」と頼む",
+    "Web版で18歳以上に世界で順次提供、モバイルは近日"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
+   "lines": [
+    {
+     "say": "四本目は、グーグルのジェミニ・ノートブック。読み込ませた資料をもとに、操作できるウェブサイトを作る機能が加わりました。",
+     "show": "4本目は、GoogleのGemini Notebook。読み込ませた資料をもとに、操作できるWebサイトを作る機能が加わりました。"
+    },
+    {
+     "say": "チャットで、作りたいサイトの説明を添えて頼むだけ。ウェブ版で、十八歳以上のユーザーに、世界で順次提供されています。",
+     "show": "チャットで、作りたいサイトの説明を添えて頼むだけ。Web版で、18歳以上のユーザーに、世界で順次提供されています。"
+    }
+   ],
+   "details": [
+    "Google が11月16日に発表しました。ノートや調べもの、資料を、操作できるサイトに変えて、込み入った情報をすばやく理解できるようにする機能です。例として、試験勉強のための周期表や歴史の年表、四半期の売上を見るダッシュボード、作業と締め切りを管理する表が挙げられています。",
+    "使い方は、Gemini Notebook のチャットに「make me a site」と入力し、仕事や勉強のために作りたいものの説明を添えます。できあがったサイトは、新しいタブで開いて操作したり、ほかの人に共有したりできます。",
+    "Web版で、18歳以上の Gemini Notebook ユーザーに、世界で順次提供されています。Google Workspace の契約者も対象です。モバイルアプリには、近く対応する予定です。料金や回数の上限は、発表には書かれていません。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
+    "title": "Turn Gemini Notebook sources into interactive sites",
+    "site": "Google",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blog_hero_periodic_table3_2784x1566.max-1440x810.png"
+   }
+  },
+  {
+   "label": "OpenAI、医療向けのPC操作エージェントの評価を公表",
+   "points": [
+    "医療の事務や診療の作業を、PCを操作してこなすエージェント",
+    "HealthAdminBench で GPT-6 Astra が94.3%",
+    "GPT-6 Luna は91.8%、1件あたり8.5セント"
+   ],
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+   "lines": [
+    {
+     "say": "最後は、オープン・エーアイ。医療の現場で、パソコンを操作して事務作業を進めるエーアイ・エージェントの、評価結果を公表しました。",
+     "show": "最後は、OpenAI。医療の現場で、パソコンを操作して事務作業を進めるAIエージェントの、評価結果を公表しました。"
+    },
+    {
+     "say": "スタンフォードの研究者による事務作業のベンチマークで、ジーピーティー・シックス・アストラが、九十四点三パーセントを得点したそうです。",
+     "show": "スタンフォードの研究者による事務作業のベンチマークで、GPT-6 Astraが、94.3%を得点したそうです。"
+    }
+   ],
+   "details": [
+    "OpenAI が11月16日に公表しました。保険の事前承認の申請、紹介、退院の計画などの作業が対象です。この機能は、OpenAI API、ChatGPT for Healthcare、ChatGPT for Clinicians で、すでに使えるそうです。CVS Health、Abridge、Ambience、Cigna Healthcare との取り組みも紹介しています。",
+    "HealthAdminBench は、スタンフォードの研究者による独立したベンチマークです。GPT-6 Astra は、採点項目の94.3%を得点しました。電子カルテの受信箱の作業では、確認した325件のうち99%が、医師から安全と評価されたそうです。",
+    "同じベンチマークで、GPT-6 Luna は91.8%でした。費用は GPT-6 Astra より98%安く、1件あたり8.5セントだと、OpenAI は説明しています。どちらのモデルも、推論の強さを最大にして評価しています。"
+   ],
+   "link": {
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+    "title": "Advancing computer-use agents for healthcare teams",
+    "site": "OpenAI"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、クリング・イメージ・よんてんゼロ。ハチケーの画像と、長い文字の書き込みに対応しました。",
+   "show": "この時間の注目は、Kling Image 4.0。8Kの画像と、長い文字の書き込みに対応しました。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 121.62,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.947,
+   "show": "おつかれさまです、AIテックラジオです。11月18日、水曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.197,
+   "end": 15.421,
+   "show": "この時間は、中国・快手の新しい画像生成モデルから、医療の現場で働くAIエージェントまで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 16.471,
+   "end": 22.753,
+   "show": "まずは、中国の快手（Kuaishou）。画像を作るAI、Kling Image 4.0を公開しました。",
+   "part": 1
+  },
+  {
+   "start": 23.003,
+   "end": 30.769,
+   "show": "初めて、8Kの画像をそのまま生成できるようになり、1枚の画像の中に、最大2,000文字を書き込めるそうです。",
+   "part": 1
+  },
+  {
+   "start": 31.819,
+   "end": 41.632,
+   "show": "続いて、韓国の現代カード。JPMorganと、AIエージェントどうしが金融取引を行う実証を終えたと、発表しました。",
+   "part": 2
+  },
+  {
+   "start": 41.882,
+   "end": 51.375,
+   "show": "模擬の取引で、残高が足りなくなると、エージェントが為替の見積もりを比べ、あらかじめ認められた範囲で、両替と送金を自動で進めます。",
+   "part": 2
+  },
+  {
+   "start": 52.425,
+   "end": 64.116,
+   "show": "3本目は、Boston Dynamicsの人型ロボット、Atlas。半導体メーカーのGlobalFoundriesが、2027年の初めから、自社の施設で試験を始めます。",
+   "part": 3
+  },
+  {
+   "start": 64.366,
+   "end": 72.643,
+   "show": "半導体メーカーが、Atlasの早期導入プログラムに加わるのは初めて。どんな作業を任せるかは、まだ公表されていません。",
+   "part": 3
+  },
+  {
+   "start": 73.693,
+   "end": 81.491,
+   "show": "4本目は、GoogleのGemini Notebook。読み込ませた資料をもとに、操作できるWebサイトを作る機能が加わりました。",
+   "part": 4
+  },
+  {
+   "start": 81.741,
+   "end": 90.359,
+   "show": "チャットで、作りたいサイトの説明を添えて頼むだけ。Web版で、18歳以上のユーザーに、世界で順次提供されています。",
+   "part": 4
+  },
+  {
+   "start": 91.409,
+   "end": 99.932,
+   "show": "最後は、OpenAI。医療の現場で、パソコンを操作して事務作業を進めるAIエージェントの、評価結果を公表しました。",
+   "part": 5
+  },
+  {
+   "start": 100.182,
+   "end": 108.438,
+   "show": "スタンフォードの研究者による事務作業のベンチマークで、GPT-6 Astraが、94.3%を得点したそうです。",
+   "part": 5
+  },
+  {
+   "start": 109.488,
+   "end": 116.443,
+   "show": "この時間の注目は、Kling Image 4.0。8Kの画像と、長い文字の書き込みに対応しました。",
+   "part": 6
+  },
+  {
+   "start": 116.693,
+   "end": 119.573,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 16.471
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 16.471,
+   "end": 31.819
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 31.819,
+   "end": 52.425
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 52.425,
+   "end": 73.693
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 73.693,
+   "end": 91.409
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 91.409,
+   "end": 109.488
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 109.488,
+   "end": 121.623
+  }
+ ],
+ "made_at": "2026-11-18T16:26:47"
+}
