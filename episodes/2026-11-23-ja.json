@@ -1,0 +1,311 @@
+{
+ "title": "リーマン予想の証明、Leanコミュニティが認定",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十三日、月曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月23日、月曜日の朝です。"
+  },
+  {
+   "say": "今日は、リーマン予想の証明を、リーンのコミュニティが認定した話など、五本お届けします。",
+   "show": "今日は、リーマン予想の証明を、Leanのコミュニティが認定した話など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "リーマン予想の証明、Lean と Mathlib のコミュニティが認定",
+   "points": [
+    "11月21日、Lean と Mathlib のコミュニティが、形式的な証明を正しいと認定",
+    "約1,700万行の Lean のコードを、複数の検査プログラムで確認",
+    "証明を理解し、短くして説明する作業はこれから"
+   ],
+   "url": "https://www.unite.ai/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof/",
+   "lines": [
+    {
+     "say": "まずは、リーマン予想の続報です。リーンとマスリブのコミュニティが、十一月二十一日、レヴェント・アルポゲさんの証明を、正しいと認定しました。",
+     "show": "まずは、リーマン予想の続報です。LeanとMathlibのコミュニティが、11月21日、Levent Alpögeさんの証明を、正しいと認定しました。"
+    },
+    {
+     "say": "ユナイト・エーアイによると、およそ千七百万行のコードを、複数の検査プログラムで確かめたそうです。ただ、中身を理解して説明する作業は、これからです。",
+     "show": "Unite.AIによると、およそ1,700万行のコードを、複数の検査プログラムで確かめたそうです。ただ、中身を理解して説明する作業は、これからです。"
+    }
+   ],
+   "details": [
+    "Unite.AIによると、Lean と Mathlib のコミュニティは11月21日、Levent Alpöge 氏の約1,700万行の Lean のライブラリが、リーマン予想を正しく記述し、証明していると認定しました。コンパイル、記述の照合、証明の検査に1日をかけたとされ、共同の声明には Lean FRO と Mathlib Initiative が賛同しています。",
+    "記事によると、コードが直接よりどころにしているのは Mathlib だけで、数十人がエラーなくコンパイルできたと報告しました。証明は、Lean の公式のカーネルのほか、別のプログラミング言語で書かれた第三者の検査プログラムでも確かめられました。MITの Andrew Sutherland 氏の記録では、175,187個のモジュールすべてがエラーなしでコンパイルされ、一部の検査は記事の時点でまだ続いていました。",
+    "記事は、今回の認定が答えたのは形式的な検査の問いであって、説明の問いではないとしています。Alpöge 氏は、議論がきわめて長く、大きく簡単にできる見込みだとして、理解と説明に取り組んでいるそうです。数学者がこの新しい考え方を簡単にし、吸収できるかが、残る中心の問いだと記事は伝えています。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof/",
+    "title": "Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof.jpg"
+   }
+  },
+  {
+   "label": "Together AI、プロンプトの流出を公表",
+   "points": [
+    "利用者のプロンプトの一部の保存サンプルを、第三者がダウンロード",
+    "AIのコーディングエージェントが、認証情報を公開リポジトリにコミット",
+    "新しいアカウントでは、データを保存しない設定が既定に"
+   ],
+   "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/",
+   "lines": [
+    {
+     "say": "続いてセキュリティです。トゥギャザー・エーアイが、利用者のプロンプトの一部が、外部に持ち出されたと公表しました。",
+     "show": "続いてセキュリティです。Together AIが、利用者のプロンプトの一部が、外部に持ち出されたと公表しました。"
+    },
+    {
+     "say": "ユナイト・エーアイによると、エーアイのコーディング・エージェントが、認証情報を公開のリポジトリに書きこんでしまったのが、原因だそうです。",
+     "show": "Unite.AIによると、AIのコーディングエージェントが、認証情報を公開のリポジトリに書きこんでしまったのが、原因だそうです。"
+    }
+   ],
+   "details": [
+    "Unite.AIによると、Together AI は11月21日、サーバーレスの推論サービスに送られた利用者のプロンプトの一部について、保存していたサンプルを権限のない第三者がダウンロードしたと公表しました。対象は MiniMax M3、GLM-5.2、Kimi K2.6 へのリクエストで、主に2026年6月24日、7月4日、7月8日、7月14日のものとされています。影響を受けた利用者やプロンプトの数は、記事には書かれていません。",
+    "記事によると、同社の公開リポジトリ xorl の開発中に、AIのコーディングエージェントが、サンプルを保存していた非公開の Hugging Face リポジトリに入れる認証情報をコミットしました。自動の検査が見つけてコミットは取り消されましたが、その間に第三者が認証情報を手に入れて使ったそうです。",
+    "同社は外部の調査会社や法執行機関と協力し、ほかにプロンプトの流出があった証拠は見つかっていないとしています。対策として、範囲や期限を絞った認証情報、すべてのプルリクエストでの認証情報の検査、AIのコーディングエージェントの使い方を定める開発手順の見直しを挙げ、新しいアカウントではゼロデータ保持（ZDR）を既定にしたそうです。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/",
+    "title": "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential.jpg"
+   }
+  },
+  {
+   "label": "AIのコーディングエージェント、仮想の会社では仕事の完了が1割未満",
+   "points": [
+    "コーディングエージェントを、仮想のソフトウェア会社の「社員」として試す実験",
+    "Claude Opus 5.5 や GPT-6 Astra でも、完全にこなせたのは10件に1件未満",
+    "単独のはっきりした課題は速くこなすが、自律した開発では流れを見失う"
+   ],
+   "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+   "lines": [
+    {
+     "say": "三本目は研究です。エーアイのコーディング・エージェントを、仮想のソフトウェア会社で、社員のように働かせる実験です。",
+     "show": "3本目は研究です。AIのコーディングエージェントを、仮想のソフトウェア会社で、社員のように働かせる実験です。"
+    },
+    {
+     "say": "ザ・デコーダーによると、クロード・オーパス・ごーてんごや、ジーピーティー・シックス・アストラでも、完全にこなせた仕事は、十件に一件未満だったそうです。",
+     "show": "The Decoderによると、Claude Opus 5.5 や GPT-6 Astra でも、完全にこなせた仕事は、10件に1件未満だったそうです。"
+    }
+   ],
+   "details": [
+    "The Decoder が11月22日に伝えた実験です。記事によると、AIのコーディングエージェントが初めて、同僚、プロジェクトのボード、チャットの履歴がある仮想のソフトウェア会社の中で、デジタルの社員として働きました。不完全な引き継ぎのある雑然とした日々の流れの中で、自分で開発を続け、未解決のチケットを確実に閉じることが求められます。",
+    "記事によると、Claude Opus 5.5 と GPT-6 Astra でも、完全にこなせた課題は10件に1件未満でした。モデルは、はっきりした単独の課題は速く終えますが、自律した開発者としては流れを見失うと伝えられています。",
+    "記事は、SWE-bench のような標準的なベンチマークはほぼ飽和していて、コーディングエージェントは最高点に近づいている、としています。今回の実験は、そうした切り離された課題と、実際の職場に近い仕事との差を示すものです。"
+   ],
+   "link": {
+    "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+    "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+    "site": "The Decoder",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg"
+   }
+  },
+  {
+   "label": "Perplexity、ウェブを見張る Monitor API",
+   "points": [
+    "話題やページを定期的に確認し、関係のある変化だけを Webhook で通知",
+    "ページの監視は最大10ページ、変わった部分を差分で返す",
+    "ウェブの監視は、成功した実行1,000回で1ドル"
+   ],
+   "url": "https://www.perplexity.ai/hub/blog/introducing-perplexitys-monitor-api",
+   "lines": [
+    {
+     "say": "四本目はパープレキシティ。ウェブを見張り続ける、モニター・エーピーアイを公開しました。",
+     "show": "4本目はPerplexity。ウェブを見張り続ける、Monitor API を公開しました。"
+    },
+    {
+     "say": "話題やページを決めておくと、定期的に確認して、関係のある変化があったときだけ知らせてくれます。料金は、千回の実行で一ドルだそうです。",
+     "show": "話題やページを決めておくと、定期的に確認して、関係のある変化があったときだけ知らせてくれます。料金は、1,000回の実行で1ドルだそうです。"
+    }
+   ],
+   "details": [
+    "Perplexity は11月16日付のブログで、Monitor API を発表しました。ある話題についての新しい動きをウェブで見張るか、決めたページの変化を追い、定期的に確認して、関係のある更新を見つけると Webhook で知らせます。モニターは、検索の問い（またはページの一覧）と、任意の「ゴール」をふつうの言葉で書いて作ります。",
+    "ウェブを見張るモードでは、結果が、関連性、出典の正当性、新しい情報かどうか、新鮮さの4つの確認を通ったときだけ更新が送られ、それぞれに確信度のスコアが付きます。ページを見張るモードでは最大10ページを追い、最初の確認で基準を保存して、その後は変わった部分をテキストの差分で返します。間隔は15分ごと、毎時、毎日、毎週などのほか、cron でも決められます。",
+    "料金は、ウェブのモニターが成功した実行1,000回あたり1ドル、ページのモニターが取得した URL 1,000件あたり1ドルです。API と API Console から、Search API などと同じ API キーで使えます。"
+   ],
+   "link": {
+    "url": "https://www.perplexity.ai/hub/blog/introducing-perplexitys-monitor-api",
+    "title": "Introducing Perplexity’s Monitor API",
+    "site": "Perplexity AI",
+    "image": "https://cdn.sanity.io/images/aqo64vfr/production/7008d12886496845c659f99a03803e27f0c382dd-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fm=jpg&q=80&fit=crop"
+   }
+  },
+  {
+   "label": "Gemini API に Tool Retrieval、プレビューで提供",
+   "points": [
+    "たくさんのツールの定義を、必要になったときだけ読みこむ",
+    "Gemini 3.6 以降のモデルで、Interactions API から利用",
+    "追加の料金はなし。索引を作ったり置いたりする必要もない"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "lines": [
+    {
+     "say": "最後はグーグル。ジェミニ・エーピーアイに、ツール・リトリーバルという機能が、プレビューで加わりました。",
+     "show": "最後はGoogle。Gemini API に、Tool Retrieval という機能が、プレビューで加わりました。"
+    },
+    {
+     "say": "たくさんのツールを登録しても、細かい定義は、使うときにだけ読みこみます。追加の料金はありません。",
+     "show": "たくさんのツールを登録しても、細かい定義は、使うときにだけ読みこみます。追加の料金はありません。"
+    }
+   ],
+   "details": [
+    "Google は11月19日付のブログで、Gemini API の Tool Retrieval をプレビューで提供すると発表しました。数十から数百のツールを使うとき、すべてのパラメータの定義を毎回送ると、入力のトークンが増え、遅くなり、ツールを選ぶ正確さも下がる、という問題に対応するものです。",
+    "使い方は、リクエストに tool_search というツールを足し、後回しにしたいツールに defer_loading: true を付けるだけです。モデルにはツールの名前と説明だけが見え、必要になると名前で求めて、API が定義を読みこみ、同じリクエストの中で関数を呼び出します。検索は Gemini がサーバー側で行うので、索引を作ったり置いたりする必要はなく、リモートの MCP サーバーにも使えます。",
+    "対応するのは Gemini 3.6 以降（Gemini 4 のすべてのモデルを含む）で、Interactions API から使います。Tool Retrieval そのものに別の料金はなく、入出力のトークンは、呼び出したモデルの通常の料金で課金されます。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "site": "Google",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.width-1300.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、リーマン予想。形式的な検証は通りましたが、証明の説明は、これからです。",
+   "show": "今日の注目は、リーマン予想。形式的な検証は通りましたが、証明の説明は、これからです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-23",
+ "lang": "ja",
+ "seconds": 115.52,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.925,
+   "show": "おはようございます、AIテックラジオです。11月23日、月曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.175,
+   "end": 13.469,
+   "show": "今日は、リーマン予想の証明を、Leanのコミュニティが認定した話など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.519,
+   "end": 24.588,
+   "show": "まずは、リーマン予想の続報です。LeanとMathlibのコミュニティが、11月21日、Levent Alpögeさんの証明を、正しいと認定しました。",
+   "part": 1
+  },
+  {
+   "start": 24.838,
+   "end": 35.398,
+   "show": "Unite.AIによると、およそ1,700万行のコードを、複数の検査プログラムで確かめたそうです。ただ、中身を理解して説明する作業は、これからです。",
+   "part": 1
+  },
+  {
+   "start": 36.448,
+   "end": 43.477,
+   "show": "続いてセキュリティです。Together AIが、利用者のプロンプトの一部が、外部に持ち出されたと公表しました。",
+   "part": 2
+  },
+  {
+   "start": 43.727,
+   "end": 52.015,
+   "show": "Unite.AIによると、AIのコーディングエージェントが、認証情報を公開のリポジトリに書きこんでしまったのが、原因だそうです。",
+   "part": 2
+  },
+  {
+   "start": 53.065,
+   "end": 60.82,
+   "show": "3本目は研究です。AIのコーディングエージェントを、仮想のソフトウェア会社で、社員のように働かせる実験です。",
+   "part": 3
+  },
+  {
+   "start": 61.07,
+   "end": 71.683,
+   "show": "The Decoderによると、Claude Opus 5.5 や GPT-6 Astra でも、完全にこなせた仕事は、10件に1件未満だったそうです。",
+   "part": 3
+  },
+  {
+   "start": 72.733,
+   "end": 78.237,
+   "show": "4本目はPerplexity。ウェブを見張り続ける、Monitor API を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 78.487,
+   "end": 88.322,
+   "show": "話題やページを決めておくと、定期的に確認して、関係のある変化があったときだけ知らせてくれます。料金は、1,000回の実行で1ドルだそうです。",
+   "part": 4
+  },
+  {
+   "start": 89.372,
+   "end": 95.697,
+   "show": "最後はGoogle。Gemini API に、Tool Retrieval という機能が、プレビューで加わりました。",
+   "part": 5
+  },
+  {
+   "start": 95.947,
+   "end": 102.87,
+   "show": "たくさんのツールを登録しても、細かい定義は、使うときにだけ読みこみます。追加の料金はありません。",
+   "part": 5
+  },
+  {
+   "start": 103.92,
+   "end": 111.088,
+   "show": "今日の注目は、リーマン予想。形式的な検証は通りましたが、証明の説明は、これからです。",
+   "part": 6
+  },
+  {
+   "start": 111.338,
+   "end": 113.471,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.519
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.519,
+   "end": 36.448
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 36.448,
+   "end": 53.065
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 53.065,
+   "end": 72.733
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 72.733,
+   "end": 89.372
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 89.372,
+   "end": 103.92
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 103.92,
+   "end": 115.521
+  }
+ ],
+ "made_at": "2026-11-23T08:28:59"
+}
