@@ -1,0 +1,311 @@
+{
+ "title": "OpenAI、開発の共通指標にパープレキシティ",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十三日、月曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月23日、月曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、オープン・エーアイが提案した、開発の共通の指標など、五本です。",
+   "show": "この時間は、OpenAIが提案した、開発の共通の指標など、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenAI、パープレキシティを開発の共通指標に提案",
+   "points": [
+    "チーフサイエンティストの Jakub Pachocki 氏が、パープレキシティを共通の指標に提案",
+    "自社の事前学習の測定値を公開。いまのモデルは、対数パープレキシティが0.8未満",
+    "0.68〜0.70 の範囲に入る前に、開発各社で共通の制限を約束しようと呼びかけ"
+   ],
+   "url": "https://www.siliconreport.com/openai-chief-scientist-proposes-perplexity-as-shared-safety-metric",
+   "lines": [
+    {
+     "say": "まずは、オープン・エーアイ。パープレキシティという数値を、開発各社の共通の指標にしようと、チーフサイエンティストが提案しました。",
+     "show": "まずは、OpenAI。パープレキシティという数値を、開発各社の共通の指標にしようと、チーフサイエンティストが提案しました。"
+    },
+    {
+     "say": "この数値が、0.68から0.70の範囲に入る前に、共通の制限を約束しようという内容だと、シリコン・レポートが伝えています。",
+     "show": "この数値が 0.68 から 0.70 の範囲に入る前に、共通の制限を約束しようという内容だと、SiliconReport が伝えています。"
+    }
+   ],
+   "details": [
+    "SiliconReport の11月22日の記事です。提案は、OpenAIのサイトに載った投稿で示されました。パープレキシティ（交差エントロピー損失）は、モデルが次の言葉をどれだけうまく予測できるかを表す数値です。これを、先端のモデルを開発する会社どうしを比べ、安全の基準を考えるための、共通の指標にしようという内容です。",
+    "OpenAIは、公開されていないコードのデータセットで測った、社内の事前学習の測定値を公開しました。記事によると、GPT-3.5 が流ちょうに会話できたときの対数パープレキシティは約0.99、GPT-4 は約0.91。いまのモデルは0.8を下回り、サイバーセキュリティや数学の能力が現れてきたとしています。",
+    "呼びかけは、監視の技術が具体的な節目に届くまで、決めたしきい値を越えないと各社が約束する、というものです。会社ごとに学習データの組み合わせが違うこと、学習のあとに加わる能力はこの数値に表れないことも、投稿は限界として認めているそうです。"
+   ],
+   "link": {
+    "url": "https://www.siliconreport.com/openai-chief-scientist-proposes-perplexity-as-shared-safety-metric",
+    "title": "OpenAI chief scientist proposes perplexity as shared safety metric",
+    "site": "SiliconReport",
+    "image": "https://www.siliconreport.com/og/openai-chief-scientist-proposes-perplexity-as-shared-safety-metric"
+   }
+  },
+  {
+   "label": "Google、エージェントを動かす Agent Compute Engine",
+   "points": [
+    "AIエージェントを、切り離された microVM で動かすマネージドサービス",
+    "APIキーなどの認証情報は、サンドボックスの外に置く",
+    "まだ使えない。プレビューは「これから数か月のうち」、料金は未発表"
+   ],
+   "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/",
+   "lines": [
+    {
+     "say": "続いて、グーグル。エーアイ・エージェントを、切り離されたマイクロ・ブイエムで動かす、エージェント・コンピュート・エンジンを発表しました。",
+     "show": "続いて、Google。AIエージェントを、切り離された microVM で動かす、Agent Compute Engine を発表しました。"
+    },
+    {
+     "say": "認証情報は、サンドボックスの外に置く作りです。プレビューは、これから数か月のうちだと、インフォキューが伝えています。",
+     "show": "認証情報は、サンドボックスの外に置く作りです。プレビューは、これから数か月のうちだと、InfoQ が伝えています。"
+    }
+   ],
+   "details": [
+    "InfoQ の11月22日の記事です。Agent Compute Engine は、AIエージェントを1つずつ別の microVM の中で動かします。実行中の環境をチェックポイントとして保存し、止めたり再開したりできます。使っていない microVM は止めておき、必要になったら素早く戻すしくみです。",
+    "認証情報やAPIキー、OAuth のトークンは、エージェントが動くサンドボックスの中には置きません。外にある Agent Gateway がリクエストを認証し、必要な秘密の情報を差しこみます。指示を出す側（頭）と実行する側（手）を分け、ツールの呼び出しと実行の記録を結びつけられるとしています。",
+    "Googleは、Gemini や開発環境の Antigravity、モデルの評価に、この基盤を社内で使っているそうです。提供は Google Cloud だけで、料金は発表されていません。記事は、競合として AWS の Bedrock AgentCore と、Azure の Foundry Agent Service を挙げています。"
+   ],
+   "link": {
+    "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/",
+    "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+    "site": "InfoQ",
+    "image": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg"
+   }
+  },
+  {
+   "label": "C++26、技術的な作業が「もう一度」完了",
+   "points": [
+    "ブラジル・ブジオスの ISO C++ 委員会で、C++26 の技術的な作業を再び完了",
+    "最初の投票で5つの国の団体が反対。おもな論点は「契約」の機能",
+    "賛成111・反対9・棄権8（賛成92.5%）で、変更を加えて出し直し"
+   ],
+   "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+   "lines": [
+    {
+     "say": "三本目は、シープラスプラス。新しい規格、シープラスプラス・にじゅうろくの技術的な作業が、ブラジルの委員会で、もう一度、完了しました。",
+     "show": "3本目は、C++。新しい規格 C++26 の技術的な作業が、ブラジルの委員会で、もう一度、完了しました。"
+    },
+    {
+     "say": "最初の投票で出た反対に対応したもので、賛成はきゅうじゅうにーてんごパーセントだったと、ハーブ・サッター氏が報告しています。",
+     "show": "最初の投票で出た反対に対応したもので、賛成は92.5%だったと、Herb Sutter 氏が報告しています。"
+    }
+   ],
+   "details": [
+    "Herb Sutter 氏の11月21日の報告です。会議はブラジルのブジオスで6日間、Zoom も使って開かれ、約220人が参加し、27の国を代表しました。米国の航空の混乱もあって、参加者のおよそ65%がリモートだったそうです。",
+    "C++26 の技術的な作業は、2026年3月の会議でいったん完了していました。ところが最初の DIS 投票で、5つの国の団体が反対しました。おもな論点は、関数の前提や結果を書く「契約」（pre、post、contract_assert）の機能です。委員会は今回、あらためて採決し、契約を C++26 に残すことを確認しました。",
+    "今回は、契約に「必ず検査する」印を付けられる拡張など、4つの変更を採用しました。このあと2回目の DIS 投票と最後の編集作業があり、ISO からの出版は近いうちの見込みです。次の規格 C++29 には、0o で始まる8進数の書き方や、ラベル付きの break と continue などが入りました。次の会議は3月、トルコのイスタンブールです。"
+   ],
+   "link": {
+    "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+    "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+    "site": "Sutter’s Mill"
+   }
+  },
+  {
+   "label": "OpenAI、創薬化学のベンチマーク MedChemBench",
+   "points": [
+    "創薬化学の問題99問で、AIモデルを試すベンチマーク",
+    "117の論文と特許がもと。採点する分子の構造は761種類",
+    "GPT-6.2 Astra は84.5%。新薬を見つけられるかは示さない、とOpenAI"
+   ],
+   "url": "https://www.unite.ai/openai-introduces-medchembench-for-medicinal-chemistry-reasoning/",
+   "lines": [
+    {
+     "say": "四本目は、オープン・エーアイの、メドケム・ベンチ。創薬化学の問題、きゅうじゅうきゅう問で、エーアイを試すベンチマークです。",
+     "show": "4本目は、OpenAIの MedChemBench。創薬化学の問題99問で、AIを試すベンチマークです。"
+    },
+    {
+     "say": "ジーピーティー・ろくてんに・アストラは、はちじゅうよんてんごパーセント。ただ、新しい薬を見つけられるかは、分からないとしています。",
+     "show": "GPT-6.2 Astra は84.5%。ただ、新しい薬を見つけられるかは、分からないとしています。"
+    }
+   ],
+   "details": [
+    "Unite.AI の11月20日の記事です。OpenAIが同じ日に公開した MedChemBench は、分子の構造と実験の結果を結びつけて考えられるかを見ます。扱うのは、臨床試験より前の段階の創薬です。候補を絞りこむ問題が48問、構造と効き目の関係を予測する問題が26問などで、85問は複数の分野にまたがります。",
+    "問題は、すでに発表された117の論文と特許から作られています。研究の途中のある時点までの情報を見せ、そのあとの結果を伏せて、答え合わせに使います。構造の答えはプログラムで確かめ、理由の説明は、採点役のモデルが、0点・半分・満点で採点します。",
+    "いちばん高い推論の設定でのスコアは、GPT-6.2 Astra が84.5%、GPT-6 Astra が83.3%、GPT-6.1 Sol が82.0%、GPT-5.6 Sol が58.2%です。回答は、ツールを使わない1回きりのもの。もとの論文をモデルが学習していた可能性は否定できず、ベンチマークは上限に近づいている、とも書かれているそうです。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/openai-introduces-medchembench-for-medicinal-chemistry-reasoning/",
+    "title": "OpenAI Introduces MedChemBench for Medicinal-Chemistry Reasoning",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/openai-introduces-medchembench-for-medicinal-chemistry-reasoning.jpg"
+   }
+  },
+  {
+   "label": "AIが設計に加わったCPU「Frostbite」",
+   "points": [
+    "Architect Labs が、コンパイラと回路をAIと一緒に設計したCPUを発表",
+    "製造前の見積もりで、電力あたりの性能が比較対象の4.59倍（25種類の処理の平均）",
+    "7nm の設計。実際のチップは、まだ作られていない"
+   ],
+   "url": "https://xenospectrum.com/frostbite-cpu-design-energy-efficiency/",
+   "lines": [
+    {
+     "say": "最後は、アーキテクト・ラボの、フロストバイト。コンパイラと回路を、エーアイと一緒に設計した、シーピーユーです。",
+     "show": "最後は、Architect Labs の Frostbite。コンパイラと回路を、AIと一緒に設計したCPUです。"
+    },
+    {
+     "say": "製造前の見積もりで、電力あたりの性能は、比べたシーピーユーの、よんてんごーきゅう倍。実際のチップは、まだ作られていないそうです。",
+     "show": "製造前の見積もりで、電力あたりの性能は、比べたCPUの4.59倍。実際のチップは、まだ作られていないそうです。"
+    }
+   ],
+   "details": [
+    "XenoSpectrum の11月19日の記事です。Architect Labs は11月18日に、この研究を発表しました。Frostbite は、同時に進められる処理を「タイル」と呼ぶ処理の単位に配るCPUです。人が処理の種類と評価の条件を決め、AIは論文や既存のベンチマークを読んで設計の候補を作りました。58の候補のうち、37が採用されたそうです。",
+    "4.59倍は、25種類の処理の幾何平均です。設計の調整に使った10種類では6.02倍、調整に使わなかった15種類では3.83倍でした。比べた相手は、面積が近い、命令を順番どおりに実行するコア1つのCPUで、製品名は法的な理由で伏せられています。",
+    "数字は、7nm の設計にもとづく製造前の見積もりで、実物のチップを測ったものではありません。命令を並べかえて実行するCPUや、複数コアのCPUとの比較は、これからです。今後は、FPGA での環境づくりや、回路の記述と命令セットの公開も予定しているとのことです。"
+   ],
+   "link": {
+    "url": "https://xenospectrum.com/frostbite-cpu-design-energy-efficiency/",
+    "title": "AIが設計したCPU「Frostbite」、製造前評価で電力当たり性能4.59倍",
+    "site": "XenoSpectrum",
+    "image": "https://media.xenospectrum.com/large_frostbite_cpu_hero_ce10fbc557.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、オープン・エーアイの提案。会社ごとに学習データが違う、といった限界も、認めているそうです。",
+   "show": "この時間の注目は、OpenAIの提案。会社ごとに学習データが違う、といった限界も、認めているそうです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-23",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 120.33,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 7.075,
+   "show": "おつかれさまです、AIテックラジオです。11月23日、月曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.325,
+   "end": 13.085,
+   "show": "この時間は、OpenAIが提案した、開発の共通の指標など、5本です。",
+   "part": 0
+  },
+  {
+   "start": 14.135,
+   "end": 22.849,
+   "show": "まずは、OpenAI。パープレキシティという数値を、開発各社の共通の指標にしようと、チーフサイエンティストが提案しました。",
+   "part": 1
+  },
+  {
+   "start": 23.099,
+   "end": 32.475,
+   "show": "この数値が 0.68 から 0.70 の範囲に入る前に、共通の制限を約束しようという内容だと、SiliconReport が伝えています。",
+   "part": 1
+  },
+  {
+   "start": 33.525,
+   "end": 41.728,
+   "show": "続いて、Google。AIエージェントを、切り離された microVM で動かす、Agent Compute Engine を発表しました。",
+   "part": 2
+  },
+  {
+   "start": 41.978,
+   "end": 50.127,
+   "show": "認証情報は、サンドボックスの外に置く作りです。プレビューは、これから数か月のうちだと、InfoQ が伝えています。",
+   "part": 2
+  },
+  {
+   "start": 51.177,
+   "end": 61.417,
+   "show": "3本目は、C++。新しい規格 C++26 の技術的な作業が、ブラジルの委員会で、もう一度、完了しました。",
+   "part": 3
+  },
+  {
+   "start": 61.667,
+   "end": 69.593,
+   "show": "最初の投票で出た反対に対応したもので、賛成は92.5%だったと、Herb Sutter 氏が報告しています。",
+   "part": 3
+  },
+  {
+   "start": 70.643,
+   "end": 79.091,
+   "show": "4本目は、OpenAIの MedChemBench。創薬化学の問題99問で、AIを試すベンチマークです。",
+   "part": 4
+  },
+  {
+   "start": 79.341,
+   "end": 87.554,
+   "show": "GPT-6.2 Astra は84.5%。ただ、新しい薬を見つけられるかは、分からないとしています。",
+   "part": 4
+  },
+  {
+   "start": 88.604,
+   "end": 96.348,
+   "show": "最後は、Architect Labs の Frostbite。コンパイラと回路を、AIと一緒に設計したCPUです。",
+   "part": 5
+  },
+  {
+   "start": 96.598,
+   "end": 106.017,
+   "show": "製造前の見積もりで、電力あたりの性能は、比べたCPUの4.59倍。実際のチップは、まだ作られていないそうです。",
+   "part": 5
+  },
+  {
+   "start": 107.067,
+   "end": 115.152,
+   "show": "この時間の注目は、OpenAIの提案。会社ごとに学習データが違う、といった限界も、認めているそうです。",
+   "part": 6
+  },
+  {
+   "start": 115.402,
+   "end": 118.282,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.135
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.135,
+   "end": 33.525
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 33.525,
+   "end": 51.177
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.177,
+   "end": 70.643
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 70.643,
+   "end": 88.604
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 88.604,
+   "end": 107.067
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 107.067,
+   "end": 120.332
+  }
+ ],
+ "made_at": "2026-11-23T16:28:12"
+}
