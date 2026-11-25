@@ -1,0 +1,311 @@
+{
+ "title": "OpenAI、GPT-6がたんぱく質を設計",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十五日、水曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月25日、水曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、オープン・エーアイのモデルが、たんぱく質を設計したという発表など、五本です。",
+   "show": "この時間は、OpenAI のモデルが、たんぱく質を設計したという発表など、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenAI、GPT-6 が専用モデルなしでたんぱく質を設計",
+   "points": [
+    "GPT-6 の系列が、推論と自分で書いたコードだけでたんぱく質を設計したと発表",
+    "実験では、322個の候補のうち35個、10.9%が狙った相手と結合",
+    "査読前の論文。結合を確かめただけで、薬としての効果は示していない"
+   ],
+   "url": "https://alphasignal.ai/news/openai-s-gpt-6-2-designs-real-proteins-that-bind-drug-targets-in-the-lab",
+   "lines": [
+    {
+     "say": "まずは、オープン・エーアイ。ジーピーティー・シックスの系列が、生物学の専用モデルを使わずに、たんぱく質を設計できたと発表しました。",
+     "show": "まずは、OpenAI。GPT-6 の系列が、生物学の専用モデルを使わずに、たんぱく質を設計できたと発表しました。"
+    },
+    {
+     "say": "実験では、三百二十二個の候補のうち、三十五個が、狙ったたんぱく質と結びついたそうです。",
+     "show": "実験では、322個の候補のうち、35個が、狙ったたんぱく質と結びついたそうです。"
+    }
+   ],
+   "details": [
+    "十一月二十四日の発表です。OpenAI は、GPT-6 の系列が、言葉による推論と、自分で書いた Python のコードだけで、たんぱく質の設計をこなしたとしています。論文の題は「GPT-6 as a Universal Foundation Model for Protein Biology」で、まだ査読は受けていません。",
+    "Onava との実験では、設計した322個の小さな結合体のうち35個、10.9%が、PD-L1 や VEGF-A など5つの相手と結合しました。抗体の一部を設計し直した試験では、IL-4Rα に対する182個のうち128個、70%が結合を保ったそうです。設計の途中では、配列を決める SolubleMPNN など、既存の専用ツールも使われています。",
+    "計算の上での成績も公表され、分子のドッキングでは92%、骨格の設計では43.7%と、比べた既存手法を上回ったとしています。一方で、配列全体から構造を当てる課題は0.38と低く、弱点として挙げられています。確かめられたのは結合することだけで、薬としての効果や安全性は示されていません。"
+   ],
+   "link": {
+    "url": "https://alphasignal.ai/news/openai-s-gpt-6-2-designs-real-proteins-that-bind-drug-targets-in-the-lab",
+    "title": "OpenAI's GPT-6.2 Designs Real Proteins That Bind Drug Targets in the Lab",
+    "site": "AlphaSignal",
+    "image": "https://alphasignal.ai/api/news/preview/openai-s-gpt-6-2-designs-real-proteins-that-bind-drug-targets-in-the-lab/v2/card.jpg"
+   }
+  },
+  {
+   "label": "Anthropic、サーバーが手順書を配る Skills over MCP",
+   "points": [
+    "MCP の2周年に合わせ、Skills over MCP をパブリックベータで公開",
+    "サーバー側が手順書を持ち、Claude は必要になったときだけ読みこむ",
+    "Tasks と Elicitation は正式提供。Pro・Max・Ultra は既定でオン"
+   ],
+   "url": "https://www.unite.ai/anthropic-brings-server-supplied-skills-and-background-tasks-to-claude/",
+   "lines": [
+    {
+     "say": "アンソロピックは、エム・シー・ピーのサーバーが、使い方の手順書を配れる、スキルズ・オーバー・エム・シー・ピーを、ベータ版で公開しました。",
+     "show": "Anthropic は、MCP のサーバーが、使い方の手順書を配れる Skills over MCP を、ベータ版で公開しました。"
+    },
+    {
+     "say": "長い処理を裏で続けるタスクスと、途中で利用者に確認するエリシテーションは、正式な提供になったそうです。",
+     "show": "長い処理を裏で続ける Tasks と、途中で利用者に確認する Elicitation は、正式な提供になったそうです。"
+    }
+   ],
+   "details": [
+    "十一月二十四日、MCP の公開から2年に合わせた発表です。これまで道具だけを渡していた MCP のサーバーが、その道具の使い方をまとめた「スキル」も一緒に置けるようになります。スキルは SKILL.md というファイルを含むひとまとまりで、Claude は必要になったときだけ読みこみます。",
+    "利用者が別に入れるものはなく、サーバーが直せば内容も新しくなります。読みこむ前に、ファイルの大きさとハッシュを確かめ、承認済みのものと変わっていれば、もう一度承認を求める決まりです。Pro・Max・Ultra のプランでは既定でオン、Team は管理者が有効にしたとき、Enterprise は近日とされています。",
+    "同時に、Tasks と Elicitation が正式提供になりました。Tasks は、サーバーが接続をふさがずに、長い処理を裏で進め、切れても同じIDで続きから見られるしくみです。Elicitation は、サーバーが途中で入力や確認を求めるしくみで、パスワードやAPIキーをフォームで聞くことは禁じられています。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/anthropic-brings-server-supplied-skills-and-background-tasks-to-claude/",
+    "title": "Anthropic Brings Server-Supplied Skills and Background Tasks to Claude",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/anthropic-brings-server-supplied-skills-and-background-tasks-to-claude.jpg"
+   }
+  },
+  {
+   "label": "Cognition、コーディングモデル SWE-2.1",
+   "points": [
+    "Kimi K3 をもとに、強化学習だけで学習した SWE-2.1 を公開",
+    "FrontierCode 2.0 は24.1から41.3、Terminal-Bench 4.1 は24.2から50.0",
+    "Cerebras と組んだ10倍速い Ultrafast 版も。12月8日まで無料"
+   ],
+   "url": "https://cognition.com/blog/swe-2-1",
+   "lines": [
+    {
+     "say": "コグニションは、コーディング向けのモデル、エスダブリューイー・ツーテンイチを公開しました。",
+     "show": "Cognition は、コーディング向けのモデル SWE-2.1 を公開しました。"
+    },
+    {
+     "say": "前の版とくらべて、フロンティアコードは二十四点一から四十一点三へ、ターミナルベンチは二十四点二から五十へ上がったそうです。",
+     "show": "前の版とくらべて、FrontierCode は24.1から41.3へ、Terminal-Bench は24.2から50.0へ上がったそうです。"
+    }
+   ],
+   "details": [
+    "十一月二十四日の発表です。SWE-2.1 は、Kimi K3 に対して、強化学習だけで学習させたモデルだと書かれています。短い作業から長い作業まで、科学・性能改善・セキュリティなど、課題と環境を広げたそうです。",
+    "公表された成績では、FrontierCode 2.0 が41.3、Terminal-Bench 4.1 が50.0、SWE Marathon が54.9。いずれも前の SWE-2 の倍前後ですが、同じ表にある Claude Opus 5.5 や Gemini 4 Neon には届いていません。セキュリティの ExploitBench は80%とされています。",
+    "派生版として、安全装置をゆるめた Devin Security 向けの SWE-2.1 Cyber と、Cerebras と組んで10倍の速さで動く Ultrafast が挙げられています。12月8日まではデスクトップと CLI で無料、その後も1月30日までは割引価格で使えるとのことです。"
+   ],
+   "link": {
+    "url": "https://cognition.com/blog/swe-2-1",
+    "title": "Introducing SWE-2.1",
+    "site": "Cognition",
+    "image": "https://cognition.com/images/swe-2-1/cover.jpg"
+   }
+  },
+  {
+   "label": "Google DeepMind、やさしい問題の安定性を測る HFE",
+   "points": [
+    "Kaggle で Humanity's First Exam を公開",
+    "544問、20の基礎的な能力。少し変えた問題にも毎回答えられるかを見る",
+    "12月15日まで、モデルが間違える日常の問題を募る競技"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+   "lines": [
+    {
+     "say": "グーグル・ディープマインドは、やさしい問題に、どれだけ安定して答えられるかを測る、ヒューマニティーズ・ファースト・エグザムを公開しました。",
+     "show": "Google DeepMind は、やさしい問題にどれだけ安定して答えられるかを測る Humanity's First Exam を公開しました。"
+    },
+    {
+     "say": "一度解けるかではなく、少し変えた問いにも、毎回正しく答えられるかを見る、という考え方だそうです。",
+     "show": "一度解けるかではなく、少し変えた問いにも、毎回正しく答えられるかを見る、という考え方だそうです。"
+    }
+   ],
+   "details": [
+    "Kaggle で公開された、HFE という名前のベンチマークです。いまのモデルは、難しい数学やコード、科学で高い点を取る一方、やさしい問いを取りこぼすことがある、という問題意識から作られています。",
+    "問題は、文章と画像あわせて544問。20の基礎的な能力にまたがります。一度正解できるかではなく、少し言いかえた問いを含めて、毎回正しく答えられるかを測るところが、ほかのベンチマークとちがう点だと説明されています。",
+    "例として、ネオンの看板に並ぶ言葉の、三番目の文字の色を順に答える、といった問いが挙げられています。あわせて、いまのモデルが間違える日常の問いを募る競技が、12月15日まで Kaggle で開かれています。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+    "title": "Humanity's First Exam: Testing LLM reliability",
+    "site": "Google"
+   }
+  },
+  {
+   "label": "Tidal、AIだけで作った曲を12月9日から削除",
+   "points": [
+    "12月9日から、完全にAIで作られた曲の配信を禁止し、削除を開始",
+    "年末までに2,900万曲以上を削除、1日8万〜8万5千曲を拒否する見込み",
+    "直近90日の投稿の43%超がAI生成。AIを補助に使った曲は受け付ける"
+   ],
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "lines": [
+    {
+     "say": "音楽配信のタイダルは、完全にエーアイで作られた曲を、十二月九日から削除すると発表しました。",
+     "show": "音楽配信の Tidal は、完全にAIで作られた曲を、12月9日から削除すると発表しました。"
+    },
+    {
+     "say": "年末までに、二千九百万曲あまりが消える見込みで、エーアイを補助に使った曲は、これまでどおり受け付けるそうです。",
+     "show": "年末までに、2,900万曲あまりが消える見込みで、AIを補助に使った曲は、これまでどおり受け付けるそうです。"
+    }
+   ],
+   "details": [
+    "十一月二十四日、Tidal が X で明らかにしました。12月9日から、完全にAIで作られた曲の配信を禁じ、すでにある曲も消していきます。年末までに2,900万曲以上が削除される見込みで、1日あたり8万から8万5千曲の投稿を拒むことになるそうです。",
+    "同社によると、直近90日に投稿された曲の43%以上がAIによるもので、プラットフォーム上の2,700万曲、全体の6.3%が完全にAI生成。そのうち96%は、一度も再生されていないとしています。配信代行の会社に対しても、完全にAIの曲を送らないよう求めます。",
+    "6月には、AIの曲への収益の支払いをやめていましたが、それでは歯止めにならなかったと説明されています。AIを補助として使った曲は、これまでどおり受け付けます。記事は、本物の音楽が埋もれてしまうことを、同社が理由に挙げていると伝えています。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+    "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、オープン・エーアイのたんぱく質の設計。査読前の論文で、確かめられたのは、結合することまでです。",
+   "show": "この時間の注目は、OpenAI のたんぱく質の設計。査読前の論文で、確かめられたのは、結合することまでです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-25",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 112.12,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.968,
+   "show": "おつかれさまです、AIテックラジオです。11月25日、水曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.218,
+   "end": 13.426,
+   "show": "この時間は、OpenAI のモデルが、たんぱく質を設計したという発表など、5本です。",
+   "part": 0
+  },
+  {
+   "start": 14.476,
+   "end": 23.713,
+   "show": "まずは、OpenAI。GPT-6 の系列が、生物学の専用モデルを使わずに、たんぱく質を設計できたと発表しました。",
+   "part": 1
+  },
+  {
+   "start": 23.963,
+   "end": 30.769,
+   "show": "実験では、322個の候補のうち、35個が、狙ったたんぱく質と結びついたそうです。",
+   "part": 1
+  },
+  {
+   "start": 31.819,
+   "end": 42.101,
+   "show": "Anthropic は、MCP のサーバーが、使い方の手順書を配れる Skills over MCP を、ベータ版で公開しました。",
+   "part": 2
+  },
+  {
+   "start": 42.351,
+   "end": 49.391,
+   "show": "長い処理を裏で続ける Tasks と、途中で利用者に確認する Elicitation は、正式な提供になったそうです。",
+   "part": 2
+  },
+  {
+   "start": 50.441,
+   "end": 55.657,
+   "show": "Cognition は、コーディング向けのモデル SWE-2.1 を公開しました。",
+   "part": 3
+  },
+  {
+   "start": 55.907,
+   "end": 64.259,
+   "show": "前の版とくらべて、FrontierCode は24.1から41.3へ、Terminal-Bench は24.2から50.0へ上がったそうです。",
+   "part": 3
+  },
+  {
+   "start": 65.309,
+   "end": 73.992,
+   "show": "Google DeepMind は、やさしい問題にどれだけ安定して答えられるかを測る Humanity's First Exam を公開しました。",
+   "part": 4
+  },
+  {
+   "start": 74.242,
+   "end": 81.175,
+   "show": "一度解けるかではなく、少し変えた問いにも、毎回正しく答えられるかを見る、という考え方だそうです。",
+   "part": 4
+  },
+  {
+   "start": 82.225,
+   "end": 89.233,
+   "show": "音楽配信の Tidal は、完全にAIで作られた曲を、12月9日から削除すると発表しました。",
+   "part": 5
+  },
+  {
+   "start": 89.483,
+   "end": 97.334,
+   "show": "年末までに、2,900万曲あまりが消える見込みで、AIを補助に使った曲は、これまでどおり受け付けるそうです。",
+   "part": 5
+  },
+  {
+   "start": 98.384,
+   "end": 106.939,
+   "show": "この時間の注目は、OpenAI のたんぱく質の設計。査読前の論文で、確かめられたのは、結合することまでです。",
+   "part": 6
+  },
+  {
+   "start": 107.189,
+   "end": 110.069,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.476
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.476,
+   "end": 31.819
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 31.819,
+   "end": 50.441
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 50.441,
+   "end": 65.309
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 65.309,
+   "end": 82.225
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 82.225,
+   "end": 98.384
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 98.384,
+   "end": 112.119
+  }
+ ],
+ "made_at": "2026-11-25T16:28:22"
+}
