@@ -1,0 +1,312 @@
+{
+ "title": "GoogleのAI、数学の論文6本を生成",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十六日、木曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月26日、木曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、グーグルのエーアイが、数学の論文を六本まとめて書いたという話など、五本です。",
+   "show": "この時間は、Google のAIが、数学の論文を6本まとめて書いたという話など、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Google の Cogentic、数学の論文6本を生成",
+   "points": [
+    "Google Research が、AIの Cogentic が生成した数学の論文6本を GitHub で公開",
+    "Gemini 4 がもとのマルチエージェント。最初の指示のあとは人が介入していない",
+    "どの論文も、まだ査読を受けていない。機械による証明の検証は、あとで公開"
+   ],
+   "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers/",
+   "lines": [
+    {
+     "say": "まずは、グーグル。グーグル・リサーチが、エーアイのシステム、コジェンティックが書いた数学の論文、六本を、ギットハブで公開しました。",
+     "show": "まずは、Google。Google Research が、AIのシステム Cogentic が書いた数学の論文6本を、GitHub で公開しました。"
+    },
+    {
+     "say": "素因数分解などを扱い、最初の指示のあとは、人が手を入れていないそうです。ただ、どれもまだ査読を受けていません。",
+     "show": "素因数分解などを扱い、最初の指示のあとは、人が手を入れていないそうです。ただ、どれもまだ査読を受けていません。"
+    }
+   ],
+   "details": [
+    "Cogentic は、Gemini 4 をもとにした、数学の発見のためのマルチエージェントのシステムです。2026年9月に arXiv の論文で紹介されました。1つのモデルが考えるのではなく、証明を試みる役、証明を崩そうとする検証役、方針を見る役、文献を調べる役、論文を書く役に分かれて進めます。",
+    "6本が扱うのは、素因数分解が2本、有限体の離散対数、2人ゲームの近似ナッシュ均衡、通信複雑性のログランク予想、グラフの辺再構成です。素因数分解の1本は、数体ふるい法の計算量を証明したとするもので、いまの暗号の鍵がすぐに破れるわけではない、という第三者の見方も紹介されています。",
+    "記事によると、どの論文も、書かれた時点で査読を受けていません。Google Research は、証明をコンピューターで検証したものを、あとで別に公開するとしています。その時期は示されていません。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers/",
+    "title": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/26/cogentic-6-research-papers/00.jpg"
+   }
+  },
+  {
+   "label": "Anthropic、Messages API を Python から Rust に移行",
+   "points": [
+    "Claude を呼び出す Messages API を、Python から Rust に書き直した",
+    "リクエストあたりのCPUは約70%、メモリは80%以上減ったと発表",
+    "中心部分の最初の版は、Claude が約1週間で作成。本番の通信で新旧を比較"
+   ],
+   "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "lines": [
+    {
+     "say": "アンソロピックは、クロードを呼び出すメッセージズ・エーピーアイを、パイソンからラストに書き直したと発表しました。",
+     "show": "Anthropic は、Claude を呼び出す Messages API を、Python から Rust に書き直したと発表しました。"
+    },
+    {
+     "say": "リクエストあたりのシーピーユーの使用量は、およそ七十パーセント減ったそうです。最初の版は、クロードが一週間ほどで書いています。",
+     "show": "リクエストあたりのCPUの使用量は、およそ70%減ったそうです。最初の版は、Claude が1週間ほどで書いています。"
+    }
+   ],
+   "details": [
+    "十一月二十五日の技術記事です。Messages API は、利用者や Claude Code などが Claude を呼び出す入り口で、2023年に Python で作られました。API の通信量は、2024年の初めから2026年の秋までに、およそ1,800倍に増えたそうです。一般の通信が Rust に移ったのは、2026年9月です。",
+    "図の説明によると、8月から10月にかけて、リクエストあたりのCPUは約70%、メモリは80%以上減りました。最初のトークンが返るまでの時間は、中央値で約20%短くなったとしています。CPUは1つのリージョン、応答の時間は Claude Code のリクエストで測った値です。",
+    "確かめ方は、本番の Python 版を正解として、同じ通信を Rust 版にも流して比べるものでした。4月には、テストの約98%に通っていたのに、本番の通信で一致したのは約4分の1でした。一致の割合は、8月までに99.6%になったそうです。移したテストのうち100以上で、検査が弱められていたことも、監査で見つかっています。"
+   ],
+   "link": {
+    "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+    "title": "Migrating our Messages API to Rust",
+    "site": "Anthropic",
+    "image": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg"
+   }
+  },
+  {
+   "label": "Sakana AI、300億パラメータの Namazu Small",
+   "points": [
+    "NVIDIA の Nemotron 3 Nano がもとの推論モデル。300億パラメータ",
+    "25のベンチマークの平均で、1,200億の Nemotron 3 Super を上回ったと発表",
+    "覚えた知識を問う SimpleQA は苦手。オンプレミスでの提供を予定"
+   ],
+   "url": "https://alphasignal.ai/news/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks",
+   "lines": [
+    {
+     "say": "サカナ・エーアイは、三百億パラメータの推論モデル、ナマズ・スモールを発表しました。エヌビディアの、ネモトロン・スリー・ナノがもとです。",
+     "show": "Sakana AI は、300億パラメータの推論モデル Namazu Small を発表しました。NVIDIA の Nemotron 3 Nano がもとです。"
+    },
+    {
+     "say": "二十五のベンチマークの平均で、四倍の大きさのモデルを上回ったそうです。一方で、覚えた知識を答える問題は苦手だとしています。",
+     "show": "25のベンチマークの平均で、4倍の大きさのモデルを上回ったそうです。一方で、覚えた知識を答える問題は苦手だとしています。"
+    }
+   ],
+   "details": [
+    "Namazu Small は、NVIDIA の Nemotron 3 Nano に、Sakana AI が自社で追加の事前学習と事後学習をしたモデルです。全体で約300億、1トークンあたり約30億のパラメータが働きます。開発は、経済産業省と NEDO の GENIAC の支援を受けています。",
+    "Sakana AI の発表では、25のベンチマークの平均で、1,200億パラメータの Nemotron 3 Super を上回りました。伸びが大きいのは、何段階もウェブを調べる BrowseComp で、Namazu Small が73.5、Nano が29.3、Super が36.1です。",
+    "弱いのは、検索なしで知識を答える問題です。SimpleQA Verified は6.8で Super の18.1を、日本語の SimpleQA は8.0で Super の24.9を下回りました。オンプレミス版を予定していて、提供の詳細は12月の前半から半ばに示すとされています。重みの公開やライセンスは、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://alphasignal.ai/news/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks",
+    "title": "Sakana AI's 30B Namazu Small Beats NVIDIA's 120B Model on 25 Benchmarks",
+    "site": "AlphaSignal",
+    "image": "https://alphasignal.ai/api/news/preview/sakana-ai-s-30b-namazu-small-beats-nvidia-s-120b-model-on-25-benchmarks/v2/card.jpg"
+   }
+  },
+  {
+   "label": "NVIDIA、画像生成モデル Nemotron-Labs-Image の重みを公開",
+   "points": [
+    "文章から画像を作る自己回帰のモデル。Hugging Face で重みを公開",
+    "全体で300億、働くのは30億パラメータ。Nemotron 3 Nano から出発",
+    "ライセンスは、非商用の研究と評価に限る"
+   ],
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+   "lines": [
+    {
+     "say": "エヌビディアは、文章から画像を作るモデル、ネモトロン・ラボズ・イメージの重みを、ハギング・フェイスで公開しました。",
+     "show": "NVIDIA は、文章から画像を作るモデル Nemotron-Labs-Image の重みを、Hugging Face で公開しました。"
+    },
+    {
+     "say": "言語モデルと同じように、画像を順番に書き出していくしくみです。使えるのは、非商用の研究と評価に限られます。",
+     "show": "言語モデルと同じように、画像を順番に書き出していくしくみです。使えるのは、非商用の研究と評価に限られます。"
+    }
+   ],
+   "details": [
+    "正式な名前は Nemotron-Labs-Image-30B-A3B です。言語モデルの Nemotron 3 Nano から出発した自己回帰のモデルで、全体で300億、1トークンあたり30億のパラメータが働きます。「Nemotron-Labs-VisualCreation」という枠組みのうち、画像を作る部分にあたります。",
+    "画像は、16ピクセル四方のパッチごとにトークンにして書き出します。縦と横が16の倍数なら、どの大きさでも作れ、1024×1024 などが勧められています。参考の実行環境は、80GB の H100 が4枚です。",
+    "NVIDIA 自身の評価では、GenEval が92.86で GPT Image 2 の89.00を、文字の多い画像を見る LongTextBench が97.98で GPT Image 2 の96.00を上回りました。GenEval2 と Qwen-Image-Bench では、GPT Image 2 のほうが上です。ライセンスは NVIDIA 独自のもので、非商用の研究と評価に限られます。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "title": "nvidia/Nemotron-Labs-Image-30B-A3B · Hugging Face",
+    "site": "Hugging Face",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/Nemotron-Labs-Image-30B-A3B.png"
+   }
+  },
+  {
+   "label": "Sand.ai の動画モデル MAGI-2、Higgsfield で提供",
+   "points": [
+    "最長30秒、1080p・毎秒25フレームの動画を一度に生成",
+    "全体で4,000億、動画のひとまとまりごとに約280億のパラメータが働く",
+    "いまは Higgsfield だけで提供。重みは「近日公開」"
+   ],
+   "url": "https://higgsfield.ai/announcing-magi-2",
+   "lines": [
+    {
+     "say": "最後は、動画の生成です。サンド・エーアイの動画モデル、マギ・ツーが、ヒッグスフィールドで使えるようになりました。",
+     "show": "最後は、動画の生成です。Sand.ai の動画モデル MAGI-2 が、Higgsfield で使えるようになりました。"
+    },
+    {
+     "say": "最長三十秒の動画を、一度に作れます。モデルの重みは、近く公開するとしています。",
+     "show": "最長30秒の動画を、一度に作れます。モデルの重みは、近く公開するとしています。"
+    }
+   ],
+   "details": [
+    "十一月二十五日の Higgsfield の発表です。MAGI-2 は Sand.ai が開発した動画モデルで、最長30秒を、1080p・毎秒25フレーム、6種類の縦横比で作れます。参考にする素材は、1回に20個まで。画像10、動画5、音声5の内訳です。",
+    "パラメータは全体で4,000億です。Mixture-of-Experts の構造で、動画のひとまとまりごとに働くのは約280億だとしています。料金は、1秒あたり2.5クレジットです。",
+    "いまは Higgsfield だけで提供されていて、重みは「近日公開」とされています。Higgsfield の動画の比較投票（11月24日時点）では、6つのうち2位。1位は Seedance 2.5 でした。"
+   ],
+   "link": {
+    "url": "https://higgsfield.ai/announcing-magi-2",
+    "title": "Announcing MAGI-2: Open Weights 400B Multimodal-to-Video Model | Higgsfield",
+    "site": "Higgsfield",
+    "image": "https://static.higgsfield.ai/arena/magi-2-article/cover.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、グーグルのコジェンティック。六本の論文は、まだ査読を受けていません。証明の検証は、これからです。",
+   "show": "この時間の注目は、Google の Cogentic。6本の論文は、まだ査読を受けていません。証明の検証は、これからです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 114.17,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 7.032,
+   "show": "おつかれさまです、AIテックラジオです。11月26日、木曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.282,
+   "end": 14.013,
+   "show": "この時間は、Google のAIが、数学の論文を6本まとめて書いたという話など、5本です。",
+   "part": 0
+  },
+  {
+   "start": 15.063,
+   "end": 24.321,
+   "show": "まずは、Google。Google Research が、AIのシステム Cogentic が書いた数学の論文6本を、GitHub で公開しました。",
+   "part": 1
+  },
+  {
+   "start": 24.571,
+   "end": 32.347,
+   "show": "素因数分解などを扱い、最初の指示のあとは、人が手を入れていないそうです。ただ、どれもまだ査読を受けていません。",
+   "part": 1
+  },
+  {
+   "start": 33.397,
+   "end": 40.043,
+   "show": "Anthropic は、Claude を呼び出す Messages API を、Python から Rust に書き直したと発表しました。",
+   "part": 2
+  },
+  {
+   "start": 40.293,
+   "end": 48.869,
+   "show": "リクエストあたりのCPUの使用量は、およそ70%減ったそうです。最初の版は、Claude が1週間ほどで書いています。",
+   "part": 2
+  },
+  {
+   "start": 49.919,
+   "end": 58.505,
+   "show": "Sakana AI は、300億パラメータの推論モデル Namazu Small を発表しました。NVIDIA の Nemotron 3 Nano がもとです。",
+   "part": 3
+  },
+  {
+   "start": 58.755,
+   "end": 67.726,
+   "show": "25のベンチマークの平均で、4倍の大きさのモデルを上回ったそうです。一方で、覚えた知識を答える問題は苦手だとしています。",
+   "part": 3
+  },
+  {
+   "start": 68.776,
+   "end": 75.912,
+   "show": "NVIDIA は、文章から画像を作るモデル Nemotron-Labs-Image の重みを、Hugging Face で公開しました。",
+   "part": 4
+  },
+  {
+   "start": 76.162,
+   "end": 83.991,
+   "show": "言語モデルと同じように、画像を順番に書き出していくしくみです。使えるのは、非商用の研究と評価に限られます。",
+   "part": 4
+  },
+  {
+   "start": 85.041,
+   "end": 92.476,
+   "show": "最後は、動画の生成です。Sand.ai の動画モデル MAGI-2 が、Higgsfield で使えるようになりました。",
+   "part": 5
+  },
+  {
+   "start": 92.726,
+   "end": 99.158,
+   "show": "最長30秒の動画を、一度に作れます。モデルの重みは、近く公開するとしています。",
+   "part": 5
+  },
+  {
+   "start": 100.208,
+   "end": 108.987,
+   "show": "この時間の注目は、Google の Cogentic。6本の論文は、まだ査読を受けていません。証明の検証は、これからです。",
+   "part": 6
+  },
+  {
+   "start": 109.237,
+   "end": 112.117,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.063
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.063,
+   "end": 33.397
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 33.397,
+   "end": 49.919
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 49.919,
+   "end": 68.776
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 68.776,
+   "end": 85.041
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 85.041,
+   "end": 100.208
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 100.208,
+   "end": 114.167
+  }
+ ],
+ "made_at": "2026-11-26T16:25:40"
+}
