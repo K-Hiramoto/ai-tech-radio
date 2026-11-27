@@ -1,0 +1,310 @@
+{
+ "title": "リーマン予想の証明、7万6千行に短縮",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十八日、土曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月28日、土曜日の朝です。"
+  },
+  {
+   "say": "今日は、リーマン予想の証明が、およそ七万六千行に短くなった話など、五本お届けします。",
+   "show": "今日は、リーマン予想の証明が、およそ7万6,000行に短くなった話など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "リーマン予想の証明、約1,700万行から約7万6,000行に短縮",
+   "points": [
+    "11月25日、約7万6,000行の Lean のコードに短くした版が GitHub に公開",
+    "README によると、読みやすい版（約30万行）も短い版も、Claude が書いた",
+    "6つの検査プログラムが受理。確認は機械によるものだけ"
+   ],
+   "url": "https://maccus.fr/en/riemann-proof-76000-lines/",
+   "lines": [
+    {
+     "say": "まずは、リーマン予想の証明の続報です。およそ千七百万行あったリーンのコードを、およそ七万六千行に短くした版が、公開されました。",
+     "show": "まずは、リーマン予想の証明の続報です。およそ1,700万行あったLeanのコードを、およそ7万6,000行に短くした版が、公開されました。"
+    },
+    {
+     "say": "説明書きによると、書いたのはクロードです。六つの検査プログラムが受理しましたが、確認は、まだ機械によるものだけだそうです。",
+     "show": "説明書きによると、書いたのはClaudeです。6つの検査プログラムが受理しましたが、確認は、まだ機械によるものだけだそうです。"
+    }
+   ],
+   "details": [
+    "MACCUS によると、短い版は11月25日の20時42分（協定世界時）に、GitHub のリポジトリ lsernau/grh-lean に公開されました。もとの証明は、その5日前に Levent Alpöge 氏が公開した、約1,700万行の Lean のコードです。記事は、ウォータールー大学の Michael Rubinstein 氏のページをもとに、投稿者を Luke Sernau 氏としています。",
+    "版は2つあり、どちらも README には Claude が書いたとあります。読みやすい版は約30万行で、手引きが付いています。短い版は、コードが約7万6,000行、コメントと空行を含めると約11万3,000行です。リポジトリのライセンス表示は Anthropic の名義ですが、記事の時点で Anthropic からの発表はありません。",
+    "Rubinstein 氏のチームは、公開の約3時間後から短い版を調べ、794のモジュールすべてが30分足らずでコンパイルできました。11月26日の5時34分（協定世界時）までに、6つの別々のカーネルが証明を受理。MIT の Andrew Sutherland 氏も同じ結果を得ています。README は、証明が通ったのは機械による検査だけだとしています。記事は、行数の比べ方は単位が混ざっていて、宣言の数で数えると約7分の1だとも指摘しています。"
+   ],
+   "link": {
+    "url": "https://maccus.fr/en/riemann-proof-76000-lines/",
+    "title": "Claude makes a claimed Riemann hypothesis proof more than 150 times shorter",
+    "site": "MACCUS",
+    "image": "https://maccus.fr/wp-content/uploads/2026/11/featured-riemann-proof-76000-lines-1.jpg"
+   }
+  },
+  {
+   "label": "Tencent、AIで設計したペプチドの研究が Nature に掲載",
+   "points": [
+    "11月26日、Tencent Life Sciences Lab の論文が Nature に掲載",
+    "AIの基盤 ORIDTP で、2つの標的に同時に働くペプチドをゼロから設計",
+    "肥満・糖尿病と、がん免疫のマウス実験で効果。人での試験はまだ"
+   ],
+   "url": "https://www.thepaper.cn/newsDetail_forward_34567732",
+   "lines": [
+    {
+     "say": "次は、テンセントです。エーアイで、二つの標的に同時に働くペプチドを、ゼロから設計する研究が、科学誌ネイチャーに掲載されました。",
+     "show": "次は、Tencentです。AIで、2つの標的に同時に働くペプチドを、ゼロから設計する研究が、科学誌Natureに掲載されました。"
+    },
+    {
+     "say": "肥満や糖尿病、がんのマウスの実験で、効果を確かめたそうです。人での臨床試験は、まだ行われていません。",
+     "show": "肥満や糖尿病、がんのマウスの実験で、効果を確かめたそうです。人での臨床試験は、まだ行われていません。"
+    }
+   ],
+   "details": [
+    "中国のニュースサイト澎湃新聞（The Paper）によると、11月26日、Tencent Life Sciences Lab の論文「De novo design of high-potency dual-target therapeutic peptides with ORIDTP」が Nature に掲載されました。Tencent が筆頭の所属機関として Nature に載るのは初めてだそうです。",
+    "ORIDTP は、3つの部品でできています。標的に合わせて配列を作る拡散モデルの PepDif、2つの標的への働きを同時に高める強化学習の PepDRL、結合の強さを見積もって候補をしぼる PepDAF です。計算でしぼった候補を実験で確かめる流れで、1回に試すペプチドは15本だけだそうです。",
+    "代謝の分野では、肥満と糖尿病のマウスで、比較の薬の10分の1のモル用量で、体重と血糖に効果が出たとしています。がん免疫の分野では、候補の IC-Dual.P3 が、特定のマウスのモデルで、腫瘍の体積を対照より94.2%小さくしたそうです。記事は、いずれもマウスでの前臨床の結果で、人での効果を示すものではないと注記しています。"
+   ],
+   "link": {
+    "url": "https://www.thepaper.cn/newsDetail_forward_34567732",
+    "title": "腾讯以第一单位首登《Nature》！AI 从头设计双靶点多肽，用于减重降糖与肿瘤免疫药物研发",
+    "site": "澎湃新闻",
+    "image": "https://imgpai.thepaper.cn/newpai/image/1795697392697_Q5yrRN_1795697392896.png"
+   }
+  },
+  {
+   "label": "Microsoft、国家が支援する攻撃グループがAIの枠組み ARTEX を利用と報告",
+   "points": [
+    "中国や北朝鮮とつながる複数のグループが、ARTEX を攻撃に使っていると Microsoft が報告",
+    "ARTEX は、目標を与えるとAIエージェントが手順を立てて実行する、オープンソースの侵入テスト用の枠組み",
+    "ねらいを定めてから3時間足らずで、特権のあるアクセスを得た例も"
+   ],
+   "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+   "lines": [
+    {
+     "say": "三本目は、セキュリティです。マイクロソフトが、中国や北朝鮮とつながる攻撃グループが、エーアイの枠組み、アーテックスを使っていると報告しました。",
+     "show": "3本目は、セキュリティです。Microsoftが、中国や北朝鮮とつながる攻撃グループが、AIの枠組み、ARTEXを使っていると報告しました。"
+    },
+    {
+     "say": "目標を与えると、エーアイエージェントが手順を考えて実行します。ねらいを定めてから、三時間足らずで、特権のあるアクセスを得た例もあるそうです。",
+     "show": "目標を与えると、AIエージェントが手順を考えて実行します。ねらいを定めてから、3時間足らずで、特権のあるアクセスを得た例もあるそうです。"
+    }
+   ],
+   "details": [
+    "Help Net Security によると、Microsoft Threat Intelligence は今週、中国や北朝鮮とつながる国家支援のグループが、ARTEX を攻撃に使っていると報告しました。名前が挙がったのは、Storm-0940、Storm-3358、Onyx Sleet、Pearl Sleet、Crystal Typhoon、Salt Typhoon です。金銭が目的のグループも含まれます。",
+    "ARTEX は、言語モデルで動く、オープンソースの侵入テスト用の枠組みです。2026年7月に GitHub で公開されました。操作する人が目標を決めると、AIエージェントが手順を立てて実行します。Microsoft は、ARTEX が新しい攻撃の手法を加えるわけではなく、すでにある一般的な道具を使っていると説明しています。",
+    "Storm-0940 は、Microsoft 365 に対して、よく使われるパスワードを多数のアカウントに試す攻撃を行い、失敗したサインインは15万1,000回を超え、最大で毎分2,900回に達しました。ねらいを定めてから特権のあるアクセスを得るまでは、3時間足らず。別の例では、AIエージェントが、GitHub で秘密の情報を探すところから Azure Key Vault のデータを取り出すまでを、5分で進めたそうです。"
+   ],
+   "link": {
+    "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+    "title": "Chinese and North Korean state hackers add ARTEX AI framework to their arsenal - Help Net Security",
+    "site": "Help Net Security",
+    "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/05/18171505/digital-code.webp"
+   }
+  },
+  {
+   "label": "OpenAI、GPT-6.2 の利用量の数えまちがいを修正。上限に届くのが早く",
+   "points": [
+    "GPT-6.2 の提供開始のとき、不具合で、利用量が少なく数えられていた",
+    "修正後は、先週とくらべ、Astra で40%、Sol で25%早く上限に届く",
+    "さかのぼった請求はなし。Go、Plus、Pro、Business の利用者に、リセットを1回分"
+   ],
+   "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+   "lines": [
+    {
+     "say": "四本目は、オープン・エーアイです。ジーピーティー・ろくてんにで、利用量が少なく数えられていた不具合が、修正されました。",
+     "show": "4本目は、OpenAIです。GPT-6.2で、利用量が少なく数えられていた不具合が、修正されました。"
+    },
+    {
+     "say": "先週とくらべて、アストラでは四十パーセント、ソルでは二十五パーセント、早く上限に届きます。利用量のリセットが一回分、配られるそうです。",
+     "show": "先週とくらべて、Astraでは40%、Solでは25%、早く上限に届きます。利用量のリセットが1回分、配られるそうです。"
+    }
+   ],
+   "details": [
+    "The Decoder によると、OpenAI の Codex のエンジニア、Thibault Sottiaux 氏が X で明らかにしました。GPT-6.2 の提供開始のときの課金の不具合で、ほとんどの利用者に、GPT-6.2 Astra と Sol で誤った割引がかかっていたそうです。ほかのモデルには影響がありません。",
+    "不具合は修正済みで、利用者は前の週とくらべ、Astra で40%、Sol で25%早く上限に届くようになります。記事は、それでも GPT-6 Astra や GPT-6.1 Sol より、上限までは長くもつはずだと伝えています。新しい上限の具体的な値は、記事には書かれていません。",
+    "差額をさかのぼって請求することはありません。埋め合わせとして、Go、Plus、Pro、Business のすべての契約者に、取っておけるリセットが1回分追加されます。Business の利用者は、年末まで Fast Mode を無料で使えるそうです。"
+   ],
+   "link": {
+    "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+    "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+    "site": "The Decoder",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png"
+   }
+  },
+  {
+   "label": "キオクシアと NVIDIA、SSD で GPU のメモリーをペタバイト級に広げる実証",
+   "points": [
+    "NVIDIA のソフトウェア SCADA とキオクシアの SSD で、GPU が使えるメモリーを実質的に広げる",
+    "GB200 NVL72 に SSD 144台、合計約1.1ペタバイトをつないで実証",
+    "2兆個のベクトルのデータベースが対象。技術の評価の段階"
+   ],
+   "url": "https://www.techpowerup.com/355250/kioxia-and-nvidia-collaborate-to-expand-effective-high-bandwidth-memory-capacity-with-ssds",
+   "lines": [
+    {
+     "say": "最後は、キオクシアとエヌビディアです。エスエスディーを使って、ジーピーユーが使えるメモリーを、ペタバイトの規模まで広げる実証を発表しました。",
+     "show": "最後は、キオクシアとNVIDIAです。SSDを使って、GPUが使えるメモリーを、ペタバイトの規模まで広げる実証を発表しました。"
+    },
+    {
+     "say": "エスエスディーを百四十四台、合計およそ一点一ペタバイトをつないだそうです。いまは、技術を評価している段階です。",
+     "show": "SSDを144台、合計およそ1.1ペタバイトをつないだそうです。いまは、技術を評価している段階です。"
+    }
+   ],
+   "details": [
+    "TechPowerUp が載せた発表によると、KIOXIA America は、NVIDIA の Storage-Next の取り組みのもとで、NVIDIA のソフトウェア SCADA とキオクシアの SSD を使い、GPU が実質的に使えるメモリーをペタバイトの規模に広げる協力を発表しました。AI のデータが GPU の広帯域メモリー（HBM）に収まらなくなり、処理を小さく分けたり、遅いストレージとの間でデータを何度も動かしたりする必要が出ていることが背景です。",
+    "実証では、ラック型のシステム NVIDIA GB200 NVL72 に、7.68TB の KIOXIA XD8 シリーズの SSD を144台つなぎました。サーバーは18ノードで、1ノードに SSD が8台。SSD の容量は合計約1.1ペタバイトで、1ノードあたり60TB近くを、広げたメモリーとして使います。",
+    "対象は、2兆個のベクトルを入れたデータベースの処理で、512バイトの細かい単位でのアクセスに対応します。大きなベクトルデータベースや、グラフニューラルネットワークのデータでの利用を想定しています。キオクシアは、SCADA と Storage-Next について、技術的に実現できるかと性能の評価を続けているとしていて、製品の発売ではありません。"
+   ],
+   "link": {
+    "url": "https://www.techpowerup.com/355250/kioxia-and-nvidia-collaborate-to-expand-effective-high-bandwidth-memory-capacity-with-ssds",
+    "title": "Kioxia and NVIDIA Collaborate to Expand Effective High-Bandwidth Memory Capacity with SSDs",
+    "site": "TechPowerUp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、リーマン予想の証明。コードが、およそ七万六千行に短くなりました。",
+   "show": "今日の注目は、リーマン予想の証明。コードが、およそ7万6,000行に短くなりました。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "ja",
+ "seconds": 124.39,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.765,
+   "show": "おはようございます、AIテックラジオです。11月28日、土曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.015,
+   "end": 13.938,
+   "show": "今日は、リーマン予想の証明が、およそ7万6,000行に短くなった話など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.988,
+   "end": 24.94,
+   "show": "まずは、リーマン予想の証明の続報です。およそ1,700万行あったLeanのコードを、およそ7万6,000行に短くした版が、公開されました。",
+   "part": 1
+  },
+  {
+   "start": 25.19,
+   "end": 33.947,
+   "show": "説明書きによると、書いたのはClaudeです。6つの検査プログラムが受理しましたが、確認は、まだ機械によるものだけだそうです。",
+   "part": 1
+  },
+  {
+   "start": 34.997,
+   "end": 44.608,
+   "show": "次は、Tencentです。AIで、2つの標的に同時に働くペプチドを、ゼロから設計する研究が、科学誌Natureに掲載されました。",
+   "part": 2
+  },
+  {
+   "start": 44.858,
+   "end": 52.997,
+   "show": "肥満や糖尿病、がんのマウスの実験で、効果を確かめたそうです。人での臨床試験は、まだ行われていません。",
+   "part": 2
+  },
+  {
+   "start": 54.047,
+   "end": 64.468,
+   "show": "3本目は、セキュリティです。Microsoftが、中国や北朝鮮とつながる攻撃グループが、AIの枠組み、ARTEXを使っていると報告しました。",
+   "part": 3
+  },
+  {
+   "start": 64.718,
+   "end": 74.425,
+   "show": "目標を与えると、AIエージェントが手順を考えて実行します。ねらいを定めてから、3時間足らずで、特権のあるアクセスを得た例もあるそうです。",
+   "part": 3
+  },
+  {
+   "start": 75.475,
+   "end": 83.688,
+   "show": "4本目は、OpenAIです。GPT-6.2で、利用量が少なく数えられていた不具合が、修正されました。",
+   "part": 4
+  },
+  {
+   "start": 83.938,
+   "end": 94.157,
+   "show": "先週とくらべて、Astraでは40%、Solでは25%、早く上限に届きます。利用量のリセットが1回分、配られるそうです。",
+   "part": 4
+  },
+  {
+   "start": 95.207,
+   "end": 104.252,
+   "show": "最後は、キオクシアとNVIDIAです。SSDを使って、GPUが使えるメモリーを、ペタバイトの規模まで広げる実証を発表しました。",
+   "part": 5
+  },
+  {
+   "start": 104.502,
+   "end": 112.47,
+   "show": "SSDを144台、合計およそ1.1ペタバイトをつないだそうです。いまは、技術を評価している段階です。",
+   "part": 5
+  },
+  {
+   "start": 113.52,
+   "end": 119.952,
+   "show": "今日の注目は、リーマン予想の証明。コードが、およそ7万6,000行に短くなりました。",
+   "part": 6
+  },
+  {
+   "start": 120.202,
+   "end": 122.335,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.988
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.988,
+   "end": 34.997
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 34.997,
+   "end": 54.047
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 54.047,
+   "end": 75.475
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 75.475,
+   "end": 95.207
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 95.207,
+   "end": 113.52
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 113.52,
+   "end": 124.385
+  }
+ ],
+ "made_at": "2026-11-28T08:26:48"
+}
