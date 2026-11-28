@@ -1,0 +1,263 @@
+{
+ "title": "美団、LongCat-2.5の重みをMITで公開",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十六日、月曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月16日、月曜日の朝です。"
+  },
+  {
+   "say": "週末は大きな発表が少なかったので、今日は、先週のうちにまだお伝えしていなかった話題を、四本お届けします。",
+   "show": "週末は大きな発表が少なかったので、今日は、先週のうちにまだお伝えしていなかった話題を、4本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "LongCat-2.5 の重みを公開",
+   "points": [
+    "美団（Meituan）がMITライセンスで重みを公開",
+    "全体で1.6兆、1トークンあたり約480億のパラメータが働く",
+    "Hugging Faceで入手できる"
+   ],
+   "url": "https://ai-tldr.dev/releases/meituan-longcat-2-5/",
+   "lines": [
+    {
+     "say": "まずは中国のメイトゥアン。エージェント向けの大型モデル、ロングキャット・にーてんごの重みを、エムアイティー・ライセンスで公開しました。",
+     "show": "まずは中国の美団（Meituan）。エージェント向けの大型モデル「LongCat-2.5」の重みを、MITライセンスで公開しました。"
+    },
+    {
+     "say": "パラメータは全体で一兆六千億。そのうち、一トークンあたり、およそ四百八十億が働く作りで、画像も扱えます。",
+     "show": "パラメータは全体で1.6兆。そのうち、1トークンあたり約480億が働く作りで、画像も扱えます。"
+    }
+   ],
+   "details": [
+    "LongCat-2.5は、LongCat-2.0の後継にあたるマルチモーダルのMixture-of-Expertsモデルです。11月1日に発表され、その後に重みが公開されました。長い手順のエージェント作業を想定しています。",
+    "考えてから答えるモードと、すぐ答えるモードを切り替えられます。Terminal Bench v2.1のスコアは88.4（Meituanのモデルカードによる自己申告で、参考値とされています）。",
+    "重みはHugging Faceのmeituan-longcat/LongCat-2.5にあり、longcat.aiでチャットも試せます。出典の記事によると、ライセンスは商標や特許の権利までは与えていません。"
+   ],
+   "link": {
+    "url": "https://ai-tldr.dev/releases/meituan-longcat-2-5/",
+    "title": "LongCat-2.5 — Meituan opens weights of its 1.6T agentic model",
+    "site": "AI/TLDR",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meituan-longcat/LongCat-2.5.png"
+   }
+  },
+  {
+   "label": "AMD、第6世代EPYCの提供開始",
+   "points": [
+    "「Zen 6」ベースのサーバー向けCPUが一般提供に",
+    "サーバーメーカー各社から出荷中",
+    "Xeon 6980Pの最大2.2倍の性能とAMDは発表"
+   ],
+   "url": "https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/",
+   "lines": [
+    {
+     "say": "続いてエーエムディー。ゼン・シックスを使ったサーバー向けのシーピーユー、第六世代エピックの、一般提供を始めたと発表しました。",
+     "show": "続いてAMD。「Zen 6」を使ったサーバー向けCPU、第6世代EPYCの一般提供を始めたと発表しました。"
+    },
+    {
+     "say": "最上位のエピック・きゅうきゅうきゅうろくは、インテルのジオン・ろくきゅうはちゼロ・ピーに比べて、最大でにーてんに倍の性能だそうです。",
+     "show": "最上位のEPYC 9996は、IntelのXeon 6980Pに比べて、最大2.2倍の性能だそうです。"
+    }
+   ],
+   "details": [
+    "発表は11月10日。SP7というソケットを使う第6世代EPYCで、搭載システムは主要なサーバーメーカーから出荷されています。Microsoft AzureとOracle Cloudのインスタンスは「近日中」としています。",
+    "2.2倍は、2ソケット構成でのSPECrate2017_int_baseの比較（EPYC 9996が5470、Xeon 6980Pが2510）によるAMDの数字です。EPYC 9996の価格は1個14,904ドル（11月5日時点）。",
+    "AIエージェントを動かすホスト向けに、最大5.3GHzで動く製品も用意。ラック単位の構成「Helion」は、液冷・空冷・空冷の推論向けの3種類で、Metaが主要な顧客として検証しているそうです。"
+   ],
+   "link": {
+    "url": "https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/",
+    "title": "AMD Showcases 6th Gen AMD EPYC Processors",
+    "site": "AMD Newsroom",
+    "image": "https://newsroom.amd.com/images/2026/11/beb6555b-2f1e-4d74-bed8-f682ca93f8f8.jpg"
+   }
+  },
+  {
+   "label": "ロボットの触覚モデル LingBot-Touch",
+   "points": [
+    "Ant Group傘下のRobbyantがオープンソースで公開",
+    "約5,000時間の触覚データで事前学習",
+    "作業の成功率が約14〜26ポイント向上と発表"
+   ],
+   "url": "https://interestingengineering.com/ai-robotics/robots-gain-touch-with-china-dataset",
+   "lines": [
+    {
+     "say": "三本目はロボットの話題です。アント・グループ傘下のロビーアントが、触覚の基盤モデル、リンボット・タッチを、オープンソースで公開しました。",
+     "show": "3本目はロボットの話題です。Ant Group傘下のRobbyantが、触覚の基盤モデル「LingBot-Touch」を、オープンソースで公開しました。"
+    },
+    {
+     "say": "およそ五千時間ぶんの触覚データで学習していて、ロボットの手作業の成功率が、十四から二十六ポイントほど上がったそうです。",
+     "show": "約5,000時間ぶんの触覚データで学習していて、ロボットの手作業の成功率が、14〜26ポイントほど上がったそうです。"
+    }
+   ],
+   "details": [
+    "磁気式、視覚式、圧力抵抗式という3種類の触覚センサーのデータをまとめて扱います。成功率の数字は、2種類のロボットハンドと4つの動作モデルを使った、26の実機テストにもとづく同社の発表です。",
+    "ボトルのふたを扱う例では、触覚なしで56.25%、センサーの信号をそのまま使って62.5%、LingBot-Touchを通すと90%になったとしています（同社の数字）。",
+    "テストで使ったのは、約530万パラメータの小さなモデル（LingBot-Touch-Tiny）。動作モデル全体の大きさは0.13〜0.16%ほどしか増えないそうです。技術レポートとコードはHugging FaceとGitHubにあります。"
+   ],
+   "link": {
+    "url": "https://interestingengineering.com/ai-robotics/robots-gain-touch-with-china-dataset",
+    "title": "China's 5,000-hour dataset gives robots a shared sense of touch",
+    "site": "Interesting Engineering",
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-7-2.jpg"
+   }
+  },
+  {
+   "label": "EmbeddingGemma 2 が Workers AI に",
+   "points": [
+    "テキスト・画像・動画・音声を同じベクトル空間に",
+    "100を超える言語に対応",
+    "入力100万トークンあたり0.0017ドル"
+   ],
+   "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+   "lines": [
+    {
+     "say": "最後はクラウドフレア。グーグル・ディープマインドの埋め込みモデル、エンベディング・ジェマ・ツーが、ワーカーズ・エーアイで使えるようになりました。",
+     "show": "最後はCloudflare。Google DeepMindの埋め込みモデル「EmbeddingGemma 2」が、Workers AIで使えるようになりました。"
+    },
+    {
+     "say": "文章、画像、動画、音声を、同じベクトルの空間に変換するので、文章ひとつで、種類のまざったデータをまとめて検索できます。",
+     "show": "文章、画像、動画、音声を、同じベクトルの空間に変換するので、文章ひとつで、種類のまざったデータをまとめて検索できます。"
+    }
+   ],
+   "details": [
+    "モデル名は @cf/google/embeddinggemma-2。出力は768次元で、128・256・512次元に縮めることもできます（保存の量が減るかわりに、精度は少し下がります）。",
+    "Cloudflareによると、100を超える言語を理解し、コードの検索も初代のEmbeddingGemmaより良くなったとのこと。文脈は8,192トークンです。",
+    "料金は、入力100万トークンあたり0.0017ドル。画像・動画・音声は、base64のデータURIとして渡します。"
+   ],
+   "link": {
+    "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+    "title": "EmbeddingGemma 2 now available on Workers AI",
+    "site": "Cloudflare Docs",
+    "image": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/og.png?v=4596fca0eba74dc2"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、ロングキャット・にーてんご。重みはハギング・フェイスで公開されています。",
+   "show": "今日の注目は、LongCat-2.5。重みはHugging Faceで公開されています。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-16",
+ "lang": "ja",
+ "seconds": 99.51,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.829,
+   "show": "おはようございます、AIテックラジオです。11月16日、月曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.079,
+   "end": 15.005,
+   "show": "週末は大きな発表が少なかったので、今日は、先週のうちにまだお伝えしていなかった話題を、4本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 16.055,
+   "end": 24.044,
+   "show": "まずは中国の美団（Meituan）。エージェント向けの大型モデル「LongCat-2.5」の重みを、MITライセンスで公開しました。",
+   "part": 1
+  },
+  {
+   "start": 24.294,
+   "end": 33.179,
+   "show": "パラメータは全体で1.6兆。そのうち、1トークンあたり約480億が働く作りで、画像も扱えます。",
+   "part": 1
+  },
+  {
+   "start": 34.229,
+   "end": 42.805,
+   "show": "続いてAMD。「Zen 6」を使ったサーバー向けCPU、第6世代EPYCの一般提供を始めたと発表しました。",
+   "part": 2
+  },
+  {
+   "start": 43.055,
+   "end": 50.735,
+   "show": "最上位のEPYC 9996は、IntelのXeon 6980Pに比べて、最大2.2倍の性能だそうです。",
+   "part": 2
+  },
+  {
+   "start": 51.785,
+   "end": 60.991,
+   "show": "3本目はロボットの話題です。Ant Group傘下のRobbyantが、触覚の基盤モデル「LingBot-Touch」を、オープンソースで公開しました。",
+   "part": 3
+  },
+  {
+   "start": 61.241,
+   "end": 69.614,
+   "show": "約5,000時間ぶんの触覚データで学習していて、ロボットの手作業の成功率が、14〜26ポイントほど上がったそうです。",
+   "part": 3
+  },
+  {
+   "start": 70.664,
+   "end": 78.6,
+   "show": "最後はCloudflare。Google DeepMindの埋め込みモデル「EmbeddingGemma 2」が、Workers AIで使えるようになりました。",
+   "part": 4
+  },
+  {
+   "start": 78.85,
+   "end": 88.663,
+   "show": "文章、画像、動画、音声を、同じベクトルの空間に変換するので、文章ひとつで、種類のまざったデータをまとめて検索できます。",
+   "part": 4
+  },
+  {
+   "start": 89.713,
+   "end": 95.079,
+   "show": "今日の注目は、LongCat-2.5。重みはHugging Faceで公開されています。",
+   "part": 5
+  },
+  {
+   "start": 95.329,
+   "end": 97.462,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 16.055
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 16.055,
+   "end": 34.229
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 34.229,
+   "end": 51.785
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.785,
+   "end": 70.664
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 70.664,
+   "end": 89.713
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 89.713,
+   "end": 99.512
+  }
+ ],
+ "made_at": "2026-11-16T08:26:37"
+}

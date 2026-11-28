@@ -1,0 +1,311 @@
+{
+ "title": "Anthropic研究者、リーマン予想の証明を主張",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十二日、日曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月22日、日曜日の朝です。"
+  },
+  {
+   "say": "今日は、クロードの助けでリーマン予想を証明したという主張など、五本お届けします。",
+   "show": "今日は、Claudeの助けでリーマン予想を証明したという主張など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Anthropicの数学者、一般化リーマン予想の証明を主張",
+   "points": [
+    "AnthropicのLevent Alpöge氏が、Claudeの助けで証明したと主張",
+    "Leanの検証用ファイル約17万5千個、239MBを公開",
+    "証明の中身の確認はこれから、問題は公式には未解決のまま"
+   ],
+   "url": "https://interestingengineering.com/ai-robotics/anthropic-167-year-old-riemann-hypothesis-claude",
+   "lines": [
+    {
+     "say": "まずは数学の話題です。アンソロピックの数学者、レヴェント・アルポゲさんが、クロードの助けで、一般化リーマン予想を証明したと主張しています。",
+     "show": "まずは数学の話題です。Anthropicの数学者、Levent Alpögeさんが、Claudeの助けで、一般化リーマン予想を証明したと主張しています。"
+    },
+    {
+     "say": "インタレスティング・エンジニアリングによると、検証用のファイルおよそ十七万五千個が公開されました。ただ、証明の中身の確認はこれからだそうです。",
+     "show": "Interesting Engineeringによると、検証用のファイルおよそ17万5千個が公開されました。ただ、証明の中身の確認はこれからだそうです。"
+    }
+   ],
+   "details": [
+    "Interesting Engineeringによると、Anthropicの数学者 Levent Alpöge 氏は11月20日、Claudeの助けで一般化リーマン予想を証明したと主張しました。一般化リーマン予想は、リーマンが1859年に示した予想を広げたものです。記事によると、Alpöge氏は、最後の段階で速く進んだのはClaudeのおかげだとしています。",
+    "Alpöge氏は、4ページの説明と、証明支援系 Lean の検証用アーカイブを公開しました。記事によると、アーカイブはおよそ175,187個のソースファイル、約239MBとされています。独立した検証プロジェクトが、ファイルが公開されたものと一致すること、主な定理の記述が Mathlib に対してコンパイルできることを、最初の確認で確かめたと伝えられています。",
+    "記事は、コードがコンパイルできることが、そのまま予想の証明を意味するわけではない、と強調しています。証明の全体、数学的な定義、裏づけのない仮定がないかを、研究者がこれから調べる必要があります。クレイ数学研究所の賞は、査読のある媒体での発表と、少なくとも2年の検証が条件で、問題は公式には未解決のままです。"
+   ],
+   "link": {
+    "url": "https://interestingengineering.com/ai-robotics/anthropic-167-year-old-riemann-hypothesis-claude",
+    "title": "Claude helped prove 167-year-old Riemann hypothesis, researcher claims",
+    "site": "Interesting Engineering",
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-7-3.jpg"
+   }
+  },
+  {
+   "label": "OpenAI、音声モデル GPT-Live-1.1 を API で提供",
+   "points": [
+    "音声モデル GPT-Live-1.1 が、API で利用可能に",
+    "話しながら聞き取り、複雑な作業は裏側のモデルに任せられる",
+    "待機中は1分0.02ドルの「standby」を追加"
+   ],
+   "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+   "lines": [
+    {
+     "say": "続いてオープン・エーアイ。チャット・ジーピーティーの音声で使われているモデル、ジーピーティー・ライブ・いってんいちが、エーピーアイで使えるようになりました。",
+     "show": "続いてOpenAI。ChatGPTの音声で使われているモデル、GPT-Live-1.1 が、APIで使えるようになりました。"
+    },
+    {
+     "say": "話しながら聞き取ることができます。誰も話していない間は料金が下がる、スタンバイという仕組みも加わりました。",
+     "show": "話しながら聞き取ることができます。誰も話していない間は料金が下がる「standby」という仕組みも加わりました。"
+    }
+   ],
+   "details": [
+    "OpenAIは11月20日、開発者向けのコミュニティで、音声モデル GPT-Live-1.1 を API で提供すると知らせました。モデルの ID は gpt-live-1.1 です。投稿によると、このモデルは10月15日から、ChatGPT の Plus と Pro の音声で使われています。",
+    "投稿によると、言語をまたいでより自然で一貫したアクセントで話し、文字や数字といった細かい内容を聞き取り、指示に従って作業をより確実にこなすそうです。話しながら聞くことができ、複雑な作業は、開発者が選んだ裏側のモデルに任せられます。",
+    "あわせて、GPT-Live-1 と GPT-Live-1.1 の両方に「standby」が加わりました。5〜60秒の間で決めた時間だけ無音が続くと、通話をつないだままモデルが休み、誰かが話すと再開します。料金は、通常の1分0.05ドルに対して、standby の間は1分0.02ドルです。裏側のモデルやツールの利用は別に課金されます。"
+   ],
+   "link": {
+    "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+    "title": "GPT-Live-1.1 has arrived in the API",
+    "site": "OpenAI Developer Community",
+    "image": "https://us1.discourse-cdn.com/openai1/optimized/4X/6/9/9/699cac0e1f80dd6e23486444abeffbb9310d0ad5_2_1024x576.jpeg"
+   }
+  },
+  {
+   "label": "Hugging Face、モデルを道具に合わせる「harness adapters」",
+   "points": [
+    "エージェントの実行環境（ハーネス）ごとに、強化学習でLoRAを学習",
+    "Qwen3.8-27B と pi で、Terminal-Bench 2.1 が39%から55%に",
+    "pi・Hermes Agent・OpenCode 向けと、共通の1つを公開"
+   ],
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "lines": [
+    {
+     "say": "三本目はハギング・フェイス。エーアイモデルを、コーディング・エージェントの実行環境に合わせて調整する、ハーネス・アダプターを公開しました。",
+     "show": "3本目はHugging Face。AIモデルを、コーディングエージェントの実行環境に合わせて調整する「harness adapters」を公開しました。"
+    },
+    {
+     "say": "もとのモデルは変えずに、小さな追加部品だけを学習させます。ある組み合わせでは、テストの正答率が三十九パーセントから五十五パーセントに上がったそうです。",
+     "show": "もとのモデルは変えずに、小さな追加部品だけを学習させます。ある組み合わせでは、テストの正答率が39%から55%に上がったそうです。"
+    }
+   ],
+   "details": [
+    "Hugging Faceは11月20日のブログで「harness adapters」を紹介しました。エージェントを動かす実行環境（ハーネス）の中で、強化学習を使って LoRA アダプターを学習させ、モデルをそのハーネスに合わせる方法です。もとのモデルの重みは固定したまま、アダプターを上に足します。",
+    "もとにしたモデルは Qwen3.8-27B です。ブログの冒頭によると、pi というハーネスとの組み合わせで、Terminal-Bench 2.1 のスコアが39%から55%（pass@1）に上がり、1つのタスクに使うトークンは平均2.9Kから1.5Kに減りました。記事の後半の表では数字が少し異なり、pi で40.0%から56.5%となっています。",
+    "アダプターは、pi、Hermes Agent、OpenCode のそれぞれに1つずつ作られました。3つのどのハーネスでもそのまま使える、まとめ版の「super-adapter」もあります。アダプター、GGUF、学習用のタスクは Hugging Face のコレクションで公開され、再利用できる手順も共有されています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+    "site": "Hugging Face",
+    "image": "https://huggingface.co/blog/assets/harness-adapters-at-scale/thumbnail.png"
+   }
+  },
+  {
+   "label": "Databricks、データ処理の不具合を直す Genie ZeroOps",
+   "points": [
+    "データパイプラインの問題を検知・調査・修正するエージェント",
+    "11月19日にパブリックベータに",
+    "本番のコードやデータは、人の承認なしに変えない"
+   ],
+   "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+   "lines": [
+    {
+     "say": "四本目はデータブリックス。データ処理の流れで起きた不具合を、自動で見つけて調べるエージェント、ジーニー・ゼロオプスが、パブリック・ベータになりました。",
+     "show": "4本目はDatabricks。データ処理の流れで起きた不具合を、自動で見つけて調べるエージェント、Genie ZeroOps が、パブリックベータになりました。"
+    },
+    {
+     "say": "原因を調べて修正を試し、プルリクエストまで用意します。本番のコードやデータは、人が確認するまで変えないそうです。",
+     "show": "原因を調べて修正を試し、プルリクエストまで用意します。本番のコードやデータは、人が確認するまで変えないそうです。"
+    }
+   ],
+   "details": [
+    "Databricksは11月19日のブログで、Genie ZeroOps をパブリックベータにしたと発表しました。上流のスキーマの変更やデータ品質の異常といった、データパイプラインの問題を検知し、調べ、解決する自律型のエージェントです。ワークスペースの管理者が、Previews のページからオンにします。",
+    "流れは5段階です。ジョブやパイプライン、テーブルを見張って問題を見つけ、ログ・ソースコード・テーブルのメタデータ・リネージから原因を調べ、サンドボックスの中で単体テストやドライランで修正を確かめます。そのうえで Slack、Teams、PagerDuty に知らせ、Git で管理しているジョブなら、プルリクエストを自動で作ります。",
+    "ブログによると、ZeroOps は、人が確認する前に本番のコードやデータを変えることはありません。限定のプライベートプレビューでは、数百社の8万件を超える実際の問題を見てきたとのことで、半数以上は、その組織ならではの知識がないと正しく対処できなかったそうです。料金は書かれていません。"
+   ],
+   "link": {
+    "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+    "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
+    "site": "Databricks",
+    "image": "https://www.databricks.com/sites/default/files/2026-11/2026-11-Blog-Genie-ZeroOps-now-in-public-beta-What-we-re-building-after-feedback-from-80-000-customer-incidents-OG-1200x628-2x.png"
+   }
+  },
+  {
+   "label": "Nothing、最初のAIデバイスを12月8日に披露",
+   "points": [
+    "Nothingが、最初のAIデバイスを12月8日に披露すると予告",
+    "新しい画面はなく、赤い点のついた大きなボタン",
+    "名前・価格・発売国・使うAIモデルは未発表"
+   ],
+   "url": "https://tech-ish.com/2026/11/21/nothing-will-show-its-first-screenless-ai-device-on-8th-december/",
+   "lines": [
+    {
+     "say": "最後はナッシング。ロンドンのスマートフォンメーカー、ナッシングが、最初のエーアイデバイスを、十二月八日に披露すると予告しました。",
+     "show": "最後はNothing。ロンドンのスマートフォンメーカー、Nothingが、最初のAIデバイスを、12月8日に披露すると予告しました。"
+    },
+    {
+     "say": "テックイッシュによると、新しい画面は付かず、赤い点のついた大きなボタンがあります。名前や価格は、まだ明らかにされていません。",
+     "show": "tech-ishによると、新しい画面は付かず、赤い点のついた大きなボタンがあります。名前や価格は、まだ明らかにされていません。"
+    }
+   ],
+   "details": [
+    "tech-ishによると、Nothingは11月20日、最初のAIデバイスを12月8日に披露するとXに投稿しました。丸く磨かれた金属の部品の写真に「Be present. It's noted.」という言葉が添えられています。イベントの時刻は示されていません。",
+    "CEOの Carl Pei 氏は、11月4日にXに載せた文章で、最初の「AI-native」な製品には新しい画面がなく、アプリでは実現できなかったものだと書いています。11月10日ごろの動画には、赤い点のついた大きなボタンが映っていて、記事は録音ボタンのように見えるとしています。",
+    "名前、価格、発売する国、スマートフォンが必要かどうか、どのAIモデルを使うか、録音を端末とクラウドのどちらで処理するかは、発表されていません。会話を記録してメモにする機器だという見方は記事の推測で、Nothingは認めていません。"
+   ],
+   "link": {
+    "url": "https://tech-ish.com/2026/11/21/nothing-will-show-its-first-screenless-ai-device-on-8th-december/",
+    "title": "Nothing will show its first screenless AI device on 8th December - tech-ish",
+    "site": "tech-ish",
+    "image": "https://tech-ish.com/wp-content/uploads/2026/11/nothing-ai-device-record-button-16x9-1.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、リーマン予想。エーアイの助けで証明したという主張ですが、正しいかどうかの確認は、これからです。",
+   "show": "今日の注目は、リーマン予想。AIの助けで証明したという主張ですが、正しいかどうかの確認は、これからです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-22",
+ "lang": "ja",
+ "seconds": 121.48,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.808,
+   "show": "おはようございます、AIテックラジオです。11月22日、日曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.058,
+   "end": 12.573,
+   "show": "今日は、Claudeの助けでリーマン予想を証明したという主張など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 13.623,
+   "end": 23.276,
+   "show": "まずは数学の話題です。Anthropicの数学者、Levent Alpögeさんが、Claudeの助けで、一般化リーマン予想を証明したと主張しています。",
+   "part": 1
+  },
+  {
+   "start": 23.526,
+   "end": 32.998,
+   "show": "Interesting Engineeringによると、検証用のファイルおよそ17万5千個が公開されました。ただ、証明の中身の確認はこれからだそうです。",
+   "part": 1
+  },
+  {
+   "start": 34.048,
+   "end": 42.859,
+   "show": "続いてOpenAI。ChatGPTの音声で使われているモデル、GPT-Live-1.1 が、APIで使えるようになりました。",
+   "part": 2
+  },
+  {
+   "start": 43.109,
+   "end": 50.149,
+   "show": "話しながら聞き取ることができます。誰も話していない間は料金が下がる「standby」という仕組みも加わりました。",
+   "part": 2
+  },
+  {
+   "start": 51.199,
+   "end": 59.689,
+   "show": "3本目はHugging Face。AIモデルを、コーディングエージェントの実行環境に合わせて調整する「harness adapters」を公開しました。",
+   "part": 3
+  },
+  {
+   "start": 59.939,
+   "end": 70.158,
+   "show": "もとのモデルは変えずに、小さな追加部品だけを学習させます。ある組み合わせでは、テストの正答率が39%から55%に上がったそうです。",
+   "part": 3
+  },
+  {
+   "start": 71.208,
+   "end": 80.755,
+   "show": "4本目はDatabricks。データ処理の流れで起きた不具合を、自動で見つけて調べるエージェント、Genie ZeroOps が、パブリックベータになりました。",
+   "part": 4
+  },
+  {
+   "start": 81.005,
+   "end": 89.122,
+   "show": "原因を調べて修正を試し、プルリクエストまで用意します。本番のコードやデータは、人が確認するまで変えないそうです。",
+   "part": 4
+  },
+  {
+   "start": 90.172,
+   "end": 98.961,
+   "show": "最後はNothing。ロンドンのスマートフォンメーカー、Nothingが、最初のAIデバイスを、12月8日に披露すると予告しました。",
+   "part": 5
+  },
+  {
+   "start": 99.211,
+   "end": 107.947,
+   "show": "tech-ishによると、新しい画面は付かず、赤い点のついた大きなボタンがあります。名前や価格は、まだ明らかにされていません。",
+   "part": 5
+  },
+  {
+   "start": 108.997,
+   "end": 117.051,
+   "show": "今日の注目は、リーマン予想。AIの助けで証明したという主張ですが、正しいかどうかの確認は、これからです。",
+   "part": 6
+  },
+  {
+   "start": 117.301,
+   "end": 119.434,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.623
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.623,
+   "end": 34.048
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 34.048,
+   "end": 51.199
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.199,
+   "end": 71.208
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 71.208,
+   "end": 90.172
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 90.172,
+   "end": 108.997
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 108.997,
+   "end": 121.484
+  }
+ ],
+ "made_at": "2026-11-22T08:26:40"
+}

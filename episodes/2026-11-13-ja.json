@@ -1,0 +1,311 @@
+{
+ "title": "AIエージェントだけで書いたAWS Emulator",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月十三日、金曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月13日、金曜日の朝です。"
+  },
+  {
+   "say": "今日は、エージェントだけで書かれたアマゾンのソフトから、グーグルの新しい実験まで、五本をお届けします。",
+   "show": "今日は、エージェントだけで書かれたAmazonのソフトから、Googleの新しい実験まで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "AWS Emulator",
+   "points": [
+    "AWSのサービスを手元のマシンで再現",
+    "コードは100%自律型AIエージェントが執筆",
+    "ソースはGitHubでCC0として公開"
+   ],
+   "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
+   "lines": [
+    {
+     "say": "まずはアマゾン。エーダブリューエスのサービスを手元のパソコンで再現する、エーダブリューエス・エミュレーターを公開しました。",
+     "show": "まずはAmazon。AWSのサービスを手元のパソコンで再現する、AWS Emulatorを公開しました。"
+    },
+    {
+     "say": "コードはすべて、自律型のエーアイ・エージェントが書き、チームは書くこともレビューすることもしていないそうです。ソースはギットハブで公開されています。",
+     "show": "コードはすべて、自律型のAIエージェントが書き、チームは書くこともレビューすることもしていないそうです。ソースはGitHubで公開されています。"
+    }
+   ],
+   "details": [
+    "自分のマシンで動かして、AWS向けのアプリケーションを作ったり試したりできます。ダウンロードできる形で配布されています。",
+    "3つのエージェントのチームが分担します。本物のAWSと照らしたテストを書くチーム、エミュレーターで試して不具合を報告するチーム、直すチームです。",
+    "ライセンスはCreative Commons CC0。忠実さを確かめるテスト一式も、別のリポジトリで公開されています。"
+   ],
+   "link": {
+    "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
+    "title": "How we built the agents that built AWS Emulator",
+    "site": "Amazon News",
+    "image": "https://assets.aboutamazon.com/dims4/default/938f4f7/2147483647/strip/true/crop/3200x1600+0+100/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F9c%2F4c%2Fb29c6efe48ba981dbc9aa04a18a2%2Fmatt-agents-blog-header-726-ember-modern.png"
+   }
+  },
+  {
+   "label": "Gemini Decisions API",
+   "points": [
+    "文章を生成せず、判定と確信度だけを返す",
+    "最大1,000個の質問をまとめて採点",
+    "入力100万トークンあたり0.10ドル、出力は無料"
+   ],
+   "url": "https://interestingengineering.com/ai-robotics/google-gemini-decisions-api-fast-ai-agents",
+   "lines": [
+    {
+     "say": "続いて、グーグル。文章を書かずに、判定だけをすばやく返す、ジェミニ・ディシジョンズ・エーピーアイを公開しました。",
+     "show": "続いて、Google。文章を書かずに、判定だけをすばやく返す、Gemini Decisions APIを公開しました。"
+    },
+    {
+     "say": "はいか、いいえか、といった質問を、最大千個まとめて採点し、確信度を返します。料金は、入力百万トークンあたり、れいてんいちドルで、出力は無料だそうです。",
+     "show": "はいか、いいえか、といった質問を、最大1,000個まとめて採点し、確信度を返します。料金は、入力100万トークンあたり0.10ドルで、出力は無料だそうです。"
+    }
+   ],
+   "details": [
+    "モデルはGemini Decision 1。ツール選び、ポリシーの確認、モデルの振り分けなど、エージェントの素早い判断に使う想定です。",
+    "はい・いいえのほか、最大255の選択肢からの選択、基準に沿った採点に対応。入力はテキスト、画像、音声、動画、PDFです。",
+    "応答は全体で150〜250ミリ秒とされています。Google AI Studioから使え、試作用の無料枠もあります。"
+   ],
+   "link": {
+    "url": "https://interestingengineering.com/ai-robotics/google-gemini-decisions-api-fast-ai-agents",
+    "title": "Google unveils Gemini Decisions API to handle 1,000 questions at once",
+    "site": "Interesting Engineering",
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-design-2026-11-12T021929.169.jpg"
+   }
+  },
+  {
+   "label": "AlphaGenome 2",
+   "points": [
+    "DNAの変異が細胞の種類ごとにどう働くかを予測",
+    "原因となる変異の特定が16%から30%に（TenK10K）",
+    "非商用の研究向けにAPIで提供"
+   ],
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "lines": [
+    {
+     "say": "三本目は、グーグル・ディープマインド。ディーエヌエーの変異が、細胞の種類ごとにどう働くかを予測する、アルファ・ゲノム・ツーを発表しました。",
+     "show": "3本目は、Google DeepMind。DNAの変異が、細胞の種類ごとにどう働くかを予測する、AlphaGenome 2を発表しました。"
+    },
+    {
+     "say": "免疫細胞のデータでは、原因となる変異を見つけた割合が、十六パーセントから三十パーセントに上がったそうです。非商用の研究向けに、エーピーアイで使えます。",
+     "show": "免疫細胞のデータでは、原因となる変異を見つけた割合が、16%から30%に上がったそうです。非商用の研究向けに、APIで使えます。"
+    }
+   ],
+   "details": [
+    "組織や細胞の種類といった条件をDNAの配列と一緒に受け取る、条件付きのモデルです。研究者が自分の単一細胞データから条件を作ることもできます。",
+    "TenK10Kは28種類の免疫細胞のデータ。比較の相手は、単一細胞データで調整した初代のAlphaGenomeなどです。",
+    "商用の研究向けは非公開のプレビュー。研究用であり、臨床や診断の目的では検証も承認もされていません。"
+   ],
+   "link": {
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "site": "Google DeepMind",
+    "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw"
+   }
+  },
+  {
+   "label": "Qwen4-Max-Preview",
+   "points": [
+    "Qwen4世代で最初のフラッグシップ",
+    "文脈は100万トークン、テキスト・画像・動画を入力",
+    "Token Planのみ、プレビューは11月25日まで"
+   ],
+   "url": "https://ai-tldr.dev/models/qwen4-max-preview/",
+   "lines": [
+    {
+     "say": "四本目は、アリババ。クウェン・フォー世代で最初の主力モデル、クウェン・フォー・マックス・プレビューを公開しました。",
+     "show": "4本目は、Alibaba。Qwen4世代で最初の主力モデル、Qwen4-Max-Previewを公開しました。"
+    },
+    {
+     "say": "文脈は百万トークンで、文字、画像、動画を読み取れます。使えるのは、サブスクリプションのトークン・プランからだけで、プレビューは十一月二十五日までです。",
+     "show": "文脈は100万トークンで、文字、画像、動画を読み取れます。使えるのは、サブスクリプションのToken Planからだけで、プレビューは11月25日までです。"
+    }
+   ],
+   "details": [
+    "11月11日にAPIのみで公開。コーディング、オフィスの作業、フロントエンドのデザイン、複雑なエージェントの作業向けとされています。",
+    "出力は最大393,216トークン。OpenAIとAnthropicの形式のAPIに対応し、関数呼び出しやWeb検索も使えます。",
+    "従量課金では使えません。ベンチマークの表、パラメータ数、トークンあたりの価格、重みは公開されていません。"
+   ],
+   "link": {
+    "url": "https://ai-tldr.dev/models/qwen4-max-preview/",
+    "title": "Qwen4-Max-Preview: Alibaba's First Qwen4 Flagship | AI/TLDR",
+    "site": "AI/TLDR",
+    "image": "https://ai-tldr.dev/og-image.png"
+   }
+  },
+  {
+   "label": "Google Labs「Tabletop」",
+   "points": [
+    "グループの共有スペースにAIが専用の道具を作る",
+    "旅行の計画、投票、割り勘などに",
+    "米国の18歳以上、ウェイトリスト制"
+   ],
+   "url": "https://www.unite.ai/google-introduces-tabletop-for-building-collaborative-ai-spaces/",
+   "lines": [
+    {
+     "say": "最後は、グーグル・ラボの実験、テーブルトップ。グループで使う共有スペースの中に、エーアイが専用の道具を作ります。",
+     "show": "最後は、Google Labsの実験、Tabletop。グループで使う共有スペースの中に、AIが専用の道具を作ります。"
+    },
+    {
+     "say": "リンクやファイルを置いて呼びかけると、旅行の計画や投票、割り勘の計算などができあがります。まずはアメリカの十八歳以上が対象で、順番待ちの登録制です。",
+     "show": "リンクやファイルを置いて呼びかけると、旅行の計画や投票、割り勘の計算などができあがります。まずはアメリカの18歳以上が対象で、順番待ちの登録制です。"
+    }
+   ],
+   "details": [
+    "リンク、ファイル、アイデアを入れて「@Tabletop」に頼むと、対話的な道具になります。ひな形から始めることもできます。",
+    "招待リンクで仲間を呼び、複数の人が同時に使えます。作った道具は、あとからルールを変えたり作り足したりできます。",
+    "招待制で、ウェイトリストの登録者に毎週、順に開放されるとのことです。"
+   ],
+   "link": {
+    "url": "https://www.unite.ai/google-introduces-tabletop-for-building-collaborative-ai-spaces/",
+    "title": "Google Introduces Tabletop for Building Collaborative AI Spaces",
+    "site": "Unite.AI",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/11/google-introduces-tabletop-for-building-collaborative-ai-spaces.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、エーダブリューエス・エミュレーター。すうひゃくのエージェントが、テスト作りから修正までを分担して作り上げたそうです。",
+   "show": "今日の注目は、AWS Emulator。数百のエージェントが、テスト作りから修正までを分担して作り上げたそうです。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-13",
+ "lang": "ja",
+ "seconds": 127.29,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.765,
+   "show": "おはようございます、AIテックラジオです。11月13日、金曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.015,
+   "end": 13.81,
+   "show": "今日は、エージェントだけで書かれたAmazonのソフトから、Googleの新しい実験まで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.86,
+   "end": 21.921,
+   "show": "まずはAmazon。AWSのサービスを手元のパソコンで再現する、AWS Emulatorを公開しました。",
+   "part": 1
+  },
+  {
+   "start": 22.171,
+   "end": 31.067,
+   "show": "コードはすべて、自律型のAIエージェントが書き、チームは書くこともレビューすることもしていないそうです。ソースはGitHubで公開されています。",
+   "part": 1
+  },
+  {
+   "start": 32.117,
+   "end": 39.872,
+   "show": "続いて、Google。文章を書かずに、判定だけをすばやく返す、Gemini Decisions APIを公開しました。",
+   "part": 2
+  },
+  {
+   "start": 40.122,
+   "end": 52.826,
+   "show": "はいか、いいえか、といった質問を、最大1,000個まとめて採点し、確信度を返します。料金は、入力100万トークンあたり0.10ドルで、出力は無料だそうです。",
+   "part": 2
+  },
+  {
+   "start": 53.876,
+   "end": 62.836,
+   "show": "3本目は、Google DeepMind。DNAの変異が、細胞の種類ごとにどう働くかを予測する、AlphaGenome 2を発表しました。",
+   "part": 3
+  },
+  {
+   "start": 63.086,
+   "end": 74.03,
+   "show": "免疫細胞のデータでは、原因となる変異を見つけた割合が、16%から30%に上がったそうです。非商用の研究向けに、APIで使えます。",
+   "part": 3
+  },
+  {
+   "start": 75.08,
+   "end": 81.949,
+   "show": "4本目は、Alibaba。Qwen4世代で最初の主力モデル、Qwen4-Max-Previewを公開しました。",
+   "part": 4
+  },
+  {
+   "start": 82.199,
+   "end": 93.186,
+   "show": "文脈は100万トークンで、文字、画像、動画を読み取れます。使えるのは、サブスクリプションのToken Planからだけで、プレビューは11月25日までです。",
+   "part": 4
+  },
+  {
+   "start": 94.236,
+   "end": 102.535,
+   "show": "最後は、Google Labsの実験、Tabletop。グループで使う共有スペースの中に、AIが専用の道具を作ります。",
+   "part": 5
+  },
+  {
+   "start": 102.785,
+   "end": 113.761,
+   "show": "リンクやファイルを置いて呼びかけると、旅行の計画や投票、割り勘の計算などができあがります。まずはアメリカの18歳以上が対象で、順番待ちの登録制です。",
+   "part": 5
+  },
+  {
+   "start": 114.811,
+   "end": 122.853,
+   "show": "今日の注目は、AWS Emulator。数百のエージェントが、テスト作りから修正までを分担して作り上げたそうです。",
+   "part": 6
+  },
+  {
+   "start": 123.103,
+   "end": 125.237,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.86
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.86,
+   "end": 32.117
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 32.117,
+   "end": 53.876
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 53.876,
+   "end": 75.08
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 75.08,
+   "end": 94.236
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 94.236,
+   "end": 114.811
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 114.811,
+   "end": 127.287
+  }
+ ],
+ "made_at": "2026-11-13T08:26:11"
+}

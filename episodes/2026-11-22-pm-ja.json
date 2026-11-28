@@ -1,0 +1,311 @@
+{
+ "title": "OpenRouter、AI推論の事業者3社を除外",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十二日、日曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月22日、日曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、エーアイの推論サービスからプロンプトが盗まれていた問題から、クロームの新しいバージョンまで、五本です。",
+   "show": "この時間は、AIの推論サービスからプロンプトが盗まれていた問題から、Chromeの新しいバージョンまで、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenRouter、AI推論の事業者3社を除外",
+   "points": [
+    "プロンプトが盗まれていたという調査を受け、推論の事業者3社を除外",
+    "Dragosが、にせの認証情報やリンクを入れたプロンプト約200万件で確認",
+    "125のエンドポイントを、Zero Data Retention の対象から外す"
+   ],
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "lines": [
+    {
+     "say": "まずは、エーアイ・モデルの窓口になるサービス、オープン・ルーター。プロンプトが盗まれていたという調査を受けて、推論の事業者を三社、外しました。",
+     "show": "まずは、AIモデルの窓口になるサービス、OpenRouter。プロンプトが盗まれていたという調査を受けて、推論の事業者を3社、外しました。"
+    },
+    {
+     "say": "セキュリティ企業のドラゴスが、にせの認証情報を入れたプロンプトを、およそにひゃくまんけん、送って確かめたと、ザ・ハッカー・ニュースが伝えています。",
+     "show": "セキュリティ企業のDragosが、にせの認証情報を入れたプロンプトを、およそ200万件送って確かめたと、The Hacker News が伝えています。"
+    }
+   ],
+   "details": [
+    "The Hacker News の11月22日の記事です。産業向けセキュリティのDragosによると、3つの推論事業者の内部から、数か月にわたってデータが盗まれていました。OpenRouterが外した3社の名前は、記事では明かされていません。Dragosが指摘した3社と同じかどうかも、どちらも明らかにしていないとのことです。",
+    "調査では、7月から11月にかけて、固有のリンクや認証情報を入れたプロンプトを送り、それが使われるかを見張りました。いちばん早い侵害は7月の中ごろに始まり、盗まれたリクエストには、データを残さない Zero Data Retention の指定がついたものもあったそうです。Phala、Together AI、Novita は、それぞれ自社の問題を公表しています。",
+    "外したエンドポイントは、保証と検証が示されるまで、Zero Data Retention の対象に戻さないとしています。OpenRouterは、影響のおそれがある顧客すべてに知らせ、OpenRouter自体への侵害は見つかっていないと説明しています。研究者は、ルーターを使うときは、先の事業者を自分で選ぶことを勧めています。"
+   ],
+   "link": {
+    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "site": "The Hacker News",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png"
+   }
+  },
+  {
+   "label": "OpenAI、11月21日の障害の報告を公開",
+   "points": [
+    "11月21日、太平洋時間の1時48分から5時21分まで、APIとChatGPTで障害",
+    "ピークでは、ChatGPTへのリクエストの75%が失敗",
+    "データベースのメンテナンスで、読み取り用の複製2つが同時に停止"
+   ],
+   "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up",
+   "lines": [
+    {
+     "say": "続いて、オープン・エーアイ。二十一日に起きた障害の報告を公開しました。ピークでは、チャット・ジーピーティーへのリクエストの、七十五パーセントが失敗したそうです。",
+     "show": "続いて、OpenAI。21日に起きた障害の報告を公開しました。ピークでは、ChatGPTへのリクエストの、75%が失敗したそうです。"
+    },
+    {
+     "say": "原因は、データベースのメンテナンスで、読み取り用の複製が、二つ同時に止まったことだと説明しています。",
+     "show": "原因は、データベースのメンテナンスで、読み取り用の複製が、2つ同時に止まったことだと説明しています。"
+    }
+   ],
+   "details": [
+    "OpenAIのステータスページに載った報告です。題は「Elevated Errors on API and ChatGPT」で、区分は一部障害です。OpenAIへのリクエストの大きな部分が失敗したとしています。",
+    "75%という失敗率は、ChatGPTの有料と無料のどちらについても報告されています。止まった複製を戻すことも、別のリージョンで代わりを立てることもうまくいかず、サービスの提供元と協力して、同じリージョンに新しい複製を2つ用意して収めたとのことです。",
+    "メンテナンスの対象は、Primary API というサービスが使う PostgreSQL のデータベースです。このサービスは、ユーザーの認証と、サービスどうしの認証を受け持っています。OpenAIは、同じようなメンテナンスを当面止め、事前の確認の手順や、予備の容量を用意するとしています。"
+   ],
+   "link": {
+    "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up",
+    "title": "Elevated Errors on API and ChatGPT",
+    "site": "OpenAI Status"
+   }
+  },
+  {
+   "label": "Thinking Machines、ノートPCで動く Inkling 2 Mini",
+   "points": [
+    "11月20日に、重みを公開。Hugging Face と Tinker で提供",
+    "全体で264億、1トークンあたり34億のパラメータが働く",
+    "真ん中の層を3回くり返して通す。メモリは約20GB"
+   ],
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "lines": [
+    {
+     "say": "三本目は、シンキング・マシーンズ・ラボ。ノートパソコンで動くモデル、インクリング・ツー・ミニを、重みつきで公開しました。",
+     "show": "3本目は、Thinking Machines Lab。ノートパソコンで動くモデル、Inkling 2 Mini を、重みつきで公開しました。"
+    },
+    {
+     "say": "層の一部を三回くり返して通すつくりで、パラメータは二百六十四億、メモリはおよそ二十ギガバイトだそうです。",
+     "show": "層の一部を3回くり返して通すつくりで、パラメータは264億、メモリはおよそ20GBだそうです。"
+    }
+   ],
+   "details": [
+    "Thinking Machines Lab が発表しました。あわせて、くり返しの回数を1回から5回まで変えられる研究用のモデル「TML-d24-varloop-research」も、Hugging Face で公開しています。デモは、MacBook Pro（M5 Pro、48GB）で、ネットワークにつながずに動かしたとのことです。",
+    "Mixture-of-Experts の形のモデルです。より大きなモデルから、エキスパートの3分の2を取り除き、そのあと蒸留で整えて作ったと説明しています。くり返しのぶんを数えると、1トークンあたり54億の重みが働くとしています。",
+    "層は24で、6つずつ4つのブロックに分かれています。真ん中の2つのブロックを3回通すので、1トークンあたり48層ぶんの計算になります。同社の発表では、DeepSWE v1.1 で48.2%と、Qwen3.8-27B の42.2%を上回り、Terminal Bench v2.1 では71.6%で、Qwen3.8-27B の73.0%を下回りました。"
+   ],
+   "link": {
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "title": "Introducing Inkling 2 Mini",
+    "site": "Thinking Machines Lab",
+    "image": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png"
+   }
+  },
+  {
+   "label": "TSMC、中国の設計企業への先端品の製造を制限",
+   "points": [
+    "16nm以下のプロセスを使う注文は、米国の輸出許可がなければ停止",
+    "米商務省の新しい規則を受けた対応と、Reutersが関係者の話として報道",
+    "中国の設計企業は、おおむね28nmと40nmに限られる"
+   ],
+   "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041",
+   "lines": [
+    {
+     "say": "四本目は、半導体のティー・エス・エム・シー。中国の設計企業からの、十六ナノメートル以下の注文を止めはじめたと、ロイターが関係者の話として伝えています。",
+     "show": "4本目は、半導体のTSMC。中国の設計企業からの、16nm以下の注文を止めはじめたと、Reutersが関係者の話として伝えています。"
+    },
+    {
+     "say": "アメリカの新しい輸出規則を受けたもので、輸出の許可を取らないかぎり、作れなくなるとのことです。",
+     "show": "アメリカの新しい輸出規則を受けたもので、輸出の許可を取らないかぎり、作れなくなるとのことです。"
+    }
+   ],
+   "details": [
+    "Taipei Times が11月20日に載せた、Reutersの記事です。これまで認められていた先端の製造の注文の一部が、止められているとのことです。海外の子会社や仲介の会社を通した注文も対象で、顧客の所在地、親会社、大株主、パッケージングの委託先、出荷の経路も確かめるそうです。",
+    "これまでは、TSMCが、チップの計算能力などの特性を確かめて、米国の輸出規制の外かどうかを判断できました。新しい規則では、対象の中国の顧客にこの確認が使えなくなり、先端のチップは規制の対象とみなされます。記事には、TSMCのコメントはありません。",
+    "28nmと40nmが使えるのは、広帯域メモリのHBMを使わず、先端のパッケージングも要らないチップの場合です。米政府の承認済みの設計企業のリストには、Nvidia、AMD、Apple、MediaTek、Realtek などが載り、中国本土の企業は入っていないとのことです。"
+   ],
+   "link": {
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041",
+    "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
+    "site": "Taipei Times",
+    "image": "https://img.taipeitimes.com/images/2026/11/20/P09-261120-326.jpg"
+   }
+  },
+  {
+   "label": "Chrome 158 の安定版が公開",
+   "points": [
+    "Googleが、11月17日に Chrome 158 の安定版を公開",
+    "セキュリティの修正は204件",
+    "深刻度が Critical の修正は6件"
+   ],
+   "url": "https://www.itmedia.co.jp/pcuser/articles/2611/22/news002.html",
+   "lines": [
+    {
+     "say": "最後は、グーグルのブラウザ、クローム。安定版の百五十八が、十七日に公開されました。",
+     "show": "最後は、Googleのブラウザ、Chrome。安定版の 158 が、17日に公開されました。"
+    },
+    {
+     "say": "セキュリティの修正は二百四件で、そのうち六件は、深刻度がいちばん高いクリティカルだと、アイティー・メディアが伝えています。",
+     "show": "セキュリティの修正は204件で、そのうち6件は、深刻度がいちばん高い Critical だと、ITmediaが伝えています。"
+    }
+   ],
+   "details": [
+    "ITmedia PC USER の、週末のニュースのまとめ記事によるものです。バージョンは、WindowsとMacが 158.0.8127.36 と .37、Linuxが 158.0.8127.36 です。",
+    "204件の内訳は、Critical が6件、High が62件、Medium が82件、Low が54件です。",
+    "Critical の6件は、解放したあとのメモリを使ってしまう問題が3件、範囲の外への書き込みが2件、バッファオーバーフローが1件です。WebView、GPU、Media、WebAudio などで見つかりました。記事によると、Googleは悪用があったかどうかを明らかにしていません。"
+   ],
+   "link": {
+    "url": "https://www.itmedia.co.jp/pcuser/articles/2611/22/news002.html",
+    "title": "Googleが「Gemini 4 Neon」をリリース／「Chrome 158」登場：週末の「気になるニュース」一気読み！",
+    "site": "ITmedia PC USER",
+    "image": "https://image.itmedia.co.jp/pcuser/articles/2611/22/cover_news002.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、オープン・ルーター。データを残さない指定をしたリクエストも、盗まれたものに含まれていたそうです。",
+   "show": "この時間の注目は、OpenRouter。データを残さない指定をしたリクエストも、盗まれたものに含まれていたそうです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-22",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 119.97,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.957,
+   "show": "おつかれさまです、AIテックラジオです。11月22日、日曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.207,
+   "end": 14.866,
+   "show": "この時間は、AIの推論サービスからプロンプトが盗まれていた問題から、Chromeの新しいバージョンまで、5本です。",
+   "part": 0
+  },
+  {
+   "start": 15.916,
+   "end": 25.74,
+   "show": "まずは、AIモデルの窓口になるサービス、OpenRouter。プロンプトが盗まれていたという調査を受けて、推論の事業者を3社、外しました。",
+   "part": 1
+  },
+  {
+   "start": 25.99,
+   "end": 35.259,
+   "show": "セキュリティ企業のDragosが、にせの認証情報を入れたプロンプトを、およそ200万件送って確かめたと、The Hacker News が伝えています。",
+   "part": 1
+  },
+  {
+   "start": 36.309,
+   "end": 47.467,
+   "show": "続いて、OpenAI。21日に起きた障害の報告を公開しました。ピークでは、ChatGPTへのリクエストの、75%が失敗したそうです。",
+   "part": 2
+  },
+  {
+   "start": 47.717,
+   "end": 54.842,
+   "show": "原因は、データベースのメンテナンスで、読み取り用の複製が、2つ同時に止まったことだと説明しています。",
+   "part": 2
+  },
+  {
+   "start": 55.892,
+   "end": 63.753,
+   "show": "3本目は、Thinking Machines Lab。ノートパソコンで動くモデル、Inkling 2 Mini を、重みつきで公開しました。",
+   "part": 3
+  },
+  {
+   "start": 64.003,
+   "end": 71.417,
+   "show": "層の一部を3回くり返して通すつくりで、パラメータは264億、メモリはおよそ20GBだそうです。",
+   "part": 3
+  },
+  {
+   "start": 72.467,
+   "end": 83.219,
+   "show": "4本目は、半導体のTSMC。中国の設計企業からの、16nm以下の注文を止めはじめたと、Reutersが関係者の話として伝えています。",
+   "part": 4
+  },
+  {
+   "start": 83.469,
+   "end": 89.879,
+   "show": "アメリカの新しい輸出規則を受けたもので、輸出の許可を取らないかぎり、作れなくなるとのことです。",
+   "part": 4
+  },
+  {
+   "start": 90.929,
+   "end": 97.905,
+   "show": "最後は、Googleのブラウザ、Chrome。安定版の 158 が、17日に公開されました。",
+   "part": 5
+  },
+  {
+   "start": 98.155,
+   "end": 106.166,
+   "show": "セキュリティの修正は204件で、そのうち6件は、深刻度がいちばん高い Critical だと、ITmediaが伝えています。",
+   "part": 5
+  },
+  {
+   "start": 107.216,
+   "end": 114.789,
+   "show": "この時間の注目は、OpenRouter。データを残さない指定をしたリクエストも、盗まれたものに含まれていたそうです。",
+   "part": 6
+  },
+  {
+   "start": 115.039,
+   "end": 117.919,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.916
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.916,
+   "end": 36.309
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 36.309,
+   "end": 55.892
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 55.892,
+   "end": 72.467
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 72.467,
+   "end": 90.929
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 90.929,
+   "end": 107.216
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 107.216,
+   "end": 119.969
+  }
+ ],
+ "made_at": "2026-11-22T16:26:38"
+}

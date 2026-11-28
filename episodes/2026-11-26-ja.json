@@ -1,0 +1,309 @@
+{
+ "title": "AIエージェント、動かすソフトで成績に差",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十六日、木曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月26日、木曜日の朝です。"
+  },
+  {
+   "say": "今日は、エーアイエージェントの成績が、動かすソフトで変わるという調査など、五本お届けします。",
+   "show": "今日は、AIエージェントの成績が、動かすソフトで変わるという調査など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "OpenClaw、エージェントの実行環境を比べる ShellBench",
+   "points": [
+    "同じモデルでも、動かすソフト（ハーネス）で合格率が10ポイント近く変わる",
+    "GPT-6 Astra は Pi で65.3%、Claude Code で55.4%",
+    "12のモデル、5つのハーネス、53,100回の実行を採点"
+   ],
+   "url": "https://www.theneuron.ai/news/openclaw-shellbench-ai-agent-harnesses/",
+   "lines": [
+    {
+     "say": "まずは、オープン・クロー財団のベンチマーク、シェル・ベンチです。同じモデルでも、動かすソフト、ハーネスを変えると、合格率が十ポイント近く変わるという結果が出ました。",
+     "show": "まずは、OpenClaw Foundationのベンチマーク、ShellBenchです。同じモデルでも、動かすソフト、ハーネスを変えると、合格率が10ポイント近く変わるという結果が出ました。"
+    },
+    {
+     "say": "ジーピーティー・シックス・アストラは、パイで動かすと六十五点三パーセント、クロード・コードでは五十五点四パーセントでした。全体で、五万三千百回の実行を採点したそうです。",
+     "show": "GPT-6 Astraは、Piで動かすと65.3%、Claude Codeでは55.4%でした。全体で、53,100回の実行を採点したそうです。"
+    }
+   ],
+   "details": [
+    "The Neuron によると、ShellBench は OpenClaw Foundation が、Parsewave、Hugging Face、Red Hat、UC Berkeley などと作ったベンチマークです。課題は約100で、1,000万件を超える匿名化したエージェントのやりとりをもとにしています。比べたハーネスは、Claude Code、Codex CLI、Hermes、OpenClaw、Pi の5つです。くわしい論文は、発表の時点ではまだ出ていません。",
+    "GPT-6 Astra は Pi で65.3%、Claude Code で55.4%。Claude Fable 5.2 は Pi で61.0%、Claude Code で63.0%でした。モデルを固定してハーネスを替えたときの差は、中央値で6.2ポイント。ハーネスを固定してモデルを替えたときの差は、中央値で45.7ポイントだったそうです。",
+    "今回の公開は、12のモデル、5つのハーネス、53,100回の採点した実行をまとめたものです。記事によると、正しさの確認をすべて通った実行のうち9.9%は、安全に関する条件を満たしていませんでした。GPT-6 Astra が3回のうち1回でも通った課題は75.1%、3回とも通ったのは48.8%です。"
+   ],
+   "link": {
+    "url": "https://www.theneuron.ai/news/openclaw-shellbench-ai-agent-harnesses/",
+    "title": "OpenClaw ShellBench Shows Why AI Agent Harnesses Matter",
+    "site": "The Neuron",
+    "image": "https://cdn.theneuron.ai/shellbench-featured-image-v2.png"
+   }
+  },
+  {
+   "label": "PrismML、5.93GB の Ternary Bonsai 2.5 27B",
+   "points": [
+    "Qwen3.8-27B がもと。1重みあたり1.76ビット、ファイルは5.93GB",
+    "ツール呼び出しの5つのベンチマークの平均は77.2（圧縮前は77.7）",
+    "メモリ10GB未満で動き、通常の llama.cpp に対応"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-25-prismml-announces-ternary-bonsai-25-27b-ultra-compact-agentic-ai-model",
+   "lines": [
+    {
+     "say": "次は、プリズム・エムエルです。圧縮したモデル、ターナリー・ボンサイ、にーてんご、にじゅうななビーを公開しました。もとは五十三点八ギガバイトのモデルを、五点九三ギガバイトにしています。",
+     "show": "次は、PrismMLです。圧縮したモデル、Ternary Bonsai 2.5 27Bを公開しました。もとは53.8GBのモデルを、5.93GBにしています。"
+    },
+    {
+     "say": "ツールを呼び出す五つのベンチマークの平均は七十七点二で、圧縮する前の七十七点七に近い数字です。メモリは十ギガバイト未満で動くそうです。",
+     "show": "ツールを呼び出す5つのベンチマークの平均は77.2で、圧縮する前の77.7に近い数字です。メモリは10GB未満で動くそうです。"
+    }
+   ],
+   "details": [
+    "AIToolly によると、Ternary Bonsai 2.5 27B は、Ternary Bonsai 27B の系列の、エージェント向けのリリースです。Qwen3.8-27B の構造をもとに、1重みあたり1.76ビットにしていて、モデルのファイルは5.93GB。圧縮していない FP16 では53.8GBが必要だそうです。",
+    "ツール呼び出しのベンチマークは、τ²-Bench、τ³-Bench、BFCL v3、BFCL v4、AppWorld の5つです。平均は77.2で、FP16 の77.7に近い数字でした。コーディングでは、Terminal-Bench 2.1 などで FP16 のおよそ90%の性能に届き、前のモデルから大きく改善したとしています（個別の数字は記事にありません）。",
+    "メモリ10GB未満で動き、Q2_0 のファイルは通常の llama.cpp で読めるそうです。NVIDIA のハードウェアで生成を速くする、MTP（multi-token prediction）版も加わりました。ライセンスは、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-25-prismml-announces-ternary-bonsai-25-27b-ultra-compact-agentic-ai-model",
+    "title": "PrismML Releases Ternary Bonsai 2.5 27B for Local Agentic AI",
+    "site": "AIToolly"
+   }
+  },
+  {
+   "label": "OpenAI、アマチュア天文家が Astra と Codex で惑星の候補を探索",
+   "points": [
+    "2人のアマチュア天文家が、Codex と Astra を利用",
+    "NASA の宇宙望遠鏡 Kepler と TESS の公開データを解析",
+    "見つけたのは候補の信号。惑星と確認された発見ではない"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-25-searching-for-distant-planets-with-astra-and-codex-in-nasa-space-telescope-data",
+   "lines": [
+    {
+     "say": "三本目は、オープン・エーアイです。二人のアマチュア天文家が、コーデックスとアストラで、太陽系の外の惑星の候補を探した事例を紹介しました。",
+     "show": "3本目は、OpenAIです。2人のアマチュア天文家が、CodexとAstraで、太陽系の外の惑星の候補を探した事例を紹介しました。"
+    },
+    {
+     "say": "使ったのは、宇宙望遠鏡、ケプラーとテスの公開データです。見つかったのは候補となる信号で、惑星と確認されたわけではありません。",
+     "show": "使ったのは、NASAの宇宙望遠鏡、KeplerとTESSの公開データです。見つかったのは候補となる信号で、惑星と確認されたわけではありません。"
+    }
+   ],
+   "details": [
+    "AIToolly が、OpenAI のブログの記事（11月24日）をもとに伝えています。2人のアマチュア天文家が、Codex と Astra を使って、太陽系の外の惑星の候補を探しました。",
+    "解析したのは、NASA の宇宙望遠鏡 Kepler と TESS の公開データです。これらの望遠鏡は、星の明るさの変化を時間を追って記録していて、惑星が星の前を横切るときの信号を見つけるには、データをふるいにかけて、パターンを見分ける作業が必要になります。",
+    "記事によると、道具が助けたのは、惑星が横切った可能性のある信号に印をつけて、次の調査につなげるところです。確認された発見ではなく、ふるい分けの段階だとしています。調べた星の数や、使ったモデルのバージョンは、記事にありません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-25-searching-for-distant-planets-with-astra-and-codex-in-nasa-space-telescope-data",
+    "title": "Searching for Distant Planets with Astra and Codex | AI Astronomy",
+    "site": "AIToolly",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill"
+   }
+  },
+  {
+   "label": "Microsoft、空いた GPU でAIを学習させ報酬を払う仕組みを特許出願",
+   "points": [
+    "大きな学習を小さな作業に分け、使っていないPCなどに配る",
+    "計算した量に応じてクレジット。ソフトやAIモデルの利用、現金に交換",
+    "特許の出願で、実際に始めるかどうかは示されていない"
+   ],
+   "url": "https://gigazine.net/news/20261125-microsoft-ai-use-gpu-capacity/",
+   "lines": [
+    {
+     "say": "四本目は、マイクロソフトの特許の出願です。使っていないパソコンなどのジーピーユーを、エーアイの学習に使い、かわりに報酬を払う仕組みです。",
+     "show": "4本目は、Microsoftの特許の出願です。使っていないPCなどのGPUを、AIの学習に使い、かわりに報酬を払う仕組みです。"
+    },
+    {
+     "say": "計算した量に応じてクレジットがもらえ、ソフトの利用や現金に交換できるとしています。特許の出願なので、実際に始まるかどうかは分かりません。",
+     "show": "計算した量に応じてクレジットがもらえ、ソフトの利用や現金に交換できるとしています。特許の出願なので、実際に始まるかどうかは分かりません。"
+    }
+   ],
+   "details": [
+    "GIGAZINE によると、出願の名前は「Opportunistic Micro-training on Edge Devices Using Spare GPU Utilization」。2025年4月30日に出願され、米国特許商標庁が2026年11月5日（現地時間）に公開しました。大きなAIの学習を小さな作業に分け、使われていないゲーミングPCやノートPCなどに配ります。図にはスマートフォンも描かれています。",
+    "仕組みは、GPU の使用率、メモリ、温度、消費電力を見て、作業の量を調整します。端末が使われているときや温度が上限に達したときは、作業を減らすか止めます。信頼できない端末が学習の結果を壊さないよう、終わった結果を確かめることも書かれています。",
+    "持ち主には、計算した量に応じてクレジットが払われ、ソフトやAIモデルの利用、現金に交換できます。Microsoft 自身のモデルのほか、計算資源が足りないほかの開発者に仲介する形も想定しています。記事は、電気代や GPU の寿命への影響は分からないこと、VideoCardz.com がクレジットで元が取れるのかを疑問視していることも伝えています。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261125-microsoft-ai-use-gpu-capacity/",
+    "title": "「PCやスマホのGPUをAIトレーニングに利用する代わりに報酬を支払う仕組み」の特許をMicrosoftが出願",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/25/microsoft-ai-use-gpu-capacity/00.jpg"
+   }
+  },
+  {
+   "label": "Versine、AIアシスタントから送金できる MCP",
+   "points": [
+    "文字や音声で、AIアシスタントからお金を送ったり請求したり",
+    "Base 上の USDC のウォレットを使い、鍵は利用者が持つ",
+    "承認はアプリのパスキーか、信頼する相手への事前の許可"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-25-versine-yc-f26-launches-mcp-integration-to-enable-ai-agents-to-send-and-receive-money",
+   "lines": [
+    {
+     "say": "最後は、スタートアップのバーサインです。エーアイアシスタントに、文字や声で、お金を送ったり請求したりできるエムシーピーを公開しました。",
+     "show": "最後は、スタートアップのVersineです。AIアシスタントに、文字や声で、お金を送ったり請求したりできるMCPを公開しました。"
+    },
+    {
+     "say": "お金は、ステーブルコインのユーエスディーシーのウォレットで動きます。送金の承認は、アプリのパスキーで行うそうです。",
+     "show": "お金は、ステーブルコインのUSDCのウォレットで動きます。送金の承認は、アプリのパスキーで行うそうです。"
+    }
+   ],
+   "details": [
+    "AIToolly が、Hacker News への投稿をもとに伝えています。Versine は Y Combinator の F26 に参加している会社で、Stripe、Databricks、Amazon の元エンジニアが作りました。AIアシスタントから、文字や音声でお金を送ったり請求したりできる MCP です。",
+    "裏側で使うのは、Base 上の、自分で鍵を管理する USDC のウォレットです。最大100人にまとめて送金や請求ができ、割り勘にも対応します。Versine を使っていない相手にも払え、受け取った人は2分で銀行に出金できるとしています。",
+    "承認は、Versine のアプリのパスキーで行うか、信頼する相手にはあらかじめ自動の許可を設定します。提携銀行を通す形ではなくステーブルコインを選んだ理由として、規制や手続きの負担を挙げています。料金や、提供の範囲は記事にありません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-25-versine-yc-f26-launches-mcp-integration-to-enable-ai-agents-to-send-and-receive-money",
+    "title": "Versine Launches MCP to Let AI Agents Send and Receive Money",
+    "site": "AIToolly"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、シェル・ベンチ。同じモデルでも、動かすハーネスで、合格率が十ポイント近く変わりました。",
+   "show": "今日の注目は、ShellBench。同じモデルでも、動かすハーネスで、合格率が10ポイント近く変わりました。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "ja",
+ "seconds": 134.03,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.883,
+   "show": "おはようございます、AIテックラジオです。11月26日、木曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.133,
+   "end": 13.447,
+   "show": "今日は、AIエージェントの成績が、動かすソフトで変わるという調査など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.497,
+   "end": 25.815,
+   "show": "まずは、OpenClaw Foundationのベンチマーク、ShellBenchです。同じモデルでも、動かすソフト、ハーネスを変えると、合格率が10ポイント近く変わるという結果が出ました。",
+   "part": 1
+  },
+  {
+   "start": 26.065,
+   "end": 38.033,
+   "show": "GPT-6 Astraは、Piで動かすと65.3%、Claude Codeでは55.4%でした。全体で、53,100回の実行を採点したそうです。",
+   "part": 1
+  },
+  {
+   "start": 39.083,
+   "end": 52.085,
+   "show": "次は、PrismMLです。圧縮したモデル、Ternary Bonsai 2.5 27Bを公開しました。もとは53.8GBのモデルを、5.93GBにしています。",
+   "part": 2
+  },
+  {
+   "start": 52.335,
+   "end": 62.277,
+   "show": "ツールを呼び出す5つのベンチマークの平均は77.2で、圧縮する前の77.7に近い数字です。メモリは10GB未満で動くそうです。",
+   "part": 2
+  },
+  {
+   "start": 63.327,
+   "end": 73.012,
+   "show": "3本目は、OpenAIです。2人のアマチュア天文家が、CodexとAstraで、太陽系の外の惑星の候補を探した事例を紹介しました。",
+   "part": 3
+  },
+  {
+   "start": 73.262,
+   "end": 82.617,
+   "show": "使ったのは、NASAの宇宙望遠鏡、KeplerとTESSの公開データです。見つかったのは候補となる信号で、惑星と確認されたわけではありません。",
+   "part": 3
+  },
+  {
+   "start": 83.667,
+   "end": 93.341,
+   "show": "4本目は、Microsoftの特許の出願です。使っていないPCなどのGPUを、AIの学習に使い、かわりに報酬を払う仕組みです。",
+   "part": 4
+  },
+  {
+   "start": 93.591,
+   "end": 103.149,
+   "show": "計算した量に応じてクレジットがもらえ、ソフトの利用や現金に交換できるとしています。特許の出願なので、実際に始まるかどうかは分かりません。",
+   "part": 4
+  },
+  {
+   "start": 104.199,
+   "end": 113.265,
+   "show": "最後は、スタートアップのVersineです。AIアシスタントに、文字や声で、お金を送ったり請求したりできるMCPを公開しました。",
+   "part": 5
+  },
+  {
+   "start": 113.515,
+   "end": 121.046,
+   "show": "お金は、ステーブルコインのUSDCのウォレットで動きます。送金の承認は、アプリのパスキーで行うそうです。",
+   "part": 5
+  },
+  {
+   "start": 122.096,
+   "end": 129.595,
+   "show": "今日の注目は、ShellBench。同じモデルでも、動かすハーネスで、合格率が10ポイント近く変わりました。",
+   "part": 6
+  },
+  {
+   "start": 129.845,
+   "end": 131.978,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.497
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.497,
+   "end": 39.083
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 39.083,
+   "end": 63.327
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 63.327,
+   "end": 83.667
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 83.667,
+   "end": 104.199
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 104.199,
+   "end": 122.096
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 122.096,
+   "end": 134.028
+  }
+ ],
+ "made_at": "2026-11-26T08:29:44"
+}

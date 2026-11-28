@@ -1,0 +1,311 @@
+{
+ "title": "Anthropic、PRを進めるClaude Ship",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月二十四日、火曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月24日、火曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、アンソロピックの、プルリクエストを自動で進めるクロード・シップなど、五本です。",
+   "show": "この時間は、Anthropicの、プルリクエストを自動で進める Claude Ship など、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Anthropic、プルリクエストを進める Claude Ship",
+   "points": [
+    "GitHub のプルリクエストを、レビュー・修正・承認まで進める Claude Ship",
+    "Code Review、PR Steward、Claude Approvals の3つのエージェント",
+    "Claude の Team と Enterprise のプラン向け。PR Steward と Approvals はベータ"
+   ],
+   "url": "https://claude.com/product/claude-ship",
+   "lines": [
+    {
+     "say": "まずは、アンソロピック。ギットハブのプルリクエストを、レビューから修正、承認まで進める、クロード・シップを、ベータ版として出しています。",
+     "show": "まずは、Anthropic。GitHub のプルリクエストを、レビューから修正、承認まで進める Claude Ship を、ベータ版として出しています。"
+    },
+    {
+     "say": "三つのエージェントの組み合わせで、決まりが認める変更だけを承認し、リスクのある変更は、人に残すそうです。",
+     "show": "3つのエージェントの組み合わせで、決まりが認める変更だけを承認し、リスクのある変更は、人に残すそうです。"
+    }
+   ],
+   "details": [
+    "Anthropic の製品ページによると、Claude Ship は、GitHub のプルリクエストが開かれたあとに働くしくみです。オンにしたリポジトリで動き、Claude Code がなくても使えます。AIを使っているので、バグやセキュリティの問題を見落とすことがある、とも書かれています。",
+    "Code Review は、複数のエージェントが本番を壊しそうなバグを探し、問題・きっかけ・直し方を書きこみます。PR Steward は、レビューの指摘、失敗したチェック、マージの衝突にクラウドで対応し、承認とマージはチームに残す作りです。Claude Approvals は、リポジトリの決まりのファイルを読み、決まりが認める定型の変更を承認して、リスクのある変更は指定された人に残します。",
+    "使えるのは Claude の Team と Enterprise のプランで、対応するのは GitHub だけです。管理者が設定でオンにし、まず1つのリポジトリの Code Review から始める手順が勧められています。管理者でない人は、Claude Code の /ship コマンドで試せます。料金は使った分だけかかる形で、支出の上限を設定できます。"
+   ],
+   "link": {
+    "url": "https://claude.com/product/claude-ship",
+    "title": "Claude Ship | Automate pull requests review and fixes",
+    "site": "Claude",
+    "image": "https://assets.claude.com/df0b3c4f0e8d20efa27a8510a9fe644a1a81f406.jpg?w=2400&h=1260&fit=crop"
+   }
+  },
+  {
+   "label": "OpenAI と Cisco、Linux を守る Shirudo を公開",
+   "points": [
+    "修正パッチが行きわたるまで、動いている Linux を守るオープンソースのランタイム",
+    "eBPF による一時的な防御「シールド」を、再起動なしで適用",
+    "Codex が作ったシールドが、Java4Shell の攻撃の試みを防いだと発表"
+   ],
+   "url": "https://openai.com/index/introducing-shirudo/",
+   "lines": [
+    {
+     "say": "オープン・エーアイとシスコは、リナックス向けのオープンソース、シルドを公開しました。",
+     "show": "OpenAI と Cisco は、Linux 向けのオープンソース、Shirudo を公開しました。"
+    },
+    {
+     "say": "修正パッチが行きわたるまでのあいだ、動いているシステムを、再起動せずに、一時的な防御で守るしくみです。",
+     "show": "修正パッチが行きわたるまでのあいだ、動いているシステムを、再起動せずに、一時的な防御で守るしくみです。"
+    }
+   ],
+   "details": [
+    "OpenAI の11月23日の発表です。Shirudo は、日本語の「シールド」から付けた名前です。恒久的なパッチを試して配るあいだ、動いている Linux のシステムを守るためのランタイムで、ライセンスは BSD 2-Clause。コードは GitHub で公開されています。",
+    "「シールド」は、脆弱性を突くふるまいだけを止め、正しいリクエストは通す、一時的な防御です。Linux のカーネルの中で小さなプログラムを動かす eBPF を使います。シールドは署名を確かめてから読みこまれ、担当者が承認してから、サービスを動かしたまま適用されます。適用する前に、アプリへの影響を見ることもできます。",
+    "管理された環境でのテストでは、Codex が作ったシールドが、動いている Elasticsearch への Java4Shell の攻撃の試みを、再起動なしで防いだと発表しています。Java の Base64 デコーダーに入力のチェックを加え、悪意のある入力を拒んだそうです。"
+   ],
+   "link": {
+    "url": "https://openai.com/index/introducing-shirudo/",
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "site": "OpenAI",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill"
+   }
+  },
+  {
+   "label": "Z.ai、層を2回通す GLM-5.4 を追加",
+   "points": [
+    "Z.ai が11月23日に GLM-5.4 を追加",
+    "GLM-5 の28層を2回通す「Loop Transformer」、文脈は100万トークン",
+    "まず GLM Coding Plan などで提供。API と重みの公開は、安全性の確認のあと"
+   ],
+   "url": "https://www.datacamp.com/blog/glm-5-4",
+   "lines": [
+    {
+     "say": "ズィー・エーアイは、十一月二十三日に、ジーエルエム・ごーてんよんを追加しました。",
+     "show": "Z.ai は、11月23日に GLM-5.4 を追加しました。"
+    },
+    {
+     "say": "同じ層を二回通す、ループ・トランスフォーマーという作りで、文脈は百万トークン。データキャンプの記事によると、重みの公開も予定しているそうです。",
+     "show": "同じ層を2回通す Loop Transformer という作りで、文脈は100万トークン。DataCamp の記事によると、重みの公開も予定しているそうです。"
+    }
+   ],
+   "details": [
+    "DataCamp の11月23日の記事です。GLM-5.4 は、Z.ai にとって最初の Loop Transformer のモデルです。モデルの名前は glm-5.4。Z.ai は、公式のベンチマークやモデルカードを出していない、と記事は書いています。",
+    "もとになる GLM-5 の28層を、1回の計算の中で2回通します。全体のパラメータは約7,500億と報じられていますが、Z.ai は確認していないそうです。文脈は100万トークン。速さは、すいている時間で毎秒200トークンまで、混んでいるときは毎秒70〜80トークンとされています。",
+    "使えるのは、GLM Coding Plan、ZCode、Z.ai Chat です。週ごとの利用枠は、GLM-5.3 より50%多いそうです。API の料金は出ておらず、API の提供は安全性の評価のあと。重みの公開も予定されていますが、日付は示されていません。"
+   ],
+   "link": {
+    "url": "https://www.datacamp.com/blog/glm-5-4",
+    "title": "GLM-5.4: Z.ai's First Loop Transformer and the Push Toward Generalized Coding",
+    "site": "DataCamp"
+   }
+  },
+  {
+   "label": "Amazon、Decart の最適化技術を取得へ",
+   "points": [
+    "Amazon が、イスラエルの Decart の技術と創業チームの取得で合意",
+    "対象は、AIモデルをチップの上で効率よく動かす Decart Optimization Stack",
+    "金額は75億ドルと Bloomberg が報道"
+   ],
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "lines": [
+    {
+     "say": "アマゾンは、イスラエルのスタートアップ、デカートの技術と、創業チームを取得することで合意しました。",
+     "show": "Amazon は、イスラエルのスタートアップ Decart の技術と、創業チームを取得することで合意しました。"
+    },
+    {
+     "say": "エーアイのモデルを、チップの上で効率よく動かすソフトで、金額は七十五億ドルだと、ブルームバーグの報道をもとに、テッククランチが伝えています。",
+     "show": "AIのモデルを、チップの上で効率よく動かすソフトで、金額は75億ドルだと、Bloomberg の報道をもとに、TechCrunch が伝えています。"
+    }
+   ],
+   "details": [
+    "TechCrunch の11月23日の記事です。Amazon が取得するのは、Decart Optimization Stack（DOS）の技術と、Decart の創業チーム、AIの研究者とエンジニアです。Amazon はブログの投稿でこの取引を伝えました。",
+    "DOS は、AIのモデルを、Nvidia、Amazon、Google のハードウェアの上で効率よく動かすためのソフトです。Decart は、リアルタイムで操作できる世界モデル（最近では Oasis 3）や、動画生成のツールで知られています。ほかの製品がどうなるかは、記事には書かれていません。",
+    "75億ドルという金額は、Bloomberg の報道によるものです。Amazon は、自社のデータセンターで使ってきた Trainium チップを、顧客に売る準備をしています。記事は、Decart の技術で、Amazon のチップで処理を動かしやすくなる可能性がある、としています。"
+   ],
+   "link": {
+    "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+    "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips | TechCrunch",
+    "site": "TechCrunch",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800"
+   }
+  },
+  {
+   "label": "Google 検索の AI Mode、Wallet とつながる",
+   "points": [
+    "AI Mode の Personal Intelligence が、Google Wallet に対応",
+    "つなぐかどうかは自分で選ぶ。口座の情報は読み取るだけ",
+    "Google Drive と Gemini アプリは、数週間のうちに対応"
+   ],
+   "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "lines": [
+    {
+     "say": "グーグルは、検索のエーアイ・モードが、グーグル・ウォレットの情報を使えるようにしました。",
+     "show": "Google は、検索の AI Mode が、Google Wallet の情報を使えるようにしました。"
+    },
+    {
+     "say": "つなぐかどうかは自分で選べて、できるのは読み取りだけ。ドライブと、ジェミニ・アプリも、数週間のうちに続くそうです。",
+     "show": "つなぐかどうかは自分で選べて、できるのは読み取りだけ。Drive と Gemini アプリも、数週間のうちに続くそうです。"
+    }
+   ],
+   "details": [
+    "Google の11月23日の発表です。検索の AI Mode の「Personal Intelligence」は、これまで Gmail、Calendar、Photos とつなげられました。そこに Google Wallet が加わり、この日から順に使えるようになります。Wallet につなぐと、支出のデータや登録したクレジットカードをもとに、ふだんの出費の見直しや、特典の合うカード選びなどを手伝います。",
+    "つなぐのは任意で、検索のパーソナライズの設定にある「Connected Apps」から選び、いつでもオン・オフできます。AI Mode は口座の情報を読み取るだけで、お金を動かしたり、管理や投資をしたりはできない、と Google は説明しています。回答に使われた情報を確かめられる表示も、近く加わるそうです。",
+    "Google Drive は、ドキュメント、スプレッドシート、PDF を手がかりに使えるようになります。Gemini アプリと AI Mode のあいだで、文脈を共有するしくみも加わります。どちらも、数週間のうちに始まる予定です。"
+   ],
+   "link": {
+    "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "site": "Google",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-1300.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、クロード・シップ。どの変更に人の確認が要るかは、チームが、決まりのファイルで決めるそうです。",
+   "show": "この時間の注目は、Claude Ship。どの変更に人の確認が要るかは、チームが、決まりのファイルで決めるそうです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-24",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 108.45,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.787,
+   "show": "おつかれさまです、AIテックラジオです。11月24日、火曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.037,
+   "end": 13.095,
+   "show": "この時間は、Anthropicの、プルリクエストを自動で進める Claude Ship など、5本です。",
+   "part": 0
+  },
+  {
+   "start": 14.145,
+   "end": 23.681,
+   "show": "まずは、Anthropic。GitHub のプルリクエストを、レビューから修正、承認まで進める Claude Ship を、ベータ版として出しています。",
+   "part": 1
+  },
+  {
+   "start": 23.931,
+   "end": 31.462,
+   "show": "3つのエージェントの組み合わせで、決まりが認める変更だけを承認し、リスクのある変更は、人に残すそうです。",
+   "part": 1
+  },
+  {
+   "start": 32.512,
+   "end": 37.664,
+   "show": "OpenAI と Cisco は、Linux 向けのオープンソース、Shirudo を公開しました。",
+   "part": 2
+  },
+  {
+   "start": 37.914,
+   "end": 45.263,
+   "show": "修正パッチが行きわたるまでのあいだ、動いているシステムを、再起動せずに、一時的な防御で守るしくみです。",
+   "part": 2
+  },
+  {
+   "start": 46.313,
+   "end": 51.657,
+   "show": "Z.ai は、11月23日に GLM-5.4 を追加しました。",
+   "part": 3
+  },
+  {
+   "start": 51.907,
+   "end": 61.71,
+   "show": "同じ層を2回通す Loop Transformer という作りで、文脈は100万トークン。DataCamp の記事によると、重みの公開も予定しているそうです。",
+   "part": 3
+  },
+  {
+   "start": 62.76,
+   "end": 69.672,
+   "show": "Amazon は、イスラエルのスタートアップ Decart の技術と、創業チームを取得することで合意しました。",
+   "part": 4
+  },
+  {
+   "start": 69.922,
+   "end": 79.693,
+   "show": "AIのモデルを、チップの上で効率よく動かすソフトで、金額は75億ドルだと、Bloomberg の報道をもとに、TechCrunch が伝えています。",
+   "part": 4
+  },
+  {
+   "start": 80.743,
+   "end": 86.193,
+   "show": "Google は、検索の AI Mode が、Google Wallet の情報を使えるようにしました。",
+   "part": 5
+  },
+  {
+   "start": 86.443,
+   "end": 94.294,
+   "show": "つなぐかどうかは自分で選べて、できるのは読み取りだけ。Drive と Gemini アプリも、数週間のうちに続くそうです。",
+   "part": 5
+  },
+  {
+   "start": 95.344,
+   "end": 103.269,
+   "show": "この時間の注目は、Claude Ship。どの変更に人の確認が要るかは、チームが、決まりのファイルで決めるそうです。",
+   "part": 6
+  },
+  {
+   "start": 103.519,
+   "end": 106.399,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.145
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.145,
+   "end": 32.512
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 32.512,
+   "end": 46.313
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 46.313,
+   "end": 62.76
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 62.76,
+   "end": 80.743
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 80.743,
+   "end": 95.344
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 95.344,
+   "end": 108.449
+  }
+ ],
+ "made_at": "2026-11-24T16:26:34"
+}

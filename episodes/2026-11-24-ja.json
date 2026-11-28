@@ -1,0 +1,261 @@
+{
+ "title": "NVIDIA、フアン氏がCEOに復帰",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十四日、火曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月24日、火曜日の朝です。"
+  },
+  {
+   "say": "今日は、エヌビディアのジェンセン・フアンさんが、シーイーオーに復帰した話など、四本お届けします。",
+   "show": "今日は、NVIDIAのJensen Huangさんが、CEOに復帰した話など、4本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "NVIDIA、ジェンセン・フアン氏がCEOに復帰",
+   "points": [
+    "11月23日、取締役会が全会一致で Jensen Huang 氏を社長兼CEO、取締役に復帰",
+    "米政府の高官からの意見をもとに、国家安全保障上のリスクはないと判断",
+    "独立取締役の委員会による調査は、結論が出るまで継続"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+   "lines": [
+    {
+     "say": "まずは、エヌビディアです。十一月二十三日、取締役会が全会一致で、ジェンセン・フアンさんを、社長兼シーイーオーに復帰させたと発表しました。",
+     "show": "まずは、NVIDIAです。11月23日、取締役会が全会一致で、Jensen Huangさんを、社長兼CEOに復帰させたと発表しました。"
+    },
+    {
+     "say": "取締役会は、アメリカ政府の高官からの意見をもとに、国家安全保障上のリスクはないと判断したそうです。独立した委員会による調査は、このあとも続きます。",
+     "show": "取締役会は、米政府の高官からの意見をもとに、国家安全保障上のリスクはないと判断したそうです。独立した委員会による調査は、このあとも続きます。"
+    }
+   ],
+   "details": [
+    "NVIDIAの11月23日付の発表によると、取締役会は話し合いと会合を重ねたうえで、Jensen Huang 氏を社長兼CEO、取締役に即日で復帰させることを全会一致で決めました。暫定CEOを務めた Colette Kress 氏は、引き続きCFOを務めます。取締役会の議長は、引き続き Harvey C. Jones 氏です。",
+    "発表によると、取締役会は米政府の高官から意見を受け、それをもとに、復帰が国家安全保障上のリスクにならないと確信しているとしています。あわせて、独立取締役だけでつくる「国家安全保障・輸出管理委員会」を設け、新しい役職の最高コンプライアンス責任者を探しているそうです。",
+    "発表は、Huang 氏が外国の情報活動の標的になっていたという報道にふれ、独立取締役だけの委員会が、独立した弁護士を起用して調べているとしています。調査は結論が出るまで続け、Huang 氏も全面的に協力すると述べています。"
+   ],
+   "link": {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+    "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+    "site": "SEC.gov"
+   }
+  },
+  {
+   "label": "Meta、2030年のネットゼロ目標を見直しへ",
+   "points": [
+    "温室効果ガスの排出量が、昨年45%増加",
+    "2020年に掲げた「2030年にネットゼロ」の目標を再評価中",
+    "電力の使用量は35%増。契約したクリーンエネルギーは30ギガワット超"
+   ],
+   "url": "https://axios.com/2026/11/19/meta-ai-emissions-rise",
+   "lines": [
+    {
+     "say": "次は、メタです。アクシオスによると、エーアイ向けの設備が増えたことで、温室効果ガスの排出量が、昨年、四十五パーセント増えました。",
+     "show": "次は、Metaです。Axiosによると、AI向けの設備が増えたことで、温室効果ガスの排出量が、昨年、45%増えました。"
+    },
+    {
+     "say": "これを受けてメタは、二〇三〇年に排出を実質ゼロにする目標を、見直しているそうです。どう変えるのか、いつ決めるのかは、明らかにしていません。",
+     "show": "これを受けてMetaは、2030年に排出を実質ゼロにする目標を、見直しているそうです。どう変えるのか、いつ決めるのかは、明らかにしていません。"
+    }
+   ],
+   "details": [
+    "Axiosによると、Metaの温室効果ガスの排出量は昨年45%増えました。記事は、Googleの18%、Amazonの16%、Microsoftの25%とくらべて、伸びが大きいと伝えています。電力の使用量は35%増えたそうです。",
+    "記事によると、Metaの幹部は、2020年に掲げた2030年の目標を「再評価している」と述べました。どんな変更を考えているのか、いつ決めるのかは示していません。データセンター担当の Rachel Peterson 氏らは、現実ははるかに複雑だった、と述べています。",
+    "Metaは、原子力・太陽光・地熱など30ギガワットを超えるクリーンエネルギーを契約したとしていますが、記事によると、発電を始めているのはその半分未満です。電力会社の供給が間に合わないときは、天然ガスの発電所を使うこともあるとしています。"
+   ],
+   "link": {
+    "url": "https://axios.com/2026/11/19/meta-ai-emissions-rise",
+    "title": "Meta rethinks climate goal as AI emissions soar 45%",
+    "site": "Axios"
+   }
+  },
+  {
+   "label": "Google、AIエージェントで量子アルゴリズムを改良",
+   "points": [
+    "Google DeepMind と Google Quantum AI が、Lean 4 の中でAIエージェントを動かす手法を論文で発表",
+    "量子ビット数とTゲート数の積を、ある計算で290倍以上削減",
+    "できた量子プログラムは、機械で正しさを検査"
+   ],
+   "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms/amp/",
+   "lines": [
+    {
+     "say": "三本目は、グーグルの研究です。グーグル・ディープマインドとグーグル・クオンタム・エーアイが、エーアイのエージェントに量子アルゴリズムを探させる手法を、論文で発表しました。",
+     "show": "3本目は、Googleの研究です。Google DeepMindとGoogle Quantum AIが、AIのエージェントに量子アルゴリズムを探させる手法を、論文で発表しました。"
+    },
+    {
+     "say": "クオンタム・コンピューティング・レポートによると、ある計算では、必要な資源の目安が、二百九十分の一以下になったそうです。結果は、証明支援系のリーンで検査されています。",
+     "show": "Quantum Computing Reportによると、ある計算では、必要な資源の目安が、290分の1以下になったそうです。結果は、証明支援系のLeanで検査されています。"
+    }
+   ],
+   "details": [
+    "Quantum Computing Report の11月10日付の記事によると、論文の題は「Discovering Formally Verified Quantum Programs with AI」（arXiv 2611.09822）です。言語モデルのエージェントを、証明支援系の Lean 4 の中で動かし、複数のエージェントによる探索と量子ホーア論理を組み合わせて、量子プログラムを作って検査します。",
+    "指標は、論理量子ビットの数とTゲートの数を掛けた「Q·T」です。記事によると、25ビットの固定小数点の計算では290倍以上、核融合プラズマの計算では10.9倍、光化学の計算では8.08倍、薬物代謝に関わる計算では2.49倍、削減されました。",
+    "記事によると、独立した Lean の比較プログラムが、証明が問題の仕様を満たしているか、独自の公理や証明の抜けがないかを確かめます。Gemini のエージェントのチームは、共有のウィキなどで、補題やコード、批評をやりとりするそうです。"
+   ],
+   "link": {
+    "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms/amp/",
+    "title": "Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms",
+    "site": "Quantum Computing Report",
+    "image": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-51.png"
+   }
+  },
+  {
+   "label": "フロッピー1枚に収まるチャットボット Tiny-2.1",
+   "points": [
+    "36万7,000パラメータの言語モデルが、486DX や Pentium の DOS で動作",
+    "必要なメモリは約540KB。PCの内蔵スピーカーで話す",
+    "モデルの構造も学習データも、Claude で作成"
+   ],
+   "url": "https://theoutpost.ai/news-story/a-chatbot-built-with-claude-now-fits-on-a-floppy-disk-33591/",
+   "lines": [
+    {
+     "say": "最後は、小さな話題です。フロッピーディスク一枚に収まるチャットボット、タイニー・にーてんいちを、個人の開発者が公開しました。",
+     "show": "最後は、小さな話題です。フロッピーディスク1枚に収まるチャットボット「Tiny-2.1」を、個人の開発者が公開しました。"
+    },
+    {
+     "say": "ジ・アウトポストによると、パラメータはおよそ三十六万七千で、昔のパソコンのドスで動きます。簡単なクイズや計算に答えますが、学んでいないことは、自信たっぷりに作り話をするそうです。",
+     "show": "The Outpostによると、パラメータはおよそ36万7,000で、昔のパソコンのDOSで動きます。簡単なクイズや計算に答えますが、学んでいないことは、自信たっぷりに作り話をするそうです。"
+    }
+   ],
+   "details": [
+    "The Outpost の11月16日付のまとめによると、作ったのは WollyMonjac と名乗る趣味の開発者です。Tiny-2.1 は Pentium や 486DX のPCの DOS で動き、フロッピーディスク1枚に収まります。重みは8ビットで約380KB、空きメモリは約540KBが必要です。",
+    "記事によると、文字を1字ずつ読み書きし、簡単な雑学、言葉の逆つづり、基本の計算に答えます。画面は全画面の表示で、PCの内蔵スピーカーからロボットのような声で話します。学習したのは約3,500の事実で、作者の報告では、学習データに近い聞き方での正答率は約90%、言いかえると61%に下がります。",
+    "記事によると、モデルの構造は Claude Fable 5.2 が書き、学習データは Claude Opus 5.5 が作りました。Cのソースコードとモデルは GitHub からダウンロードできます。"
+   ],
+   "link": {
+    "url": "https://theoutpost.ai/news-story/a-chatbot-built-with-claude-now-fits-on-a-floppy-disk-33591/",
+    "title": "A chatbot built with Claude fits on a floppy disk",
+    "site": "The Outpost",
+    "image": "https://cdn.theoutpost.ai/files/article_549406_claude_dos_chatbot_featured_1794846149666_4d0edbd505.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、エヌビディア。フアンさんは復帰しましたが、独立した委員会の調査は、まだ続いています。",
+   "show": "今日の注目は、NVIDIA。Huangさんは復帰しましたが、独立した委員会の調査は、まだ続いています。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-24",
+ "lang": "ja",
+ "seconds": 117.59,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.637,
+   "show": "おはようございます、AIテックラジオです。11月24日、火曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.887,
+   "end": 13.309,
+   "show": "今日は、NVIDIAのJensen Huangさんが、CEOに復帰した話など、4本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.359,
+   "end": 24.983,
+   "show": "まずは、NVIDIAです。11月23日、取締役会が全会一致で、Jensen Huangさんを、社長兼CEOに復帰させたと発表しました。",
+   "part": 1
+  },
+  {
+   "start": 25.233,
+   "end": 36.433,
+   "show": "取締役会は、米政府の高官からの意見をもとに、国家安全保障上のリスクはないと判断したそうです。独立した委員会による調査は、このあとも続きます。",
+   "part": 1
+  },
+  {
+   "start": 37.483,
+   "end": 47.52,
+   "show": "次は、Metaです。Axiosによると、AI向けの設備が増えたことで、温室効果ガスの排出量が、昨年、45%増えました。",
+   "part": 2
+  },
+  {
+   "start": 47.77,
+   "end": 57.786,
+   "show": "これを受けてMetaは、2030年に排出を実質ゼロにする目標を、見直しているそうです。どう変えるのか、いつ決めるのかは、明らかにしていません。",
+   "part": 2
+  },
+  {
+   "start": 58.836,
+   "end": 69.567,
+   "show": "3本目は、Googleの研究です。Google DeepMindとGoogle Quantum AIが、AIのエージェントに量子アルゴリズムを探させる手法を、論文で発表しました。",
+   "part": 3
+  },
+  {
+   "start": 69.817,
+   "end": 81.55,
+   "show": "Quantum Computing Reportによると、ある計算では、必要な資源の目安が、290分の1以下になったそうです。結果は、証明支援系のLeanで検査されています。",
+   "part": 3
+  },
+  {
+   "start": 82.6,
+   "end": 91.507,
+   "show": "最後は、小さな話題です。フロッピーディスク1枚に収まるチャットボット「Tiny-2.1」を、個人の開発者が公開しました。",
+   "part": 4
+  },
+  {
+   "start": 91.757,
+   "end": 104.727,
+   "show": "The Outpostによると、パラメータはおよそ36万7,000で、昔のパソコンのDOSで動きます。簡単なクイズや計算に答えますが、学んでいないことは、自信たっぷりに作り話をするそうです。",
+   "part": 4
+  },
+  {
+   "start": 105.777,
+   "end": 113.159,
+   "show": "今日の注目は、NVIDIA。Huangさんは復帰しましたが、独立した委員会の調査は、まだ続いています。",
+   "part": 5
+  },
+  {
+   "start": 113.409,
+   "end": 115.542,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.359
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.359,
+   "end": 37.483
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 37.483,
+   "end": 58.836
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 58.836,
+   "end": 82.6
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 82.6,
+   "end": 105.777
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 105.777,
+   "end": 117.592
+  }
+ ],
+ "made_at": "2026-11-24T08:26:00"
+}

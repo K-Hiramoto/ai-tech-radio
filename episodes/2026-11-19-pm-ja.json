@@ -1,0 +1,312 @@
+{
+ "title": "Google、Gemini 4 Neonを公開",
+ "opening": [
+  {
+   "say": "おつかれさまです、エーアイ・テックラジオです。十一月十九日、木曜日の夕方です。",
+   "show": "おつかれさまです、AIテックラジオです。11月19日、木曜日の夕方です。"
+  },
+  {
+   "say": "この時間は、グーグルの新しいモデル、ジェミニ・フォー・ネオンから、アンソロピックの株式公開まで、五本です。",
+   "show": "この時間は、Googleの新しいモデル Gemini 4 Neon から、Anthropicの株式公開まで、5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Google、Gemini 4 Neon を公開",
+   "points": [
+    "Carbon と Hydrogen の中間に位置する新モデル",
+    "Carbon と同等の品質で、作業を3倍速く完了とGoogleは説明",
+    "100万トークンあたり入力3ドル・出力15ドル"
+   ],
+   "url": "https://interestingengineering.com/ai-robotics/google-gemini-4-neon-faster-coding-research",
+   "lines": [
+    {
+     "say": "まずは、グーグル。ジェミニ・フォーの新しいモデル、ネオンを公開しました。速いハイドロジェンと、高性能なカーボンの、中間にあたります。",
+     "show": "まずは、Google。Gemini 4 の新しいモデル、Neon を公開しました。速い Hydrogen と、高性能な Carbon の、中間にあたります。"
+    },
+    {
+     "say": "カーボンと同じくらいの品質で、作業を三倍速く終えられると、グーグルは説明しています。",
+     "show": "Carbon と同じくらいの品質で、作業を3倍速く終えられると、Googleは説明しています。"
+    }
+   ],
+   "details": [
+    "Gemini 4 Neon は、複雑なソフトウェア開発、科学研究、企業の業務に向けたモデルです。大きなコードベースのデバッグや、複数のエージェントの取りまとめなど、長く続く作業を想定しています。Google Antigravity では、並行して動く Hydrogen のサブエージェントを指揮する役も担えるそうです。",
+    "Googleによると、初期の社内評価で、Neon は全体の品質で Carbon と同等か、それ以上でした。標準の思考レベルでは、1つの作業あたりの費用が Carbon より32%低いとしています。Artificial Analysis の Coding Agent Index では、58.6で1位だと伝えられています。",
+    "料金は、100万トークンあたり入力3ドル、出力15ドル。扱える文脈は100万トークンです。Gemini API（Google AI Studio）と企業向けの Gemini で順次提供され、Google AI Pro と Ultra の会員は、Geminiアプリと Antigravity から使えます。"
+   ],
+   "link": {
+    "url": "https://interestingengineering.com/ai-robotics/google-gemini-4-neon-faster-coding-research",
+    "title": "Gemini 4 Neon brings 3x faster performance to complex coding tasks",
+    "site": "Interesting Engineering",
+    "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-19T044319.444.jpg"
+   }
+  },
+  {
+   "label": "Genie 4、Project Genie で提供開始",
+   "points": [
+    "世界モデル Genie 4 が、Google AI Ultra の会員向けに",
+    "映像と一緒に、音や会話をリアルタイムで生成",
+    "Pro の会員はウェイトリストに登録"
+   ],
+   "url": "https://tbreak.com/genie-4-project-genie-ultra-subscribers/",
+   "lines": [
+    {
+     "say": "続いても、グーグル。世界モデルのジーニー・フォーが、プロジェクト・ジーニーで、ウルトラの会員向けに使えるようになりました。",
+     "show": "続いても、Google。世界モデルの Genie 4 が、Project Genie で、Google AI Ultra の会員向けに使えるようになりました。"
+    },
+    {
+     "say": "映像と一緒に、音や会話をその場で作り、途中で文字を打って、天気や展開を変えられるそうです。",
+     "show": "映像と一緒に、音や会話をその場で作り、途中で文字を打って、天気や展開を変えられるそうです。"
+    }
+   ],
+   "details": [
+    "Googleが11月18日に発表したと、記事は伝えています。使えるのは、対象となる Google AI Ultra の会員です。Genie 4 は、10月27日に研究プレビューとして紹介されていました。",
+    "Genie 4 は、このシリーズで初めて、映像と一緒に音をリアルタイムで生成します。環境の音や登場人物のせりふが、場面の進み方に合わせて変わります。途中で文字を打てば、最初からやり直さずに、天気を変えたり、登場人物を足したりできるそうです。",
+    "Google AI Pro の会員は、まだ使えず、ウェイトリストに登録できます。作った世界を公開したり、ほかの人の世界を作り変えたりできるギャラリーも用意されました。Project Genie で作った映像と音には、SynthID の透かしが入ります。APIの料金や一般提供の時期は、公表されていません。"
+   ],
+   "link": {
+    "url": "https://tbreak.com/genie-4-project-genie-ultra-subscribers/",
+    "title": "Google's Genie 4 brings talking worlds to Ultra subscribers",
+    "site": "tbreak",
+    "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/genie-4-project-genie-ultra-subscribers.png?fit=1200%2C675&ssl=1"
+   }
+  },
+  {
+   "label": "Anthropic、IPOの価格を1株83ドルに決定",
+   "points": [
+    "公開価格は1株83ドル、想定の70〜78ドルを上回る",
+    "9億8,000万株で、調達額は810億ドル",
+    "Nasdaqに上場、ティッカーは「ANT」"
+   ],
+   "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+   "lines": [
+    {
+     "say": "三本目は、アンソロピック。株式公開の価格を、ひとかぶ、八十三ドルに決めました。想定していた、七十ドルから七十八ドルの幅を上回ります。",
+     "show": "3本目は、Anthropic。株式公開（IPO）の価格を、1株83ドルに決めました。想定していた70〜78ドルの幅を上回ります。"
+    },
+    {
+     "say": "調達額は、八百十億ドル。六月のスペース・エックスの、およそ七百五十億ドルを上回ると、伝えられています。",
+     "show": "調達額は810億ドル。6月のSpaceXの、およそ750億ドルを上回ると、伝えられています。"
+    }
+   ],
+   "details": [
+    "AP通信の記事によると、価格は現地時間11月18日の水曜日に決まりました。1株83ドルは、事前に示していた70〜78ドルの幅を上回ります。企業価値は、1兆5,000億ドルになるそうです。",
+    "売り出すのは、クラスA普通株式9億8,000万株です。このうち、9億5,635万1,354株を会社が、2,364万8,646株を既存の株主が売ります。当初は、8億2,500万株の予定でした。調達額は810億ドルで、6月におよそ750億ドルを調達したSpaceXを上回ると、記事は伝えています。",
+    "上場先はNasdaqで、ティッカーは「ANT」。木曜日に取引が始まる予定だと、記事は伝えています。記事によると、Anthropicには62億ドルの負債があり、一般的な会計基準では、まだ利益が出ていません。"
+   ],
+   "link": {
+    "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+    "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+    "site": "PBS News",
+    "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-10-26T184012Z_1521056589_RC23BOAQ27IX_RTRMADP_3_USA-STOCKS-1024x683.jpg"
+   }
+  },
+  {
+   "label": "Microsoft AI、セキュリティ向けと音声対話のモデル",
+   "points": [
+    "セキュリティ向けの MAI Cyber 2 Flash、文脈は100万トークン",
+    "Microsoftのセキュリティ製品だけで提供、MDASHには12月中旬から",
+    "音声対話の MAI Realtime 1 は、1分あたり0.01ドルから"
+   ],
+   "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/",
+   "lines": [
+    {
+     "say": "四本目は、マイクロソフト。セキュリティ向けのモデル、エムエーアイ、サイバー・ツー・フラッシュを発表しました。自社のセキュリティ製品だけで提供します。",
+     "show": "4本目は、Microsoft AI。セキュリティ向けのモデル、MAI Cyber 2 Flash を発表しました。自社のセキュリティ製品だけで提供します。"
+    },
+    {
+     "say": "声で聞いて声で答える、初めてのモデル、エムエーアイ・リアルタイム・ワンも発表され、利用希望の登録が始まっています。",
+     "show": "声で聞いて声で答える、初めてのモデル、MAI Realtime 1 も発表され、利用希望の登録が始まっています。"
+    }
+   ],
+   "details": [
+    "Microsoft AI は、11月17日の Ignite 2026 で、7つのモデルを発表しました。MAI Cyber 2 Flash はその1つです。CyberGym-E2E というテストで92.3%で、GPT-6 Astra の91.5%を上回り、1件あたりの費用は2%未満だと、記事は伝えています。扱える文脈は100万トークンです。",
+    "MAI Cyber 2 Flash の料金は、100万トークンあたり入力0.10ドル、出力0.50ドル。提供は、Microsoftのセキュリティ製品に限られます。Codename MDASH では、対象の顧客向けに、12月中旬から今のモデルと入れ替わるそうです。",
+    "MAI Realtime 1 は、Microsoftにとって初めての、音声から音声へ直接こたえるモデルです。料金は、音声1分あたり0.01ドルから。MAI Labs で、利用希望の登録を受け付けています。提供の開始日は、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/",
+    "title": "Microsoft launches seven MAI models at Ignite 2026",
+    "site": "TestingCatalog",
+    "image": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/11/HXWOGsZWsAEnlxQ.png"
+   }
+  },
+  {
+   "label": "AssemblyAI、音声認識の STT 3.7",
+   "points": [
+    "録音・ライブ・音声エージェント向けの3つのモデル",
+    "32の言語に対応、言語は自動で判別",
+    "音声エージェント向けは、話し終わりから86ミリ秒で確定"
+   ],
+   "url": "https://www.assemblyai.com/changelog",
+   "lines": [
+    {
+     "say": "最後は、音声認識のアセンブリー・エーアイ。新しいモデル、エスティーティー・さんてんななを公開しました。録音、ライブ、音声エージェント向けの三種類です。",
+     "show": "最後は、音声認識の AssemblyAI。新しいモデル、STT 3.7 を公開しました。録音、ライブ、音声エージェント向けの3種類です。"
+    },
+    {
+     "say": "どれも三十二の言語に対応します。エージェント向けは、話し終わってから八十六ミリ秒で、文字起こしが確定するそうです。",
+     "show": "どれも32の言語に対応します。エージェント向けは、話し終わってから86ミリ秒で、文字起こしが確定するそうです。"
+    }
+   ],
+   "details": [
+    "AssemblyAI の更新履歴に、11月18日付けで載りました。録音向けの AssemblyAI-STT-3.7、会議や通話などライブ向けの STT-3.7-Realtime、音声エージェント向けの STT-3.7-Realtime-Agent の3つです。料金は、1時間あたり、順に0.21ドル、0.30ドル、0.45ドルです。",
+    "3つとも、32の言語に対応し、言語を自動で判別します。録音向けは、対応言語が18から32に増えました。前のモデルが対応していた英語以外の17言語では、単語の誤り率の平均が12.8%から10.1%に下がったと、AssemblyAI は説明しています。話者を区別する新しいモデルも入りました。",
+    "音声エージェント向けは、話し終わってから86ミリ秒で、最終の文字起こしが届きます。途中の結果と最終の結果のあいだで変わる単語は、3.2%から1.0%に減ったそうです。前のモデルの Universal-3.5 Pro Realtime は、2027年2月1日に終了します。"
+   ],
+   "link": {
+    "url": "https://www.assemblyai.com/changelog",
+    "title": "Changelog | AssemblyAI",
+    "site": "AssemblyAI",
+    "image": "https://www.assemblyai.com/_aai/images/meta/og-default.jpg"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "この時間の注目は、ジェミニ・フォー・ネオン。カーボンに近い品質を、より速く使えるモデルです。",
+   "show": "この時間の注目は、Gemini 4 Neon。Carbon に近い品質を、より速く使えるモデルです。"
+  },
+  {
+   "say": "それでは、今日も一日おつかれさまでした。",
+   "show": "それでは、今日も一日おつかれさまでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-19",
+ "edition": "pm",
+ "lang": "ja",
+ "seconds": 118.98,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.819,
+   "show": "おつかれさまです、AIテックラジオです。11月19日、木曜日の夕方です。",
+   "part": 0
+  },
+  {
+   "start": 7.069,
+   "end": 14.397,
+   "show": "この時間は、Googleの新しいモデル Gemini 4 Neon から、Anthropicの株式公開まで、5本です。",
+   "part": 0
+  },
+  {
+   "start": 15.447,
+   "end": 24.972,
+   "show": "まずは、Google。Gemini 4 の新しいモデル、Neon を公開しました。速い Hydrogen と、高性能な Carbon の、中間にあたります。",
+   "part": 1
+  },
+  {
+   "start": 25.222,
+   "end": 31.206,
+   "show": "Carbon と同じくらいの品質で、作業を3倍速く終えられると、Googleは説明しています。",
+   "part": 1
+  },
+  {
+   "start": 32.256,
+   "end": 40.032,
+   "show": "続いても、Google。世界モデルの Genie 4 が、Project Genie で、Google AI Ultra の会員向けに使えるようになりました。",
+   "part": 2
+  },
+  {
+   "start": 40.282,
+   "end": 47.055,
+   "show": "映像と一緒に、音や会話をその場で作り、途中で文字を打って、天気や展開を変えられるそうです。",
+   "part": 2
+  },
+  {
+   "start": 48.105,
+   "end": 59.135,
+   "show": "3本目は、Anthropic。株式公開（IPO）の価格を、1株83ドルに決めました。想定していた70〜78ドルの幅を上回ります。",
+   "part": 3
+  },
+  {
+   "start": 59.385,
+   "end": 67.609,
+   "show": "調達額は810億ドル。6月のSpaceXの、およそ750億ドルを上回ると、伝えられています。",
+   "part": 3
+  },
+  {
+   "start": 68.659,
+   "end": 78.301,
+   "show": "4本目は、Microsoft AI。セキュリティ向けのモデル、MAI Cyber 2 Flash を発表しました。自社のセキュリティ製品だけで提供します。",
+   "part": 4
+  },
+  {
+   "start": 78.551,
+   "end": 86.445,
+   "show": "声で聞いて声で答える、初めてのモデル、MAI Realtime 1 も発表され、利用希望の登録が始まっています。",
+   "part": 4
+  },
+  {
+   "start": 87.495,
+   "end": 97.991,
+   "show": "最後は、音声認識の AssemblyAI。新しいモデル、STT 3.7 を公開しました。録音、ライブ、音声エージェント向けの3種類です。",
+   "part": 5
+  },
+  {
+   "start": 98.241,
+   "end": 106.443,
+   "show": "どれも32の言語に対応します。エージェント向けは、話し終わってから86ミリ秒で、文字起こしが確定するそうです。",
+   "part": 5
+  },
+  {
+   "start": 107.493,
+   "end": 113.797,
+   "show": "この時間の注目は、Gemini 4 Neon。Carbon に近い品質を、より速く使えるモデルです。",
+   "part": 6
+  },
+  {
+   "start": 114.047,
+   "end": 116.927,
+   "show": "それでは、今日も一日おつかれさまでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.447
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.447,
+   "end": 32.256
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 32.256,
+   "end": 48.105
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 48.105,
+   "end": 68.659
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 68.659,
+   "end": 87.495
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 87.495,
+   "end": 107.493
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 107.493,
+   "end": 118.977
+  }
+ ],
+ "made_at": "2026-11-19T16:26:48"
+}

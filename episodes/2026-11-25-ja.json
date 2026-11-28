@@ -1,0 +1,262 @@
+{
+ "title": "Ant、医療AIモデルLingSanteを公開",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十五日、水曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月25日、水曜日の朝です。"
+  },
+  {
+   "say": "今日は、中国のアント・グループが、医療向けのエーアイモデルの重みを公開した話など、四本お届けします。",
+   "show": "今日は、中国のAnt Groupが、医療向けのAIモデルの重みを公開した話など、4本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Ant Group、医療向けモデル LingSante の重みを公開",
+   "points": [
+    "Ant Group が、医療向けの LingSante の2つのモデルを、重みつきで公開",
+    "LingSante-3.1-flash は全体で5,600億、1トークンあたり約250億のパラメータが働く",
+    "Hugging Face で、どちらも MIT ライセンス"
+   ],
+   "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
+   "lines": [
+    {
+     "say": "まずは、中国のアント・グループです。医療向けのエーアイモデル、リン・サンテの二つのモデルを、重みつきで公開しました。",
+     "show": "まずは、中国のAnt Groupです。医療向けのAIモデル、LingSanteの2つのモデルを、重みつきで公開しました。"
+    },
+    {
+     "say": "文章を扱うフラッシュは、全体で五千六百億パラメータ、文脈は最大百万トークンです。画像も読めるモデルもあり、どちらも、エムアイティー・ライセンスで、ハギング・フェイスに置かれています。",
+     "show": "文章を扱う flash は、全体で5,600億パラメータ、文脈は最大100万トークンです。画像も読めるモデルもあり、どちらも、MITライセンスで、Hugging Faceに置かれています。"
+    }
+   ],
+   "details": [
+    "TNGlobal によると、Ant Group は月曜日に、LingSante ファミリーの2つのオープンウェイトの医療AIモデルを公開しました。同社の健康サービス「Afu」（以前の名前は AQ）を支える技術を、研究者や開発者に広げるものだそうです。Afu の利用者は1億5,000万人、相談は1日に2,000万件近くと、同社は説明しています。",
+    "LingSante-3.1-flash は、医療の推論、根拠の確認、何段階もある作業のためのテキストのモデルです。全体で5,600億、1トークンあたり約250億のパラメータが働き、文脈はモデルカードによると最大100万トークンです。もう1つの LingSante-3.1-air-VL は、テキストと画像を扱い、全体で1,240億、1トークンあたり55億のパラメータが働きます。文脈は25万6,000トークンです。",
+    "モデルは、Ant Group のオープンソースの取り組みである inclusionAI が、Hugging Face で管理しています。どちらのリポジトリも MIT ライセンスで、モデルのファイルとカードは段階的に公開されたそうです。"
+   ],
+   "link": {
+    "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
+    "title": "Ant Group releases LingSante medical AI models",
+    "site": "TNGlobal",
+    "image": "https://technode.global/wp-content/uploads/2026/11/Ling-Sante.jpeg"
+   }
+  },
+  {
+   "label": "英国、乳がん検診でAIを試す EDITH が参加者の募集を開始",
+   "points": [
+    "乳がん検診でAIを試す EDITH 試験が、参加者の募集を開始",
+    "3年間で約70万人の女性を招待。英国の30の施設で実施",
+    "2人で読んでいる画像を、AIの助けで1人で安全に読めるかを調べる"
+   ],
+   "url": "https://news.europawire.eu/university-of-warwick-led-10m-edith-study-starts-recruiting-women-for-ai-breast-screening-trial/eu-press-release/2026/11/23/12/23/07/189195/",
+   "lines": [
+    {
+     "say": "次は、イギリスです。乳がんの検診でエーアイを試す、イーディスという試験が、参加者の募集を始めました。三年間で、およそ七十万人の女性が招待されます。",
+     "show": "次は、英国です。乳がんの検診でAIを試す、EDITHという試験が、参加者の募集を始めました。3年間で、約70万人の女性が招待されます。"
+    },
+    {
+     "say": "いまは二人の医師が読んでいる画像を、エーアイの助けで、一人で安全に読めるかを調べます。どの画像も、少なくとも一人の放射線科の医師が確認するそうです。",
+     "show": "いまは2人の医師が読んでいる画像を、AIの助けで、1人で安全に読めるかを調べます。どの画像も、少なくとも1人の放射線科医が確認するそうです。"
+    }
+   ],
+   "details": [
+    "ウォーリック大学の11月23日付の発表によると、EDITH 試験の募集は Cambridge University Hospitals で始まりました。最初の施設は Addenbrooke's Hospital で、ほかの施設もこれから数か月のうちに始める予定です。資金は、英国の国立衛生研究所（NIHR）による1,000万ポンドです。",
+    "発表によると、NHS の通常の乳がん検診を受ける約70万人の女性が、3年間で招待されます。参加するのは英国の30の施設で、発表は「AI を使った乳がん検診の研究として世界最大」としています。招待の手紙には、参加しない方法も書かれているそうです。",
+    "試験で使うのは、精度を確かめた4つの AI システムです。AI は、がんを見落としそうな場所を示してスタッフを助けます。診療上の判断はすべて NHS のスタッフが行い、NHS が手順を変えるのは、新しい方法がいまの検診と少なくとも同じくらい安全で有効だと示された場合だけ、としています。"
+   ],
+   "link": {
+    "url": "https://news.europawire.eu/university-of-warwick-led-10m-edith-study-starts-recruiting-women-for-ai-breast-screening-trial/eu-press-release/2026/11/23/12/23/07/189195/",
+    "title": "University of Warwick-Led £10m EDITH Study Starts Recruiting Women for AI Breast Screening Trial",
+    "site": "EuropaWire"
+   }
+  },
+  {
+   "label": "Paradromics、脳から言葉を取り戻す技術で NVIDIA と協力",
+   "points": [
+    "脳インプラントの Paradromics が、話す力を取り戻す技術で NVIDIA と協力",
+    "音声を読み取るソフトを、NVIDIA Holoscan と Jetson に移す計画",
+    "計算とデータの受け渡しは、10ミリ秒未満が目標（まだ測った結果ではない）"
+   ],
+   "url": "https://www.theneuron.ai/news/nvidia-paradromics-brain-to-speech-ai/",
+   "lines": [
+    {
+     "say": "三本目です。脳に埋めこむ装置を開発しているパラドロミクスが、話す力を取り戻す技術で、エヌビディアと協力します。",
+     "show": "3本目です。脳に埋めこむ装置を開発しているParadromicsが、話す力を取り戻す技術で、NVIDIAと協力します。"
+    },
+    {
+     "say": "脳の信号を言葉に変えるソフトを、エヌビディアのホロスキャンに移す計画です。計算とデータの受け渡しを、十ミリ秒未満にするのが目標だそうです。",
+     "show": "脳の信号を言葉に変えるソフトを、NVIDIAのHoloscanに移す計画です。計算とデータの受け渡しを、10ミリ秒未満にするのが目標だそうです。"
+    }
+   ],
+   "details": [
+    "The Neuron によると、Paradromics は NVIDIA と組み、AI がより速く応答し、脳の信号の変化に合わせ、いずれは小さな機器で動くことをめざします。同社の Connexus は、神経細胞の電気の活動を記録する、治験中のインプラントです。初期の試験「Connect-One」の最初の参加者は、のちに孫たちとの電話でこの仕組みを使ったそうです。",
+    "Paradromics は、音声を読み取るソフトと声を合成するソフトを NVIDIA Holoscan に移す計画で、小型の NVIDIA Jetson も使います。方式は2つで、脳の活動から直接に声を合成するものと、いったん文章にして言語モデルを使い、読み上げるものです。",
+    "速さの数字は、測った結果ではなく、技術上の目標です。直接の方式は計算とデータの受け渡しで10ミリ秒未満、文章を経る方式は100ミリ秒未満をめざします。記事によると、聞き取れる声が出るまでの時間は別の指標で、その数字は示されていません。"
+   ],
+   "link": {
+    "url": "https://www.theneuron.ai/news/nvidia-paradromics-brain-to-speech-ai/",
+    "title": "NVIDIA and Paradromics Team Up on Brain-to-Speech AI",
+    "site": "The Neuron",
+    "image": "https://cdn.theneuron.ai/nvidia-paradromics-brain-to-speech-featured.png"
+   }
+  },
+  {
+   "label": "OpenAI、小さな事業者のAI活用を助ける OpenWorks",
+   "points": [
+    "OpenAI が、小さな事業者のAI活用を地元の人が手伝う試み OpenWorks を開始",
+    "アメリカの20の都市で実施。事業者の負担はなし",
+    "手伝う「パートナー」には、月に最大8,000ドル"
+   ],
+   "url": "https://therundown.ai/news/openai-openworks-small-business-ai-pilot",
+   "lines": [
+    {
+     "say": "最後は、オープンエーアイです。エーアイにくわしい地元の人が、小さな事業者を手伝う試み、オープンワークスを、アメリカの二十の都市で始めました。",
+     "show": "最後は、OpenAIです。AIにくわしい地元の人が、小さな事業者を手伝う試み、OpenWorksを、アメリカの20の都市で始めました。"
+    },
+    {
+     "say": "事業者の負担はなく、チャットジーピーティー・ビジネスも三か月、無料で使えます。手伝う人には、月に最大八千ドルが支払われるそうです。",
+     "show": "事業者の負担はなく、ChatGPT Businessも3か月、無料で使えます。手伝う人には、月に最大8,000ドルが支払われるそうです。"
+    }
+   ],
+   "details": [
+    "The Rundown AI によると、OpenWorks は、AI のスキルを持つ地元の人が、小さな事業者のオーナーと一緒に働く試験的な取り組みです。オーナーが、取り組む作業や課題を選びます。対象は、個人経営の飲食店、商店、工場、サービス業などで、ソフトウェアの会社や、ベンチャーキャピタルの出資を受けた会社などは対象外です。",
+    "20の都市のうち15は、中西部か南部にあります。記事は、Austin、Seattle、New York を挙げています。参加する事業者は、ChatGPT Business を3か月、無料で使えます。",
+    "手伝う「パートナー」への支払いは、月に最大8,000ドルです。応募では、毎月まる4日と、地域のワークショップ1回に取り組むことなどが求められます。記事によると、支払いの計算のしかたや期間は、OpenAI の FAQ には書かれていません。"
+   ],
+   "link": {
+    "url": "https://therundown.ai/news/openai-openworks-small-business-ai-pilot",
+    "title": "OpenAI's OpenWorks pays locals to bring AI to small businesses",
+    "site": "The Rundown AI",
+    "image": "https://www.therundown.ai/news/images/4b6124493e1537383e26f537751a6693cb156aa96b178ec9ca9c29ac306ca612.webp"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、アント・グループのリン・サンテ。五千六百億パラメータの医療向けモデルが、エムアイティー・ライセンスで公開されました。",
+   "show": "今日の注目は、Ant GroupのLingSante。5,600億パラメータの医療向けモデルが、MITライセンスで公開されました。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-25",
+ "lang": "ja",
+ "seconds": 113.06,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.819,
+   "show": "おはようございます、AIテックラジオです。11月25日、水曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.069,
+   "end": 14.279,
+   "show": "今日は、中国のAnt Groupが、医療向けのAIモデルの重みを公開した話など、4本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 15.329,
+   "end": 23.223,
+   "show": "まずは、中国のAnt Groupです。医療向けのAIモデル、LingSanteの2つのモデルを、重みつきで公開しました。",
+   "part": 1
+  },
+  {
+   "start": 23.473,
+   "end": 36.187,
+   "show": "文章を扱う flash は、全体で5,600億パラメータ、文脈は最大100万トークンです。画像も読めるモデルもあり、どちらも、MITライセンスで、Hugging Faceに置かれています。",
+   "part": 1
+  },
+  {
+   "start": 37.237,
+   "end": 48.832,
+   "show": "次は、英国です。乳がんの検診でAIを試す、EDITHという試験が、参加者の募集を始めました。3年間で、約70万人の女性が招待されます。",
+   "part": 2
+  },
+  {
+   "start": 49.082,
+   "end": 59.279,
+   "show": "いまは2人の医師が読んでいる画像を、AIの助けで、1人で安全に読めるかを調べます。どの画像も、少なくとも1人の放射線科医が確認するそうです。",
+   "part": 2
+  },
+  {
+   "start": 60.329,
+   "end": 68.628,
+   "show": "3本目です。脳に埋めこむ装置を開発しているParadromicsが、話す力を取り戻す技術で、NVIDIAと協力します。",
+   "part": 3
+  },
+  {
+   "start": 68.878,
+   "end": 78.265,
+   "show": "脳の信号を言葉に変えるソフトを、NVIDIAのHoloscanに移す計画です。計算とデータの受け渡しを、10ミリ秒未満にするのが目標だそうです。",
+   "part": 3
+  },
+  {
+   "start": 79.315,
+   "end": 89.523,
+   "show": "最後は、OpenAIです。AIにくわしい地元の人が、小さな事業者を手伝う試み、OpenWorksを、アメリカの20の都市で始めました。",
+   "part": 4
+  },
+  {
+   "start": 89.773,
+   "end": 99.255,
+   "show": "事業者の負担はなく、ChatGPT Businessも3か月、無料で使えます。手伝う人には、月に最大8,000ドルが支払われるそうです。",
+   "part": 4
+  },
+  {
+   "start": 100.305,
+   "end": 108.625,
+   "show": "今日の注目は、Ant GroupのLingSante。5,600億パラメータの医療向けモデルが、MITライセンスで公開されました。",
+   "part": 5
+  },
+  {
+   "start": 108.875,
+   "end": 111.009,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 15.329
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 15.329,
+   "end": 37.237
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 37.237,
+   "end": 60.329
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 60.329,
+   "end": 79.315
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 79.315,
+   "end": 100.305
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 100.305,
+   "end": 113.059
+  }
+ ],
+ "made_at": "2026-11-25T08:26:42"
+}

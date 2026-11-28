@@ -1,0 +1,311 @@
+{
+ "title": "SpaceXのAI衛星、最大100万基をFCCが認可",
+ "opening": [
+  {
+   "say": "おはようございます、エーアイ・テックラジオです。十一月二十七日、金曜日の朝です。",
+   "show": "おはようございます、AIテックラジオです。11月27日、金曜日の朝です。"
+  },
+  {
+   "say": "今日は、スペース・エックスのエーアイ衛星、最大百万基の認可など、五本お届けします。",
+   "show": "今日は、SpaceXのAI衛星、最大100万基の認可など、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "FCC、SpaceX のAI衛星「Starmind」を最大100万基まで認可",
+   "points": [
+    "FCC が、AIチップを載せた衛星を最大100万基まで配備することを SpaceX に認可",
+    "The Verge によると、宇宙のAIデータセンターで FCC が認可するのは初めて",
+    "100万基は上限。配備の時期は示されていない"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-26-fcc-authorizes-spacex-to-deploy-up-to-1-million-starmind-ai-satellites",
+   "lines": [
+    {
+     "say": "まずは、スペース・エックスです。アメリカのエフシーシーが、エーアイチップを載せた衛星を、最大百万基まで配備する計画、スターマインドを認可しました。",
+     "show": "まずは、SpaceXです。アメリカのFCCが、AIチップを載せた衛星を、最大100万基まで配備する計画、Starmindを認可しました。"
+    },
+    {
+     "say": "宇宙のエーアイデータセンターで、エフシーシーが認可を出すのは初めてだそうです。百万基は上限で、配備の時期は示されていません。",
+     "show": "宇宙のAIデータセンターで、FCCが認可を出すのは初めてだそうです。100万基は上限で、配備の時期は示されていません。"
+    }
+   ],
+   "details": [
+    "AIToolly が The Verge の記事をもとに伝えたところでは、FCC（連邦通信委員会）は水曜日、SpaceX の Starmind の取り組みについて、AIチップを載せた衛星を最大100万基まで配備することを認可したと発表しました。",
+    "The Verge は、宇宙に置くAIデータセンターについて、FCC が認可を出すのはこれが初めてだと伝えています。同じ構想には、Google と Blue Origin も取り組んでいます。この2社が同じような認可を受けたかどうかは、記事には書かれていません。",
+    "100万基は、認可された配備の上限です。SpaceX がすでに100万基を配備したという話ではありません。配備の日程、軌道のくわしい内容、費用は、記事には書かれていません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-26-fcc-authorizes-spacex-to-deploy-up-to-1-million-starmind-ai-satellites",
+    "title": "SpaceX Starmind Gets FCC Approval for AI Satellites",
+    "site": "AIToolly",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0,0,100,100"
+   }
+  },
+  {
+   "label": "GPT-6.2 Astra、1808年のスケッチブックの作者を22分で推定",
+   "points": [
+    "歴史学者のマーク・ハンフリーズ氏が、作者不明のスケッチブックを GPT-6.2 Astra に調べさせた",
+    "22分で、フランスの貴族ロアン＝シャボー子爵の可能性が高いと回答",
+    "取り寄せた旅行日誌の筆跡と記述が、スケッチブックと一致"
+   ],
+   "url": "https://gigazine.net/news/20261126-gpt-62-astra-solves-a-historical-mystery/",
+   "lines": [
+    {
+     "say": "次は、ジーピーティー・ろくてんに・アストラです。千八百八年の旅を描いた、作者不明のスケッチブックについて、二十二分で、作者の候補を答えました。",
+     "show": "次は、GPT-6.2 Astraです。1808年の旅を描いた、作者不明のスケッチブックについて、22分で、作者の候補を答えました。"
+    },
+    {
+     "say": "名前が挙がったのは、フランスの貴族、ロアン・シャボー子爵。歴史学者が日誌を取り寄せると、筆跡や内容が一致したそうです。",
+     "show": "名前が挙がったのは、フランスの貴族、ロアン＝シャボー子爵。歴史学者が日誌を取り寄せると、筆跡や内容が一致したそうです。"
+    }
+   ],
+   "details": [
+    "GIGAZINE によると、調べたのはカナダのウィルフリッド・ローリエ大学の歴史学教授、マーク・ハンフリーズ氏です。スケッチブックは、イェール大学のバイネッケ稀覯本・手稿図書館が2020年に古書店から購入したもので、1808年にモントリオールからフォート・ウィリアムまで往復した旅が描かれています。全84ページのうち、34ページに絵があります。",
+    "Astra は、スケッチブックの画像と、いくらかの背景の情報を受け取り、22分で、ルイ＝ギー＝シャルル＝ギヨーム・ド・ロアン＝シャボー子爵が描いた可能性が高いと答えました。毛皮商人ジョセフ・フロビシャーの日記にある記述から足取りをたどったそうです。あわせて、子爵の旅行日誌の写しを取り寄せるようすすめました。",
+    "ハンフリーズ氏はこの人物を知らず、答えが正しい見込みは低いと考えながら日誌を注文しました。日誌の筆跡は、スケッチブックの特徴のある字の形と一致。1808年6月18日にセント・ジョセフ砦に着いたあと、砦をスケッチしたという記述も、スケッチブックの内容と合っていたそうです。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261126-gpt-62-astra-solves-a-historical-mystery/",
+    "title": "GPT-6.2 Astraが歴史学者もわからなかった「1808年に描かれた北米旅行のスケッチブック」の作者を22分で特定",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/26/gpt-62-astra-solves-a-historical-mystery/00_m.jpg"
+   }
+  },
+  {
+   "label": "Gemini 4 Neon、LiveBench で Astra と Fable を上回る",
+   "points": [
+    "Latent Space が、Gemini 4 Neon が LiveBench で Astra と Fable を上回ったと報告",
+    "Theo 氏の TS Rust ベンチマークでは、実行時間を48.6%短縮",
+    "LiveBench の点数や差は、記事には書かれていない"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-26-gemini-4-neon-beats-astra-and-fable-on-livebench-and-cuts-ts-rust-runtime",
+   "lines": [
+    {
+     "say": "三本目は、グーグルのジェミニ・フォー・ネオンです。レイテント・スペースが、ベンチマークのライブ・ベンチで、アストラとフェイブルを上回ったと伝えました。",
+     "show": "3本目は、GoogleのGemini 4 Neonです。Latent Spaceが、ベンチマークのLiveBenchで、AstraとFableを上回ったと伝えました。"
+    },
+    {
+     "say": "別のベンチマークでは、実行時間を四十八点六パーセント短くしたそうです。",
+     "show": "別のベンチマークでは、実行時間を48.6%短くしたそうです。"
+    }
+   ],
+   "details": [
+    "AIToolly が Latent Space の記事をもとに伝えたところでは、Gemini 4 Neon は LiveBench で、Astra と Fable を上回りました。Latent Space の見出しは、この結果を、Google DeepMind が最前線の研究所として完全に戻ってきたしるしだと位置づけています。",
+    "Theo 氏の TS Rust ベンチマークでは、実行時間が48.6%短くなったそうです。この数字は実行時間の短縮を表すもので、LiveBench での差ではありません。比べるもとの実行時間や、ベンチマークの条件は、記事には書かれていません。",
+    "AIToolly は、示されているのは、1つのベンチマークで2つのモデルを上回ったことと、別のベンチマークで実行時間を縮めたことで、ほかの作業での性能までを示すものではないとしています。LiveBench の点数や差は、記事にはありません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-26-gemini-4-neon-beats-astra-and-fable-on-livebench-and-cuts-ts-rust-runtime",
+    "title": "Gemini 4 Neon Beats Astra and Fable on LiveBench",
+    "site": "AIToolly",
+    "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
+   }
+  },
+  {
+   "label": "OpenAI、ChatGPT の Chat と Work の利用上限をひとつに",
+   "points": [
+    "Chat と Work の統合にあわせて、利用量のメーターをひとつにする",
+    "両方の利用が、共通の上限に数えられる",
+    "たくさん使う人は、上限に早く届くことがあると OpenAI が説明"
+   ],
+   "url": "https://aitoolly.com/ai-news/article/2026-11-26-openai-merges-chatgpt-chat-and-work-and-heavy-users-may-hit-limits-sooner",
+   "lines": [
+    {
+     "say": "四本目は、オープン・エーアイです。チャット・ジーピーティーの、チャットとワークをまとめるのにあわせて、利用量のメーターをひとつにします。",
+     "show": "4本目は、OpenAIです。ChatGPTの、ChatとWorkをまとめるのにあわせて、利用量のメーターをひとつにします。"
+    },
+    {
+     "say": "両方の利用が、共通の上限に数えられます。たくさん使う人は、これまでより早く上限に届くことがあるそうです。",
+     "show": "両方の利用が、共通の上限に数えられます。たくさん使う人は、これまでより早く上限に届くことがあるそうです。"
+    }
+   ],
+   "details": [
+    "AIToolly が TechCrunch の記事をもとに伝えたところでは、OpenAI は、ChatGPT の Chat と Work の体験をまとめるのにあわせて、利用量のメーターをひとつにします。",
+    "これからは、Chat と Work の両方での利用が、共通の上限に数えられます。具体的な上限の数字は、記事には書かれていません。",
+    "OpenAI は、たくさん使う人は上限に早く届くことがあるとしています。どのくらい早くなるのかは、示されていません。たくさん使う人の全員がそうなる、という話でもありません。"
+   ],
+   "link": {
+    "url": "https://aitoolly.com/ai-news/article/2026-11-26-openai-merges-chatgpt-chat-and-work-and-heavy-users-may-hit-limits-sooner",
+    "title": "ChatGPT Usage Limits: One Meter for Chat and Work",
+    "site": "AIToolly",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
+   }
+  },
+  {
+   "label": "Amazon と Meta、AIエージェント「Muse」のブロック解除を協議との報道",
+   "points": [
+    "Amazon は、Meta のAIエージェント Muse による買い物をブロックしている",
+    "Fortune の報道では、両社が解除に向けて、複数回の協議を重ねている",
+    "論点は、検索結果と広告の扱い。合意は発表されていない"
+   ],
+   "url": "https://gigazine.net/news/20261126-muse-amazon-discuss/",
+   "lines": [
+    {
+     "say": "最後は、アマゾンとメタです。アマゾンがブロックしている、メタのエーアイエージェント、ミューズの買い物について、解除に向けて両社が協議していると、フォーチュンが報じました。",
+     "show": "最後は、AmazonとMetaです。Amazonがブロックしている、MetaのAIエージェント、Museの買い物について、解除に向けて両社が協議していると、Fortuneが報じました。"
+    },
+    {
+     "say": "論点は、検索結果と広告のあつかいだそうです。",
+     "show": "論点は、検索結果と広告の扱いだそうです。"
+    }
+   ],
+   "details": [
+    "GIGAZINE によると、Amazon は、Muse がログイン情報を取得して保存しているとみられ、注文履歴などのアカウント情報にアクセスできることを、プライバシーとセキュリティの懸念として挙げていました。Meta に対応を求めましたが合意に至らず、Muse のアクセスをブロックしています。",
+    "Fortune が関係者の話として報じたところでは、両社はすでに複数回の協議を重ねています。どちらの会社も、協議や合意を発表してはいません。",
+    "論点は、検索結果と広告の扱いです。Amazon は、広告収入が減ることと、Muse が示す検索結果の質を心配しているそうです。広告事業は、Amazon の年間の総売上高のほぼ10%を占めています。一方、Walmart は Muse をブロックせず、受け入れると発表しました。"
+   ],
+   "link": {
+    "url": "https://gigazine.net/news/20261126-muse-amazon-discuss/",
+    "title": "MetaのAIエージェント「Muse」による買い物をAmazonがブロックしている件について「解除」する方向での提携について協議中との報道",
+    "site": "GIGAZINE",
+    "image": "https://i.gzn.jp/img/2026/11/26/muse-amazon-discuss/00.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、スペース・エックス。エーアイ衛星を最大百万基まで配備する計画が、認可されました。",
+   "show": "今日の注目は、SpaceX。AI衛星を最大100万基まで配備する計画が、認可されました。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-27",
+ "lang": "ja",
+ "seconds": 114.79,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.915,
+   "show": "おはようございます、AIテックラジオです。11月27日、金曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 7.165,
+   "end": 13.234,
+   "show": "今日は、SpaceXのAI衛星、最大100万基の認可など、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 14.284,
+   "end": 24.343,
+   "show": "まずは、SpaceXです。アメリカのFCCが、AIチップを載せた衛星を、最大100万基まで配備する計画、Starmindを認可しました。",
+   "part": 1
+  },
+  {
+   "start": 24.593,
+   "end": 33.041,
+   "show": "宇宙のAIデータセンターで、FCCが認可を出すのは初めてだそうです。100万基は上限で、配備の時期は示されていません。",
+   "part": 1
+  },
+  {
+   "start": 34.091,
+   "end": 44.629,
+   "show": "次は、GPT-6.2 Astraです。1808年の旅を描いた、作者不明のスケッチブックについて、22分で、作者の候補を答えました。",
+   "part": 2
+  },
+  {
+   "start": 44.879,
+   "end": 53.466,
+   "show": "名前が挙がったのは、フランスの貴族、ロアン＝シャボー子爵。歴史学者が日誌を取り寄せると、筆跡や内容が一致したそうです。",
+   "part": 2
+  },
+  {
+   "start": 54.516,
+   "end": 63.455,
+   "show": "3本目は、GoogleのGemini 4 Neonです。Latent Spaceが、ベンチマークのLiveBenchで、AstraとFableを上回ったと伝えました。",
+   "part": 3
+  },
+  {
+   "start": 63.705,
+   "end": 68.889,
+   "show": "別のベンチマークでは、実行時間を48.6%短くしたそうです。",
+   "part": 3
+  },
+  {
+   "start": 69.939,
+   "end": 78.333,
+   "show": "4本目は、OpenAIです。ChatGPTの、ChatとWorkをまとめるのにあわせて、利用量のメーターをひとつにします。",
+   "part": 4
+  },
+  {
+   "start": 78.583,
+   "end": 86.349,
+   "show": "両方の利用が、共通の上限に数えられます。たくさん使う人は、これまでより早く上限に届くことがあるそうです。",
+   "part": 4
+  },
+  {
+   "start": 87.399,
+   "end": 98.62,
+   "show": "最後は、AmazonとMetaです。Amazonがブロックしている、MetaのAIエージェント、Museの買い物について、解除に向けて両社が協議していると、Fortuneが報じました。",
+   "part": 5
+  },
+  {
+   "start": 98.87,
+   "end": 102.305,
+   "show": "論点は、検索結果と広告の扱いだそうです。",
+   "part": 5
+  },
+  {
+   "start": 103.355,
+   "end": 110.352,
+   "show": "今日の注目は、SpaceX。AI衛星を最大100万基まで配備する計画が、認可されました。",
+   "part": 6
+  },
+  {
+   "start": 110.602,
+   "end": 112.735,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 14.284
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 14.284,
+   "end": 34.091
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 34.091,
+   "end": 54.516
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 54.516,
+   "end": 69.939
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 69.939,
+   "end": 87.399
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 87.399,
+   "end": 103.355
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 103.355,
+   "end": 114.785
+  }
+ ],
+ "made_at": "2026-11-27T08:27:07"
+}
